@@ -6,7 +6,7 @@ import (
 	"radiusbilling/internal/core"
 	"radiusbilling/internal/enum/action"
 	"radiusbilling/internal/param"
-	"radiusbilling/internal/term"
+	// "radiusbilling/internal/term"
 	"radiusbilling/internal/types"
 	"radiusbilling/model"
 	"radiusbilling/repo"
@@ -29,7 +29,7 @@ func (p *UserServ) FindByID(id types.RowID) (user model.User, err error) {
 	user, err = p.Repo.FindByID(id)
 	p.Engine.CheckError(err, fmt.Sprintf("User with id %v", id))
 
-	user.Account, err = p.getAccount(user.ID)
+	// user.Account, err = p.getAccount(user.ID)
 
 	return
 }
@@ -74,7 +74,7 @@ func (p *UserServ) Create(user model.User,
 	p.Engine.CheckInfo(err, fmt.Sprintf("Failed in saving user for %+v", user))
 
 	createdUser.Password = ""
-	createdUser.Account = account
+	// createdUser.Account = account
 
 	return
 }
@@ -83,7 +83,7 @@ func (p *UserServ) Create(user model.User,
 func (p *UserServ) Save(user model.User) (createdUser model.User, err error) {
 
 	if user.ID > 0 {
-		user.Account.ID = user.ID
+		// user.Account.ID = user.ID
 		if err = user.Validate(action.Update); err != nil {
 			p.Engine.Debug(err)
 			return
@@ -102,7 +102,7 @@ func (p *UserServ) Save(user model.User) (createdUser model.User, err error) {
 	p.Engine.CheckInfo(err, fmt.Sprintf("Failed in saving user for %+v", user))
 
 	createdUser.Password = ""
-	createdUser.Account = account
+	// createdUser.Account = account
 
 	return
 }

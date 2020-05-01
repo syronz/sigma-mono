@@ -1,0 +1,301 @@
+{
+  "level": "info",
+  "method": "GET",
+  "msg": "request",
+  "params": {},
+  "path": "/api/radius/v1/ping",
+  "referer": "",
+  "reqID": 1,
+  "request": {},
+  "time": "2020-05-01T23:51:24+03:00",
+  "uri": "/api/radius/v1/ping",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 59,
+  "latency": 1,
+  "level": "info",
+  "msg": "response",
+  "resID": 1,
+  "response": {
+    "error": "route not found",
+    "message": "al route la moujood"
+  },
+  "status": 404,
+  "time": "2020-05-01T23:51:24+03:00"
+}
+{
+  "level": "info",
+  "method": "GET",
+  "msg": "request",
+  "params": {},
+  "path": "/api/radius/v1/ping",
+  "referer": "",
+  "reqID": 2,
+  "request": {},
+  "time": "2020-05-01T23:51:32+03:00",
+  "uri": "/api/radius/v1/ping",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 59,
+  "latency": 1,
+  "level": "info",
+  "msg": "response",
+  "resID": 2,
+  "response": {
+    "error": "route not found",
+    "message": "al route la moujood"
+  },
+  "status": 404,
+  "time": "2020-05-01T23:51:32+03:00"
+}
+{
+  "level": "info",
+  "method": "GET",
+  "msg": "request",
+  "params": {},
+  "path": "/api/radius/v1/ping",
+  "referer": "",
+  "reqID": 1,
+  "request": {},
+  "time": "2020-05-01T23:54:36+03:00",
+  "uri": "/api/radius/v1/ping",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 59,
+  "latency": 1,
+  "level": "info",
+  "msg": "response",
+  "resID": 1,
+  "response": {
+    "error": "route not found",
+    "message": "al route la moujood"
+  },
+  "status": 404,
+  "time": "2020-05-01T23:54:36+03:00"
+}
+{
+  "level": "info",
+  "method": "GET",
+  "msg": "request",
+  "params": {},
+  "path": "/api/radius/v1/ping",
+  "referer": "",
+  "reqID": 1,
+  "request": {},
+  "time": "2020-05-01T23:55:24+03:00",
+  "uri": "/api/radius/v1/ping",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 18,
+  "latency": 1,
+  "level": "info",
+  "msg": "response",
+  "resID": 1,
+  "response": {
+    "message": "pong"
+  },
+  "status": 200,
+  "time": "2020-05-01T23:55:24+03:00"
+}
+{
+  "level": "info",
+  "method": "GET",
+  "msg": "request",
+  "params": {},
+  "path": "/api/radius/v1/ping",
+  "referer": "",
+  "reqID": 1,
+  "request": {},
+  "time": "2020-05-02T00:10:44+03:00",
+  "uri": "/api/radius/v1/ping",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 32,
+  "latency": 4,
+  "level": "info",
+  "msg": "response",
+  "resID": 1,
+  "response": {
+    "error": "signature is invalid"
+  },
+  "status": 400,
+  "time": "2020-05-02T00:10:44+03:00"
+}
+{
+  "level": "info",
+  "method": "GET",
+  "msg": "request",
+  "params": {},
+  "path": "/api/radius/v1/ping",
+  "referer": "",
+  "reqID": 2,
+  "request": {},
+  "time": "2020-05-02T00:10:47+03:00",
+  "uri": "/api/radius/v1/ping",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 32,
+  "latency": 1,
+  "level": "info",
+  "msg": "response",
+  "resID": 2,
+  "response": {
+    "error": "signature is invalid"
+  },
+  "status": 400,
+  "time": "2020-05-02T00:10:47+03:00"
+}
+{
+  "level": "info",
+  "method": "GET",
+  "msg": "request",
+  "params": {},
+  "path": "/api/radius/v1/ping",
+  "referer": "",
+  "reqID": 1,
+  "request": {},
+  "time": "2020-05-02T00:13:29+03:00",
+  "uri": "/api/radius/v1/ping",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 18,
+  "latency": 1,
+  "level": "info",
+  "msg": "response",
+  "resID": 1,
+  "response": {
+    "message": "pong"
+  },
+  "status": 200,
+  "time": "2020-05-02T00:13:29+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {},
+  "path": "/api/radius/v1/users",
+  "referer": "",
+  "reqID": 1,
+  "request": {
+    "account": {
+      "code": 5823180,
+      "name": "lingering-paper",
+      "status": "active",
+      "type": "asset"
+    },
+    "language": "ku",
+    "password": "1234567890",
+    "role_id": 1001101000000001,
+    "role_id2": 1001101000000001,
+    "username": "lingering-paper"
+  },
+  "time": "2020-05-02T00:25:57+03:00",
+  "uri": "/api/radius/v1/users",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 59,
+  "latency": 1,
+  "level": "info",
+  "msg": "response",
+  "resID": 1,
+  "response": {
+    "error": "route not found",
+    "message": "al route la moujood"
+  },
+  "status": 404,
+  "time": "2020-05-02T00:25:57+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {},
+  "path": "/api/radius/v1/users",
+  "referer": "",
+  "reqID": 1,
+  "request": {
+    "account": {
+      "code": 6245103,
+      "name": "frosty-forest",
+      "status": "active",
+      "type": "asset"
+    },
+    "language": "ku",
+    "password": "1234567890",
+    "role_id": 1001101000000001,
+    "role_id2": 1001101000000001,
+    "username": "frosty-forest"
+  },
+  "time": "2020-05-02T00:26:54+03:00",
+  "uri": "/api/radius/v1/users",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 75,
+  "latency": 1,
+  "level": "info",
+  "msg": "response",
+  "resID": 1,
+  "response": {
+    "error": "you don't have permission",
+    "message": "you don't have permission"
+  },
+  "status": 200,
+  "time": "2020-05-02T00:26:54+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {},
+  "path": "/api/radius/v1/roles",
+  "referer": "",
+  "reqID": 1,
+  "request": {
+    "description": "8721457",
+    "name": "wispy-brook 8721457",
+    "resources": "wispy-brook"
+  },
+  "time": "2020-05-02T00:37:48+03:00",
+  "uri": "/api/radius/v1/roles",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 75,
+  "latency": 1,
+  "level": "info",
+  "msg": "response",
+  "resID": 1,
+  "response": {
+    "error": "you don't have permission",
+    "message": "you don't have permission"
+  },
+  "status": 403,
+  "time": "2020-05-02T00:37:48+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {},
+  "path": "/api/radius/v1/roles",
+  "referer": "",
+  "reqID": 1,
+  "request": {
+    "description": "6105971",
+    "name": "little-wave 6105971",
+    "resources": "little-wave"
+  },
+  "time": "2020-05-02T00:38:09+03:00",
+  "uri": "/api/radius/v1/roles",
+  "user_agent": "gocrud/0.1"
+}

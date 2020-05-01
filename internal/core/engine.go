@@ -4,10 +4,11 @@ import (
 	"encoding/json"
 	"fmt"
 	"radiusbilling/env"
+	"radiusbilling/internal/enum/event"
 	"radiusbilling/internal/enum/lang"
 	"radiusbilling/internal/term"
 
-	// "github.com/gin-gonic/gin"
+	"github.com/gin-gonic/gin"
 	"github.com/jinzhu/gorm"
 	"github.com/sirupsen/logrus"
 	goaes "github.com/syronz/goAES"
@@ -68,26 +69,26 @@ func (e *Engine) SafeT(str string, language lang.Language, params ...interface{}
 }
 
 // Record call the record method from activity
-// func (e *Engine) Record(c *gin.Context, ev event.Event, data ...interface{}) {
+func (e *Engine) Record(c *gin.Context, ev event.Event, data ...interface{}) {
 
-// var tmpData []interface{}
-// tmpData = append(tmpData, c)
-// tmpData = append(tmpData, ev)
+	// var tmpData []interface{}
+	// tmpData = append(tmpData, c)
+	// tmpData = append(tmpData, ev)
 
-// // get data and put them separately in new interface
-// var tmpParts []interface{}
-// tmpParts = append(tmpParts, data...)
+	// // get data and put them separately in new interface
+	// var tmpParts []interface{}
+	// tmpParts = append(tmpParts, data...)
 
-// tmpData = append(tmpData, tmpParts)
-// aggObj := types.Aggregate{
-// 	Domain: domains.Central,
-// 	Operate: types.Operate{
-// 		Entity: "Activity",
-// 		Method: "Create",
-// 		Args:   tmpData,
-// 	},
-// }
+	// tmpData = append(tmpData, tmpParts)
+	// aggObj := types.Aggregate{
+	// 	Domain: domains.Central,
+	// 	Operate: types.Operate{
+	// 		Entity: "Activity",
+	// 		Method: "Create",
+	// 		Args:   tmpData,
+	// 	},
+	// }
 
-// e.Agg <- aggObj
+	// e.Agg <- aggObj
 
-// }
+}

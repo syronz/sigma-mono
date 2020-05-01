@@ -8,6 +8,7 @@ import (
 	"radiusbilling/internal/middleware"
 	"radiusbilling/internal/response"
 	"radiusbilling/internal/term"
+	"radiusbilling/router"
 	// "radiusbilling/internal/types"
 
 	"github.com/gin-contrib/cors"
@@ -33,17 +34,12 @@ func Start(engine *core.Engine) *gin.Engine {
 	}))
 	r.Use(middleware.APILogger(engine))
 
-	r.GET("/ping", func(c *gin.Context) {
-		c.JSON(200, gin.H{
-			"message": "pong",
-		})
-	})
-
 	// No Route "Not Found"
 	cloudRouteNotFound(r, engine)
 
 	rg := r.Group("/api/radius/v1")
-	_ = rg
+
+	router.Route(*rg, engine)
 
 	if err := r.Run(fmt.Sprintf("%v:%v", engine.Env.RestAPI.ADDR, engine.Env.RestAPI.Port)); err != nil {
 		log.Fatalln(err)
