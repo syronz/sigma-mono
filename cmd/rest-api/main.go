@@ -1,6 +1,7 @@
 package main
 
 import (
+	"radiusbilling/cmd/rest-api/server"
 	"radiusbilling/internal/initiate"
 	"radiusbilling/internal/logparam"
 
@@ -20,4 +21,5 @@ func main() {
 	initiate.Migrate(engine)
 
 	engine.Debug("server started!")
+	server.Start(engine)
 }

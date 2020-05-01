@@ -108,3 +108,773 @@
   "msg": "",
   "time": "2020-05-01T22:07:13+03:00"
 }
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "rest-api/main.go:22",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-01T22:21:05+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "rest-api/main.go:22",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-01T22:21:16+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "rest-api/main.go:22",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-01T22:21:18+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "rest-api/main.go:22",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-01T22:21:34+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "rest-api/main.go:22",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-01T22:22:19+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "rest-api/main.go:22",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-01T22:24:45+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "rest-api/main.go:22",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-01T22:24:52+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "rest-api/main.go:22",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-01T22:25:03+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "rest-api/main.go:22",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-01T22:25:28+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "rest-api/main.go:22",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-01T22:25:31+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "rest-api/main.go:22",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-01T22:25:33+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "rest-api/main.go:22",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-01T22:25:36+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "rest-api/main.go:22",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-01T22:25:49+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "rest-api/main.go:22",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-01T22:26:33+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "rest-api/main.go:22",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-01T22:26:48+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "rest-api/main.go:22",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-01T22:27:00+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "rest-api/main.go:22",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-01T22:28:10+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "rest-api/main.go:22",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-01T22:28:22+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "rest-api/main.go:22",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-01T22:28:30+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "rest-api/main.go:22",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-01T22:28:44+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "rest-api/main.go:22",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-01T22:28:51+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "rest-api/main.go:22",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-01T22:29:31+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "rest-api/main.go:22",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-01T22:30:03+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "rest-api/main.go:22",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-01T22:30:20+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "rest-api/main.go:22",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-01T22:30:26+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "rest-api/main.go:22",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-01T22:32:57+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "rest-api/main.go:22",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-01T22:33:06+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "rest-api/main.go:22",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-01T22:33:14+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "rest-api/main.go:22",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-01T22:33:20+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "rest-api/main.go:22",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-01T22:33:57+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "rest-api/main.go:22",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-01T22:34:06+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "rest-api/main.go:22",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-01T22:34:12+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "rest-api/main.go:22",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-01T22:34:14+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "rest-api/main.go:22",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-01T22:34:17+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "rest-api/main.go:22",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-01T22:34:23+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "rest-api/main.go:22",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-01T22:34:31+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "rest-api/main.go:22",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-01T22:34:35+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "rest-api/main.go:22",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-01T22:34:39+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "rest-api/main.go:22",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-01T22:35:05+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "rest-api/main.go:22",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-01T22:35:38+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "rest-api/main.go:22",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-01T22:35:58+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "rest-api/main.go:22",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-01T22:36:12+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "rest-api/main.go:22",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-01T22:36:51+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "rest-api/main.go:22",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-01T22:37:36+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "rest-api/main.go:22",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-01T22:37:59+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "rest-api/main.go:22",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-01T22:38:05+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "rest-api/main.go:22",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-01T22:38:19+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "rest-api/main.go:22",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-01T22:38:24+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "rest-api/main.go:22",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-01T22:38:31+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "rest-api/main.go:22",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-01T22:38:47+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "rest-api/main.go:22",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-01T22:38:53+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "rest-api/main.go:22",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-01T22:39:04+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "rest-api/main.go:22",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-01T22:39:53+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "rest-api/main.go:22",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-01T22:39:57+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "rest-api/main.go:22",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-01T22:40:28+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "rest-api/main.go:22",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-01T22:40:31+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "rest-api/main.go:22",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-01T22:41:11+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "rest-api/main.go:22",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-01T22:59:49+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "rest-api/main.go:22",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-01T23:00:29+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "rest-api/main.go:22",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-01T23:00:45+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "rest-api/main.go:22",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-01T23:00:55+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "rest-api/main.go:22",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-01T23:02:12+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "rest-api/main.go:22",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-01T23:02:28+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "rest-api/main.go:22",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-01T23:02:34+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "rest-api/main.go:22",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-01T23:02:41+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "rest-api/main.go:22",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-01T23:02:56+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "rest-api/main.go:22",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-01T23:03:08+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "rest-api/main.go:22",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-01T23:03:59+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "rest-api/main.go:22",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-01T23:04:25+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "rest-api/main.go:22",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-01T23:05:12+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "rest-api/main.go:22",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-01T23:05:58+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "rest-api/main.go:22",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-01T23:06:07+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "rest-api/main.go:22",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-01T23:06:26+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "rest-api/main.go:22",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-01T23:06:29+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "rest-api/main.go:23",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-01T23:12:09+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "rest-api/main.go:23",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-01T23:33:49+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "rest-api/main.go:23",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-01T23:43:51+03:00"
+}

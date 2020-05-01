@@ -1,0 +1,17 @@
+{
+  "method":"put",
+  "url":"_URL_/users/1001101000000015",
+  "authorization":"Bearer _TOKEN_",
+  "payload": {
+    "account": {
+      "name":"Ahmed",
+      "code":_RANDOM_NUMBER_,
+      "status": "active",
+      "type":"asset"
+    },
+    "role_id":1001101000000001,
+    "username": "_RANDOM_NAME_",
+    "password": "1234567890",
+    "language":"fa"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "method":"get",
+	"url":"_URL_/roles?search=Cashier",
+	"url":"_URL_/roles?order_by=roles.id&direction=asc&page_size=4",
+	"url":"_URL_/roles?order_by=roles.id&direction=asc&page_size=4&search=1001101000000003",
+	"url":"_URL_/roles?select=roles.name,roles.id&page_size=2",
+	"authorization":"Bearer _TOKEN_",
+	"payload": {}
+}

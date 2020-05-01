@@ -1,0 +1,9 @@
+{
+	"method":"get",
+	"url":"https://62.201.222.208:2182/api/cloud/v1/ping",
+	"authorization":"Bearer _TOKEN_",
+	"payload": {
+		"username": "super",
+		"password": "superadmin"
+	}
+}
