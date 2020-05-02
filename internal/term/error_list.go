@@ -41,8 +41,6 @@ const (
 	Error_in_saving_user              = "error in saving user"
 	Error_in_saving_role              = "error in saving role"
 	Error_in_saving_bond              = "error in saving bond"
-	CompanyID_not_exist_in_context    = "company_id not exist in the context"
-	NodeCode_not_exist_in_context     = "node_code not exist in the context"
 	Validation_failed                 = "validation failed"
 	Invalid_number                    = "invalid number"
 	Range_is_v_to_v                   = "range is %v to %v"

@@ -299,3 +299,338 @@
   "uri": "/api/radius/v1/roles",
   "user_agent": "gocrud/0.1"
 }
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {},
+  "path": "/api/radius/v1/roles",
+  "referer": "",
+  "reqID": 1,
+  "request": {
+    "description": "2377906",
+    "name": "withered-voice 2377906",
+    "resources": "withered-voice"
+  },
+  "time": "2020-05-02T08:12:20+03:00",
+  "uri": "/api/radius/v1/roles",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {},
+  "path": "/api/radius/v1/roles",
+  "referer": "",
+  "reqID": 1,
+  "request": {
+    "description": "1507813",
+    "name": "summer-resonance 1507813",
+    "resources": "summer-resonance"
+  },
+  "time": "2020-05-02T08:20:35+03:00",
+  "uri": "/api/radius/v1/roles",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 66,
+  "latency": 6,
+  "level": "info",
+  "msg": "response",
+  "resID": 1,
+  "response": {
+    "error": "Error 1146: Table 'radius_billing.roles' doesn't exist"
+  },
+  "status": 500,
+  "time": "2020-05-02T08:20:35+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {},
+  "path": "/api/radius/v1/roles",
+  "referer": "",
+  "reqID": 1,
+  "request": {
+    "description": "9197149",
+    "name": "dark-violet 9197149",
+    "resources": "dark-violet"
+  },
+  "time": "2020-05-02T08:21:20+03:00",
+  "uri": "/api/radius/v1/roles",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 210,
+  "latency": 12,
+  "level": "info",
+  "msg": "response",
+  "resID": 1,
+  "response": {
+    "data": {
+      "created_at": "2020-05-02T08:21:20+03:00",
+      "description": "9197149",
+      "id": 1,
+      "name": "dark-violet 9197149",
+      "resources": "dark-violet",
+      "updated_at": "2020-05-02T08:21:20+03:00"
+    },
+    "message": "role alcreated naam"
+  },
+  "status": 200,
+  "time": "2020-05-02T08:21:20+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {},
+  "path": "/api/radius/v1/roles",
+  "referer": "",
+  "reqID": 2,
+  "request": {
+    "description": "5152865",
+    "name": "dawn-pine 5152865",
+    "resources": "dawn-pine"
+  },
+  "time": "2020-05-02T08:21:22+03:00",
+  "uri": "/api/radius/v1/roles",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 94,
+  "latency": 6,
+  "level": "info",
+  "msg": "response",
+  "resID": 2,
+  "response": {
+    "error": "Error 1062: Duplicate entry '1' for key 'PRIMARY'",
+    "message": "duplication happened"
+  },
+  "status": 409,
+  "time": "2020-05-02T08:21:22+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {},
+  "path": "/api/radius/v1/roles",
+  "referer": "",
+  "reqID": 1,
+  "request": {
+    "description": "1959257",
+    "name": "morning-dew 1959257",
+    "resources": "morning-dew"
+  },
+  "time": "2020-05-02T08:39:48+03:00",
+  "uri": "/api/radius/v1/roles",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 210,
+  "latency": 13,
+  "level": "info",
+  "msg": "response",
+  "resID": 1,
+  "response": {
+    "data": {
+      "created_at": "2020-05-02T08:39:49+03:00",
+      "description": "1959257",
+      "id": 1,
+      "name": "morning-dew 1959257",
+      "resources": "morning-dew",
+      "updated_at": "2020-05-02T08:39:49+03:00"
+    },
+    "message": "role alcreated naam"
+  },
+  "status": 200,
+  "time": "2020-05-02T08:39:48+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {},
+  "path": "/api/radius/v1/roles",
+  "referer": "",
+  "reqID": 2,
+  "request": {
+    "description": "3914137",
+    "name": "lively-feather 3914137",
+    "resources": "lively-feather"
+  },
+  "time": "2020-05-02T08:39:49+03:00",
+  "uri": "/api/radius/v1/roles",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 216,
+  "latency": 8,
+  "level": "info",
+  "msg": "response",
+  "resID": 2,
+  "response": {
+    "data": {
+      "created_at": "2020-05-02T08:39:50+03:00",
+      "description": "3914137",
+      "id": 2,
+      "name": "lively-feather 3914137",
+      "resources": "lively-feather",
+      "updated_at": "2020-05-02T08:39:50+03:00"
+    },
+    "message": "role alcreated naam"
+  },
+  "status": 200,
+  "time": "2020-05-02T08:39:49+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {},
+  "path": "/api/radius/v1/roles",
+  "referer": "",
+  "reqID": 3,
+  "request": {
+    "description": "4785135",
+    "name": "bold-glade 4785135",
+    "resources": "bold-glade"
+  },
+  "time": "2020-05-02T08:39:50+03:00",
+  "uri": "/api/radius/v1/roles",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 208,
+  "latency": 10,
+  "level": "info",
+  "msg": "response",
+  "resID": 3,
+  "response": {
+    "data": {
+      "created_at": "2020-05-02T08:39:50+03:00",
+      "description": "4785135",
+      "id": 3,
+      "name": "bold-glade 4785135",
+      "resources": "bold-glade",
+      "updated_at": "2020-05-02T08:39:50+03:00"
+    },
+    "message": "role alcreated naam"
+  },
+  "status": 200,
+  "time": "2020-05-02T08:39:50+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {},
+  "path": "/api/radius/v1/roles",
+  "referer": "",
+  "reqID": 4,
+  "request": {
+    "description": "221740",
+    "name": "restless-paper 221740",
+    "resources": "restless-paper"
+  },
+  "time": "2020-05-02T08:39:50+03:00",
+  "uri": "/api/radius/v1/roles",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 214,
+  "latency": 10,
+  "level": "info",
+  "msg": "response",
+  "resID": 4,
+  "response": {
+    "data": {
+      "created_at": "2020-05-02T08:39:51+03:00",
+      "description": "221740",
+      "id": 4,
+      "name": "restless-paper 221740",
+      "resources": "restless-paper",
+      "updated_at": "2020-05-02T08:39:51+03:00"
+    },
+    "message": "role alcreated naam"
+  },
+  "status": 200,
+  "time": "2020-05-02T08:39:50+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {},
+  "path": "/api/radius/v1/roles",
+  "referer": "",
+  "reqID": 5,
+  "request": {
+    "description": "7803180",
+    "name": "muddy-snow 7803180",
+    "resources": "muddy-snow"
+  },
+  "time": "2020-05-02T08:39:51+03:00",
+  "uri": "/api/radius/v1/roles",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 208,
+  "latency": 10,
+  "level": "info",
+  "msg": "response",
+  "resID": 5,
+  "response": {
+    "data": {
+      "created_at": "2020-05-02T08:39:51+03:00",
+      "description": "7803180",
+      "id": 5,
+      "name": "muddy-snow 7803180",
+      "resources": "muddy-snow",
+      "updated_at": "2020-05-02T08:39:51+03:00"
+    },
+    "message": "role alcreated naam"
+  },
+  "status": 200,
+  "time": "2020-05-02T08:39:51+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {},
+  "path": "/api/radius/v1/roles",
+  "referer": "",
+  "reqID": 1,
+  "request": {
+    "description": "3846347",
+    "name": "twilight-firefly 3846347",
+    "resources": "twilight-firefly"
+  },
+  "time": "2020-05-02T23:55:01+03:00",
+  "uri": "/api/radius/v1/roles",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 220,
+  "latency": 17,
+  "level": "info",
+  "msg": "response",
+  "resID": 1,
+  "response": {
+    "data": {
+      "created_at": "2020-05-02T23:55:02+03:00",
+      "description": "3846347",
+      "id": 6,
+      "name": "twilight-firefly 3846347",
+      "resources": "twilight-firefly",
+      "updated_at": "2020-05-02T23:55:02+03:00"
+    },
+    "message": "role alcreated naam"
+  },
+  "status": 200,
+  "time": "2020-05-02T23:55:01+03:00"
+}

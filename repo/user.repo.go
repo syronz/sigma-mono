@@ -44,7 +44,6 @@ func (p *UserRepo) List(params param.Param) (users []model.User, err error) {
 		Joins("INNER JOIN accounts on accounts.id = users.id").
 		Joins("INNER JOIN roles on roles.id = users.role_id").
 		Where("accounts.deleted_at is null").
-		Where("accounts.company_id = ?", params.CompanyID).
 		Where(search.Parse(params, model.User{}.Pattern())).
 		Order(params.Order).
 		Limit(params.Limit).
@@ -78,7 +77,6 @@ func (p *UserRepo) Count(params param.Param) (count uint64, err error) {
 		Joins("INNER JOIN accounts on accounts.id = users.id").
 		Joins("INNER JOIN roles on roles.id = users.role_id").
 		Where("accounts.deleted_at is null").
-		Where("accounts.company_id = ?", params.CompanyID).
 		Where(search.Parse(params, model.User{}.Pattern())).
 		Count(&count).Error
 	return

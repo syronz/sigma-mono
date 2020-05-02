@@ -12,12 +12,10 @@ import (
 // Role model
 type Role struct {
 	types.FixedCol
-	CompanyID   types.RowID `gorm:"unique_index:idx_companyID_name" json:"company_id,omitempty"`
-	NodeCode    uint64      `json:"node_id,omitempty"`
-	Name        string      `gorm:"not null;unique_index:idx_companyID_name" json:"name,omitempty"`
-	Resources   string      `gorm:"type:text" json:"resources,omitempty"`
-	Description string      `json:"description,omitempty"`
-	Error       error       `sql:"-" json:"user_error,omitempty"`
+	Name        string `gorm:"not null;unique_index:idx_companyID_name" json:"name,omitempty"`
+	Resources   string `gorm:"type:text" json:"resources,omitempty"`
+	Description string `json:"description,omitempty"`
+	Error       error  `sql:"-" json:"user_error,omitempty"`
 }
 
 // Pattern returns the search pattern to be used inside the gorm's where

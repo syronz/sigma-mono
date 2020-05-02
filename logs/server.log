@@ -1188,3 +1188,200 @@
   "msg": "",
   "time": "2020-05-02T00:38:08+03:00"
 }
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "rest-api/main.go:23",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-02T08:11:10+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "rest-api/main.go:23",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-02T08:11:58+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "rest-api/main.go:23",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-02T08:14:01+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "rest-api/main.go:23",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-02T08:18:59+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "rest-api/main.go:23",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-02T08:19:22+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "rest-api/main.go:23",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-02T08:19:33+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "rest-api/main.go:23",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-02T08:20:20+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "rest-api/main.go:23",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-02T08:20:31+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "rest-api/main.go:23",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-02T08:21:06+03:00"
+}
+{
+  "err": "Error 1062: Duplicate entry '1' for key 'PRIMARY'",
+  "file": "service/role.serv.go:72",
+  "level": "info",
+  "msg": "Failed in creating role for {FixedCol:{ID:1 CreatedAt:\u003cnil\u003e UpdatedAt:\u003cnil\u003e DeletedAt:\u003cnil\u003e} Name:dawn-pine 5152865 Resources:dawn-pine Description:5152865 Error:\u003cnil\u003e}",
+  "time": "2020-05-02T08:21:22+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "rest-api/main.go:23",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-02T08:39:43+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "rest-api/main.go:23",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-02T15:57:22+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "rest-api/main.go:23",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-02T15:58:00+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "rest-api/main.go:23",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-02T15:58:25+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "rest-api/main.go:23",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-02T15:59:22+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "rest-api/main.go:23",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-02T15:59:25+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "rest-api/main.go:23",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-02T15:59:53+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "rest-api/main.go:23",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-02T16:00:33+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "rest-api/main.go:23",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-02T16:05:53+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "rest-api/main.go:23",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-02T23:54:59+03:00"
+}

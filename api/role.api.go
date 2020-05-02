@@ -8,10 +8,10 @@ import (
 	"radiusbilling/internal/param"
 	"radiusbilling/internal/response"
 	"radiusbilling/internal/term"
-	"radiusbilling/internal/types"
 	"radiusbilling/model"
 	"radiusbilling/service"
 	"radiusbilling/utils/excel"
+	"strconv"
 
 	"github.com/gin-gonic/gin"
 )
@@ -41,7 +41,7 @@ func (p *RoleAPI) FindByID(c *gin.Context) {
 		return
 	}
 
-	if role.ID, err = types.StrToRowID(c.Param("roleID")); err != nil {
+	if role.ID, err = strconv.ParseUint(c.Param("roleID"), 10, 64); err != nil {
 		resp.Error(term.Invalid_ID).JSON()
 		return
 	}
@@ -123,8 +123,7 @@ func (p *RoleAPI) Update(c *gin.Context) {
 
 	var role, roleBefore, roleUpdated model.Role
 
-	role.ID, err = types.StrToRowID(c.Param("roleID"))
-	if err != nil {
+	if role.ID, err = strconv.ParseUint(c.Param("roleID"), 10, 64); err != nil {
 		resp.Error(term.Invalid_ID).JSON()
 		return
 	}
@@ -162,7 +161,7 @@ func (p *RoleAPI) Delete(c *gin.Context) {
 		return
 	}
 
-	if role.ID, err = types.StrToRowID(c.Param("roleID")); err != nil {
+	if role.ID, err = strconv.ParseUint(c.Param("roleID"), 10, 64); err != nil {
 		resp.Error(term.Invalid_ID).JSON()
 		return
 	}

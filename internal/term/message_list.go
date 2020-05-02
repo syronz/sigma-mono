@@ -13,6 +13,5 @@ const (
 	ID                           = "ID"
 	Code                         = "code"
 	Type                         = "type"
-	NodeCode                     = "node_code"
 	Property                     = "property"
 )
