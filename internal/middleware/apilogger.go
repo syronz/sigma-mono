@@ -6,7 +6,7 @@ import (
 	"io"
 	"io/ioutil"
 	"math"
-	"radiusbilling/internal/core"
+	"sigmamono/internal/core"
 	"strings"
 	"time"
 

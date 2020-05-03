@@ -1,0 +1,35 @@
+{
+  "method":"post",
+  "url":"_URL_/register?lang=ku",
+  "payload": {
+    "company": {
+      "type":"multi branch with centeral finance",
+      "name": "_RANDOM_NAME_",
+      "legal_name": "_RANDOM_NAME_",
+      "server": "127.0.0.1:9093",
+      "plan":"zzzzz",
+      "detail":"",
+      "phone": "_RANDOM_NUMBER_",
+      "key":"123456"
+    },
+    "node": {
+      "type": "laptop",
+      "name": "_RANDOM_NAME_",
+      "secret_key": "_RANDOM_NAME_",
+      "phone": "_RANDOM_NUMBER_"
+    },
+    "user": {
+      "name": "user",
+      "language":"ku",
+      "username": "_RANDOM_NAME_",
+      "phone": "_RANDOM_NUMBER_",
+      "password": "88888888",
+      "account": {
+        "name":"_RANDOM_NAME_",
+        "code":_RANDOM_NUMBER_,
+        "status": "active",
+        "type":"asset"
+      }
+    }
+  }
+}

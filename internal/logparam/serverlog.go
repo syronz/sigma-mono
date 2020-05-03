@@ -1,7 +1,7 @@
 package logparam
 
 import (
-	"radiusbilling/internal/core"
+	"sigmamono/internal/core"
 )
 
 // ServerLog connected to the engine

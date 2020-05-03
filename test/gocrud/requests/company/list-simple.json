@@ -1,6 +1,6 @@
 {
-  "method":"get",
-	"url":"_URL_/ping",
+	"method":"get",
+	"url":"_URL_/companies",
 	"authorization":"Bearer _TOKEN_",
 	"payload": {}
 }

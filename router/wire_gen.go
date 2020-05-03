@@ -6,10 +6,10 @@
 package router
 
 import (
-	"radiusbilling/api"
-	"radiusbilling/internal/core"
-	"radiusbilling/repo"
-	"radiusbilling/service"
+	"sigmamono/api"
+	"sigmamono/internal/core"
+	"sigmamono/repo"
+	"sigmamono/service"
 )
 
 // Injectors from wire.go:
@@ -26,4 +26,11 @@ func initUserAPI(engine *core.Engine) api.UserAPI {
 	userServ := service.ProvideUserService(userRepo)
 	userAPI := api.ProvideUserAPI(userServ)
 	return userAPI
+}
+
+func initCompanyAPI(e *core.Engine) api.CompanyAPI {
+	companyRepo := repo.ProvideCompanyRepo(e)
+	companyServ := service.ProvideCompanyService(companyRepo)
+	companyAPI := api.ProvideCompanyAPI(companyServ)
+	return companyAPI
 }

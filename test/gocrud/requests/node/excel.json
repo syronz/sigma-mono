@@ -1,0 +1,6 @@
+{
+	"method":"get",
+	"url":"_URL_/excel/nodes?select=nodes.id",
+	"authorization":"Bearer _TOKEN_",
+	"payload": {}
+}

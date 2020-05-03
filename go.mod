@@ -1,4 +1,4 @@
-module radiusbilling
+module sigmamono
 
 go 1.13
 

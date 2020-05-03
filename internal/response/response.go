@@ -2,8 +2,8 @@ package response
 
 import (
 	"net/http"
-	"radiusbilling/internal/core"
-	"radiusbilling/internal/term"
+	"sigmamono/internal/core"
+	"sigmamono/internal/term"
 	"strings"
 
 	"github.com/gin-gonic/gin"

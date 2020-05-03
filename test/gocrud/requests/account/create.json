@@ -1,0 +1,13 @@
+{
+  "method":"post",
+  "url":"_URL_/accounts?lang=ku",
+  "authorization":"Bearer _TOKEN_",
+  "payload": {
+    "parent_id":1001101000000012,
+    "name":"RANDOM_NAME_",
+    "code":_RANDOM_NUMBER_,
+    "type": "asset",
+    "status": "active",
+    "direction": "direct"
+  }
+}

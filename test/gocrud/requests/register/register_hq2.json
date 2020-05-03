@@ -1,0 +1,27 @@
+{
+  "method":"post",
+  "url":"_URL_/register?lang=ku",
+  "payload": {
+    "company": {
+      "type":"multi branch with centeral finance",
+      "name": "_RANDOM_NAME_",
+      "legal_name": "_RANDOM_NAME_",
+      "detail":"",
+      "phone": "_RANDOM_NUMBER_"
+    },
+    "node": {
+      "type": "laptop",
+      "name": "_RANDOM_NAME_",
+      "phone": "_RANDOM_NUMBER_"
+    },
+    "user": {
+      "name": "user",
+      "language":"ku",
+      "username": "diako2",
+      "password": "88888888",
+      "account": {
+        "name":"_RANDOM_NAME_"
+      }
+    }
+  }
+}

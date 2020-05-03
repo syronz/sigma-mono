@@ -1,7 +1,7 @@
 package search
 
 import (
-	"radiusbilling/internal/param"
+	"sigmamono/internal/param"
 	"testing"
 )
 

@@ -1,0 +1,8 @@
+{
+	"method":"get",
+	"url":"_URL_/accounts?order_by=name&direction=asc&page=3&page_size=4",
+	"url":"_URL_/accounts?search=accounts2.id",
+	"url":"_URL_/accounts?select=accounts.id,name",
+	"authorization":"Bearer _TOKEN_",
+	"payload": {}
+}

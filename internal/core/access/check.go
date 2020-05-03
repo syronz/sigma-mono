@@ -1,7 +1,7 @@
 package access
 
 import (
-	"radiusbilling/internal/core"
+	"sigmamono/internal/core"
 
 	"github.com/gin-gonic/gin"
 )

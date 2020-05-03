@@ -1,7 +1,7 @@
 package logparam
 
 import (
-	"radiusbilling/internal/core"
+	"sigmamono/internal/core"
 )
 
 // APILog is used inside internal.core.StartEngine and test.core.StartEngine

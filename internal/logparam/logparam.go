@@ -3,7 +3,7 @@ package logparam
 import (
 	"github.com/sirupsen/logrus"
 	"os"
-	"radiusbilling/internal/loghook"
+	"sigmamono/internal/loghook"
 )
 
 // LogParam used for parameter between start and initLog

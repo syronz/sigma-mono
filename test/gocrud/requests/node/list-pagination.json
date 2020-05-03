@@ -1,0 +1,8 @@
+{
+	"method":"get",
+	"url":"_URL_/nodes?order_by=name&direction=asc&page=3&page_size=4",
+	"url":"_URL_/nodes?search=nodes2.id",
+	"url":"_URL_/nodes?select=nodes.id,name",
+	"authorization":"Bearer _TOKEN_",
+	"payload": {}
+}

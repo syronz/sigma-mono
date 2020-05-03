@@ -634,3 +634,2511 @@
   "status": 200,
   "time": "2020-05-02T23:55:01+03:00"
 }
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {
+    "lang": [
+      "ku"
+    ]
+  },
+  "path": "/api/cloud/v1/companies",
+  "referer": "",
+  "reqID": 1,
+  "request": {
+    "detail": "",
+    "expiration": "2022-01-01 11:11:11",
+    "id2": 33,
+    "key": "123456",
+    "legal_name": "holy-dew",
+    "name": "holy-dew",
+    "phone": "9873588",
+    "plan": "",
+    "server": "127.0.0.1:9093",
+    "type": "multi branch with centeral finance"
+  },
+  "time": "2020-05-03T11:50:28+03:00",
+  "uri": "/api/cloud/v1/companies?lang=ku",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 132,
+  "latency": 6,
+  "level": "info",
+  "msg": "response",
+  "resID": 1,
+  "response": {
+    "Layout": "\"2006-01-02T15:04:05Z07:00\"",
+    "LayoutElem": "T",
+    "Message": "",
+    "Value": "\"2022-01-01 11:11:11\"",
+    "ValueElem": " 11:11:11\""
+  },
+  "status": 406,
+  "time": "2020-05-03T11:50:28+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {
+    "lang": [
+      "ku"
+    ]
+  },
+  "path": "/api/cloud/v1/companies",
+  "referer": "",
+  "reqID": 2,
+  "request": {
+    "detail": "",
+    "expiration": "2022-01-01 11:11:11",
+    "id2": 33,
+    "key": "123456",
+    "legal_name": "hidden-surf",
+    "name": "hidden-surf",
+    "phone": "9812274",
+    "plan": "",
+    "server": "127.0.0.1:9093",
+    "type": "multi branch with centeral finance"
+  },
+  "time": "2020-05-03T11:50:32+03:00",
+  "uri": "/api/cloud/v1/companies?lang=ku",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 132,
+  "latency": 1,
+  "level": "info",
+  "msg": "response",
+  "resID": 2,
+  "response": {
+    "Layout": "\"2006-01-02T15:04:05Z07:00\"",
+    "LayoutElem": "T",
+    "Message": "",
+    "Value": "\"2022-01-01 11:11:11\"",
+    "ValueElem": " 11:11:11\""
+  },
+  "status": 406,
+  "time": "2020-05-03T11:50:32+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {
+    "lang": [
+      "ku"
+    ]
+  },
+  "path": "/api/cloud/v1/companies",
+  "referer": "",
+  "reqID": 1,
+  "request": {
+    "detail": "",
+    "expiration": "2022-01-01 11:11:11",
+    "id2": 33,
+    "key": "123456",
+    "legal_name": "summer-wildflower",
+    "name": "summer-wildflower",
+    "phone": "9253969",
+    "plan": "",
+    "server": "127.0.0.1:9093",
+    "type": "multi branch with centeral finance"
+  },
+  "time": "2020-05-03T12:26:56+03:00",
+  "uri": "/api/cloud/v1/companies?lang=ku",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 132,
+  "latency": 1,
+  "level": "info",
+  "msg": "response",
+  "resID": 1,
+  "response": {
+    "Layout": "\"2006-01-02T15:04:05Z07:00\"",
+    "LayoutElem": "T",
+    "Message": "",
+    "Value": "\"2022-01-01 11:11:11\"",
+    "ValueElem": " 11:11:11\""
+  },
+  "status": 406,
+  "time": "2020-05-03T12:26:56+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {
+    "lang": [
+      "ku"
+    ]
+  },
+  "path": "/api/cloud/v1/companies",
+  "referer": "",
+  "reqID": 2,
+  "request": {
+    "detail": "",
+    "expiration": "2022-01-01 11:11:11",
+    "id2": 33,
+    "key": "123456",
+    "legal_name": "nameless-dust",
+    "name": "nameless-dust",
+    "phone": "782834",
+    "plan": "",
+    "server": "127.0.0.1:9093",
+    "type": "multi branch with centeral finance"
+  },
+  "time": "2020-05-03T12:28:27+03:00",
+  "uri": "/api/cloud/v1/companies?lang=ku",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 132,
+  "latency": 1,
+  "level": "info",
+  "msg": "response",
+  "resID": 2,
+  "response": {
+    "Layout": "\"2006-01-02T15:04:05Z07:00\"",
+    "LayoutElem": "T",
+    "Message": "",
+    "Value": "\"2022-01-01 11:11:11\"",
+    "ValueElem": " 11:11:11\""
+  },
+  "status": 406,
+  "time": "2020-05-03T12:28:27+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {
+    "lang": [
+      "ku"
+    ]
+  },
+  "path": "/api/cloud/v1/companies",
+  "referer": "",
+  "reqID": 3,
+  "request": {
+    "detail": "",
+    "expiration": "2022-01-01T11:11:11.000Z",
+    "id2": 33,
+    "key": "123456",
+    "legal_name": "summer-flower",
+    "name": "summer-flower",
+    "phone": "2709462",
+    "plan": "",
+    "server": "127.0.0.1:9093",
+    "type": "multi branch with centeral finance"
+  },
+  "time": "2020-05-03T12:31:11+03:00",
+  "uri": "/api/cloud/v1/companies?lang=ku",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 317,
+  "latency": 8,
+  "level": "info",
+  "msg": "response",
+  "resID": 3,
+  "response": {
+    "data": {
+      "created_at": "2020-05-03T12:31:11+03:00",
+      "expiration": "2022-01-01T14:11:11+03:00",
+      "id": 1001,
+      "key": "123456",
+      "legal_name": "summer-flower",
+      "name": "summer-flower",
+      "phone": "2709462",
+      "type": "multi branch with centeral finance",
+      "updated_at": "2020-05-03T12:31:11+03:00"
+    },
+    "message": "company ba sarkawtooyi drwst kra"
+  },
+  "status": 200,
+  "time": "2020-05-03T12:31:11+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {
+    "lang": [
+      "ku"
+    ]
+  },
+  "path": "/api/cloud/v1/companies",
+  "referer": "",
+  "reqID": 4,
+  "request": {
+    "detail": "",
+    "expiration": "2022-01-01T11:11:11.000Z",
+    "id2": 33,
+    "key": "123456",
+    "legal_name": "small-haze",
+    "name": "small-haze",
+    "phone": "3402862",
+    "plan": "",
+    "server": "127.0.0.1:9093",
+    "type": "multi branch with centeral finance"
+  },
+  "time": "2020-05-03T12:31:12+03:00",
+  "uri": "/api/cloud/v1/companies?lang=ku",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 90,
+  "latency": 9,
+  "level": "info",
+  "msg": "response",
+  "resID": 4,
+  "response": {
+    "error": "Error 1062: Duplicate entry '' for key 'license'",
+    "message": "peshtr daxl krawa"
+  },
+  "status": 409,
+  "time": "2020-05-03T12:31:12+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {
+    "lang": [
+      "ku"
+    ]
+  },
+  "path": "/api/cloud/v1/companies",
+  "referer": "",
+  "reqID": 5,
+  "request": {
+    "detail": "",
+    "expiration": "2022-01-01T11:11:11.000Z",
+    "id2": 33,
+    "key": "123456",
+    "legal_name": "little-forest",
+    "name": "little-forest",
+    "phone": "4909998",
+    "plan": "",
+    "server": "127.0.0.1:9093",
+    "type": "multi branch with centeral finance"
+  },
+  "time": "2020-05-03T12:31:12+03:00",
+  "uri": "/api/cloud/v1/companies?lang=ku",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 90,
+  "latency": 9,
+  "level": "info",
+  "msg": "response",
+  "resID": 5,
+  "response": {
+    "error": "Error 1062: Duplicate entry '' for key 'license'",
+    "message": "peshtr daxl krawa"
+  },
+  "status": 409,
+  "time": "2020-05-03T12:31:12+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {
+    "lang": [
+      "ku"
+    ]
+  },
+  "path": "/api/cloud/v1/companies",
+  "referer": "",
+  "reqID": 6,
+  "request": {
+    "code": "223423",
+    "detail": "",
+    "expiration": "2022-01-01T11:11:11.000Z",
+    "id2": 33,
+    "key": "123456",
+    "legal_name": "black-wave",
+    "license": "black-wave",
+    "name": "black-wave",
+    "phone": "7771414",
+    "plan": "",
+    "server": "127.0.0.1:9093",
+    "type": "multi branch with centeral finance"
+  },
+  "time": "2020-05-03T12:34:56+03:00",
+  "uri": "/api/cloud/v1/companies?lang=ku",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 350,
+  "latency": 9,
+  "level": "info",
+  "msg": "response",
+  "resID": 6,
+  "response": {
+    "data": {
+      "code": "223423",
+      "created_at": "2020-05-03T12:34:57+03:00",
+      "expiration": "2022-01-01T14:11:11+03:00",
+      "id": 1002,
+      "key": "123456",
+      "legal_name": "black-wave",
+      "license": "black-wave",
+      "name": "black-wave",
+      "phone": "7771414",
+      "type": "multi branch with centeral finance",
+      "updated_at": "2020-05-03T12:34:57+03:00"
+    },
+    "message": "company ba sarkawtooyi drwst kra"
+  },
+  "status": 200,
+  "time": "2020-05-03T12:34:56+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {
+    "lang": [
+      "ku"
+    ]
+  },
+  "path": "/api/cloud/v1/companies",
+  "referer": "",
+  "reqID": 7,
+  "request": {
+    "code": "223423",
+    "detail": "",
+    "expiration": "2022-01-01T11:11:11.000Z",
+    "id2": 33,
+    "key": "123456",
+    "legal_name": "wispy-moon",
+    "license": "wispy-moon",
+    "name": "wispy-moon",
+    "phone": "328152",
+    "plan": "",
+    "server": "127.0.0.1:9093",
+    "type": "multi branch with centeral finance"
+  },
+  "time": "2020-05-03T12:34:57+03:00",
+  "uri": "/api/cloud/v1/companies?lang=ku",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 349,
+  "latency": 9,
+  "level": "info",
+  "msg": "response",
+  "resID": 7,
+  "response": {
+    "data": {
+      "code": "223423",
+      "created_at": "2020-05-03T12:34:58+03:00",
+      "expiration": "2022-01-01T14:11:11+03:00",
+      "id": 1003,
+      "key": "123456",
+      "legal_name": "wispy-moon",
+      "license": "wispy-moon",
+      "name": "wispy-moon",
+      "phone": "328152",
+      "type": "multi branch with centeral finance",
+      "updated_at": "2020-05-03T12:34:58+03:00"
+    },
+    "message": "company ba sarkawtooyi drwst kra"
+  },
+  "status": 200,
+  "time": "2020-05-03T12:34:57+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {
+    "lang": [
+      "ku"
+    ]
+  },
+  "path": "/api/cloud/v1/companies",
+  "referer": "",
+  "reqID": 8,
+  "request": {
+    "code": "223423",
+    "detail": "",
+    "expiration": "2022-01-01T11:11:11.000Z",
+    "id2": 33,
+    "key": "123456",
+    "legal_name": "solitary-mountain",
+    "license": "solitary-mountain",
+    "name": "solitary-mountain",
+    "phone": "3145212",
+    "plan": "",
+    "server": "127.0.0.1:9093",
+    "type": "multi branch with centeral finance"
+  },
+  "time": "2020-05-03T12:34:58+03:00",
+  "uri": "/api/cloud/v1/companies?lang=ku",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 371,
+  "latency": 9,
+  "level": "info",
+  "msg": "response",
+  "resID": 8,
+  "response": {
+    "data": {
+      "code": "223423",
+      "created_at": "2020-05-03T12:34:58+03:00",
+      "expiration": "2022-01-01T14:11:11+03:00",
+      "id": 1004,
+      "key": "123456",
+      "legal_name": "solitary-mountain",
+      "license": "solitary-mountain",
+      "name": "solitary-mountain",
+      "phone": "3145212",
+      "type": "multi branch with centeral finance",
+      "updated_at": "2020-05-03T12:34:58+03:00"
+    },
+    "message": "company ba sarkawtooyi drwst kra"
+  },
+  "status": 200,
+  "time": "2020-05-03T12:34:58+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {
+    "lang": [
+      "ku"
+    ]
+  },
+  "path": "/api/cloud/v1/companies",
+  "referer": "",
+  "reqID": 9,
+  "request": {
+    "code": "223423",
+    "detail": "",
+    "expiration": "2022-01-01T11:11:11.000Z",
+    "id2": 33,
+    "key": "123456",
+    "legal_name": "weathered-dew",
+    "license": "weathered-dew",
+    "name": "weathered-dew",
+    "phone": "7785121",
+    "plan": "",
+    "server": "127.0.0.1:9093",
+    "type": "multi branch with centeral finance"
+  },
+  "time": "2020-05-03T12:34:58+03:00",
+  "uri": "/api/cloud/v1/companies?lang=ku",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 359,
+  "latency": 10,
+  "level": "info",
+  "msg": "response",
+  "resID": 9,
+  "response": {
+    "data": {
+      "code": "223423",
+      "created_at": "2020-05-03T12:34:59+03:00",
+      "expiration": "2022-01-01T14:11:11+03:00",
+      "id": 1005,
+      "key": "123456",
+      "legal_name": "weathered-dew",
+      "license": "weathered-dew",
+      "name": "weathered-dew",
+      "phone": "7785121",
+      "type": "multi branch with centeral finance",
+      "updated_at": "2020-05-03T12:34:59+03:00"
+    },
+    "message": "company ba sarkawtooyi drwst kra"
+  },
+  "status": 200,
+  "time": "2020-05-03T12:34:58+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {
+    "lang": [
+      "ku"
+    ]
+  },
+  "path": "/api/cloud/v1/companies",
+  "referer": "",
+  "reqID": 10,
+  "request": {
+    "code": "223423",
+    "detail": "",
+    "expiration": "2022-01-01T11:11:11.000Z",
+    "id2": 33,
+    "key": "123456",
+    "legal_name": "dawn-bird",
+    "license": "dawn-bird",
+    "name": "dawn-bird",
+    "phone": "6010171",
+    "plan": "",
+    "server": "127.0.0.1:9093",
+    "type": "multi branch with centeral finance"
+  },
+  "time": "2020-05-03T12:34:58+03:00",
+  "uri": "/api/cloud/v1/companies?lang=ku",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 347,
+  "latency": 9,
+  "level": "info",
+  "msg": "response",
+  "resID": 10,
+  "response": {
+    "data": {
+      "code": "223423",
+      "created_at": "2020-05-03T12:34:59+03:00",
+      "expiration": "2022-01-01T14:11:11+03:00",
+      "id": 1006,
+      "key": "123456",
+      "legal_name": "dawn-bird",
+      "license": "dawn-bird",
+      "name": "dawn-bird",
+      "phone": "6010171",
+      "type": "multi branch with centeral finance",
+      "updated_at": "2020-05-03T12:34:59+03:00"
+    },
+    "message": "company ba sarkawtooyi drwst kra"
+  },
+  "status": 200,
+  "time": "2020-05-03T12:34:58+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {
+    "lang": [
+      "ku"
+    ]
+  },
+  "path": "/api/cloud/v1/companies",
+  "referer": "",
+  "reqID": 11,
+  "request": {
+    "code": "223423",
+    "detail": "",
+    "expiration": "2022-01-01T11:11:11.000Z",
+    "id2": 33,
+    "key": "123456",
+    "legal_name": "dawn-bush",
+    "license": "dawn-bush",
+    "name": "dawn-bush",
+    "phone": "4979803",
+    "plan": "",
+    "server": "127.0.0.1:9093",
+    "type": "multi branch with centeral finance"
+  },
+  "time": "2020-05-03T12:34:59+03:00",
+  "uri": "/api/cloud/v1/companies?lang=ku",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 347,
+  "latency": 9,
+  "level": "info",
+  "msg": "response",
+  "resID": 11,
+  "response": {
+    "data": {
+      "code": "223423",
+      "created_at": "2020-05-03T12:34:59+03:00",
+      "expiration": "2022-01-01T14:11:11+03:00",
+      "id": 1007,
+      "key": "123456",
+      "legal_name": "dawn-bush",
+      "license": "dawn-bush",
+      "name": "dawn-bush",
+      "phone": "4979803",
+      "type": "multi branch with centeral finance",
+      "updated_at": "2020-05-03T12:34:59+03:00"
+    },
+    "message": "company ba sarkawtooyi drwst kra"
+  },
+  "status": 200,
+  "time": "2020-05-03T12:34:59+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {
+    "lang": [
+      "ku"
+    ]
+  },
+  "path": "/api/cloud/v1/companies",
+  "referer": "",
+  "reqID": 12,
+  "request": {
+    "code": "223423",
+    "detail": "",
+    "expiration": "2022-01-01T11:11:11.000Z",
+    "id2": 33,
+    "key": "123456",
+    "legal_name": "morning-rain",
+    "license": "morning-rain",
+    "name": "morning-rain",
+    "phone": "9511963",
+    "plan": "",
+    "server": "127.0.0.1:9093",
+    "type": "multi branch with centeral finance"
+  },
+  "time": "2020-05-03T12:34:59+03:00",
+  "uri": "/api/cloud/v1/companies?lang=ku",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 356,
+  "latency": 8,
+  "level": "info",
+  "msg": "response",
+  "resID": 12,
+  "response": {
+    "data": {
+      "code": "223423",
+      "created_at": "2020-05-03T12:35:00+03:00",
+      "expiration": "2022-01-01T14:11:11+03:00",
+      "id": 1008,
+      "key": "123456",
+      "legal_name": "morning-rain",
+      "license": "morning-rain",
+      "name": "morning-rain",
+      "phone": "9511963",
+      "type": "multi branch with centeral finance",
+      "updated_at": "2020-05-03T12:35:00+03:00"
+    },
+    "message": "company ba sarkawtooyi drwst kra"
+  },
+  "status": 200,
+  "time": "2020-05-03T12:34:59+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {
+    "lang": [
+      "ku"
+    ]
+  },
+  "path": "/api/cloud/v1/companies",
+  "referer": "",
+  "reqID": 13,
+  "request": {
+    "code": "223423",
+    "detail": "",
+    "expiration": "2022-01-01T11:11:11.000Z",
+    "id2": 33,
+    "key": "123456",
+    "legal_name": "wild-brook",
+    "license": "wild-brook",
+    "name": "wild-brook",
+    "phone": "4401801",
+    "plan": "",
+    "server": "127.0.0.1:9093",
+    "type": "multi branch with centeral finance"
+  },
+  "time": "2020-05-03T12:34:59+03:00",
+  "uri": "/api/cloud/v1/companies?lang=ku",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 350,
+  "latency": 10,
+  "level": "info",
+  "msg": "response",
+  "resID": 13,
+  "response": {
+    "data": {
+      "code": "223423",
+      "created_at": "2020-05-03T12:35:00+03:00",
+      "expiration": "2022-01-01T14:11:11+03:00",
+      "id": 1009,
+      "key": "123456",
+      "legal_name": "wild-brook",
+      "license": "wild-brook",
+      "name": "wild-brook",
+      "phone": "4401801",
+      "type": "multi branch with centeral finance",
+      "updated_at": "2020-05-03T12:35:00+03:00"
+    },
+    "message": "company ba sarkawtooyi drwst kra"
+  },
+  "status": 200,
+  "time": "2020-05-03T12:34:59+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {
+    "lang": [
+      "ku"
+    ]
+  },
+  "path": "/api/cloud/v1/companies",
+  "referer": "",
+  "reqID": 14,
+  "request": {
+    "code": "223423",
+    "detail": "",
+    "expiration": "2022-01-01T11:11:11.000Z",
+    "id2": 33,
+    "key": "123456",
+    "legal_name": "frosty-dawn",
+    "license": "frosty-dawn",
+    "name": "frosty-dawn",
+    "phone": "568000",
+    "plan": "",
+    "server": "127.0.0.1:9093",
+    "type": "multi branch with centeral finance"
+  },
+  "time": "2020-05-03T12:35:00+03:00",
+  "uri": "/api/cloud/v1/companies?lang=ku",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 352,
+  "latency": 5,
+  "level": "info",
+  "msg": "response",
+  "resID": 14,
+  "response": {
+    "data": {
+      "code": "223423",
+      "created_at": "2020-05-03T12:35:00+03:00",
+      "expiration": "2022-01-01T14:11:11+03:00",
+      "id": 1010,
+      "key": "123456",
+      "legal_name": "frosty-dawn",
+      "license": "frosty-dawn",
+      "name": "frosty-dawn",
+      "phone": "568000",
+      "type": "multi branch with centeral finance",
+      "updated_at": "2020-05-03T12:35:00+03:00"
+    },
+    "message": "company ba sarkawtooyi drwst kra"
+  },
+  "status": 200,
+  "time": "2020-05-03T12:35:00+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {
+    "lang": [
+      "ku"
+    ]
+  },
+  "path": "/api/cloud/v1/companies",
+  "referer": "",
+  "reqID": 15,
+  "request": {
+    "code": "223423",
+    "detail": "",
+    "expiration": "2022-01-01T11:11:11.000Z",
+    "id2": 33,
+    "key": "123456",
+    "legal_name": "wispy-shadow",
+    "license": "wispy-shadow",
+    "name": "wispy-shadow",
+    "phone": "8264766",
+    "plan": "",
+    "server": "127.0.0.1:9093",
+    "type": "multi branch with centeral finance"
+  },
+  "time": "2020-05-03T12:35:00+03:00",
+  "uri": "/api/cloud/v1/companies?lang=ku",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 356,
+  "latency": 9,
+  "level": "info",
+  "msg": "response",
+  "resID": 15,
+  "response": {
+    "data": {
+      "code": "223423",
+      "created_at": "2020-05-03T12:35:00+03:00",
+      "expiration": "2022-01-01T14:11:11+03:00",
+      "id": 1011,
+      "key": "123456",
+      "legal_name": "wispy-shadow",
+      "license": "wispy-shadow",
+      "name": "wispy-shadow",
+      "phone": "8264766",
+      "type": "multi branch with centeral finance",
+      "updated_at": "2020-05-03T12:35:00+03:00"
+    },
+    "message": "company ba sarkawtooyi drwst kra"
+  },
+  "status": 200,
+  "time": "2020-05-03T12:35:00+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {
+    "lang": [
+      "ku"
+    ]
+  },
+  "path": "/api/cloud/v1/companies",
+  "referer": "",
+  "reqID": 16,
+  "request": {
+    "code": "223423",
+    "detail": "",
+    "expiration": "2022-01-01T11:11:11.000Z",
+    "id2": 33,
+    "key": "123456",
+    "legal_name": "divine-wildflower",
+    "license": "divine-wildflower",
+    "name": "divine-wildflower",
+    "phone": "4595287",
+    "plan": "",
+    "server": "127.0.0.1:9093",
+    "type": "multi branch with centeral finance"
+  },
+  "time": "2020-05-03T12:35:00+03:00",
+  "uri": "/api/cloud/v1/companies?lang=ku",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 371,
+  "latency": 10,
+  "level": "info",
+  "msg": "response",
+  "resID": 16,
+  "response": {
+    "data": {
+      "code": "223423",
+      "created_at": "2020-05-03T12:35:01+03:00",
+      "expiration": "2022-01-01T14:11:11+03:00",
+      "id": 1012,
+      "key": "123456",
+      "legal_name": "divine-wildflower",
+      "license": "divine-wildflower",
+      "name": "divine-wildflower",
+      "phone": "4595287",
+      "type": "multi branch with centeral finance",
+      "updated_at": "2020-05-03T12:35:01+03:00"
+    },
+    "message": "company ba sarkawtooyi drwst kra"
+  },
+  "status": 200,
+  "time": "2020-05-03T12:35:00+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {
+    "lang": [
+      "ku"
+    ]
+  },
+  "path": "/api/cloud/v1/companies",
+  "referer": "",
+  "reqID": 17,
+  "request": {
+    "code": "223423",
+    "detail": "",
+    "expiration": "2022-01-01T11:11:11.000Z",
+    "id2": 33,
+    "key": "123456",
+    "legal_name": "floral-glade",
+    "license": "floral-glade",
+    "name": "floral-glade",
+    "phone": "2386507",
+    "plan": "",
+    "server": "127.0.0.1:9093",
+    "type": "multi branch with centeral finance"
+  },
+  "time": "2020-05-03T12:35:01+03:00",
+  "uri": "/api/cloud/v1/companies?lang=ku",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 356,
+  "latency": 9,
+  "level": "info",
+  "msg": "response",
+  "resID": 17,
+  "response": {
+    "data": {
+      "code": "223423",
+      "created_at": "2020-05-03T12:35:01+03:00",
+      "expiration": "2022-01-01T14:11:11+03:00",
+      "id": 1013,
+      "key": "123456",
+      "legal_name": "floral-glade",
+      "license": "floral-glade",
+      "name": "floral-glade",
+      "phone": "2386507",
+      "type": "multi branch with centeral finance",
+      "updated_at": "2020-05-03T12:35:01+03:00"
+    },
+    "message": "company ba sarkawtooyi drwst kra"
+  },
+  "status": 200,
+  "time": "2020-05-03T12:35:01+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {
+    "lang": [
+      "ku"
+    ]
+  },
+  "path": "/api/cloud/v1/companies",
+  "referer": "",
+  "reqID": 18,
+  "request": {
+    "code": "223423",
+    "detail": "",
+    "expiration": "2022-01-01T11:11:11.000Z",
+    "id2": 33,
+    "key": "123456",
+    "legal_name": "little-sea",
+    "license": "little-sea",
+    "name": "little-sea",
+    "phone": "6766783",
+    "plan": "",
+    "server": "127.0.0.1:9093",
+    "type": "multi branch with centeral finance"
+  },
+  "time": "2020-05-03T12:35:01+03:00",
+  "uri": "/api/cloud/v1/companies?lang=ku",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 350,
+  "latency": 9,
+  "level": "info",
+  "msg": "response",
+  "resID": 18,
+  "response": {
+    "data": {
+      "code": "223423",
+      "created_at": "2020-05-03T12:35:02+03:00",
+      "expiration": "2022-01-01T14:11:11+03:00",
+      "id": 1014,
+      "key": "123456",
+      "legal_name": "little-sea",
+      "license": "little-sea",
+      "name": "little-sea",
+      "phone": "6766783",
+      "type": "multi branch with centeral finance",
+      "updated_at": "2020-05-03T12:35:02+03:00"
+    },
+    "message": "company ba sarkawtooyi drwst kra"
+  },
+  "status": 200,
+  "time": "2020-05-03T12:35:01+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {
+    "lang": [
+      "ku"
+    ]
+  },
+  "path": "/api/cloud/v1/companies",
+  "referer": "",
+  "reqID": 19,
+  "request": {
+    "code": "223423",
+    "detail": "",
+    "expiration": "2022-01-01T11:11:11.000Z",
+    "id2": 33,
+    "key": "123456",
+    "legal_name": "dawn-tree",
+    "license": "dawn-tree",
+    "name": "dawn-tree",
+    "phone": "3006830",
+    "plan": "",
+    "server": "127.0.0.1:9093",
+    "type": "multi branch with centeral finance"
+  },
+  "time": "2020-05-03T12:35:02+03:00",
+  "uri": "/api/cloud/v1/companies?lang=ku",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 347,
+  "latency": 9,
+  "level": "info",
+  "msg": "response",
+  "resID": 19,
+  "response": {
+    "data": {
+      "code": "223423",
+      "created_at": "2020-05-03T12:35:02+03:00",
+      "expiration": "2022-01-01T14:11:11+03:00",
+      "id": 1015,
+      "key": "123456",
+      "legal_name": "dawn-tree",
+      "license": "dawn-tree",
+      "name": "dawn-tree",
+      "phone": "3006830",
+      "type": "multi branch with centeral finance",
+      "updated_at": "2020-05-03T12:35:02+03:00"
+    },
+    "message": "company ba sarkawtooyi drwst kra"
+  },
+  "status": 200,
+  "time": "2020-05-03T12:35:02+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {
+    "lang": [
+      "ku"
+    ]
+  },
+  "path": "/api/cloud/v1/companies",
+  "referer": "",
+  "reqID": 20,
+  "request": {
+    "code": "223423",
+    "detail": "",
+    "expiration": "2022-01-01T11:11:11.000Z",
+    "id2": 33,
+    "key": "123456",
+    "legal_name": "cold-feather",
+    "license": "cold-feather",
+    "name": "cold-feather",
+    "phone": "463370",
+    "plan": "",
+    "server": "127.0.0.1:9093",
+    "type": "multi branch with centeral finance"
+  },
+  "time": "2020-05-03T12:35:02+03:00",
+  "uri": "/api/cloud/v1/companies?lang=ku",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 355,
+  "latency": 9,
+  "level": "info",
+  "msg": "response",
+  "resID": 20,
+  "response": {
+    "data": {
+      "code": "223423",
+      "created_at": "2020-05-03T12:35:02+03:00",
+      "expiration": "2022-01-01T14:11:11+03:00",
+      "id": 1016,
+      "key": "123456",
+      "legal_name": "cold-feather",
+      "license": "cold-feather",
+      "name": "cold-feather",
+      "phone": "463370",
+      "type": "multi branch with centeral finance",
+      "updated_at": "2020-05-03T12:35:02+03:00"
+    },
+    "message": "company ba sarkawtooyi drwst kra"
+  },
+  "status": 200,
+  "time": "2020-05-03T12:35:02+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {
+    "lang": [
+      "ku"
+    ]
+  },
+  "path": "/api/cloud/v1/companies",
+  "referer": "",
+  "reqID": 21,
+  "request": {
+    "code": "223423",
+    "detail": "",
+    "expiration": "2022-01-01T11:11:11.000Z",
+    "id2": 33,
+    "key": "123456",
+    "legal_name": "twilight-grass",
+    "license": "twilight-grass",
+    "name": "twilight-grass",
+    "phone": "6523743",
+    "plan": "",
+    "server": "127.0.0.1:9093",
+    "type": "multi branch with centeral finance"
+  },
+  "time": "2020-05-03T12:35:02+03:00",
+  "uri": "/api/cloud/v1/companies?lang=ku",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 362,
+  "latency": 10,
+  "level": "info",
+  "msg": "response",
+  "resID": 21,
+  "response": {
+    "data": {
+      "code": "223423",
+      "created_at": "2020-05-03T12:35:03+03:00",
+      "expiration": "2022-01-01T14:11:11+03:00",
+      "id": 1017,
+      "key": "123456",
+      "legal_name": "twilight-grass",
+      "license": "twilight-grass",
+      "name": "twilight-grass",
+      "phone": "6523743",
+      "type": "multi branch with centeral finance",
+      "updated_at": "2020-05-03T12:35:03+03:00"
+    },
+    "message": "company ba sarkawtooyi drwst kra"
+  },
+  "status": 200,
+  "time": "2020-05-03T12:35:02+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {
+    "lang": [
+      "ku"
+    ]
+  },
+  "path": "/api/cloud/v1/companies",
+  "referer": "",
+  "reqID": 22,
+  "request": {
+    "code": "223423",
+    "detail": "",
+    "expiration": "2022-01-01T11:11:11.000Z",
+    "id2": 33,
+    "key": "123456",
+    "legal_name": "billowing-rain",
+    "license": "billowing-rain",
+    "name": "billowing-rain",
+    "phone": "3001942",
+    "plan": "",
+    "server": "127.0.0.1:9093",
+    "type": "multi branch with centeral finance"
+  },
+  "time": "2020-05-03T12:35:02+03:00",
+  "uri": "/api/cloud/v1/companies?lang=ku",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 362,
+  "latency": 9,
+  "level": "info",
+  "msg": "response",
+  "resID": 22,
+  "response": {
+    "data": {
+      "code": "223423",
+      "created_at": "2020-05-03T12:35:03+03:00",
+      "expiration": "2022-01-01T14:11:11+03:00",
+      "id": 1018,
+      "key": "123456",
+      "legal_name": "billowing-rain",
+      "license": "billowing-rain",
+      "name": "billowing-rain",
+      "phone": "3001942",
+      "type": "multi branch with centeral finance",
+      "updated_at": "2020-05-03T12:35:03+03:00"
+    },
+    "message": "company ba sarkawtooyi drwst kra"
+  },
+  "status": 200,
+  "time": "2020-05-03T12:35:02+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {
+    "lang": [
+      "ku"
+    ]
+  },
+  "path": "/api/cloud/v1/companies",
+  "referer": "",
+  "reqID": 23,
+  "request": {
+    "code": "223423",
+    "detail": "",
+    "expiration": "2022-01-01T11:11:11.000Z",
+    "id2": 33,
+    "key": "123456",
+    "legal_name": "twilight-sound",
+    "license": "twilight-sound",
+    "name": "twilight-sound",
+    "phone": "1497461",
+    "plan": "",
+    "server": "127.0.0.1:9093",
+    "type": "multi branch with centeral finance"
+  },
+  "time": "2020-05-03T12:35:03+03:00",
+  "uri": "/api/cloud/v1/companies?lang=ku",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 362,
+  "latency": 9,
+  "level": "info",
+  "msg": "response",
+  "resID": 23,
+  "response": {
+    "data": {
+      "code": "223423",
+      "created_at": "2020-05-03T12:35:03+03:00",
+      "expiration": "2022-01-01T14:11:11+03:00",
+      "id": 1019,
+      "key": "123456",
+      "legal_name": "twilight-sound",
+      "license": "twilight-sound",
+      "name": "twilight-sound",
+      "phone": "1497461",
+      "type": "multi branch with centeral finance",
+      "updated_at": "2020-05-03T12:35:03+03:00"
+    },
+    "message": "company ba sarkawtooyi drwst kra"
+  },
+  "status": 200,
+  "time": "2020-05-03T12:35:03+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {
+    "lang": [
+      "ku"
+    ]
+  },
+  "path": "/api/cloud/v1/companies",
+  "referer": "",
+  "reqID": 24,
+  "request": {
+    "code": "223423",
+    "detail": "",
+    "expiration": "2022-01-01T11:11:11.000Z",
+    "id2": 33,
+    "key": "123456",
+    "legal_name": "throbbing-meadow",
+    "license": "throbbing-meadow",
+    "name": "throbbing-meadow",
+    "phone": "405472",
+    "plan": "",
+    "server": "127.0.0.1:9093",
+    "type": "multi branch with centeral finance"
+  },
+  "time": "2020-05-03T12:35:03+03:00",
+  "uri": "/api/cloud/v1/companies?lang=ku",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 367,
+  "latency": 10,
+  "level": "info",
+  "msg": "response",
+  "resID": 24,
+  "response": {
+    "data": {
+      "code": "223423",
+      "created_at": "2020-05-03T12:35:03+03:00",
+      "expiration": "2022-01-01T14:11:11+03:00",
+      "id": 1020,
+      "key": "123456",
+      "legal_name": "throbbing-meadow",
+      "license": "throbbing-meadow",
+      "name": "throbbing-meadow",
+      "phone": "405472",
+      "type": "multi branch with centeral finance",
+      "updated_at": "2020-05-03T12:35:03+03:00"
+    },
+    "message": "company ba sarkawtooyi drwst kra"
+  },
+  "status": 200,
+  "time": "2020-05-03T12:35:03+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {
+    "lang": [
+      "ku"
+    ]
+  },
+  "path": "/api/cloud/v1/companies",
+  "referer": "",
+  "reqID": 1,
+  "request": {
+    "code": "223423",
+    "detail": "",
+    "expiration": "2022-01-01T11:11:11.000Z",
+    "id2": 33,
+    "key": "123456",
+    "legal_name": "white-hill",
+    "license": "white-hill",
+    "name": "white-hill",
+    "phone": "9652925",
+    "plan": "",
+    "server": "127.0.0.1:9093",
+    "type": "multi branch with centeral finance"
+  },
+  "time": "2020-05-03T12:39:56+03:00",
+  "uri": "/api/cloud/v1/companies?lang=ku",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 350,
+  "latency": 11,
+  "level": "info",
+  "msg": "response",
+  "resID": 1,
+  "response": {
+    "data": {
+      "code": "223423",
+      "created_at": "2020-05-03T12:39:56+03:00",
+      "expiration": "2022-01-01T14:11:11+03:00",
+      "id": 1001,
+      "key": "123456",
+      "legal_name": "white-hill",
+      "license": "white-hill",
+      "name": "white-hill",
+      "phone": "9652925",
+      "type": "multi branch with centeral finance",
+      "updated_at": "2020-05-03T12:39:56+03:00"
+    },
+    "message": "company ba sarkawtooyi drwst kra"
+  },
+  "status": 200,
+  "time": "2020-05-03T12:39:56+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {
+    "lang": [
+      "ku"
+    ]
+  },
+  "path": "/api/cloud/v1/companies",
+  "referer": "",
+  "reqID": 2,
+  "request": {
+    "code": "223423",
+    "detail": "",
+    "expiration": "2022-01-01T11:11:11.000Z",
+    "id2": 33,
+    "key": "123456",
+    "legal_name": "muddy-river",
+    "license": "muddy-river",
+    "name": "muddy-river",
+    "phone": "638424",
+    "plan": "",
+    "server": "127.0.0.1:9093",
+    "type": "multi branch with centeral finance"
+  },
+  "time": "2020-05-03T12:39:56+03:00",
+  "uri": "/api/cloud/v1/companies?lang=ku",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 352,
+  "latency": 44,
+  "level": "info",
+  "msg": "response",
+  "resID": 2,
+  "response": {
+    "data": {
+      "code": "223423",
+      "created_at": "2020-05-03T12:39:57+03:00",
+      "expiration": "2022-01-01T14:11:11+03:00",
+      "id": 1002,
+      "key": "123456",
+      "legal_name": "muddy-river",
+      "license": "muddy-river",
+      "name": "muddy-river",
+      "phone": "638424",
+      "type": "multi branch with centeral finance",
+      "updated_at": "2020-05-03T12:39:57+03:00"
+    },
+    "message": "company ba sarkawtooyi drwst kra"
+  },
+  "status": 200,
+  "time": "2020-05-03T12:39:56+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {
+    "lang": [
+      "ku"
+    ]
+  },
+  "path": "/api/cloud/v1/companies",
+  "referer": "",
+  "reqID": 3,
+  "request": {
+    "code": "223423",
+    "detail": "",
+    "expiration": "2022-01-01T11:11:11.000Z",
+    "id2": 33,
+    "key": "123456",
+    "legal_name": "nameless-firefly",
+    "license": "nameless-firefly",
+    "name": "nameless-firefly",
+    "phone": "7901786",
+    "plan": "",
+    "server": "127.0.0.1:9093",
+    "type": "multi branch with centeral finance"
+  },
+  "time": "2020-05-03T12:39:56+03:00",
+  "uri": "/api/cloud/v1/companies?lang=ku",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 368,
+  "latency": 9,
+  "level": "info",
+  "msg": "response",
+  "resID": 3,
+  "response": {
+    "data": {
+      "code": "223423",
+      "created_at": "2020-05-03T12:39:57+03:00",
+      "expiration": "2022-01-01T14:11:11+03:00",
+      "id": 1003,
+      "key": "123456",
+      "legal_name": "nameless-firefly",
+      "license": "nameless-firefly",
+      "name": "nameless-firefly",
+      "phone": "7901786",
+      "type": "multi branch with centeral finance",
+      "updated_at": "2020-05-03T12:39:57+03:00"
+    },
+    "message": "company ba sarkawtooyi drwst kra"
+  },
+  "status": 200,
+  "time": "2020-05-03T12:39:56+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {
+    "lang": [
+      "ku"
+    ]
+  },
+  "path": "/api/cloud/v1/companies",
+  "referer": "",
+  "reqID": 4,
+  "request": {
+    "code": "223423",
+    "detail": "",
+    "expiration": "2022-01-01T11:11:11.000Z",
+    "id2": 33,
+    "key": "123456",
+    "legal_name": "long-fog",
+    "license": "long-fog",
+    "name": "long-fog",
+    "phone": "724011",
+    "plan": "",
+    "server": "127.0.0.1:9093",
+    "type": "multi branch with centeral finance"
+  },
+  "time": "2020-05-03T12:39:56+03:00",
+  "uri": "/api/cloud/v1/companies?lang=ku",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 343,
+  "latency": 9,
+  "level": "info",
+  "msg": "response",
+  "resID": 4,
+  "response": {
+    "data": {
+      "code": "223423",
+      "created_at": "2020-05-03T12:39:57+03:00",
+      "expiration": "2022-01-01T14:11:11+03:00",
+      "id": 1004,
+      "key": "123456",
+      "legal_name": "long-fog",
+      "license": "long-fog",
+      "name": "long-fog",
+      "phone": "724011",
+      "type": "multi branch with centeral finance",
+      "updated_at": "2020-05-03T12:39:57+03:00"
+    },
+    "message": "company ba sarkawtooyi drwst kra"
+  },
+  "status": 200,
+  "time": "2020-05-03T12:39:56+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {
+    "lang": [
+      "ku"
+    ]
+  },
+  "path": "/api/cloud/v1/nodes",
+  "referer": "",
+  "reqID": 1,
+  "request": {
+    "name": "throbbing-glade",
+    "phone": "1349544",
+    "type": "laptop"
+  },
+  "time": "2020-05-03T16:03:06+03:00",
+  "uri": "/api/cloud/v1/nodes?lang=ku",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 55,
+  "latency": 7,
+  "level": "info",
+  "msg": "response",
+  "resID": 1,
+  "response": {
+    "error": "route not found",
+    "message": "route booni nie"
+  },
+  "status": 404,
+  "time": "2020-05-03T16:03:06+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {
+    "lang": [
+      "ku"
+    ]
+  },
+  "path": "/api/cloud/v1/nodes",
+  "referer": "",
+  "reqID": 1,
+  "request": {
+    "name": "cold-surf",
+    "phone": "5923986",
+    "type": "laptop"
+  },
+  "time": "2020-05-03T16:06:15+03:00",
+  "uri": "/api/cloud/v1/nodes?lang=ku",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 226,
+  "latency": 61,
+  "level": "info",
+  "msg": "response",
+  "resID": 1,
+  "response": {
+    "data": {
+      "code": 102,
+      "created_at": "2020-05-03T16:06:16+03:00",
+      "id": 30,
+      "name": "cold-surf",
+      "phone": "5923986",
+      "status": "inactive",
+      "type": "laptop",
+      "updated_at": "2020-05-03T16:06:16+03:00"
+    },
+    "message": "node ba sarkawtooyi drwst kra"
+  },
+  "status": 200,
+  "time": "2020-05-03T16:06:16+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {
+    "lang": [
+      "ku"
+    ]
+  },
+  "path": "/api/cloud/v1/nodes",
+  "referer": "",
+  "reqID": 2,
+  "request": {
+    "name": "white-breeze",
+    "phone": "8724253",
+    "type": "laptop"
+  },
+  "time": "2020-05-03T16:06:17+03:00",
+  "uri": "/api/cloud/v1/nodes?lang=ku",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 108,
+  "latency": 10,
+  "level": "info",
+  "msg": "response",
+  "resID": 2,
+  "response": {
+    "error": "Error 1062: Duplicate entry '0-' for key 'idx_companyID_machineID'",
+    "message": "peshtr daxl krawa"
+  },
+  "status": 409,
+  "time": "2020-05-03T16:06:17+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {
+    "lang": [
+      "ku"
+    ]
+  },
+  "path": "/api/cloud/v1/nodes",
+  "referer": "",
+  "reqID": 3,
+  "request": {
+    "name": "shy-wind",
+    "phone": "2439295",
+    "type": "laptop"
+  },
+  "time": "2020-05-03T16:06:18+03:00",
+  "uri": "/api/cloud/v1/nodes?lang=ku",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 108,
+  "latency": 10,
+  "level": "info",
+  "msg": "response",
+  "resID": 3,
+  "response": {
+    "error": "Error 1062: Duplicate entry '0-' for key 'idx_companyID_machineID'",
+    "message": "peshtr daxl krawa"
+  },
+  "status": 409,
+  "time": "2020-05-03T16:06:18+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {
+    "lang": [
+      "ku"
+    ]
+  },
+  "path": "/api/cloud/v1/nodes",
+  "referer": "",
+  "reqID": 1,
+  "request": {
+    "name": "restless-dew",
+    "phone": "2714645",
+    "type": "laptop"
+  },
+  "time": "2020-05-03T16:13:12+03:00",
+  "uri": "/api/cloud/v1/nodes?lang=ku",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 108,
+  "latency": 10,
+  "level": "info",
+  "msg": "response",
+  "resID": 1,
+  "response": {
+    "error": "Error 1062: Duplicate entry '0-' for key 'idx_companyID_machineID'",
+    "message": "peshtr daxl krawa"
+  },
+  "status": 409,
+  "time": "2020-05-03T16:13:12+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {
+    "lang": [
+      "ku"
+    ]
+  },
+  "path": "/api/cloud/v1/nodes",
+  "referer": "",
+  "reqID": 2,
+  "request": {
+    "code": "3429712",
+    "machine_id": "green-glitter",
+    "name": "green-glitter",
+    "phone": "3429712",
+    "status": "active",
+    "type": "laptop"
+  },
+  "time": "2020-05-03T16:14:37+03:00",
+  "uri": "/api/cloud/v1/nodes?lang=ku",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 71,
+  "latency": 1,
+  "level": "info",
+  "msg": "response",
+  "resID": 2,
+  "response": {
+    "Field": "code",
+    "Offset": 17,
+    "Struct": "Node",
+    "Type": {},
+    "Value": "string"
+  },
+  "status": 406,
+  "time": "2020-05-03T16:14:37+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {
+    "lang": [
+      "ku"
+    ]
+  },
+  "path": "/api/cloud/v1/nodes",
+  "referer": "",
+  "reqID": 3,
+  "request": {
+    "code": "5950917",
+    "machine_id": "divine-water",
+    "name": "divine-water",
+    "phone": "5950917",
+    "status": "active",
+    "type": "laptop"
+  },
+  "time": "2020-05-03T16:14:38+03:00",
+  "uri": "/api/cloud/v1/nodes?lang=ku",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 71,
+  "latency": 1,
+  "level": "info",
+  "msg": "response",
+  "resID": 3,
+  "response": {
+    "Field": "code",
+    "Offset": 17,
+    "Struct": "Node",
+    "Type": {},
+    "Value": "string"
+  },
+  "status": 406,
+  "time": "2020-05-03T16:14:38+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {
+    "lang": [
+      "ku"
+    ]
+  },
+  "path": "/api/cloud/v1/nodes",
+  "referer": "",
+  "reqID": 4,
+  "request": {
+    "code": "4014759",
+    "machine_id": "lingering-glade",
+    "name": "lingering-glade",
+    "phone": "4014759",
+    "status": "active",
+    "type": "laptop"
+  },
+  "time": "2020-05-03T16:14:38+03:00",
+  "uri": "/api/cloud/v1/nodes?lang=ku",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 71,
+  "latency": 1,
+  "level": "info",
+  "msg": "response",
+  "resID": 4,
+  "response": {
+    "Field": "code",
+    "Offset": 17,
+    "Struct": "Node",
+    "Type": {},
+    "Value": "string"
+  },
+  "status": 406,
+  "time": "2020-05-03T16:14:38+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {
+    "lang": [
+      "ku"
+    ]
+  },
+  "path": "/api/cloud/v1/nodes",
+  "referer": "",
+  "reqID": 5,
+  "request": {
+    "code": 8761568,
+    "machine_id": "damp-butterfly",
+    "name": "damp-butterfly",
+    "phone": "8761568",
+    "status": "active",
+    "type": "laptop"
+  },
+  "time": "2020-05-03T16:14:57+03:00",
+  "uri": "/api/cloud/v1/nodes?lang=ku",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 259,
+  "latency": 9,
+  "level": "info",
+  "msg": "response",
+  "resID": 5,
+  "response": {
+    "data": {
+      "code": 103,
+      "created_at": "2020-05-03T16:14:58+03:00",
+      "id": 34,
+      "machine_id": "damp-butterfly",
+      "name": "damp-butterfly",
+      "phone": "8761568",
+      "status": "active",
+      "type": "laptop",
+      "updated_at": "2020-05-03T16:14:58+03:00"
+    },
+    "message": "node ba sarkawtooyi drwst kra"
+  },
+  "status": 200,
+  "time": "2020-05-03T16:14:57+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {
+    "lang": [
+      "ku"
+    ]
+  },
+  "path": "/api/cloud/v1/nodes",
+  "referer": "",
+  "reqID": 6,
+  "request": {
+    "code": 9377587,
+    "machine_id": "wispy-dew",
+    "name": "wispy-dew",
+    "phone": "9377587",
+    "status": "active",
+    "type": "laptop"
+  },
+  "time": "2020-05-03T16:14:58+03:00",
+  "uri": "/api/cloud/v1/nodes?lang=ku",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 249,
+  "latency": 10,
+  "level": "info",
+  "msg": "response",
+  "resID": 6,
+  "response": {
+    "data": {
+      "code": 104,
+      "created_at": "2020-05-03T16:14:58+03:00",
+      "id": 35,
+      "machine_id": "wispy-dew",
+      "name": "wispy-dew",
+      "phone": "9377587",
+      "status": "active",
+      "type": "laptop",
+      "updated_at": "2020-05-03T16:14:58+03:00"
+    },
+    "message": "node ba sarkawtooyi drwst kra"
+  },
+  "status": 200,
+  "time": "2020-05-03T16:14:58+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {
+    "lang": [
+      "ku"
+    ]
+  },
+  "path": "/api/cloud/v1/nodes",
+  "referer": "",
+  "reqID": 7,
+  "request": {
+    "code": 1634179,
+    "machine_id": "shy-smoke",
+    "name": "shy-smoke",
+    "phone": "1634179",
+    "status": "active",
+    "type": "laptop"
+  },
+  "time": "2020-05-03T16:14:58+03:00",
+  "uri": "/api/cloud/v1/nodes?lang=ku",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 249,
+  "latency": 4,
+  "level": "info",
+  "msg": "response",
+  "resID": 7,
+  "response": {
+    "data": {
+      "code": 105,
+      "created_at": "2020-05-03T16:14:59+03:00",
+      "id": 36,
+      "machine_id": "shy-smoke",
+      "name": "shy-smoke",
+      "phone": "1634179",
+      "status": "active",
+      "type": "laptop",
+      "updated_at": "2020-05-03T16:14:59+03:00"
+    },
+    "message": "node ba sarkawtooyi drwst kra"
+  },
+  "status": 200,
+  "time": "2020-05-03T16:14:58+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {
+    "lang": [
+      "ku"
+    ]
+  },
+  "path": "/api/cloud/v1/nodes",
+  "referer": "",
+  "reqID": 8,
+  "request": {
+    "code": 6249476,
+    "machine_id": "floral-hill",
+    "name": "floral-hill",
+    "phone": "6249476",
+    "status": "active",
+    "type": "laptop"
+  },
+  "time": "2020-05-03T16:14:58+03:00",
+  "uri": "/api/cloud/v1/nodes?lang=ku",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 253,
+  "latency": 5,
+  "level": "info",
+  "msg": "response",
+  "resID": 8,
+  "response": {
+    "data": {
+      "code": 106,
+      "created_at": "2020-05-03T16:14:59+03:00",
+      "id": 37,
+      "machine_id": "floral-hill",
+      "name": "floral-hill",
+      "phone": "6249476",
+      "status": "active",
+      "type": "laptop",
+      "updated_at": "2020-05-03T16:14:59+03:00"
+    },
+    "message": "node ba sarkawtooyi drwst kra"
+  },
+  "status": 200,
+  "time": "2020-05-03T16:14:58+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {
+    "lang": [
+      "ku"
+    ]
+  },
+  "path": "/api/cloud/v1/nodes",
+  "referer": "",
+  "reqID": 9,
+  "request": {
+    "code": 6685853,
+    "machine_id": "rough-feather",
+    "name": "rough-feather",
+    "phone": "6685853",
+    "status": "active",
+    "type": "laptop"
+  },
+  "time": "2020-05-03T16:14:59+03:00",
+  "uri": "/api/cloud/v1/nodes?lang=ku",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 257,
+  "latency": 9,
+  "level": "info",
+  "msg": "response",
+  "resID": 9,
+  "response": {
+    "data": {
+      "code": 107,
+      "created_at": "2020-05-03T16:14:59+03:00",
+      "id": 38,
+      "machine_id": "rough-feather",
+      "name": "rough-feather",
+      "phone": "6685853",
+      "status": "active",
+      "type": "laptop",
+      "updated_at": "2020-05-03T16:14:59+03:00"
+    },
+    "message": "node ba sarkawtooyi drwst kra"
+  },
+  "status": 200,
+  "time": "2020-05-03T16:14:59+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {
+    "lang": [
+      "ku"
+    ]
+  },
+  "path": "/api/cloud/v1/nodes",
+  "referer": "",
+  "reqID": 10,
+  "request": {
+    "code": 7156880,
+    "machine_id": "dark-mountain",
+    "name": "dark-mountain",
+    "phone": "7156880",
+    "status": "active",
+    "type": "laptop"
+  },
+  "time": "2020-05-03T16:14:59+03:00",
+  "uri": "/api/cloud/v1/nodes?lang=ku",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 257,
+  "latency": 9,
+  "level": "info",
+  "msg": "response",
+  "resID": 10,
+  "response": {
+    "data": {
+      "code": 108,
+      "created_at": "2020-05-03T16:14:59+03:00",
+      "id": 39,
+      "machine_id": "dark-mountain",
+      "name": "dark-mountain",
+      "phone": "7156880",
+      "status": "active",
+      "type": "laptop",
+      "updated_at": "2020-05-03T16:14:59+03:00"
+    },
+    "message": "node ba sarkawtooyi drwst kra"
+  },
+  "status": 200,
+  "time": "2020-05-03T16:14:59+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {
+    "lang": [
+      "ku"
+    ]
+  },
+  "path": "/api/cloud/v1/nodes",
+  "referer": "",
+  "reqID": 11,
+  "request": {
+    "code": 7803113,
+    "machine_id": "empty-frost",
+    "name": "empty-frost",
+    "phone": "7803113",
+    "status": "active",
+    "type": "laptop"
+  },
+  "time": "2020-05-03T16:14:59+03:00",
+  "uri": "/api/cloud/v1/nodes?lang=ku",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 253,
+  "latency": 4,
+  "level": "info",
+  "msg": "response",
+  "resID": 11,
+  "response": {
+    "data": {
+      "code": 109,
+      "created_at": "2020-05-03T16:15:00+03:00",
+      "id": 40,
+      "machine_id": "empty-frost",
+      "name": "empty-frost",
+      "phone": "7803113",
+      "status": "active",
+      "type": "laptop",
+      "updated_at": "2020-05-03T16:15:00+03:00"
+    },
+    "message": "node ba sarkawtooyi drwst kra"
+  },
+  "status": 200,
+  "time": "2020-05-03T16:14:59+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {
+    "lang": [
+      "ku"
+    ]
+  },
+  "path": "/api/cloud/v1/nodes",
+  "referer": "",
+  "reqID": 12,
+  "request": {
+    "code": 4168850,
+    "machine_id": "divine-sea",
+    "name": "divine-sea",
+    "phone": "4168850",
+    "status": "active",
+    "type": "laptop"
+  },
+  "time": "2020-05-03T16:14:59+03:00",
+  "uri": "/api/cloud/v1/nodes?lang=ku",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 251,
+  "latency": 5,
+  "level": "info",
+  "msg": "response",
+  "resID": 12,
+  "response": {
+    "data": {
+      "code": 110,
+      "created_at": "2020-05-03T16:15:00+03:00",
+      "id": 41,
+      "machine_id": "divine-sea",
+      "name": "divine-sea",
+      "phone": "4168850",
+      "status": "active",
+      "type": "laptop",
+      "updated_at": "2020-05-03T16:15:00+03:00"
+    },
+    "message": "node ba sarkawtooyi drwst kra"
+  },
+  "status": 200,
+  "time": "2020-05-03T16:14:59+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {
+    "lang": [
+      "ku"
+    ]
+  },
+  "path": "/api/cloud/v1/nodes",
+  "referer": "",
+  "reqID": 13,
+  "request": {
+    "code": 6802125,
+    "machine_id": "hidden-cloud",
+    "name": "hidden-cloud",
+    "phone": "6802125",
+    "status": "active",
+    "type": "laptop"
+  },
+  "time": "2020-05-03T16:15:00+03:00",
+  "uri": "/api/cloud/v1/nodes?lang=ku",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 255,
+  "latency": 5,
+  "level": "info",
+  "msg": "response",
+  "resID": 13,
+  "response": {
+    "data": {
+      "code": 111,
+      "created_at": "2020-05-03T16:15:00+03:00",
+      "id": 42,
+      "machine_id": "hidden-cloud",
+      "name": "hidden-cloud",
+      "phone": "6802125",
+      "status": "active",
+      "type": "laptop",
+      "updated_at": "2020-05-03T16:15:00+03:00"
+    },
+    "message": "node ba sarkawtooyi drwst kra"
+  },
+  "status": 200,
+  "time": "2020-05-03T16:15:00+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {
+    "lang": [
+      "ku"
+    ]
+  },
+  "path": "/api/cloud/v1/nodes",
+  "referer": "",
+  "reqID": 14,
+  "request": {
+    "code": 2048271,
+    "machine_id": "fragrant-shadow",
+    "name": "fragrant-shadow",
+    "phone": "2048271",
+    "status": "active",
+    "type": "laptop"
+  },
+  "time": "2020-05-03T16:15:00+03:00",
+  "uri": "/api/cloud/v1/nodes?lang=ku",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 261,
+  "latency": 9,
+  "level": "info",
+  "msg": "response",
+  "resID": 14,
+  "response": {
+    "data": {
+      "code": 112,
+      "created_at": "2020-05-03T16:15:00+03:00",
+      "id": 43,
+      "machine_id": "fragrant-shadow",
+      "name": "fragrant-shadow",
+      "phone": "2048271",
+      "status": "active",
+      "type": "laptop",
+      "updated_at": "2020-05-03T16:15:00+03:00"
+    },
+    "message": "node ba sarkawtooyi drwst kra"
+  },
+  "status": 200,
+  "time": "2020-05-03T16:15:00+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {
+    "lang": [
+      "ku"
+    ]
+  },
+  "path": "/api/cloud/v1/companies",
+  "referer": "",
+  "reqID": 15,
+  "request": {
+    "code": "223423",
+    "detail": "",
+    "expiration": "2022-01-01T11:11:11.000Z",
+    "id2": 33,
+    "key": "123456",
+    "legal_name": "green-leaf",
+    "license": "green-leaf",
+    "name": "green-leaf",
+    "phone": "2462151",
+    "plan": "",
+    "server": "127.0.0.1:9093",
+    "type": "multi branch with centeral finance"
+  },
+  "time": "2020-05-03T16:19:32+03:00",
+  "uri": "/api/cloud/v1/companies?lang=ku",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 350,
+  "latency": 10,
+  "level": "info",
+  "msg": "response",
+  "resID": 15,
+  "response": {
+    "data": {
+      "code": "223423",
+      "created_at": "2020-05-03T16:19:33+03:00",
+      "expiration": "2022-01-01T14:11:11+03:00",
+      "id": 1005,
+      "key": "123456",
+      "legal_name": "green-leaf",
+      "license": "green-leaf",
+      "name": "green-leaf",
+      "phone": "2462151",
+      "type": "multi branch with centeral finance",
+      "updated_at": "2020-05-03T16:19:33+03:00"
+    },
+    "message": "company ba sarkawtooyi drwst kra"
+  },
+  "status": 200,
+  "time": "2020-05-03T16:19:32+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {
+    "lang": [
+      "ku"
+    ]
+  },
+  "path": "/api/cloud/v1/companies",
+  "referer": "",
+  "reqID": 16,
+  "request": {
+    "code": "223423",
+    "detail": "",
+    "expiration": "2022-01-01T11:11:11.000Z",
+    "id2": 33,
+    "key": "123456",
+    "legal_name": "twilight-voice",
+    "license": "twilight-voice",
+    "name": "twilight-voice",
+    "phone": "1490540",
+    "plan": "",
+    "server": "127.0.0.1:9093",
+    "type": "multi branch with centeral finance"
+  },
+  "time": "2020-05-03T16:19:33+03:00",
+  "uri": "/api/cloud/v1/companies?lang=ku",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 362,
+  "latency": 10,
+  "level": "info",
+  "msg": "response",
+  "resID": 16,
+  "response": {
+    "data": {
+      "code": "223423",
+      "created_at": "2020-05-03T16:19:33+03:00",
+      "expiration": "2022-01-01T14:11:11+03:00",
+      "id": 1006,
+      "key": "123456",
+      "legal_name": "twilight-voice",
+      "license": "twilight-voice",
+      "name": "twilight-voice",
+      "phone": "1490540",
+      "type": "multi branch with centeral finance",
+      "updated_at": "2020-05-03T16:19:33+03:00"
+    },
+    "message": "company ba sarkawtooyi drwst kra"
+  },
+  "status": 200,
+  "time": "2020-05-03T16:19:33+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {
+    "lang": [
+      "ku"
+    ]
+  },
+  "path": "/api/cloud/v1/companies",
+  "referer": "",
+  "reqID": 17,
+  "request": {
+    "code": "223423",
+    "detail": "",
+    "expiration": "2022-01-01T11:11:11.000Z",
+    "id2": 33,
+    "key": "123456",
+    "legal_name": "silent-dawn",
+    "license": "silent-dawn",
+    "name": "silent-dawn",
+    "phone": "1268012",
+    "plan": "",
+    "server": "127.0.0.1:9093",
+    "type": "multi branch with centeral finance"
+  },
+  "time": "2020-05-03T16:19:33+03:00",
+  "uri": "/api/cloud/v1/companies?lang=ku",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 353,
+  "latency": 11,
+  "level": "info",
+  "msg": "response",
+  "resID": 17,
+  "response": {
+    "data": {
+      "code": "223423",
+      "created_at": "2020-05-03T16:19:33+03:00",
+      "expiration": "2022-01-01T14:11:11+03:00",
+      "id": 1007,
+      "key": "123456",
+      "legal_name": "silent-dawn",
+      "license": "silent-dawn",
+      "name": "silent-dawn",
+      "phone": "1268012",
+      "type": "multi branch with centeral finance",
+      "updated_at": "2020-05-03T16:19:33+03:00"
+    },
+    "message": "company ba sarkawtooyi drwst kra"
+  },
+  "status": 200,
+  "time": "2020-05-03T16:19:33+03:00"
+}

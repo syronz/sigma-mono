@@ -3,12 +3,12 @@ package service
 import (
 	"fmt"
 	"net/http"
-	"radiusbilling/internal/core"
-	"radiusbilling/internal/enum/action"
-	"radiusbilling/internal/param"
-	"radiusbilling/internal/term"
-	"radiusbilling/model"
-	"radiusbilling/repo"
+	"sigmamono/internal/core"
+	"sigmamono/internal/enum/action"
+	"sigmamono/internal/param"
+	"sigmamono/internal/term"
+	"sigmamono/model"
+	"sigmamono/repo"
 )
 
 // RoleServ for injecting auth repo

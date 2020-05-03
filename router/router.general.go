@@ -1,8 +1,8 @@
 package router
 
 import (
-	"radiusbilling/internal/core"
-	// "radiusbilling/internal/middleware"
+	"sigmamono/internal/core"
+	// "sigmamono/internal/middleware"
 
 	"github.com/gin-gonic/gin"
 )

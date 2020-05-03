@@ -1,12 +1,12 @@
 package repo
 
 import (
-	"radiusbilling/dto"
-	"radiusbilling/internal/core"
-	"radiusbilling/internal/param"
-	"radiusbilling/internal/search"
-	"radiusbilling/internal/types"
-	"radiusbilling/model"
+	"sigmamono/dto"
+	"sigmamono/internal/core"
+	"sigmamono/internal/param"
+	"sigmamono/internal/search"
+	"sigmamono/internal/types"
+	"sigmamono/model"
 )
 
 // UserRepo for injecting engine

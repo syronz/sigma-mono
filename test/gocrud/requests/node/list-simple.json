@@ -1,0 +1,7 @@
+{
+	"method":"get",
+	"url":"_URL_/nodes?select=nodes.name,nodes.id",
+	"url":"_URL_/nodes",
+	"authorization":"Bearer _TOKEN_",
+	"payload": {}
+}

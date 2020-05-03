@@ -1,0 +1,16 @@
+{
+  "method":"put",
+  "url":"_URL_/nodes/125?lang=ku",
+  "authorization":"Bearer _TOKEN_",
+  "payload": {
+    "company_id":1001,
+    "type":"multi branch with centeral finance",
+    "name": "Updated>>>>>>>>>>>",
+    "server": "127.0.0.1:9093",
+    "expiration":"2022-01-01",
+    "plan":"",
+    "detail":"this is detail",
+    "phone": "_RANDOM_NUMBER_",
+    "key":"123456"
+  }
+}

@@ -1385,3 +1385,428 @@
   "msg": "",
   "time": "2020-05-02T23:54:59+03:00"
 }
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:36",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T11:40:43+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:36",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T11:46:10+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:36",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T11:47:36+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:36",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T11:50:20+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:36",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T12:26:33+03:00"
+}
+{
+  "err": "Error 1062: Duplicate entry '' for key 'license'",
+  "file": "service/company.serv.go:77",
+  "level": "info",
+  "msg": "Failed in creating company for {GormCol:{ID:1002 CreatedAt:\u003cnil\u003e UpdatedAt:\u003cnil\u003e DeletedAt:\u003cnil\u003e} Name:small-haze LegalName:small-haze Key:123456 Expiration:2022-01-01 11:11:11 +0000 UTC License: Detail: Phone:3402862 Email: Website: Type:multi branch with centeral finance Code: Extra:\u003cnil\u003e Error:\u003cnil\u003e}",
+  "time": "2020-05-03T12:31:12+03:00"
+}
+{
+  "err": "Error 1062: Duplicate entry '' for key 'license'",
+  "file": "service/company.serv.go:77",
+  "level": "info",
+  "msg": "Failed in creating company for {GormCol:{ID:1002 CreatedAt:\u003cnil\u003e UpdatedAt:\u003cnil\u003e DeletedAt:\u003cnil\u003e} Name:little-forest LegalName:little-forest Key:123456 Expiration:2022-01-01 11:11:11 +0000 UTC License: Detail: Phone:4909998 Email: Website: Type:multi branch with centeral finance Code: Extra:\u003cnil\u003e Error:\u003cnil\u003e}",
+  "time": "2020-05-03T12:31:12+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:36",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T12:38:02+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:36",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T12:38:57+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:36",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T12:39:06+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:36",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T12:39:14+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:38",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T12:39:34+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:38",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T12:39:52+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:38",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T12:41:45+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:38",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T12:47:30+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:38",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T12:49:10+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:38",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T12:49:49+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:38",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T12:51:37+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:38",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T12:51:51+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:38",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T12:51:59+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:38",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T12:52:17+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:38",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T12:52:22+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:38",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T12:52:28+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:38",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T12:52:32+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:38",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T12:52:46+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T13:00:29+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T13:08:13+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T13:08:59+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T13:09:02+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T13:10:40+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T13:10:55+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T13:12:00+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T13:12:10+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T13:23:40+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T16:03:53+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T16:06:12+03:00"
+}
+{
+  "err": "Error 1062: Duplicate entry '0-' for key 'idx_companyID_machineID'",
+  "file": "service/node.serv.go:85",
+  "level": "info",
+  "msg": "Failed in creating node for {GormCol:{ID:0 CreatedAt:\u003cnil\u003e UpdatedAt:\u003cnil\u003e DeletedAt:\u003cnil\u003e} CompanyID:0 Code:103 Type:laptop Name:white-breeze MachineID: Status: Phone:8724253 Extra:map[] Error:\u003cnil\u003e CompanyName:}",
+  "time": "2020-05-03T16:06:17+03:00"
+}
+{
+  "err": "Error 1062: Duplicate entry '0-' for key 'idx_companyID_machineID'",
+  "file": "service/node.serv.go:85",
+  "level": "info",
+  "msg": "Failed in creating node for {GormCol:{ID:0 CreatedAt:\u003cnil\u003e UpdatedAt:\u003cnil\u003e DeletedAt:\u003cnil\u003e} CompanyID:0 Code:103 Type:laptop Name:shy-wind MachineID: Status: Phone:2439295 Extra:map[] Error:\u003cnil\u003e CompanyName:}",
+  "time": "2020-05-03T16:06:18+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T16:12:46+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T16:13:03+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T16:13:06+03:00"
+}
+{
+  "err": "Error 1062: Duplicate entry '0-' for key 'idx_companyID_machineID'",
+  "file": "service/node.serv.go:85",
+  "level": "info",
+  "msg": "Failed in creating node for {GormCol:{ID:0 CreatedAt:\u003cnil\u003e UpdatedAt:\u003cnil\u003e DeletedAt:\u003cnil\u003e} CompanyID:0 Code:103 Type:laptop Name:restless-dew MachineID: Status: Phone:2714645 Extra:map[] Error:\u003cnil\u003e CompanyName:}",
+  "time": "2020-05-03T16:13:12+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T16:21:29+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T16:21:43+03:00"
+}

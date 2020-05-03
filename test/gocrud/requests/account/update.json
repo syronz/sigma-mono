@@ -1,0 +1,14 @@
+{
+  "method":"put",
+  "url":"_URL_/accounts/1001101000000002?lang=ku",
+  "authorization":"Bearer _TOKEN_",
+  "payload": {
+    "company_id":1001,
+    "node_id":102,
+    "name":"_RANDOM_NAME_",
+    "code":_RANDOM_NUMBER_,
+    "type": "asset",
+    "status": "active",
+    "direction": "direct"
+  }
+}

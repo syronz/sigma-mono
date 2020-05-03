@@ -1,8 +1,8 @@
 package initiate
 
 import (
-	"radiusbilling/internal/core"
-	"radiusbilling/model"
+	"sigmamono/internal/core"
+	"sigmamono/model"
 )
 
 // Migrate the database for creating tables

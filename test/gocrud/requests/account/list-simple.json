@@ -1,0 +1,7 @@
+{
+	"method":"get",
+	"url":"_URL_/accounts?select=accounts.name,accounts.id",
+	"url":"_URL_/accounts",
+	"authorization":"Bearer _TOKEN_",
+	"payload": {}
+}

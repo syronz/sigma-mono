@@ -4,12 +4,12 @@ import (
 	"fmt"
 	"log"
 	"net/http"
-	"radiusbilling/internal/core"
-	"radiusbilling/internal/middleware"
-	"radiusbilling/internal/response"
-	"radiusbilling/internal/term"
-	"radiusbilling/router"
-	// "radiusbilling/internal/types"
+	"sigmamono/internal/core"
+	"sigmamono/internal/middleware"
+	"sigmamono/internal/response"
+	"sigmamono/internal/term"
+	"sigmamono/router"
+	// "sigmamono/internal/types"
 
 	"github.com/gin-contrib/cors"
 

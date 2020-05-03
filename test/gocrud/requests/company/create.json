@@ -1,0 +1,20 @@
+{
+  "method":"post",
+  "url":"_URL_/companies?lang=ku",
+  "authorization":"Bearer _TOKEN_",
+  "payload": {
+    "id2":33,
+    "type":"multi branch with centeral finance",
+    "name": "_RANDOM_NAME_",
+    "legal_name": "_RANDOM_NAME_",
+    "server": "127.0.0.1:9093",
+    "expiration":"2022-01-01T11:11:11.000Z",
+    "license":"_RANDOM_NAME_",
+    "plan":"",
+    "detail":"",
+    "phone": "_RANDOM_NUMBER_",
+    "key":"123456",
+    "code":"223423"
+  }
+}
+

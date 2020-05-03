@@ -2,7 +2,7 @@ package search
 
 import (
 	"fmt"
-	"radiusbilling/internal/param"
+	"sigmamono/internal/param"
 	"strings"
 )
 

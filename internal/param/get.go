@@ -1,8 +1,9 @@
 package param
 
 import (
-	"radiusbilling/internal/core"
-	"radiusbilling/internal/types"
+	"sigmamono/internal/core"
+	"sigmamono/internal/term"
+	"sigmamono/internal/types"
 	"strconv"
 	"strings"
 
@@ -30,6 +31,19 @@ func Get(c *gin.Context, engine *core.Engine, part string) (param Param) {
 	if ok {
 		param.Language = language.(string)
 	}
+
+	companyIDTmp, ok := c.Get("COMPANY_ID")
+	if !ok {
+		engine.CheckInfo(err, term.CompanyID_not_exist_in_context)
+	}
+
+	nodeCodeTmp, ok := c.Get("NODE_CODE")
+	if !ok {
+		engine.CheckInfo(err, term.NodeCode_not_exist_in_context)
+	}
+
+	param.CompanyID = companyIDTmp.(types.RowID)
+	param.NodeCode = nodeCodeTmp.(uint64)
 
 	return param
 }

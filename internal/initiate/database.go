@@ -2,7 +2,7 @@ package initiate
 
 import (
 	"log"
-	"radiusbilling/internal/core"
+	"sigmamono/internal/core"
 
 	"github.com/gin-gonic/gin"
 	"github.com/jinzhu/gorm"

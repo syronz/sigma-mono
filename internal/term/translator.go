@@ -2,7 +2,7 @@ package term
 
 import (
 	"fmt"
-	"radiusbilling/internal/enum/lang"
+	"sigmamono/internal/enum/lang"
 )
 
 // Term is list of languages

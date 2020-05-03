@@ -2,11 +2,11 @@ package middleware
 
 import (
 	"net/http"
-	"radiusbilling/internal/core"
+	"sigmamono/internal/core"
 
-	"radiusbilling/internal/response"
-	"radiusbilling/internal/term"
-	"radiusbilling/internal/types"
+	"sigmamono/internal/response"
+	"sigmamono/internal/term"
+	"sigmamono/internal/types"
 
 	"github.com/dgrijalva/jwt-go"
 	"github.com/gin-gonic/gin"

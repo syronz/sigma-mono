@@ -3,10 +3,10 @@ package core
 import (
 	"encoding/json"
 	"fmt"
-	"radiusbilling/env"
-	"radiusbilling/internal/enum/event"
-	"radiusbilling/internal/enum/lang"
-	"radiusbilling/internal/term"
+	"sigmamono/env"
+	"sigmamono/internal/enum/event"
+	"sigmamono/internal/enum/lang"
+	"sigmamono/internal/term"
 
 	"github.com/gin-gonic/gin"
 	"github.com/jinzhu/gorm"

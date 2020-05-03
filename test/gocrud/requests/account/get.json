@@ -1,0 +1,6 @@
+{
+	"method":"get",
+	"url":"_URL_/accounts/10011001000000009?lang=ar",
+	"authorization":"Bearer _TOKEN_",
+	"payload": {}
+}

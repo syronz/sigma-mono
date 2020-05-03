@@ -2,7 +2,7 @@ package core
 
 import (
 	"fmt"
-	"radiusbilling/internal/enum/lang"
+	"sigmamono/internal/enum/lang"
 )
 
 // FieldError is a type of error for demonstrate binding problem

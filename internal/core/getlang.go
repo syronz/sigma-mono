@@ -1,7 +1,7 @@
 package core
 
 import (
-	"radiusbilling/internal/enum/lang"
+	"sigmamono/internal/enum/lang"
 
 	"github.com/gin-gonic/gin"
 )

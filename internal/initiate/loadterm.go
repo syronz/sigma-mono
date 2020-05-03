@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"log"
 	"os"
-	"radiusbilling/internal/core"
-	"radiusbilling/internal/term"
+	"sigmamono/internal/core"
+	"sigmamono/internal/term"
 )
 
 // LoadTerms terms and put in the main map

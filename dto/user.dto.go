@@ -1,6 +1,6 @@
 package dto
 
-import "radiusbilling/model"
+import "sigmamono/model"
 
 // UserDto is used inside the list
 type UserDto struct {

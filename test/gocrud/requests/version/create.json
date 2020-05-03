@@ -1,0 +1,14 @@
+{
+  "method":"post",
+  "url":"_URL_/versions?lang=ku",
+  "authorization":"Bearer _TOKEN_",
+  "payload": {
+    "name": "_RANDOM_NAME_",
+    "features": "_RANDOM_NAME_",
+    "month_expire":12,
+    "node_count":10,
+    "user_count":20,
+    "location_count":5,
+    "description": "_RANDOM_NUMBER_"
+  }
+}

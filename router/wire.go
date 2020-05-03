@@ -3,10 +3,10 @@
 package router
 
 import (
-	"radiusbilling/api"
-	"radiusbilling/internal/core"
-	"radiusbilling/repo"
-	"radiusbilling/service"
+	"sigmamono/api"
+	"sigmamono/internal/core"
+	"sigmamono/repo"
+	"sigmamono/service"
 
 	"github.com/google/wire"
 )
@@ -24,4 +24,10 @@ func initUserAPI(engine *core.Engine) api.UserAPI {
 // func initSettingAPI(engine *core.Engine) api.SettingAPI {
 // 	wire.Build(repo.ProvideSettingRepo, service.ProvideSettingService, api.ProvideSettingAPI)
 // 	return api.SettingAPI{}
+// }
+
+// func initCompanyAPI(e *core.Engine) api.CompanyAPI {
+// 	wire.Build(repo.ProvideCompanyRepo, service.ProvideCompanyService,
+// 		api.ProvideCompanyAPI)
+// 	return api.CompanyAPI{}
 // }

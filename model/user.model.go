@@ -1,13 +1,13 @@
 package model
 
 import (
-	"radiusbilling/internal/core"
-	"radiusbilling/internal/enum/action"
-	"radiusbilling/internal/enum/lang"
-	"radiusbilling/internal/term"
-	"radiusbilling/internal/types"
-	"radiusbilling/utils/helper"
 	"regexp"
+	"sigmamono/internal/core"
+	"sigmamono/internal/enum/action"
+	"sigmamono/internal/enum/lang"
+	"sigmamono/internal/term"
+	"sigmamono/internal/types"
+	"sigmamono/utils/helper"
 	"strings"
 )
 

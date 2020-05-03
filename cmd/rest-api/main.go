@@ -1,9 +1,9 @@
 package main
 
 import (
-	"radiusbilling/cmd/rest-api/server"
-	"radiusbilling/internal/initiate"
-	"radiusbilling/internal/logparam"
+	"sigmamono/cmd/rest-api/server"
+	"sigmamono/internal/initiate"
+	"sigmamono/internal/logparam"
 
 	_ "github.com/jinzhu/gorm/dialects/mysql"
 	_ "github.com/jinzhu/gorm/dialects/postgres"
