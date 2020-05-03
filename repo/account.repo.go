@@ -2,11 +2,11 @@ package repo
 
 import (
 	"fmt"
-	"sigma/domain/core"
-	"sigma/internal/param"
-	"sigma/internal/search"
-	"sigma/internal/types"
-	"sigma/model"
+	"sigmamono/internal/core"
+	"sigmamono/internal/param"
+	"sigmamono/internal/search"
+	"sigmamono/internal/types"
+	"sigmamono/model"
 )
 
 // AccountRepo for injecting engine

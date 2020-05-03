@@ -4,7 +4,7 @@
   "authorization":"Bearer _TOKEN_",
   "payload": {
     "parent_id":1001101000000012,
-    "name":"RANDOM_NAME_",
+    "name":"_RANDOM_NAME_",
     "code":_RANDOM_NUMBER_,
     "type": "asset",
     "status": "active",

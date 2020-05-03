@@ -22,8 +22,8 @@ func ProvideRoleRepo(engine *core.Engine) RoleRepo {
 }
 
 // FindByID for role
-func (p *RoleRepo) FindByID(id uint64) (role model.Role, err error) {
-	err = p.Engine.DB.First(&role, id).Error
+func (p *RoleRepo) FindByID(id types.RowID) (role model.Role, err error) {
+	err = p.Engine.DB.First(&role, id.ToUint64()).Error
 	return
 }
 
@@ -36,6 +36,7 @@ func (p *RoleRepo) List(params param.Param) (roles []model.Role, err error) {
 
 	err = p.Engine.DB.Select(columns).
 		Joins("INNER JOIN companies on companies.id = roles.company_id").
+		Where("roles.company_id = ?", params.CompanyID).
 		Where(search.Parse(params, model.Role{}.Pattern())).
 		Order(params.Order).
 		Limit(params.Limit).
@@ -50,6 +51,7 @@ func (p *RoleRepo) Count(params param.Param) (count uint64, err error) {
 	err = p.Engine.DB.Table("roles").
 		Select(params.Select).
 		Where("deleted_at is null").
+		Where("roles.company_id = ?", params.CompanyID).
 		Where(search.Parse(params, model.Role{}.Pattern())).
 		Count(&count).Error
 	return

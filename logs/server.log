@@ -1810,3 +1810,3490 @@
   "msg": "",
   "time": "2020-05-03T16:21:43+03:00"
 }
+{
+  "err": "Error 1406: Data too long for column 'key' at row 1",
+  "file": "service/company.serv.go:90",
+  "level": "info",
+  "msg": "Failed in updating company for {GormCol:{ID:1001 CreatedAt:\u003cnil\u003e UpdatedAt:\u003cnil\u003e DeletedAt:\u003cnil\u003e} Name:Base LegalName:Base Key:08595aa978f4c6d40bb3f75950288117726588811287504fe9acc89ce752fe90290d2e2ec0c64efa4f8b9e94af7d574255bf591d8e5b02079c22385b2fcbfcf1ef7378bb2c3a1868a5e23a2ffdd6c0b3ccd4c959d7e63dbc18651521fa25823a54662a51c28b3df0ed431abaf72c27ac33ce338b9c3a3511d481e4048318b9c519ee36b5a40ba54f0b33f0f3b456a1efd774066eef92a3b6c6c043910888372a77c92174fb88cd8fa9ad81c6a3c2395e8c22238d4843cb8b9811d6fae7f0dc51ff6179181813cc1eb1682194bf3b85871458104c585c4276dc6fa4de14582f62d309f07d9e978cc8685b8423ce6719cc214a2ca19ac165f02c5c6a5cf0fe189e625144a39622fed128dd42da881d042041b330e8c4882145b9b676020217afc1c34a382dea459f21f81984fb93943ca976f01d678ff00899d5cb97240be8babc2549b8752a95a339e9b32b43caa1d74a16512b9bc986eea6daecdb4301c417fbd41866db813e54ae944f1ee699d89cf3bd723904c694b79c47da23ce5c16e36b9222b56d8f115f19d17f0808ca8c0329442b6776eb90701a9d16c19639e32a74f6bf39f309a220c4cb4fb28a306b280e9d5479e7841da228c4573c505c026a9a7994b6cf8cb8865f2ae7ee1de2468d8e8b024144e98f5a8da341dbc94c526334f9df16899320aefcc98e87c8d38c72b93bf50283bac6cb66ec99327fca03bc34196c53f91a7b85eb60386e4728462c593c0073d3215c8dc1a68ceba692294f9446179c4976279445b923ff8fe63931d6286e5efcf0b08513756773631261a96173f2eeda5470cf92c1443069d546b10deb6f139863d51af7404c72de8849c1831731cfe1e99374fc9e330ef7099a916451aeaa9e918e87a8f6d6182336c937833d978673252094c77749a221004c07abcf3b405db78dad97fc942dcf8ee2ac5970b95be37a944c6e6b13871462090864ea747bd96fee9a801369d089c9de490047bbf4c604ee9daa88525f949e8c83c3674dd4b306baffd9eaef7a3646e7ff8f40b6afec802d0e3da8b957c35d949ac8b510625aecf0734bfd5da0881a6c69eeffdc4e826fd287dafb20043896ff1edd395333fffb8776783bffde1ed5647973 Expiration:2120-05-03 19:21:18.416046301 +0300 +03 License: Detail: Phone:07505149171 Email: Website: Type:base Code: Extra:\u003cnil\u003e Error:\u003cnil\u003e}",
+  "time": "2020-05-03T19:21:18+03:00"
+}
+{
+  "file": "table/companies.go:35",
+  "level": "fatal",
+  "msg": "Error 1406: Data too long for column 'key' at row 1",
+  "time": "2020-05-03T19:21:18+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T19:22:27+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T19:32:43+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T19:33:50+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T19:33:54+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T19:34:01+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T19:34:21+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T19:35:53+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T19:40:32+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T19:40:56+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T19:41:20+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T19:41:53+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T19:43:09+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T19:44:22+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T19:44:48+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T19:45:44+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "\u003e\u003e\u003e\u003e\u003e\u003e\u003e\u003e\u003e\u003e\u003e\u003e\u003e\u003e\u003e\u003e\u003e\u003e\u003e\u003e\u003e\u003e\u003e\u003e\u003e\u003e\u003e\u003e\u003e\u003e\u003e\u003e\u003e\u003e\u003e"
+  },
+  "file": "middleware/authguard.go:19",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T19:45:44+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T19:45:57+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": ".........................................."
+  },
+  "file": "middleware/authguard.go:19",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T19:45:57+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T19:46:07+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T19:47:12+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T19:47:53+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": ".........................................."
+  },
+  "file": "middleware/authguard.go:23",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T19:47:55+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": ".........................................."
+  },
+  "file": "middleware/authguard.go:23",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T19:47:58+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T19:48:19+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": ".........................................."
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T19:48:20+03:00"
+}
+{
+  "data": {
+    "type": "*types.JWTClaims",
+    "value": {
+      "company_id": 1017,
+      "exp": 1591602132,
+      "id": 1017102000000001,
+      "language": "ku",
+      "node_code": 102,
+      "username": "diako2"
+    }
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T19:48:20+03:00"
+}
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             {
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T20:06:10+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": ".........................................."
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T20:12:10+03:00"
+}
+{
+  "data": {
+    "type": "*types.JWTClaims",
+    "value": {
+      "company_id": 1017,
+      "exp": 1591602132,
+      "id": 1017102000000001,
+      "language": "ku",
+      "node_code": 102,
+      "username": "diako2"
+    }
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T20:12:10+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": ".........................................."
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T20:12:11+03:00"
+}
+{
+  "data": {
+    "type": "*types.JWTClaims",
+    "value": {
+      "company_id": 1017,
+      "exp": 1591602132,
+      "id": 1017102000000001,
+      "language": "ku",
+      "node_code": 102,
+      "username": "diako2"
+    }
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T20:12:11+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": ".........................................."
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T20:12:17+03:00"
+}
+{
+  "data": {
+    "type": "*types.JWTClaims",
+    "value": {
+      "company_id": 1017,
+      "exp": 1591602132,
+      "id": 1017102000000001,
+      "language": "ku",
+      "node_code": 102,
+      "username": "diako2"
+    }
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T20:12:17+03:00"
+}
+{
+  "err": "Error 1054: Unknown column 'company_id' in 'field list'",
+  "file": "service/role.serv.go:76",
+  "level": "info",
+  "msg": "Failed in creating role for {FixedCol:{ID:1017102000000001 CreatedAt:\u003cnil\u003e UpdatedAt:\u003cnil\u003e DeletedAt:\u003cnil\u003e} CompanyID:1017 NodeCode:102 Name:young-night 6719927 Resources:young-night Description:6719927 Error:\u003cnil\u003e}",
+  "time": "2020-05-03T20:12:17+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": ".........................................."
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T20:12:18+03:00"
+}
+{
+  "data": {
+    "type": "*types.JWTClaims",
+    "value": {
+      "company_id": 1017,
+      "exp": 1591602132,
+      "id": 1017102000000001,
+      "language": "ku",
+      "node_code": 102,
+      "username": "diako2"
+    }
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T20:12:18+03:00"
+}
+{
+  "err": "Error 1054: Unknown column 'company_id' in 'field list'",
+  "file": "service/role.serv.go:76",
+  "level": "info",
+  "msg": "Failed in creating role for {FixedCol:{ID:1017102000000001 CreatedAt:\u003cnil\u003e UpdatedAt:\u003cnil\u003e DeletedAt:\u003cnil\u003e} CompanyID:1017 NodeCode:102 Name:holy-field 9446059 Resources:holy-field Description:9446059 Error:\u003cnil\u003e}",
+  "time": "2020-05-03T20:12:18+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T20:14:38+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T20:14:44+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": ".........................................."
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T20:17:51+03:00"
+}
+{
+  "data": {
+    "type": "*types.JWTClaims",
+    "value": {
+      "company_id": 1017,
+      "exp": 1591602132,
+      "id": 1017102000000001,
+      "language": "ku",
+      "node_code": 102,
+      "username": "diako2"
+    }
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T20:17:51+03:00"
+}
+{
+  "err": "Error 1054: Unknown column 'company_id' in 'field list'",
+  "file": "service/role.serv.go:76",
+  "level": "info",
+  "msg": "Failed in creating role for {FixedCol:{ID:1017102000000001 CreatedAt:\u003cnil\u003e UpdatedAt:\u003cnil\u003e DeletedAt:\u003cnil\u003e} CompanyID:1017 NodeCode:102 Name:green-night 6750571 Resources:green-night Description:6750571 Error:\u003cnil\u003e}",
+  "time": "2020-05-03T20:17:51+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T20:21:24+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": ".........................................."
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T20:21:27+03:00"
+}
+{
+  "data": {
+    "type": "*types.JWTClaims",
+    "value": {
+      "company_id": 1017,
+      "exp": 1591602132,
+      "id": 1017102000000001,
+      "language": "ku",
+      "node_code": 102,
+      "username": "diako2"
+    }
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T20:21:27+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T20:21:52+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T20:21:59+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T20:22:02+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": ".........................................."
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T20:22:05+03:00"
+}
+{
+  "data": {
+    "type": "*types.JWTClaims",
+    "value": {
+      "company_id": 1017,
+      "exp": 1591602132,
+      "id": 1017102000000001,
+      "language": "ku",
+      "node_code": 102,
+      "username": "diako2"
+    }
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T20:22:05+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": ".........................................."
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T20:22:06+03:00"
+}
+{
+  "data": {
+    "type": "*types.JWTClaims",
+    "value": {
+      "company_id": 1017,
+      "exp": 1591602132,
+      "id": 1017102000000001,
+      "language": "ku",
+      "node_code": 102,
+      "username": "diako2"
+    }
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T20:22:06+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": ".........................................."
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T20:22:07+03:00"
+}
+{
+  "data": {
+    "type": "*types.JWTClaims",
+    "value": {
+      "company_id": 1017,
+      "exp": 1591602132,
+      "id": 1017102000000001,
+      "language": "ku",
+      "node_code": 102,
+      "username": "diako2"
+    }
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T20:22:07+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": ".........................................."
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T20:22:07+03:00"
+}
+{
+  "data": {
+    "type": "*types.JWTClaims",
+    "value": {
+      "company_id": 1017,
+      "exp": 1591602132,
+      "id": 1017102000000001,
+      "language": "ku",
+      "node_code": 102,
+      "username": "diako2"
+    }
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T20:22:07+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": ".........................................."
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T20:22:07+03:00"
+}
+{
+  "data": {
+    "type": "*types.JWTClaims",
+    "value": {
+      "company_id": 1017,
+      "exp": 1591602132,
+      "id": 1017102000000001,
+      "language": "ku",
+      "node_code": 102,
+      "username": "diako2"
+    }
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T20:22:07+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": ".........................................."
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T20:28:30+03:00"
+}
+{
+  "data": {
+    "type": "*types.JWTClaims",
+    "value": {
+      "company_id": 1017,
+      "exp": 1591602132,
+      "id": 1017102000000001,
+      "language": "ku",
+      "node_code": 102,
+      "username": "diako2"
+    }
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T20:28:30+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": ".........................................."
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T20:28:30+03:00"
+}
+{
+  "data": {
+    "type": "*types.JWTClaims",
+    "value": {
+      "company_id": 1017,
+      "exp": 1591602132,
+      "id": 1017102000000001,
+      "language": "ku",
+      "node_code": 102,
+      "username": "diako2"
+    }
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T20:28:30+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": ".........................................."
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T20:28:30+03:00"
+}
+{
+  "data": {
+    "type": "*types.JWTClaims",
+    "value": {
+      "company_id": 1017,
+      "exp": 1591602132,
+      "id": 1017102000000001,
+      "language": "ku",
+      "node_code": 102,
+      "username": "diako2"
+    }
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T20:28:30+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": ".........................................."
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T20:28:30+03:00"
+}
+{
+  "data": {
+    "type": "*types.JWTClaims",
+    "value": {
+      "company_id": 1017,
+      "exp": 1591602132,
+      "id": 1017102000000001,
+      "language": "ku",
+      "node_code": 102,
+      "username": "diako2"
+    }
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T20:28:30+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": ".........................................."
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T20:28:30+03:00"
+}
+{
+  "data": {
+    "type": "*types.JWTClaims",
+    "value": {
+      "company_id": 1017,
+      "exp": 1591602132,
+      "id": 1017102000000001,
+      "language": "ku",
+      "node_code": 102,
+      "username": "diako2"
+    }
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T20:28:30+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": ".........................................."
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T20:28:31+03:00"
+}
+{
+  "data": {
+    "type": "*types.JWTClaims",
+    "value": {
+      "company_id": 1017,
+      "exp": 1591602132,
+      "id": 1017102000000001,
+      "language": "ku",
+      "node_code": 102,
+      "username": "diako2"
+    }
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T20:28:31+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": ".........................................."
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T20:28:31+03:00"
+}
+{
+  "data": {
+    "type": "*types.JWTClaims",
+    "value": {
+      "company_id": 1017,
+      "exp": 1591602132,
+      "id": 1017102000000001,
+      "language": "ku",
+      "node_code": 102,
+      "username": "diako2"
+    }
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T20:28:31+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": ".........................................."
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T20:28:31+03:00"
+}
+{
+  "data": {
+    "type": "*types.JWTClaims",
+    "value": {
+      "company_id": 1017,
+      "exp": 1591602132,
+      "id": 1017102000000001,
+      "language": "ku",
+      "node_code": 102,
+      "username": "diako2"
+    }
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T20:28:31+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": ".........................................."
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T20:28:31+03:00"
+}
+{
+  "data": {
+    "type": "*types.JWTClaims",
+    "value": {
+      "company_id": 1017,
+      "exp": 1591602132,
+      "id": 1017102000000001,
+      "language": "ku",
+      "node_code": 102,
+      "username": "diako2"
+    }
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T20:28:31+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": ".........................................."
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T20:28:31+03:00"
+}
+{
+  "data": {
+    "type": "*types.JWTClaims",
+    "value": {
+      "company_id": 1017,
+      "exp": 1591602132,
+      "id": 1017102000000001,
+      "language": "ku",
+      "node_code": 102,
+      "username": "diako2"
+    }
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T20:28:31+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": ".........................................."
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T20:28:31+03:00"
+}
+{
+  "data": {
+    "type": "*types.JWTClaims",
+    "value": {
+      "company_id": 1017,
+      "exp": 1591602132,
+      "id": 1017102000000001,
+      "language": "ku",
+      "node_code": 102,
+      "username": "diako2"
+    }
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T20:28:31+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": ".........................................."
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T20:28:31+03:00"
+}
+{
+  "data": {
+    "type": "*types.JWTClaims",
+    "value": {
+      "company_id": 1017,
+      "exp": 1591602132,
+      "id": 1017102000000001,
+      "language": "ku",
+      "node_code": 102,
+      "username": "diako2"
+    }
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T20:28:31+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": ".........................................."
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T20:28:32+03:00"
+}
+{
+  "data": {
+    "type": "*types.JWTClaims",
+    "value": {
+      "company_id": 1017,
+      "exp": 1591602132,
+      "id": 1017102000000001,
+      "language": "ku",
+      "node_code": 102,
+      "username": "diako2"
+    }
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T20:28:32+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": ".........................................."
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T20:28:32+03:00"
+}
+{
+  "data": {
+    "type": "*types.JWTClaims",
+    "value": {
+      "company_id": 1017,
+      "exp": 1591602132,
+      "id": 1017102000000001,
+      "language": "ku",
+      "node_code": 102,
+      "username": "diako2"
+    }
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T20:28:32+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": ".........................................."
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T20:28:32+03:00"
+}
+{
+  "data": {
+    "type": "*types.JWTClaims",
+    "value": {
+      "company_id": 1017,
+      "exp": 1591602132,
+      "id": 1017102000000001,
+      "language": "ku",
+      "node_code": 102,
+      "username": "diako2"
+    }
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T20:28:32+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": ".........................................."
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T20:28:32+03:00"
+}
+{
+  "data": {
+    "type": "*types.JWTClaims",
+    "value": {
+      "company_id": 1017,
+      "exp": 1591602132,
+      "id": 1017102000000001,
+      "language": "ku",
+      "node_code": 102,
+      "username": "diako2"
+    }
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T20:28:32+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": ".........................................."
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T20:28:32+03:00"
+}
+{
+  "data": {
+    "type": "*types.JWTClaims",
+    "value": {
+      "company_id": 1017,
+      "exp": 1591602132,
+      "id": 1017102000000001,
+      "language": "ku",
+      "node_code": 102,
+      "username": "diako2"
+    }
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T20:28:32+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": ".........................................."
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T20:28:32+03:00"
+}
+{
+  "data": {
+    "type": "*types.JWTClaims",
+    "value": {
+      "company_id": 1017,
+      "exp": 1591602132,
+      "id": 1017102000000001,
+      "language": "ku",
+      "node_code": 102,
+      "username": "diako2"
+    }
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T20:28:32+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": ".........................................."
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T20:28:33+03:00"
+}
+{
+  "data": {
+    "type": "*types.JWTClaims",
+    "value": {
+      "company_id": 1017,
+      "exp": 1591602132,
+      "id": 1017102000000001,
+      "language": "ku",
+      "node_code": 102,
+      "username": "diako2"
+    }
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T20:28:33+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": ".........................................."
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T20:28:33+03:00"
+}
+{
+  "data": {
+    "type": "*types.JWTClaims",
+    "value": {
+      "company_id": 1017,
+      "exp": 1591602132,
+      "id": 1017102000000001,
+      "language": "ku",
+      "node_code": 102,
+      "username": "diako2"
+    }
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T20:28:33+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": ".........................................."
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T20:28:33+03:00"
+}
+{
+  "data": {
+    "type": "*types.JWTClaims",
+    "value": {
+      "company_id": 1017,
+      "exp": 1591602132,
+      "id": 1017102000000001,
+      "language": "ku",
+      "node_code": 102,
+      "username": "diako2"
+    }
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T20:28:33+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": ".........................................."
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T20:28:33+03:00"
+}
+{
+  "data": {
+    "type": "*types.JWTClaims",
+    "value": {
+      "company_id": 1017,
+      "exp": 1591602132,
+      "id": 1017102000000001,
+      "language": "ku",
+      "node_code": 102,
+      "username": "diako2"
+    }
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T20:28:33+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": ".........................................."
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T20:28:33+03:00"
+}
+{
+  "data": {
+    "type": "*types.JWTClaims",
+    "value": {
+      "company_id": 1017,
+      "exp": 1591602132,
+      "id": 1017102000000001,
+      "language": "ku",
+      "node_code": 102,
+      "username": "diako2"
+    }
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T20:28:33+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": ".........................................."
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T20:28:33+03:00"
+}
+{
+  "data": {
+    "type": "*types.JWTClaims",
+    "value": {
+      "company_id": 1017,
+      "exp": 1591602132,
+      "id": 1017102000000001,
+      "language": "ku",
+      "node_code": 102,
+      "username": "diako2"
+    }
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T20:28:33+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": ".........................................."
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T20:28:34+03:00"
+}
+{
+  "data": {
+    "type": "*types.JWTClaims",
+    "value": {
+      "company_id": 1017,
+      "exp": 1591602132,
+      "id": 1017102000000001,
+      "language": "ku",
+      "node_code": 102,
+      "username": "diako2"
+    }
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T20:28:34+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": ".........................................."
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T20:28:34+03:00"
+}
+{
+  "data": {
+    "type": "*types.JWTClaims",
+    "value": {
+      "company_id": 1017,
+      "exp": 1591602132,
+      "id": 1017102000000001,
+      "language": "ku",
+      "node_code": 102,
+      "username": "diako2"
+    }
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T20:28:34+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": ".........................................."
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T20:28:34+03:00"
+}
+{
+  "data": {
+    "type": "*types.JWTClaims",
+    "value": {
+      "company_id": 1017,
+      "exp": 1591602132,
+      "id": 1017102000000001,
+      "language": "ku",
+      "node_code": 102,
+      "username": "diako2"
+    }
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T20:28:34+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": ".........................................."
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T20:28:34+03:00"
+}
+{
+  "data": {
+    "type": "*types.JWTClaims",
+    "value": {
+      "company_id": 1017,
+      "exp": 1591602132,
+      "id": 1017102000000001,
+      "language": "ku",
+      "node_code": 102,
+      "username": "diako2"
+    }
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T20:28:34+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": ".........................................."
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T20:28:34+03:00"
+}
+{
+  "data": {
+    "type": "*types.JWTClaims",
+    "value": {
+      "company_id": 1017,
+      "exp": 1591602132,
+      "id": 1017102000000001,
+      "language": "ku",
+      "node_code": 102,
+      "username": "diako2"
+    }
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T20:28:34+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": ".........................................."
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T20:28:34+03:00"
+}
+{
+  "data": {
+    "type": "*types.JWTClaims",
+    "value": {
+      "company_id": 1017,
+      "exp": 1591602132,
+      "id": 1017102000000001,
+      "language": "ku",
+      "node_code": 102,
+      "username": "diako2"
+    }
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T20:28:34+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": ".........................................."
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T20:28:34+03:00"
+}
+{
+  "data": {
+    "type": "*types.JWTClaims",
+    "value": {
+      "company_id": 1017,
+      "exp": 1591602132,
+      "id": 1017102000000001,
+      "language": "ku",
+      "node_code": 102,
+      "username": "diako2"
+    }
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T20:28:34+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": ".........................................."
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T20:28:35+03:00"
+}
+{
+  "data": {
+    "type": "*types.JWTClaims",
+    "value": {
+      "company_id": 1017,
+      "exp": 1591602132,
+      "id": 1017102000000001,
+      "language": "ku",
+      "node_code": 102,
+      "username": "diako2"
+    }
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T20:28:35+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": ".........................................."
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T20:28:35+03:00"
+}
+{
+  "data": {
+    "type": "*types.JWTClaims",
+    "value": {
+      "company_id": 1017,
+      "exp": 1591602132,
+      "id": 1017102000000001,
+      "language": "ku",
+      "node_code": 102,
+      "username": "diako2"
+    }
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T20:28:35+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": ".........................................."
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T20:28:35+03:00"
+}
+{
+  "data": {
+    "type": "*types.JWTClaims",
+    "value": {
+      "company_id": 1017,
+      "exp": 1591602132,
+      "id": 1017102000000001,
+      "language": "ku",
+      "node_code": 102,
+      "username": "diako2"
+    }
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T20:28:35+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": ".........................................."
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T20:28:35+03:00"
+}
+{
+  "data": {
+    "type": "*types.JWTClaims",
+    "value": {
+      "company_id": 1017,
+      "exp": 1591602132,
+      "id": 1017102000000001,
+      "language": "ku",
+      "node_code": 102,
+      "username": "diako2"
+    }
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T20:28:35+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": ".........................................."
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T20:28:35+03:00"
+}
+{
+  "data": {
+    "type": "*types.JWTClaims",
+    "value": {
+      "company_id": 1017,
+      "exp": 1591602132,
+      "id": 1017102000000001,
+      "language": "ku",
+      "node_code": 102,
+      "username": "diako2"
+    }
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T20:28:35+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": ".........................................."
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T20:28:35+03:00"
+}
+{
+  "data": {
+    "type": "*types.JWTClaims",
+    "value": {
+      "company_id": 1017,
+      "exp": 1591602132,
+      "id": 1017102000000001,
+      "language": "ku",
+      "node_code": 102,
+      "username": "diako2"
+    }
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T20:28:35+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": ".........................................."
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T20:28:35+03:00"
+}
+{
+  "data": {
+    "type": "*types.JWTClaims",
+    "value": {
+      "company_id": 1017,
+      "exp": 1591602132,
+      "id": 1017102000000001,
+      "language": "ku",
+      "node_code": 102,
+      "username": "diako2"
+    }
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T20:28:35+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": ".........................................."
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T20:28:36+03:00"
+}
+{
+  "data": {
+    "type": "*types.JWTClaims",
+    "value": {
+      "company_id": 1017,
+      "exp": 1591602132,
+      "id": 1017102000000001,
+      "language": "ku",
+      "node_code": 102,
+      "username": "diako2"
+    }
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T20:28:36+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": ".........................................."
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T20:28:36+03:00"
+}
+{
+  "data": {
+    "type": "*types.JWTClaims",
+    "value": {
+      "company_id": 1017,
+      "exp": 1591602132,
+      "id": 1017102000000001,
+      "language": "ku",
+      "node_code": 102,
+      "username": "diako2"
+    }
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T20:28:36+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": ".........................................."
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T20:28:36+03:00"
+}
+{
+  "data": {
+    "type": "*types.JWTClaims",
+    "value": {
+      "company_id": 1017,
+      "exp": 1591602132,
+      "id": 1017102000000001,
+      "language": "ku",
+      "node_code": 102,
+      "username": "diako2"
+    }
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T20:28:36+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": ".........................................."
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T20:28:36+03:00"
+}
+{
+  "data": {
+    "type": "*types.JWTClaims",
+    "value": {
+      "company_id": 1017,
+      "exp": 1591602132,
+      "id": 1017102000000001,
+      "language": "ku",
+      "node_code": 102,
+      "username": "diako2"
+    }
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T20:28:36+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": ".........................................."
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T20:28:39+03:00"
+}
+{
+  "data": {
+    "type": "*types.JWTClaims",
+    "value": {
+      "company_id": 1017,
+      "exp": 1591602132,
+      "id": 1017102000000001,
+      "language": "ku",
+      "node_code": 102,
+      "username": "diako2"
+    }
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T20:28:39+03:00"
+}
+{
+  "err": "record not found",
+  "file": "service/role.serv.go:30",
+  "level": "error",
+  "msg": "Role with id 1001101000000019",
+  "time": "2020-05-03T20:28:39+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": ".........................................."
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T20:29:13+03:00"
+}
+{
+  "data": {
+    "type": "*types.JWTClaims",
+    "value": {
+      "company_id": 1017,
+      "exp": 1591602132,
+      "id": 1017102000000001,
+      "language": "ku",
+      "node_code": 102,
+      "username": "diako2"
+    }
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T20:29:13+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": ".........................................."
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T21:19:42+03:00"
+}
+{
+  "data": {
+    "type": "*types.JWTClaims",
+    "value": {
+      "company_id": 1017,
+      "exp": 1591602132,
+      "id": 1017102000000001,
+      "language": "ku",
+      "node_code": 102,
+      "username": "diako2"
+    }
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T21:19:42+03:00"
+}
+{
+  "err": "Error 1364: Field 'name' doesn't have a default value",
+  "file": "service/user.serv.go:74",
+  "level": "info",
+  "msg": "Failed in saving user for {ID:0 RoleID:1001101000000001 Username:lingering-sky Password:$2a$10$FdkG1nv30d9Ziyivb.vJQevMEtehaZN4U2Jn/zot.T3pXIw/RJOSm Language:ku Email: Extra:\u003cnil\u003e Error:\u003cnil\u003e}",
+  "time": "2020-05-03T21:19:42+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T21:21:17+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T21:21:19+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T21:24:38+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": ".........................................."
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T21:24:48+03:00"
+}
+{
+  "data": {
+    "type": "*types.JWTClaims",
+    "value": {
+      "company_id": 1017,
+      "exp": 1591602132,
+      "id": 1017102000000001,
+      "language": "ku",
+      "node_code": 102,
+      "username": "diako2"
+    }
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T21:24:48+03:00"
+}
+{
+  "data": {
+    "type": "types.RowID",
+    "value": 1017102000000000
+  },
+  "file": "service/account.serv.go:65",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T21:24:48+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "Error 1146: Table 'sigma.accounts' doesn't exist"
+  },
+  "file": "service/account.serv.go:65",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T21:24:48+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T21:25:11+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": ".........................................."
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T21:25:15+03:00"
+}
+{
+  "data": {
+    "type": "*types.JWTClaims",
+    "value": {
+      "company_id": 1017,
+      "exp": 1591602132,
+      "id": 1017102000000001,
+      "language": "ku",
+      "node_code": 102,
+      "username": "diako2"
+    }
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T21:25:15+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": ".........................................."
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T21:25:16+03:00"
+}
+{
+  "data": {
+    "type": "*types.JWTClaims",
+    "value": {
+      "company_id": 1017,
+      "exp": 1591602132,
+      "id": 1017102000000001,
+      "language": "ku",
+      "node_code": 102,
+      "username": "diako2"
+    }
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T21:25:16+03:00"
+}
+{
+  "err": "Error 1062: Duplicate entry '1017-RANDOM_NAME_' for key 'idx_companyID_name'",
+  "file": "service/account.serv.go:81",
+  "level": "info",
+  "msg": "Failed in creating account for {FixedCol:{ID:1017102000000002 CreatedAt:\u003cnil\u003e UpdatedAt:\u003cnil\u003e DeletedAt:\u003cnil\u003e} CompanyID:1017 NodeCode:102 ParentID:0xc000470728 Name:RANDOM_NAME_ Status:active Code:5565298 Type:asset Readonly:false Score:0 Direction:direct Extra:\u003cnil\u003e Error:\u003cnil\u003e}",
+  "time": "2020-05-03T21:25:16+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": ".........................................."
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T21:25:16+03:00"
+}
+{
+  "data": {
+    "type": "*types.JWTClaims",
+    "value": {
+      "company_id": 1017,
+      "exp": 1591602132,
+      "id": 1017102000000001,
+      "language": "ku",
+      "node_code": 102,
+      "username": "diako2"
+    }
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T21:25:16+03:00"
+}
+{
+  "err": "Error 1062: Duplicate entry '1017-RANDOM_NAME_' for key 'idx_companyID_name'",
+  "file": "service/account.serv.go:81",
+  "level": "info",
+  "msg": "Failed in creating account for {FixedCol:{ID:1017102000000002 CreatedAt:\u003cnil\u003e UpdatedAt:\u003cnil\u003e DeletedAt:\u003cnil\u003e} CompanyID:1017 NodeCode:102 ParentID:0xc0004715f8 Name:RANDOM_NAME_ Status:active Code:2823721 Type:asset Readonly:false Score:0 Direction:direct Extra:\u003cnil\u003e Error:\u003cnil\u003e}",
+  "time": "2020-05-03T21:25:16+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": ".........................................."
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T21:25:39+03:00"
+}
+{
+  "data": {
+    "type": "*types.JWTClaims",
+    "value": {
+      "company_id": 1017,
+      "exp": 1591602132,
+      "id": 1017102000000001,
+      "language": "ku",
+      "node_code": 102,
+      "username": "diako2"
+    }
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T21:25:39+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": ".........................................."
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T21:25:39+03:00"
+}
+{
+  "data": {
+    "type": "*types.JWTClaims",
+    "value": {
+      "company_id": 1017,
+      "exp": 1591602132,
+      "id": 1017102000000001,
+      "language": "ku",
+      "node_code": 102,
+      "username": "diako2"
+    }
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T21:25:39+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": ".........................................."
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T21:25:40+03:00"
+}
+{
+  "data": {
+    "type": "*types.JWTClaims",
+    "value": {
+      "company_id": 1017,
+      "exp": 1591602132,
+      "id": 1017102000000001,
+      "language": "ku",
+      "node_code": 102,
+      "username": "diako2"
+    }
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T21:25:40+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": ".........................................."
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T21:25:40+03:00"
+}
+{
+  "data": {
+    "type": "*types.JWTClaims",
+    "value": {
+      "company_id": 1017,
+      "exp": 1591602132,
+      "id": 1017102000000001,
+      "language": "ku",
+      "node_code": 102,
+      "username": "diako2"
+    }
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T21:25:40+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": ".........................................."
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T21:25:40+03:00"
+}
+{
+  "data": {
+    "type": "*types.JWTClaims",
+    "value": {
+      "company_id": 1017,
+      "exp": 1591602132,
+      "id": 1017102000000001,
+      "language": "ku",
+      "node_code": 102,
+      "username": "diako2"
+    }
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T21:25:40+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": ".........................................."
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T21:25:41+03:00"
+}
+{
+  "data": {
+    "type": "*types.JWTClaims",
+    "value": {
+      "company_id": 1017,
+      "exp": 1591602132,
+      "id": 1017102000000001,
+      "language": "ku",
+      "node_code": 102,
+      "username": "diako2"
+    }
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T21:25:41+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": ".........................................."
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T21:27:36+03:00"
+}
+{
+  "data": {
+    "type": "*types.JWTClaims",
+    "value": {
+      "company_id": 1017,
+      "exp": 1591602132,
+      "id": 1017102000000001,
+      "language": "ku",
+      "node_code": 102,
+      "username": "diako2"
+    }
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T21:27:36+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": ".........................................."
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T21:27:36+03:00"
+}
+{
+  "data": {
+    "type": "*types.JWTClaims",
+    "value": {
+      "company_id": 1017,
+      "exp": 1591602132,
+      "id": 1017102000000001,
+      "language": "ku",
+      "node_code": 102,
+      "username": "diako2"
+    }
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T21:27:36+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": ".........................................."
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T21:27:36+03:00"
+}
+{
+  "data": {
+    "type": "*types.JWTClaims",
+    "value": {
+      "company_id": 1017,
+      "exp": 1591602132,
+      "id": 1017102000000001,
+      "language": "ku",
+      "node_code": 102,
+      "username": "diako2"
+    }
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T21:27:36+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": ".........................................."
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T21:27:37+03:00"
+}
+{
+  "data": {
+    "type": "*types.JWTClaims",
+    "value": {
+      "company_id": 1017,
+      "exp": 1591602132,
+      "id": 1017102000000001,
+      "language": "ku",
+      "node_code": 102,
+      "username": "diako2"
+    }
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T21:27:37+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": ".........................................."
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T21:27:43+03:00"
+}
+{
+  "data": {
+    "type": "*types.JWTClaims",
+    "value": {
+      "company_id": 1017,
+      "exp": 1591602132,
+      "id": 1017102000000001,
+      "language": "ku",
+      "node_code": 102,
+      "username": "diako2"
+    }
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T21:27:43+03:00"
+}
+{
+  "err": "record not found",
+  "file": "service/account.serv.go:32",
+  "level": "error",
+  "msg": "Account with id 1001101000000004",
+  "time": "2020-05-03T21:27:43+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": ".........................................."
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T21:32:40+03:00"
+}
+{
+  "data": {
+    "type": "*types.JWTClaims",
+    "value": {
+      "company_id": 1017,
+      "exp": 1591602132,
+      "id": 1017102000000001,
+      "language": "ku",
+      "node_code": 102,
+      "username": "diako2"
+    }
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T21:32:40+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T21:35:17+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T21:42:18+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T21:45:55+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T21:48:23+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T21:48:28+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T21:49:35+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T21:50:20+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": ".........................................."
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T21:50:22+03:00"
+}
+{
+  "data": {
+    "type": "*types.JWTClaims",
+    "value": {
+      "company_id": 1017,
+      "exp": 1591602132,
+      "id": 1017102000000001,
+      "language": "ku",
+      "node_code": 102,
+      "username": "diako2"
+    }
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T21:50:22+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": ".........................................."
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T21:50:26+03:00"
+}
+{
+  "data": {
+    "type": "*types.JWTClaims",
+    "value": {
+      "company_id": 1017,
+      "exp": 1591602132,
+      "id": 1017102000000001,
+      "language": "ku",
+      "node_code": 102,
+      "username": "diako2"
+    }
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T21:50:26+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": ".........................................."
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T21:50:53+03:00"
+}
+{
+  "data": {
+    "type": "*types.JWTClaims",
+    "value": {
+      "company_id": 1017,
+      "exp": 1591602132,
+      "id": 1017102000000001,
+      "language": "ku",
+      "node_code": 102,
+      "username": "diako2"
+    }
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T21:50:53+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T21:52:15+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": ".........................................."
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T21:55:53+03:00"
+}
+{
+  "data": {
+    "type": "*types.JWTClaims",
+    "value": {
+      "company_id": 1017,
+      "exp": 1591602132,
+      "id": 1017102000000001,
+      "language": "ku",
+      "node_code": 102,
+      "username": "diako2"
+    }
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T21:55:53+03:00"
+}
+{
+  "err": "Error 1364: Field 'name' doesn't have a default value",
+  "file": "service/user.serv.go:74",
+  "level": "info",
+  "msg": "Failed in saving user for {ID:0 RoleID:1001101000000001 Username:silent-dream Password:$2a$10$D4y3B9DTOovaDaOWqR/FBuo3IwkLa6cYXodcpyYUOhxiH7ktjuczq Language:ku Email: Extra:\u003cnil\u003e Error:\u003cnil\u003e}",
+  "time": "2020-05-03T21:55:53+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": ".........................................."
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T21:56:06+03:00"
+}
+{
+  "data": {
+    "type": "*types.JWTClaims",
+    "value": {
+      "company_id": 1017,
+      "exp": 1591602132,
+      "id": 1017102000000001,
+      "language": "ku",
+      "node_code": 102,
+      "username": "diako2"
+    }
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T21:56:06+03:00"
+}
+{
+  "err": "Error 1364: Field 'name' doesn't have a default value",
+  "file": "service/user.serv.go:74",
+  "level": "info",
+  "msg": "Failed in saving user for {ID:0 RoleID:1001101000000001 Username:crimson-wildflower Password:$2a$10$OIr5YX4.JJP0hcXhybN6/.bt5ft5eS9E56JbbyUVJr9HPG.tlG2MS Language:ku Email: Extra:\u003cnil\u003e Error:\u003cnil\u003e}",
+  "time": "2020-05-03T21:56:06+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": ".........................................."
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T21:56:15+03:00"
+}
+{
+  "data": {
+    "type": "*types.JWTClaims",
+    "value": {
+      "company_id": 1017,
+      "exp": 1591602132,
+      "id": 1017102000000001,
+      "language": "ku",
+      "node_code": 102,
+      "username": "diako2"
+    }
+  },
+  "file": "middleware/authguard.go:39",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T21:56:15+03:00"
+}
+{
+  "err": "Error 1364: Field 'name' doesn't have a default value",
+  "file": "service/user.serv.go:74",
+  "level": "info",
+  "msg": "Failed in saving user for {ID:0 RoleID:1001101000000001 Username:little-wave Password:$2a$10$fTrHCImBZOiUci/NHclpBO2nAAdXDaNs5Em6N2dYhTy3njAkDA/Na Language:ku Email: Extra:\u003cnil\u003e Error:\u003cnil\u003e}",
+  "time": "2020-05-03T21:56:15+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T21:56:32+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T21:56:38+03:00"
+}
+{
+  "err": "Error 1364: Field 'name' doesn't have a default value",
+  "file": "service/user.serv.go:74",
+  "level": "info",
+  "msg": "Failed in saving user for {ID:0 RoleID:1001101000000001 Username:lingering-sea Password:$2a$10$Kc8otJy/XkUtHSOnewy8b.0knp0alJ0KQv5uNthM2xun.gT206PD6 Language:ku Email: Extra:\u003cnil\u003e Error:\u003cnil\u003e}",
+  "time": "2020-05-03T21:56:42+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T22:01:03+03:00"
+}
+{
+  "data": {
+    "type": "model.User",
+    "value": {
+      "id": 0,
+      "language": "ku",
+      "password": "1234567890",
+      "role_id": 1001101000000001,
+      "username": "floral-glitter"
+    }
+  },
+  "file": "api/user.api.go:118",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T22:01:07+03:00"
+}
+{
+  "err": "Error 1364: Field 'name' doesn't have a default value",
+  "file": "service/user.serv.go:74",
+  "level": "info",
+  "msg": "Failed in saving user for {ID:0 RoleID:1001101000000001 Username:floral-glitter Password:$2a$10$hr3SivvBbYUOGAiQE.ZUY.z2yRctXl8EK7i44iQ7znHm2OjkrwiWG Language:ku Email: Extra:\u003cnil\u003e Error:\u003cnil\u003e}",
+  "time": "2020-05-03T22:01:07+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T22:02:39+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T22:02:55+03:00"
+}
+{
+  "data": {
+    "type": "model.User",
+    "value": {
+      "account": {
+        "code": 2699583,
+        "name": "still-sea",
+        "status": "active",
+        "type": "asset"
+      },
+      "id": 0,
+      "language": "ku",
+      "password": "1234567890",
+      "role_id": 1001101000000001,
+      "username": "still-sea"
+    }
+  },
+  "file": "api/user.api.go:118",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T22:04:00+03:00"
+}
+{
+  "data": {
+    "type": "model.User",
+    "value": {
+      "account": {
+        "code": 8187012,
+        "name": "dry-breeze",
+        "status": "active",
+        "type": "asset"
+      },
+      "id": 0,
+      "language": "ku",
+      "password": "1234567890",
+      "role_id": 1001101000000001,
+      "username": "dry-breeze"
+    }
+  },
+  "file": "api/user.api.go:118",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T22:04:04+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T22:15:41+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "..................."
+  },
+  "file": "service/user.serv.go:93",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T22:18:11+03:00"
+}
+{
+  "data": {
+    "type": "model.User",
+    "value": {
+      "account": {
+        "code": 8635008,
+        "name": "restless-leaf",
+        "status": "active",
+        "type": "asset"
+      },
+      "id": 0,
+      "language": "ku",
+      "password": "1234567890",
+      "role_id": 1001101000000001,
+      "username": "restless-leaf"
+    }
+  },
+  "file": "service/user.serv.go:93",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T22:18:11+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "..................."
+  },
+  "file": "service/user.serv.go:93",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T22:18:37+03:00"
+}
+{
+  "data": {
+    "type": "model.User",
+    "value": {
+      "account": {
+        "code": 2943334,
+        "name": "aged-dew",
+        "status": "active",
+        "type": "asset"
+      },
+      "id": 0,
+      "language": "ku",
+      "password": "1234567890",
+      "role_id": 1001101000000001,
+      "username": "aged-dew"
+    }
+  },
+  "file": "service/user.serv.go:93",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T22:18:37+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "..................."
+  },
+  "file": "service/user.serv.go:93",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T22:18:37+03:00"
+}
+{
+  "data": {
+    "type": "model.User",
+    "value": {
+      "account": {
+        "code": 3143783,
+        "name": "silent-paper",
+        "status": "active",
+        "type": "asset"
+      },
+      "id": 0,
+      "language": "ku",
+      "password": "1234567890",
+      "role_id": 1001101000000001,
+      "username": "silent-paper"
+    }
+  },
+  "file": "service/user.serv.go:93",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T22:18:37+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "..................."
+  },
+  "file": "service/user.serv.go:93",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T22:18:39+03:00"
+}
+{
+  "data": {
+    "type": "model.User",
+    "value": {
+      "account": {
+        "code": 4276902,
+        "name": "small-night",
+        "status": "active",
+        "type": "asset"
+      },
+      "id": 0,
+      "language": "ku",
+      "password": "1234567890",
+      "role_id": 1001101000000001,
+      "username": "small-night"
+    }
+  },
+  "file": "service/user.serv.go:93",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T22:18:39+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "..................."
+  },
+  "file": "service/user.serv.go:93",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T22:18:40+03:00"
+}
+{
+  "data": {
+    "type": "model.User",
+    "value": {
+      "account": {
+        "code": 8000443,
+        "name": "cold-hill",
+        "status": "active",
+        "type": "asset"
+      },
+      "id": 0,
+      "language": "ku",
+      "password": "1234567890",
+      "role_id": 1001101000000001,
+      "username": "cold-hill"
+    }
+  },
+  "file": "service/user.serv.go:93",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T22:18:40+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "..................."
+  },
+  "file": "service/user.serv.go:93",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T22:18:41+03:00"
+}
+{
+  "data": {
+    "type": "model.User",
+    "value": {
+      "account": {
+        "code": 2950356,
+        "name": "twilight-glade",
+        "status": "active",
+        "type": "asset"
+      },
+      "id": 0,
+      "language": "ku",
+      "password": "1234567890",
+      "role_id": 1001101000000001,
+      "username": "twilight-glade"
+    }
+  },
+  "file": "service/user.serv.go:93",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T22:18:41+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T22:24:24+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T22:30:06+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T22:32:08+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "..................."
+  },
+  "file": "service/user.serv.go:93",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T22:32:10+03:00"
+}
+{
+  "data": {
+    "type": "model.User",
+    "value": {
+      "account": {
+        "code": 262400,
+        "name": "bitter-bird",
+        "status": "active",
+        "type": "asset"
+      },
+      "id": 0,
+      "language": "ku",
+      "password": "1234567890",
+      "role_id": 1001101000000001,
+      "username": "bitter-bird"
+    }
+  },
+  "file": "service/user.serv.go:93",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T22:32:10+03:00"
+}
+{
+  "err": "error in account's form, [{direction  accepted values are: %v direct, indirect}]",
+  "file": "service/account.serv.go:75",
+  "level": "error",
+  "msg": "validation failed",
+  "time": "2020-05-03T22:32:10+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "..................."
+  },
+  "file": "service/user.serv.go:93",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T22:33:07+03:00"
+}
+{
+  "data": {
+    "type": "model.User",
+    "value": {
+      "account": {
+        "code": 6157064,
+        "direction": "direct",
+        "name": "hidden-haze",
+        "status": "active",
+        "type": "asset"
+      },
+      "id": 0,
+      "language": "ku",
+      "password": "1234567890",
+      "role_id": 1001101000000001,
+      "username": "hidden-haze"
+    }
+  },
+  "file": "service/user.serv.go:93",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T22:33:07+03:00"
+}
+{
+  "data": {
+    "type": "types.RowID",
+    "value": 1017102000000000
+  },
+  "file": "service/account.serv.go:65",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T22:33:07+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "can't start transaction"
+  },
+  "file": "service/account.serv.go:65",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T22:33:07+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "..................."
+  },
+  "file": "service/user.serv.go:93",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T22:33:10+03:00"
+}
+{
+  "data": {
+    "type": "model.User",
+    "value": {
+      "account": {
+        "code": 8039862,
+        "direction": "direct",
+        "name": "nameless-sunset",
+        "status": "active",
+        "type": "asset"
+      },
+      "id": 0,
+      "language": "ku",
+      "password": "1234567890",
+      "role_id": 1001101000000001,
+      "username": "nameless-sunset"
+    }
+  },
+  "file": "service/user.serv.go:93",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T22:33:10+03:00"
+}
+{
+  "data": {
+    "type": "types.RowID",
+    "value": 1017102000000000
+  },
+  "file": "service/account.serv.go:65",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T22:33:10+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "can't start transaction"
+  },
+  "file": "service/account.serv.go:65",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T22:33:10+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T22:35:10+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "..................."
+  },
+  "file": "service/user.serv.go:93",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T22:35:11+03:00"
+}
+{
+  "data": {
+    "type": "model.User",
+    "value": {
+      "account": {
+        "code": 2805562,
+        "direction": "direct",
+        "name": "solitary-dust",
+        "status": "active",
+        "type": "asset"
+      },
+      "id": 0,
+      "language": "ku",
+      "password": "1234567890",
+      "role_id": 1001101000000001,
+      "username": "solitary-dust"
+    }
+  },
+  "file": "service/user.serv.go:93",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T22:35:11+03:00"
+}
+{
+  "err": "sql: transaction has already been committed or rolled back",
+  "file": "service/user.serv.go:136",
+  "level": "info",
+  "msg": "Failed in saving user for {ID:0 RoleID:1001101000000001 Username:solitary-dust Password:$2a$10$BG5PNYSJ2.bBZ2JBEpVgf.TWgjRwKQTjwjfbfUxyima0hHJ6ksahm Language:ku Email: Extra:\u003cnil\u003e Error:\u003cnil\u003e Account:{FixedCol:{ID:0 CreatedAt:\u003cnil\u003e UpdatedAt:\u003cnil\u003e DeletedAt:\u003cnil\u003e} CompanyID:0 NodeCode:0 ParentID:\u003cnil\u003e Name:solitary-dust Status:active Code:2805562 Type:asset Readonly:false Score:0 Direction:direct Extra:\u003cnil\u003e Error:\u003cnil\u003e}}",
+  "time": "2020-05-03T22:35:12+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T22:38:01+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "..................."
+  },
+  "file": "service/user.serv.go:93",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T22:38:02+03:00"
+}
+{
+  "data": {
+    "type": "model.User",
+    "value": {
+      "account": {
+        "code": 2278395,
+        "direction": "direct",
+        "name": "falling-dream",
+        "status": "active",
+        "type": "asset"
+      },
+      "id": 0,
+      "language": "ku",
+      "password": "1234567890",
+      "role_id": 1001101000000001,
+      "username": "falling-dream"
+    }
+  },
+  "file": "service/user.serv.go:93",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T22:38:02+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "..................."
+  },
+  "file": "service/user.serv.go:93",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T22:38:05+03:00"
+}
+{
+  "data": {
+    "type": "model.User",
+    "value": {
+      "account": {
+        "code": 7818431,
+        "direction": "direct",
+        "name": "late-butterfly",
+        "status": "active",
+        "type": "asset"
+      },
+      "id": 0,
+      "language": "ku",
+      "password": "1234567890",
+      "role_id": 1001101000000001,
+      "username": "late-butterfly"
+    }
+  },
+  "file": "service/user.serv.go:93",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T22:38:05+03:00"
+}
+{
+  "data": {
+    "type": "types.RowID",
+    "value": 1017102000000000
+  },
+  "file": "service/account.serv.go:65",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T22:38:05+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "can't start transaction"
+  },
+  "file": "service/account.serv.go:65",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T22:38:05+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "..................."
+  },
+  "file": "service/user.serv.go:93",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T22:38:07+03:00"
+}
+{
+  "data": {
+    "type": "model.User",
+    "value": {
+      "account": {
+        "code": 2725755,
+        "direction": "direct",
+        "name": "shy-sky",
+        "status": "active",
+        "type": "asset"
+      },
+      "id": 0,
+      "language": "ku",
+      "password": "1234567890",
+      "role_id": 1001101000000001,
+      "username": "shy-sky"
+    }
+  },
+  "file": "service/user.serv.go:93",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T22:38:07+03:00"
+}
+{
+  "data": {
+    "type": "types.RowID",
+    "value": 1017102000000000
+  },
+  "file": "service/account.serv.go:65",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T22:38:07+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "can't start transaction"
+  },
+  "file": "service/account.serv.go:65",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T22:38:07+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "..................."
+  },
+  "file": "service/user.serv.go:93",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T22:38:08+03:00"
+}
+{
+  "data": {
+    "type": "model.User",
+    "value": {
+      "account": {
+        "code": 7388236,
+        "direction": "direct",
+        "name": "divine-brook",
+        "status": "active",
+        "type": "asset"
+      },
+      "id": 0,
+      "language": "ku",
+      "password": "1234567890",
+      "role_id": 1001101000000001,
+      "username": "divine-brook"
+    }
+  },
+  "file": "service/user.serv.go:93",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T22:38:08+03:00"
+}
+{
+  "data": {
+    "type": "types.RowID",
+    "value": 1017102000000000
+  },
+  "file": "service/account.serv.go:65",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T22:38:08+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "can't start transaction"
+  },
+  "file": "service/account.serv.go:65",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T22:38:08+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T22:38:43+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "..................."
+  },
+  "file": "service/user.serv.go:93",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T22:38:48+03:00"
+}
+{
+  "data": {
+    "type": "model.User",
+    "value": {
+      "account": {
+        "code": 5778351,
+        "direction": "direct",
+        "name": "dawn-wave",
+        "status": "active",
+        "type": "asset"
+      },
+      "id": 0,
+      "language": "ku",
+      "password": "1234567890",
+      "role_id": 1001101000000001,
+      "username": "dawn-wave"
+    }
+  },
+  "file": "service/user.serv.go:93",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T22:38:48+03:00"
+}
+{
+  "err": "sql: transaction has already been committed or rolled back",
+  "file": "service/user.serv.go:136",
+  "level": "info",
+  "msg": "Failed in saving user for {ID:0 RoleID:1001101000000001 Username:dawn-wave Password:$2a$10$VGS.XcO8zTnWugd4zQeYF.L9UAkhG7kfJU5AK/HxAHPBvdzC.t6Hi Language:ku Email: Extra:\u003cnil\u003e Error:\u003cnil\u003e Account:{FixedCol:{ID:0 CreatedAt:\u003cnil\u003e UpdatedAt:\u003cnil\u003e DeletedAt:\u003cnil\u003e} CompanyID:0 NodeCode:0 ParentID:\u003cnil\u003e Name:dawn-wave Status:active Code:5778351 Type:asset Readonly:false Score:0 Direction:direct Extra:\u003cnil\u003e Error:\u003cnil\u003e}}",
+  "time": "2020-05-03T22:38:48+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-03T22:45:32+03:00"
+}
+                                                                                                                                                                               

@@ -2,7 +2,7 @@ package determine
 
 import (
 	"sigmamono/internal/core"
-	// "sigmamono/internal/middleware"
+	"sigmamono/internal/middleware"
 
 	"github.com/gin-gonic/gin"
 )
@@ -12,6 +12,7 @@ func Route(rg gin.RouterGroup, engine *core.Engine) {
 	companyAPI := initCompanyAPI(engine)
 	nodeAPI := initNodeAPI(engine)
 
+	rg.Use(middleware.AuthGuard(engine))
 	rg.GET("/companies", companyAPI.List)
 	rg.POST("/companies", companyAPI.Create)
 	rg.PUT("/companies/:companyID", companyAPI.Update)

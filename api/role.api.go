@@ -8,10 +8,10 @@ import (
 	"sigmamono/internal/param"
 	"sigmamono/internal/response"
 	"sigmamono/internal/term"
+	"sigmamono/internal/types"
 	"sigmamono/model"
 	"sigmamono/service"
 	"sigmamono/utils/excel"
-	"strconv"
 
 	"github.com/gin-gonic/gin"
 )
@@ -41,7 +41,7 @@ func (p *RoleAPI) FindByID(c *gin.Context) {
 		return
 	}
 
-	if role.ID, err = strconv.ParseUint(c.Param("roleID"), 10, 64); err != nil {
+	if role.ID, err = types.StrToRowID(c.Param("roleID")); err != nil {
 		resp.Error(term.Invalid_ID).JSON()
 		return
 	}
@@ -123,7 +123,8 @@ func (p *RoleAPI) Update(c *gin.Context) {
 
 	var role, roleBefore, roleUpdated model.Role
 
-	if role.ID, err = strconv.ParseUint(c.Param("roleID"), 10, 64); err != nil {
+	role.ID, err = types.StrToRowID(c.Param("roleID"))
+	if err != nil {
 		resp.Error(term.Invalid_ID).JSON()
 		return
 	}
@@ -161,7 +162,7 @@ func (p *RoleAPI) Delete(c *gin.Context) {
 		return
 	}
 
-	if role.ID, err = strconv.ParseUint(c.Param("roleID"), 10, 64); err != nil {
+	if role.ID, err = types.StrToRowID(c.Param("roleID")); err != nil {
 		resp.Error(term.Invalid_ID).JSON()
 		return
 	}

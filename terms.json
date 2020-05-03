@@ -65,7 +65,7 @@
 	"license is not valid": { "en": "license is not valid", "ku": "license halaya", "ar": "license is not valid" },
 	"Company's license has been expired": { "en": "Company's license has been expired", "ku": "lisensi compani basar cho", "ar": "al expired" },
 	"Company key is not valid": { "en": "Company key is not valid", "ku": "company key halaya", "ar": "Company key is not valid" },
-	"": { "en": "", "ku": "", "ar": "" },
+	"you don't have permission, out of scope!": { "en": "you don't have permission, out of scope!", "ku": "bot nie, la daraway scopa", "ar": "you don't have permission, out of scope!" },
 	"": { "en": "", "ku": "", "ar": "" },
 	"": { "en": "", "ku": "", "ar": "" },
 	"": { "en": "", "ku": "", "ar": "" },

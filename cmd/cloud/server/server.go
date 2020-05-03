@@ -4,12 +4,6 @@ import (
 	"fmt"
 	"log"
 	"net/http"
-	// "sigmamono/domain/accounting"
-	// "sigmamono/domain/activation"
-	// "sigmamono/domain/administration"
-	// "sigmamono/domain/central"
-	// "sigmamono/domain/core"
-	// "sigmamono/domain/sync"
 	"sigmamono/cmd/cloud/determine"
 	"sigmamono/internal/core"
 	"sigmamono/internal/middleware"
@@ -24,18 +18,6 @@ import (
 
 // Start initiate the server
 func Start(engine *core.Engine) *gin.Engine {
-
-	// engine.Agg = make(chan types.Aggregate)
-
-	// domains := types.Domains{
-	// 	Accounting:     make(chan types.Aggregate),
-	// 	Activation:     make(chan types.Aggregate),
-	// 	Administration: make(chan types.Aggregate),
-	// 	Central:        make(chan types.Aggregate),
-	// 	Sync:           make(chan types.Aggregate),
-	// }
-
-	// go AggObserver(engine.Agg, domains)
 
 	r := gin.Default()
 

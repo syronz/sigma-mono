@@ -14,8 +14,8 @@ import (
 
 // Injectors from wire.go:
 
-func initRoleAPI(engine *core.Engine) api.RoleAPI {
-	roleRepo := repo.ProvideRoleRepo(engine)
+func initRoleAPI(e *core.Engine) api.RoleAPI {
+	roleRepo := repo.ProvideRoleRepo(e)
 	roleServ := service.ProvideRoleService(roleRepo)
 	roleAPI := api.ProvideRoleAPI(roleServ)
 	return roleAPI
@@ -28,9 +28,9 @@ func initUserAPI(engine *core.Engine) api.UserAPI {
 	return userAPI
 }
 
-func initCompanyAPI(e *core.Engine) api.CompanyAPI {
-	companyRepo := repo.ProvideCompanyRepo(e)
-	companyServ := service.ProvideCompanyService(companyRepo)
-	companyAPI := api.ProvideCompanyAPI(companyServ)
-	return companyAPI
+func initAccountAPI(e *core.Engine) api.AccountAPI {
+	accountRepo := repo.ProvideAccountRepo(e)
+	accountServ := service.ProvideAccountService(accountRepo)
+	accountAPI := api.ProvideAccountAPI(accountServ)
+	return accountAPI
 }

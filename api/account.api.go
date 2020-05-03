@@ -2,16 +2,16 @@ package api
 
 import (
 	"net/http"
-	"sigma/domain/accounting/service"
-	"sigma/domain/core"
-	"sigma/domain/core/access/resource"
-	"sigma/internal/enum/event"
-	"sigma/internal/param"
-	"sigma/internal/response"
-	"sigma/internal/term"
-	"sigma/internal/types"
-	"sigma/model"
-	"sigma/utils/excel"
+	"sigmamono/internal/core"
+	"sigmamono/internal/core/access/resource"
+	"sigmamono/internal/enum/event"
+	"sigmamono/internal/param"
+	"sigmamono/internal/response"
+	"sigmamono/internal/term"
+	"sigmamono/internal/types"
+	"sigmamono/model"
+	"sigmamono/service"
+	"sigmamono/utils/excel"
 
 	"github.com/gin-gonic/gin"
 )
@@ -167,7 +167,9 @@ func (p *AccountAPI) Delete(c *gin.Context) {
 		return
 	}
 
-	if account, err = p.Service.Delete(account.ID); err != nil {
+	params := param.Get(c, p.Engine, thisRoles)
+
+	if account, err = p.Service.Delete(account.ID, params); err != nil {
 		resp.Status(http.StatusInternalServerError).Error(err).JSON()
 		return
 	}

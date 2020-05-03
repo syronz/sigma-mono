@@ -3142,3 +3142,4785 @@
   "status": 200,
   "time": "2020-05-03T16:19:33+03:00"
 }
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {
+    "lang": [
+      "ku"
+    ]
+  },
+  "path": "/api/cloud/v1/companies",
+  "referer": "",
+  "reqID": 1,
+  "request": {
+    "code": "223423",
+    "detail": "",
+    "expiration": "2022-01-01T11:11:11.000Z",
+    "id2": 33,
+    "key": "123456",
+    "legal_name": "wild-shape",
+    "license": "wild-shape",
+    "name": "wild-shape",
+    "phone": "7207995",
+    "plan": "",
+    "server": "127.0.0.1:9093",
+    "type": "multi branch with centeral finance"
+  },
+  "time": "2020-05-03T19:22:37+03:00",
+  "uri": "/api/cloud/v1/companies?lang=ku",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 350,
+  "latency": 12,
+  "level": "info",
+  "msg": "response",
+  "resID": 1,
+  "response": {
+    "data": {
+      "code": "223423",
+      "created_at": "2020-05-03T19:22:37+03:00",
+      "expiration": "2022-01-01T14:11:11+03:00",
+      "id": 1002,
+      "key": "123456",
+      "legal_name": "wild-shape",
+      "license": "wild-shape",
+      "name": "wild-shape",
+      "phone": "7207995",
+      "type": "multi branch with centeral finance",
+      "updated_at": "2020-05-03T19:22:37+03:00"
+    },
+    "message": "company ba sarkawtooyi drwst kra"
+  },
+  "status": 200,
+  "time": "2020-05-03T19:22:37+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {
+    "lang": [
+      "ku"
+    ]
+  },
+  "path": "/api/cloud/v1/companies",
+  "referer": "",
+  "reqID": 2,
+  "request": {
+    "code": "223423",
+    "detail": "",
+    "expiration": "2022-01-01T11:11:11.000Z",
+    "id2": 33,
+    "key": "123456",
+    "legal_name": "silent-thunder",
+    "license": "silent-thunder",
+    "name": "silent-thunder",
+    "phone": "9360869",
+    "plan": "",
+    "server": "127.0.0.1:9093",
+    "type": "multi branch with centeral finance"
+  },
+  "time": "2020-05-03T19:22:37+03:00",
+  "uri": "/api/cloud/v1/companies?lang=ku",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 362,
+  "latency": 11,
+  "level": "info",
+  "msg": "response",
+  "resID": 2,
+  "response": {
+    "data": {
+      "code": "223423",
+      "created_at": "2020-05-03T19:22:38+03:00",
+      "expiration": "2022-01-01T14:11:11+03:00",
+      "id": 1003,
+      "key": "123456",
+      "legal_name": "silent-thunder",
+      "license": "silent-thunder",
+      "name": "silent-thunder",
+      "phone": "9360869",
+      "type": "multi branch with centeral finance",
+      "updated_at": "2020-05-03T19:22:38+03:00"
+    },
+    "message": "company ba sarkawtooyi drwst kra"
+  },
+  "status": 200,
+  "time": "2020-05-03T19:22:37+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {
+    "lang": [
+      "ku"
+    ]
+  },
+  "path": "/api/cloud/v1/companies",
+  "referer": "",
+  "reqID": 3,
+  "request": {
+    "code": "223423",
+    "detail": "",
+    "expiration": "2022-01-01T11:11:11.000Z",
+    "id2": 33,
+    "key": "123456",
+    "legal_name": "blue-fire",
+    "license": "blue-fire",
+    "name": "blue-fire",
+    "phone": "6505933",
+    "plan": "",
+    "server": "127.0.0.1:9093",
+    "type": "multi branch with centeral finance"
+  },
+  "time": "2020-05-03T19:22:38+03:00",
+  "uri": "/api/cloud/v1/companies?lang=ku",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 347,
+  "latency": 9,
+  "level": "info",
+  "msg": "response",
+  "resID": 3,
+  "response": {
+    "data": {
+      "code": "223423",
+      "created_at": "2020-05-03T19:22:38+03:00",
+      "expiration": "2022-01-01T14:11:11+03:00",
+      "id": 1004,
+      "key": "123456",
+      "legal_name": "blue-fire",
+      "license": "blue-fire",
+      "name": "blue-fire",
+      "phone": "6505933",
+      "type": "multi branch with centeral finance",
+      "updated_at": "2020-05-03T19:22:38+03:00"
+    },
+    "message": "company ba sarkawtooyi drwst kra"
+  },
+  "status": 200,
+  "time": "2020-05-03T19:22:38+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {
+    "lang": [
+      "ku"
+    ]
+  },
+  "path": "/api/cloud/v1/companies",
+  "referer": "",
+  "reqID": 4,
+  "request": {
+    "code": "223423",
+    "detail": "",
+    "expiration": "2022-01-01T11:11:11.000Z",
+    "id2": 33,
+    "key": "123456",
+    "legal_name": "crimson-firefly",
+    "license": "crimson-firefly",
+    "name": "crimson-firefly",
+    "phone": "3435724",
+    "plan": "",
+    "server": "127.0.0.1:9093",
+    "type": "multi branch with centeral finance"
+  },
+  "time": "2020-05-03T19:22:38+03:00",
+  "uri": "/api/cloud/v1/companies?lang=ku",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 365,
+  "latency": 12,
+  "level": "info",
+  "msg": "response",
+  "resID": 4,
+  "response": {
+    "data": {
+      "code": "223423",
+      "created_at": "2020-05-03T19:22:39+03:00",
+      "expiration": "2022-01-01T14:11:11+03:00",
+      "id": 1005,
+      "key": "123456",
+      "legal_name": "crimson-firefly",
+      "license": "crimson-firefly",
+      "name": "crimson-firefly",
+      "phone": "3435724",
+      "type": "multi branch with centeral finance",
+      "updated_at": "2020-05-03T19:22:39+03:00"
+    },
+    "message": "company ba sarkawtooyi drwst kra"
+  },
+  "status": 200,
+  "time": "2020-05-03T19:22:38+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {
+    "lang": [
+      "ku"
+    ]
+  },
+  "path": "/api/cloud/v1/companies",
+  "referer": "",
+  "reqID": 5,
+  "request": {
+    "code": "223423",
+    "detail": "",
+    "expiration": "2022-01-01T11:11:11.000Z",
+    "id2": 33,
+    "key": "123456",
+    "legal_name": "proud-breeze",
+    "license": "proud-breeze",
+    "name": "proud-breeze",
+    "phone": "6291552",
+    "plan": "",
+    "server": "127.0.0.1:9093",
+    "type": "multi branch with centeral finance"
+  },
+  "time": "2020-05-03T19:22:38+03:00",
+  "uri": "/api/cloud/v1/companies?lang=ku",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 356,
+  "latency": 12,
+  "level": "info",
+  "msg": "response",
+  "resID": 5,
+  "response": {
+    "data": {
+      "code": "223423",
+      "created_at": "2020-05-03T19:22:39+03:00",
+      "expiration": "2022-01-01T14:11:11+03:00",
+      "id": 1006,
+      "key": "123456",
+      "legal_name": "proud-breeze",
+      "license": "proud-breeze",
+      "name": "proud-breeze",
+      "phone": "6291552",
+      "type": "multi branch with centeral finance",
+      "updated_at": "2020-05-03T19:22:39+03:00"
+    },
+    "message": "company ba sarkawtooyi drwst kra"
+  },
+  "status": 200,
+  "time": "2020-05-03T19:22:38+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {
+    "lang": [
+      "ku"
+    ]
+  },
+  "path": "/api/cloud/v1/companies",
+  "referer": "",
+  "reqID": 6,
+  "request": {
+    "code": "223423",
+    "detail": "",
+    "expiration": "2022-01-01T11:11:11.000Z",
+    "id2": 33,
+    "key": "123456",
+    "legal_name": "wispy-rain",
+    "license": "wispy-rain",
+    "name": "wispy-rain",
+    "phone": "2709070",
+    "plan": "",
+    "server": "127.0.0.1:9093",
+    "type": "multi branch with centeral finance"
+  },
+  "time": "2020-05-03T19:22:39+03:00",
+  "uri": "/api/cloud/v1/companies?lang=ku",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 350,
+  "latency": 11,
+  "level": "info",
+  "msg": "response",
+  "resID": 6,
+  "response": {
+    "data": {
+      "code": "223423",
+      "created_at": "2020-05-03T19:22:39+03:00",
+      "expiration": "2022-01-01T14:11:11+03:00",
+      "id": 1007,
+      "key": "123456",
+      "legal_name": "wispy-rain",
+      "license": "wispy-rain",
+      "name": "wispy-rain",
+      "phone": "2709070",
+      "type": "multi branch with centeral finance",
+      "updated_at": "2020-05-03T19:22:39+03:00"
+    },
+    "message": "company ba sarkawtooyi drwst kra"
+  },
+  "status": 200,
+  "time": "2020-05-03T19:22:39+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {},
+  "path": "/api/cloud/v1/roles",
+  "referer": "",
+  "reqID": 1,
+  "request": {
+    "description": "5049770",
+    "name": "polished-wood 5049770",
+    "resources": "polished-wood"
+  },
+  "time": "2020-05-03T19:36:00+03:00",
+  "uri": "/api/cloud/v1/roles",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {},
+  "path": "/api/cloud/v1/roles",
+  "referer": "",
+  "reqID": 2,
+  "request": {
+    "description": "5840923",
+    "name": "delicate-surf 5840923",
+    "resources": "delicate-surf"
+  },
+  "time": "2020-05-03T19:36:02+03:00",
+  "uri": "/api/cloud/v1/roles",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {},
+  "path": "/api/cloud/v1/roles",
+  "referer": "",
+  "reqID": 1,
+  "request": {
+    "description": "5540289",
+    "name": "patient-dust 5540289",
+    "resources": "patient-dust"
+  },
+  "time": "2020-05-03T19:40:35+03:00",
+  "uri": "/api/cloud/v1/roles",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {},
+  "path": "/api/cloud/v1/roles",
+  "referer": "",
+  "reqID": 1,
+  "request": {
+    "description": "5518194",
+    "name": "cold-bird 5518194",
+    "resources": "cold-bird"
+  },
+  "time": "2020-05-03T19:41:30+03:00",
+  "uri": "/api/cloud/v1/roles",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {},
+  "path": "/api/cloud/v1/roles",
+  "referer": "",
+  "reqID": 1,
+  "request": {
+    "description": "6658899",
+    "name": "falling-breeze 6658899",
+    "resources": "falling-breeze"
+  },
+  "time": "2020-05-03T19:41:57+03:00",
+  "uri": "/api/cloud/v1/roles",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {},
+  "path": "/api/cloud/v1/roles",
+  "referer": "",
+  "reqID": 2,
+  "request": {
+    "description": "5775557",
+    "name": "frosty-grass 5775557",
+    "resources": "frosty-grass"
+  },
+  "time": "2020-05-03T19:42:07+03:00",
+  "uri": "/api/cloud/v1/roles",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {},
+  "path": "/api/cloud/v1/roles",
+  "referer": "",
+  "reqID": 3,
+  "request": {
+    "description": "3935294",
+    "name": "twilight-sea 3935294",
+    "resources": "twilight-sea"
+  },
+  "time": "2020-05-03T19:42:53+03:00",
+  "uri": "/api/cloud/v1/roles",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {},
+  "path": "/api/cloud/v1/roles",
+  "referer": "",
+  "reqID": 1,
+  "request": {
+    "description": "8114582",
+    "name": "billowing-sound 8114582",
+    "resources": "billowing-sound"
+  },
+  "time": "2020-05-03T19:43:11+03:00",
+  "uri": "/api/cloud/v1/roles",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {
+    "lang": [
+      "ku"
+    ]
+  },
+  "path": "/api/cloud/v1/companies",
+  "referer": "",
+  "reqID": 2,
+  "request": {
+    "code": "223423",
+    "detail": "",
+    "expiration": "2022-01-01T11:11:11.000Z",
+    "id2": 33,
+    "key": "123456",
+    "legal_name": "misty-sun",
+    "license": "misty-sun",
+    "name": "misty-sun",
+    "phone": "7689551",
+    "plan": "",
+    "server": "127.0.0.1:9093",
+    "type": "multi branch with centeral finance"
+  },
+  "time": "2020-05-03T19:43:27+03:00",
+  "uri": "/api/cloud/v1/companies?lang=ku",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 347,
+  "latency": 13,
+  "level": "info",
+  "msg": "response",
+  "resID": 2,
+  "response": {
+    "data": {
+      "code": "223423",
+      "created_at": "2020-05-03T19:43:28+03:00",
+      "expiration": "2022-01-01T14:11:11+03:00",
+      "id": 1008,
+      "key": "123456",
+      "legal_name": "misty-sun",
+      "license": "misty-sun",
+      "name": "misty-sun",
+      "phone": "7689551",
+      "type": "multi branch with centeral finance",
+      "updated_at": "2020-05-03T19:43:28+03:00"
+    },
+    "message": "company ba sarkawtooyi drwst kra"
+  },
+  "status": 200,
+  "time": "2020-05-03T19:43:27+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {
+    "lang": [
+      "ku"
+    ]
+  },
+  "path": "/api/cloud/v1/companies",
+  "referer": "",
+  "reqID": 1,
+  "request": {
+    "code": "223423",
+    "detail": "",
+    "expiration": "2022-01-01T11:11:11.000Z",
+    "id2": 33,
+    "key": "123456",
+    "legal_name": "old-tree",
+    "license": "old-tree",
+    "name": "old-tree",
+    "phone": "9054678",
+    "plan": "",
+    "server": "127.0.0.1:9093",
+    "type": "multi branch with centeral finance"
+  },
+  "time": "2020-05-03T19:44:24+03:00",
+  "uri": "/api/cloud/v1/companies?lang=ku",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 344,
+  "latency": 12,
+  "level": "info",
+  "msg": "response",
+  "resID": 1,
+  "response": {
+    "data": {
+      "code": "223423",
+      "created_at": "2020-05-03T19:44:25+03:00",
+      "expiration": "2022-01-01T14:11:11+03:00",
+      "id": 1009,
+      "key": "123456",
+      "legal_name": "old-tree",
+      "license": "old-tree",
+      "name": "old-tree",
+      "phone": "9054678",
+      "type": "multi branch with centeral finance",
+      "updated_at": "2020-05-03T19:44:25+03:00"
+    },
+    "message": "company ba sarkawtooyi drwst kra"
+  },
+  "status": 200,
+  "time": "2020-05-03T19:44:24+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {
+    "lang": [
+      "ku"
+    ]
+  },
+  "path": "/api/cloud/v1/companies",
+  "referer": "",
+  "reqID": 2,
+  "request": {
+    "code": "223423",
+    "detail": "",
+    "expiration": "2022-01-01T11:11:11.000Z",
+    "id2": 33,
+    "key": "123456",
+    "legal_name": "aged-pond",
+    "license": "aged-pond",
+    "name": "aged-pond",
+    "phone": "5074423",
+    "plan": "",
+    "server": "127.0.0.1:9093",
+    "type": "multi branch with centeral finance"
+  },
+  "time": "2020-05-03T19:44:31+03:00",
+  "uri": "/api/cloud/v1/companies?lang=ku",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 347,
+  "latency": 12,
+  "level": "info",
+  "msg": "response",
+  "resID": 2,
+  "response": {
+    "data": {
+      "code": "223423",
+      "created_at": "2020-05-03T19:44:31+03:00",
+      "expiration": "2022-01-01T14:11:11+03:00",
+      "id": 1010,
+      "key": "123456",
+      "legal_name": "aged-pond",
+      "license": "aged-pond",
+      "name": "aged-pond",
+      "phone": "5074423",
+      "type": "multi branch with centeral finance",
+      "updated_at": "2020-05-03T19:44:31+03:00"
+    },
+    "message": "company ba sarkawtooyi drwst kra"
+  },
+  "status": 200,
+  "time": "2020-05-03T19:44:31+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {
+    "lang": [
+      "ku"
+    ]
+  },
+  "path": "/api/cloud/v1/companies",
+  "referer": "",
+  "reqID": 1,
+  "request": {
+    "code": "223423",
+    "detail": "",
+    "expiration": "2022-01-01T11:11:11.000Z",
+    "id2": 33,
+    "key": "123456",
+    "legal_name": "red-sound",
+    "license": "red-sound",
+    "name": "red-sound",
+    "phone": "5434251",
+    "plan": "",
+    "server": "127.0.0.1:9093",
+    "type": "multi branch with centeral finance"
+  },
+  "time": "2020-05-03T19:44:52+03:00",
+  "uri": "/api/cloud/v1/companies?lang=ku",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 347,
+  "latency": 10,
+  "level": "info",
+  "msg": "response",
+  "resID": 1,
+  "response": {
+    "data": {
+      "code": "223423",
+      "created_at": "2020-05-03T19:44:52+03:00",
+      "expiration": "2022-01-01T14:11:11+03:00",
+      "id": 1011,
+      "key": "123456",
+      "legal_name": "red-sound",
+      "license": "red-sound",
+      "name": "red-sound",
+      "phone": "5434251",
+      "type": "multi branch with centeral finance",
+      "updated_at": "2020-05-03T19:44:52+03:00"
+    },
+    "message": "company ba sarkawtooyi drwst kra"
+  },
+  "status": 200,
+  "time": "2020-05-03T19:44:52+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {
+    "lang": [
+      "ku"
+    ]
+  },
+  "path": "/api/cloud/v1/companies",
+  "referer": "",
+  "reqID": 1,
+  "request": {
+    "code": "223423",
+    "detail": "",
+    "expiration": "2022-01-01T11:11:11.000Z",
+    "id2": 33,
+    "key": "123456",
+    "legal_name": "wandering-silence",
+    "license": "wandering-silence",
+    "name": "wandering-silence",
+    "phone": "3424785",
+    "plan": "",
+    "server": "127.0.0.1:9093",
+    "type": "multi branch with centeral finance"
+  },
+  "time": "2020-05-03T19:46:10+03:00",
+  "uri": "/api/cloud/v1/companies?lang=ku",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 371,
+  "latency": 14,
+  "level": "info",
+  "msg": "response",
+  "resID": 1,
+  "response": {
+    "data": {
+      "code": "223423",
+      "created_at": "2020-05-03T19:46:11+03:00",
+      "expiration": "2022-01-01T14:11:11+03:00",
+      "id": 1012,
+      "key": "123456",
+      "legal_name": "wandering-silence",
+      "license": "wandering-silence",
+      "name": "wandering-silence",
+      "phone": "3424785",
+      "type": "multi branch with centeral finance",
+      "updated_at": "2020-05-03T19:46:11+03:00"
+    },
+    "message": "company ba sarkawtooyi drwst kra"
+  },
+  "status": 200,
+  "time": "2020-05-03T19:46:10+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {
+    "lang": [
+      "ku"
+    ]
+  },
+  "path": "/api/cloud/v1/companies",
+  "referer": "",
+  "reqID": 1,
+  "request": {
+    "code": "223423",
+    "detail": "",
+    "expiration": "2022-01-01T11:11:11.000Z",
+    "id2": 33,
+    "key": "123456",
+    "legal_name": "cold-lake",
+    "license": "cold-lake",
+    "name": "cold-lake",
+    "phone": "7898956",
+    "plan": "",
+    "server": "127.0.0.1:9093",
+    "type": "multi branch with centeral finance"
+  },
+  "time": "2020-05-03T19:47:55+03:00",
+  "uri": "/api/cloud/v1/companies?lang=ku",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 347,
+  "latency": 15,
+  "level": "info",
+  "msg": "response",
+  "resID": 1,
+  "response": {
+    "data": {
+      "code": "223423",
+      "created_at": "2020-05-03T19:47:55+03:00",
+      "expiration": "2022-01-01T14:11:11+03:00",
+      "id": 1013,
+      "key": "123456",
+      "legal_name": "cold-lake",
+      "license": "cold-lake",
+      "name": "cold-lake",
+      "phone": "7898956",
+      "type": "multi branch with centeral finance",
+      "updated_at": "2020-05-03T19:47:55+03:00"
+    },
+    "message": "company ba sarkawtooyi drwst kra"
+  },
+  "status": 200,
+  "time": "2020-05-03T19:47:55+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {
+    "lang": [
+      "ku"
+    ]
+  },
+  "path": "/api/cloud/v1/companies",
+  "referer": "",
+  "reqID": 2,
+  "request": {
+    "code": "223423",
+    "detail": "",
+    "expiration": "2022-01-01T11:11:11.000Z",
+    "id2": 33,
+    "key": "123456",
+    "legal_name": "green-lake",
+    "license": "green-lake",
+    "name": "green-lake",
+    "phone": "4096274",
+    "plan": "",
+    "server": "127.0.0.1:9093",
+    "type": "multi branch with centeral finance"
+  },
+  "time": "2020-05-03T19:47:58+03:00",
+  "uri": "/api/cloud/v1/companies?lang=ku",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 350,
+  "latency": 10,
+  "level": "info",
+  "msg": "response",
+  "resID": 2,
+  "response": {
+    "data": {
+      "code": "223423",
+      "created_at": "2020-05-03T19:47:58+03:00",
+      "expiration": "2022-01-01T14:11:11+03:00",
+      "id": 1014,
+      "key": "123456",
+      "legal_name": "green-lake",
+      "license": "green-lake",
+      "name": "green-lake",
+      "phone": "4096274",
+      "type": "multi branch with centeral finance",
+      "updated_at": "2020-05-03T19:47:58+03:00"
+    },
+    "message": "company ba sarkawtooyi drwst kra"
+  },
+  "status": 200,
+  "time": "2020-05-03T19:47:58+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {
+    "lang": [
+      "ku"
+    ]
+  },
+  "path": "/api/cloud/v1/companies",
+  "referer": "",
+  "reqID": 1,
+  "request": {
+    "code": "223423",
+    "detail": "",
+    "expiration": "2022-01-01T11:11:11.000Z",
+    "id2": 33,
+    "key": "123456",
+    "legal_name": "floral-frost",
+    "license": "floral-frost",
+    "name": "floral-frost",
+    "phone": "6632734",
+    "plan": "",
+    "server": "127.0.0.1:9093",
+    "type": "multi branch with centeral finance"
+  },
+  "time": "2020-05-03T19:48:20+03:00",
+  "uri": "/api/cloud/v1/companies?lang=ku",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 356,
+  "latency": 10,
+  "level": "info",
+  "msg": "response",
+  "resID": 1,
+  "response": {
+    "data": {
+      "code": "223423",
+      "created_at": "2020-05-03T19:48:20+03:00",
+      "expiration": "2022-01-01T14:11:11+03:00",
+      "id": 1015,
+      "key": "123456",
+      "legal_name": "floral-frost",
+      "license": "floral-frost",
+      "name": "floral-frost",
+      "phone": "6632734",
+      "type": "multi branch with centeral finance",
+      "updated_at": "2020-05-03T19:48:20+03:00"
+    },
+    "message": "company ba sarkawtooyi drwst kra"
+  },
+  "status": 200,
+  "time": "2020-05-03T19:48:20+03:00"
+}
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           {
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {
+    "lang": [
+      "ku"
+    ]
+  },
+  "path": "/api/cloud/v1/companies",
+  "referer": "",
+  "reqID": 1,
+  "request": {
+    "code": "223423",
+    "detail": "",
+    "expiration": "2022-01-01T11:11:11.000Z",
+    "id2": 33,
+    "key": "123456",
+    "legal_name": "billowing-field",
+    "license": "billowing-field",
+    "name": "billowing-field",
+    "phone": "7997643",
+    "plan": "",
+    "server": "127.0.0.1:9093",
+    "type": "multi branch with centeral finance"
+  },
+  "time": "2020-05-03T20:12:10+03:00",
+  "uri": "/api/cloud/v1/companies?lang=ku",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 365,
+  "latency": 12,
+  "level": "info",
+  "msg": "response",
+  "resID": 1,
+  "response": {
+    "data": {
+      "code": "223423",
+      "created_at": "2020-05-03T20:12:10+03:00",
+      "expiration": "2022-01-01T14:11:11+03:00",
+      "id": 1016,
+      "key": "123456",
+      "legal_name": "billowing-field",
+      "license": "billowing-field",
+      "name": "billowing-field",
+      "phone": "7997643",
+      "type": "multi branch with centeral finance",
+      "updated_at": "2020-05-03T20:12:10+03:00"
+    },
+    "message": "company ba sarkawtooyi drwst kra"
+  },
+  "status": 200,
+  "time": "2020-05-03T20:12:10+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {
+    "lang": [
+      "ku"
+    ]
+  },
+  "path": "/api/cloud/v1/companies",
+  "referer": "",
+  "reqID": 2,
+  "request": {
+    "code": "223423",
+    "detail": "",
+    "expiration": "2022-01-01T11:11:11.000Z",
+    "id2": 33,
+    "key": "123456",
+    "legal_name": "rough-meadow",
+    "license": "rough-meadow",
+    "name": "rough-meadow",
+    "phone": "9092764",
+    "plan": "",
+    "server": "127.0.0.1:9093",
+    "type": "multi branch with centeral finance"
+  },
+  "time": "2020-05-03T20:12:11+03:00",
+  "uri": "/api/cloud/v1/companies?lang=ku",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 356,
+  "latency": 10,
+  "level": "info",
+  "msg": "response",
+  "resID": 2,
+  "response": {
+    "data": {
+      "code": "223423",
+      "created_at": "2020-05-03T20:12:11+03:00",
+      "expiration": "2022-01-01T14:11:11+03:00",
+      "id": 1017,
+      "key": "123456",
+      "legal_name": "rough-meadow",
+      "license": "rough-meadow",
+      "name": "rough-meadow",
+      "phone": "9092764",
+      "type": "multi branch with centeral finance",
+      "updated_at": "2020-05-03T20:12:11+03:00"
+    },
+    "message": "company ba sarkawtooyi drwst kra"
+  },
+  "status": 200,
+  "time": "2020-05-03T20:12:11+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {},
+  "path": "/api/cloud/v1/roles",
+  "referer": "",
+  "reqID": 3,
+  "request": {
+    "description": "6719927",
+    "name": "young-night 6719927",
+    "resources": "young-night"
+  },
+  "time": "2020-05-03T20:12:17+03:00",
+  "uri": "/api/cloud/v1/roles",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 67,
+  "latency": 12,
+  "level": "info",
+  "msg": "response",
+  "resID": 3,
+  "response": {
+    "error": "Error 1054: Unknown column 'company_id' in 'field list'"
+  },
+  "status": 500,
+  "time": "2020-05-03T20:12:17+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {},
+  "path": "/api/cloud/v1/roles",
+  "referer": "",
+  "reqID": 4,
+  "request": {
+    "description": "9446059",
+    "name": "holy-field 9446059",
+    "resources": "holy-field"
+  },
+  "time": "2020-05-03T20:12:18+03:00",
+  "uri": "/api/cloud/v1/roles",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 67,
+  "latency": 9,
+  "level": "info",
+  "msg": "response",
+  "resID": 4,
+  "response": {
+    "error": "Error 1054: Unknown column 'company_id' in 'field list'"
+  },
+  "status": 500,
+  "time": "2020-05-03T20:12:18+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {},
+  "path": "/api/cloud/v1/roles",
+  "referer": "",
+  "reqID": 1,
+  "request": {
+    "description": "6750571",
+    "name": "green-night 6750571",
+    "resources": "green-night"
+  },
+  "time": "2020-05-03T20:17:51+03:00",
+  "uri": "/api/cloud/v1/roles",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 67,
+  "latency": 7,
+  "level": "info",
+  "msg": "response",
+  "resID": 1,
+  "response": {
+    "error": "Error 1054: Unknown column 'company_id' in 'field list'"
+  },
+  "status": 500,
+  "time": "2020-05-03T20:17:51+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {},
+  "path": "/api/cloud/v1/roles",
+  "referer": "",
+  "reqID": 1,
+  "request": {
+    "description": "5481145",
+    "name": "sparkling-grass 5481145",
+    "resources": "sparkling-grass"
+  },
+  "time": "2020-05-03T20:21:27+03:00",
+  "uri": "/api/cloud/v1/roles",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 57,
+  "latency": 9,
+  "level": "info",
+  "msg": "response",
+  "resID": 1,
+  "response": {
+    "error": "Error 1146: Table 'sigma.roles' doesn't exist"
+  },
+  "status": 500,
+  "time": "2020-05-03T20:21:27+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {},
+  "path": "/api/cloud/v1/roles",
+  "referer": "",
+  "reqID": 1,
+  "request": {
+    "description": "7994031",
+    "name": "rough-shadow 7994031",
+    "resources": "rough-shadow"
+  },
+  "time": "2020-05-03T20:22:05+03:00",
+  "uri": "/api/cloud/v1/roles",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 269,
+  "latency": 14,
+  "level": "info",
+  "msg": "response",
+  "resID": 1,
+  "response": {
+    "data": {
+      "company_id": 1017,
+      "created_at": "2020-05-03T20:22:06+03:00",
+      "description": "7994031",
+      "id": 1017102000000001,
+      "name": "rough-shadow 7994031",
+      "node_id": 102,
+      "resources": "rough-shadow",
+      "updated_at": "2020-05-03T20:22:06+03:00"
+    },
+    "message": "role ba sarkawtooyi drwst kra"
+  },
+  "status": 200,
+  "time": "2020-05-03T20:22:05+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {},
+  "path": "/api/cloud/v1/roles",
+  "referer": "",
+  "reqID": 2,
+  "request": {
+    "description": "7380436",
+    "name": "wandering-surf 7380436",
+    "resources": "wandering-surf"
+  },
+  "time": "2020-05-03T20:22:06+03:00",
+  "uri": "/api/cloud/v1/roles",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 273,
+  "latency": 9,
+  "level": "info",
+  "msg": "response",
+  "resID": 2,
+  "response": {
+    "data": {
+      "company_id": 1017,
+      "created_at": "2020-05-03T20:22:07+03:00",
+      "description": "7380436",
+      "id": 1017102000000002,
+      "name": "wandering-surf 7380436",
+      "node_id": 102,
+      "resources": "wandering-surf",
+      "updated_at": "2020-05-03T20:22:07+03:00"
+    },
+    "message": "role ba sarkawtooyi drwst kra"
+  },
+  "status": 200,
+  "time": "2020-05-03T20:22:06+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {},
+  "path": "/api/cloud/v1/roles",
+  "referer": "",
+  "reqID": 3,
+  "request": {
+    "description": "5707817",
+    "name": "damp-sky 5707817",
+    "resources": "damp-sky"
+  },
+  "time": "2020-05-03T20:22:07+03:00",
+  "uri": "/api/cloud/v1/roles",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 261,
+  "latency": 11,
+  "level": "info",
+  "msg": "response",
+  "resID": 3,
+  "response": {
+    "data": {
+      "company_id": 1017,
+      "created_at": "2020-05-03T20:22:07+03:00",
+      "description": "5707817",
+      "id": 1017102000000003,
+      "name": "damp-sky 5707817",
+      "node_id": 102,
+      "resources": "damp-sky",
+      "updated_at": "2020-05-03T20:22:07+03:00"
+    },
+    "message": "role ba sarkawtooyi drwst kra"
+  },
+  "status": 200,
+  "time": "2020-05-03T20:22:07+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {},
+  "path": "/api/cloud/v1/roles",
+  "referer": "",
+  "reqID": 4,
+  "request": {
+    "description": "6442759",
+    "name": "snowy-wildflower 6442759",
+    "resources": "snowy-wildflower"
+  },
+  "time": "2020-05-03T20:22:07+03:00",
+  "uri": "/api/cloud/v1/roles",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 277,
+  "latency": 14,
+  "level": "info",
+  "msg": "response",
+  "resID": 4,
+  "response": {
+    "data": {
+      "company_id": 1017,
+      "created_at": "2020-05-03T20:22:08+03:00",
+      "description": "6442759",
+      "id": 1017102000000004,
+      "name": "snowy-wildflower 6442759",
+      "node_id": 102,
+      "resources": "snowy-wildflower",
+      "updated_at": "2020-05-03T20:22:08+03:00"
+    },
+    "message": "role ba sarkawtooyi drwst kra"
+  },
+  "status": 200,
+  "time": "2020-05-03T20:22:07+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {},
+  "path": "/api/cloud/v1/roles",
+  "referer": "",
+  "reqID": 5,
+  "request": {
+    "description": "4970880",
+    "name": "falling-dream 4970880",
+    "resources": "falling-dream"
+  },
+  "time": "2020-05-03T20:22:07+03:00",
+  "uri": "/api/cloud/v1/roles",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 271,
+  "latency": 12,
+  "level": "info",
+  "msg": "response",
+  "resID": 5,
+  "response": {
+    "data": {
+      "company_id": 1017,
+      "created_at": "2020-05-03T20:22:08+03:00",
+      "description": "4970880",
+      "id": 1017102000000005,
+      "name": "falling-dream 4970880",
+      "node_id": 102,
+      "resources": "falling-dream",
+      "updated_at": "2020-05-03T20:22:08+03:00"
+    },
+    "message": "role ba sarkawtooyi drwst kra"
+  },
+  "status": 200,
+  "time": "2020-05-03T20:22:07+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {},
+  "path": "/api/cloud/v1/roles",
+  "referer": "",
+  "reqID": 6,
+  "request": {
+    "description": "5212078",
+    "name": "fragrant-lake 5212078",
+    "resources": "fragrant-lake"
+  },
+  "time": "2020-05-03T20:28:30+03:00",
+  "uri": "/api/cloud/v1/roles",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 271,
+  "latency": 12,
+  "level": "info",
+  "msg": "response",
+  "resID": 6,
+  "response": {
+    "data": {
+      "company_id": 1017,
+      "created_at": "2020-05-03T20:28:30+03:00",
+      "description": "5212078",
+      "id": 1017102000000006,
+      "name": "fragrant-lake 5212078",
+      "node_id": 102,
+      "resources": "fragrant-lake",
+      "updated_at": "2020-05-03T20:28:30+03:00"
+    },
+    "message": "role ba sarkawtooyi drwst kra"
+  },
+  "status": 200,
+  "time": "2020-05-03T20:28:30+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {},
+  "path": "/api/cloud/v1/roles",
+  "referer": "",
+  "reqID": 7,
+  "request": {
+    "description": "4246563",
+    "name": "ancient-hill 4246563",
+    "resources": "ancient-hill"
+  },
+  "time": "2020-05-03T20:28:30+03:00",
+  "uri": "/api/cloud/v1/roles",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 269,
+  "latency": 11,
+  "level": "info",
+  "msg": "response",
+  "resID": 7,
+  "response": {
+    "data": {
+      "company_id": 1017,
+      "created_at": "2020-05-03T20:28:31+03:00",
+      "description": "4246563",
+      "id": 1017102000000007,
+      "name": "ancient-hill 4246563",
+      "node_id": 102,
+      "resources": "ancient-hill",
+      "updated_at": "2020-05-03T20:28:31+03:00"
+    },
+    "message": "role ba sarkawtooyi drwst kra"
+  },
+  "status": 200,
+  "time": "2020-05-03T20:28:30+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {},
+  "path": "/api/cloud/v1/roles",
+  "referer": "",
+  "reqID": 8,
+  "request": {
+    "description": "2885779",
+    "name": "holy-field 2885779",
+    "resources": "holy-field"
+  },
+  "time": "2020-05-03T20:28:30+03:00",
+  "uri": "/api/cloud/v1/roles",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 265,
+  "latency": 12,
+  "level": "info",
+  "msg": "response",
+  "resID": 8,
+  "response": {
+    "data": {
+      "company_id": 1017,
+      "created_at": "2020-05-03T20:28:31+03:00",
+      "description": "2885779",
+      "id": 1017102000000008,
+      "name": "holy-field 2885779",
+      "node_id": 102,
+      "resources": "holy-field",
+      "updated_at": "2020-05-03T20:28:31+03:00"
+    },
+    "message": "role ba sarkawtooyi drwst kra"
+  },
+  "status": 200,
+  "time": "2020-05-03T20:28:30+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {},
+  "path": "/api/cloud/v1/roles",
+  "referer": "",
+  "reqID": 9,
+  "request": {
+    "description": "7935259",
+    "name": "dark-grass 7935259",
+    "resources": "dark-grass"
+  },
+  "time": "2020-05-03T20:28:30+03:00",
+  "uri": "/api/cloud/v1/roles",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 265,
+  "latency": 12,
+  "level": "info",
+  "msg": "response",
+  "resID": 9,
+  "response": {
+    "data": {
+      "company_id": 1017,
+      "created_at": "2020-05-03T20:28:31+03:00",
+      "description": "7935259",
+      "id": 1017102000000009,
+      "name": "dark-grass 7935259",
+      "node_id": 102,
+      "resources": "dark-grass",
+      "updated_at": "2020-05-03T20:28:31+03:00"
+    },
+    "message": "role ba sarkawtooyi drwst kra"
+  },
+  "status": 200,
+  "time": "2020-05-03T20:28:30+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {},
+  "path": "/api/cloud/v1/roles",
+  "referer": "",
+  "reqID": 10,
+  "request": {
+    "description": "6279172",
+    "name": "hidden-snowflake 6279172",
+    "resources": "hidden-snowflake"
+  },
+  "time": "2020-05-03T20:28:30+03:00",
+  "uri": "/api/cloud/v1/roles",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 277,
+  "latency": 11,
+  "level": "info",
+  "msg": "response",
+  "resID": 10,
+  "response": {
+    "data": {
+      "company_id": 1017,
+      "created_at": "2020-05-03T20:28:31+03:00",
+      "description": "6279172",
+      "id": 1017102000000010,
+      "name": "hidden-snowflake 6279172",
+      "node_id": 102,
+      "resources": "hidden-snowflake",
+      "updated_at": "2020-05-03T20:28:31+03:00"
+    },
+    "message": "role ba sarkawtooyi drwst kra"
+  },
+  "status": 200,
+  "time": "2020-05-03T20:28:30+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {},
+  "path": "/api/cloud/v1/roles",
+  "referer": "",
+  "reqID": 11,
+  "request": {
+    "description": "9972336",
+    "name": "patient-thunder 9972336",
+    "resources": "patient-thunder"
+  },
+  "time": "2020-05-03T20:28:31+03:00",
+  "uri": "/api/cloud/v1/roles",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 275,
+  "latency": 10,
+  "level": "info",
+  "msg": "response",
+  "resID": 11,
+  "response": {
+    "data": {
+      "company_id": 1017,
+      "created_at": "2020-05-03T20:28:31+03:00",
+      "description": "9972336",
+      "id": 1017102000000011,
+      "name": "patient-thunder 9972336",
+      "node_id": 102,
+      "resources": "patient-thunder",
+      "updated_at": "2020-05-03T20:28:31+03:00"
+    },
+    "message": "role ba sarkawtooyi drwst kra"
+  },
+  "status": 200,
+  "time": "2020-05-03T20:28:31+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {},
+  "path": "/api/cloud/v1/roles",
+  "referer": "",
+  "reqID": 12,
+  "request": {
+    "description": "2070422",
+    "name": "hidden-brook 2070422",
+    "resources": "hidden-brook"
+  },
+  "time": "2020-05-03T20:28:31+03:00",
+  "uri": "/api/cloud/v1/roles",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 269,
+  "latency": 11,
+  "level": "info",
+  "msg": "response",
+  "resID": 12,
+  "response": {
+    "data": {
+      "company_id": 1017,
+      "created_at": "2020-05-03T20:28:31+03:00",
+      "description": "2070422",
+      "id": 1017102000000012,
+      "name": "hidden-brook 2070422",
+      "node_id": 102,
+      "resources": "hidden-brook",
+      "updated_at": "2020-05-03T20:28:31+03:00"
+    },
+    "message": "role ba sarkawtooyi drwst kra"
+  },
+  "status": 200,
+  "time": "2020-05-03T20:28:31+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {},
+  "path": "/api/cloud/v1/roles",
+  "referer": "",
+  "reqID": 13,
+  "request": {
+    "description": "2016011",
+    "name": "billowing-rain 2016011",
+    "resources": "billowing-rain"
+  },
+  "time": "2020-05-03T20:28:31+03:00",
+  "uri": "/api/cloud/v1/roles",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 273,
+  "latency": 10,
+  "level": "info",
+  "msg": "response",
+  "resID": 13,
+  "response": {
+    "data": {
+      "company_id": 1017,
+      "created_at": "2020-05-03T20:28:31+03:00",
+      "description": "2016011",
+      "id": 1017102000000013,
+      "name": "billowing-rain 2016011",
+      "node_id": 102,
+      "resources": "billowing-rain",
+      "updated_at": "2020-05-03T20:28:31+03:00"
+    },
+    "message": "role ba sarkawtooyi drwst kra"
+  },
+  "status": 200,
+  "time": "2020-05-03T20:28:31+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {},
+  "path": "/api/cloud/v1/roles",
+  "referer": "",
+  "reqID": 14,
+  "request": {
+    "description": "7849548",
+    "name": "twilight-river 7849548",
+    "resources": "twilight-river"
+  },
+  "time": "2020-05-03T20:28:31+03:00",
+  "uri": "/api/cloud/v1/roles",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 273,
+  "latency": 13,
+  "level": "info",
+  "msg": "response",
+  "resID": 14,
+  "response": {
+    "data": {
+      "company_id": 1017,
+      "created_at": "2020-05-03T20:28:32+03:00",
+      "description": "7849548",
+      "id": 1017102000000014,
+      "name": "twilight-river 7849548",
+      "node_id": 102,
+      "resources": "twilight-river",
+      "updated_at": "2020-05-03T20:28:32+03:00"
+    },
+    "message": "role ba sarkawtooyi drwst kra"
+  },
+  "status": 200,
+  "time": "2020-05-03T20:28:31+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {},
+  "path": "/api/cloud/v1/roles",
+  "referer": "",
+  "reqID": 15,
+  "request": {
+    "description": "4840204",
+    "name": "holy-frog 4840204",
+    "resources": "holy-frog"
+  },
+  "time": "2020-05-03T20:28:31+03:00",
+  "uri": "/api/cloud/v1/roles",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 263,
+  "latency": 12,
+  "level": "info",
+  "msg": "response",
+  "resID": 15,
+  "response": {
+    "data": {
+      "company_id": 1017,
+      "created_at": "2020-05-03T20:28:32+03:00",
+      "description": "4840204",
+      "id": 1017102000000015,
+      "name": "holy-frog 4840204",
+      "node_id": 102,
+      "resources": "holy-frog",
+      "updated_at": "2020-05-03T20:28:32+03:00"
+    },
+    "message": "role ba sarkawtooyi drwst kra"
+  },
+  "status": 200,
+  "time": "2020-05-03T20:28:31+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {},
+  "path": "/api/cloud/v1/roles",
+  "referer": "",
+  "reqID": 16,
+  "request": {
+    "description": "5255739",
+    "name": "misty-cherry 5255739",
+    "resources": "misty-cherry"
+  },
+  "time": "2020-05-03T20:28:31+03:00",
+  "uri": "/api/cloud/v1/roles",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 269,
+  "latency": 12,
+  "level": "info",
+  "msg": "response",
+  "resID": 16,
+  "response": {
+    "data": {
+      "company_id": 1017,
+      "created_at": "2020-05-03T20:28:32+03:00",
+      "description": "5255739",
+      "id": 1017102000000016,
+      "name": "misty-cherry 5255739",
+      "node_id": 102,
+      "resources": "misty-cherry",
+      "updated_at": "2020-05-03T20:28:32+03:00"
+    },
+    "message": "role ba sarkawtooyi drwst kra"
+  },
+  "status": 200,
+  "time": "2020-05-03T20:28:31+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {},
+  "path": "/api/cloud/v1/roles",
+  "referer": "",
+  "reqID": 17,
+  "request": {
+    "description": "4248510",
+    "name": "bold-hill 4248510",
+    "resources": "bold-hill"
+  },
+  "time": "2020-05-03T20:28:31+03:00",
+  "uri": "/api/cloud/v1/roles",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 263,
+  "latency": 10,
+  "level": "info",
+  "msg": "response",
+  "resID": 17,
+  "response": {
+    "data": {
+      "company_id": 1017,
+      "created_at": "2020-05-03T20:28:32+03:00",
+      "description": "4248510",
+      "id": 1017102000000017,
+      "name": "bold-hill 4248510",
+      "node_id": 102,
+      "resources": "bold-hill",
+      "updated_at": "2020-05-03T20:28:32+03:00"
+    },
+    "message": "role ba sarkawtooyi drwst kra"
+  },
+  "status": 200,
+  "time": "2020-05-03T20:28:31+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {},
+  "path": "/api/cloud/v1/roles",
+  "referer": "",
+  "reqID": 18,
+  "request": {
+    "description": "9760077",
+    "name": "misty-snow 9760077",
+    "resources": "misty-snow"
+  },
+  "time": "2020-05-03T20:28:32+03:00",
+  "uri": "/api/cloud/v1/roles",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 265,
+  "latency": 13,
+  "level": "info",
+  "msg": "response",
+  "resID": 18,
+  "response": {
+    "data": {
+      "company_id": 1017,
+      "created_at": "2020-05-03T20:28:32+03:00",
+      "description": "9760077",
+      "id": 1017102000000018,
+      "name": "misty-snow 9760077",
+      "node_id": 102,
+      "resources": "misty-snow",
+      "updated_at": "2020-05-03T20:28:32+03:00"
+    },
+    "message": "role ba sarkawtooyi drwst kra"
+  },
+  "status": 200,
+  "time": "2020-05-03T20:28:32+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {},
+  "path": "/api/cloud/v1/roles",
+  "referer": "",
+  "reqID": 19,
+  "request": {
+    "description": "5095438",
+    "name": "throbbing-night 5095438",
+    "resources": "throbbing-night"
+  },
+  "time": "2020-05-03T20:28:32+03:00",
+  "uri": "/api/cloud/v1/roles",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 275,
+  "latency": 12,
+  "level": "info",
+  "msg": "response",
+  "resID": 19,
+  "response": {
+    "data": {
+      "company_id": 1017,
+      "created_at": "2020-05-03T20:28:32+03:00",
+      "description": "5095438",
+      "id": 1017102000000019,
+      "name": "throbbing-night 5095438",
+      "node_id": 102,
+      "resources": "throbbing-night",
+      "updated_at": "2020-05-03T20:28:32+03:00"
+    },
+    "message": "role ba sarkawtooyi drwst kra"
+  },
+  "status": 200,
+  "time": "2020-05-03T20:28:32+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {},
+  "path": "/api/cloud/v1/roles",
+  "referer": "",
+  "reqID": 20,
+  "request": {
+    "description": "6388984",
+    "name": "delicate-shadow 6388984",
+    "resources": "delicate-shadow"
+  },
+  "time": "2020-05-03T20:28:32+03:00",
+  "uri": "/api/cloud/v1/roles",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 275,
+  "latency": 13,
+  "level": "info",
+  "msg": "response",
+  "resID": 20,
+  "response": {
+    "data": {
+      "company_id": 1017,
+      "created_at": "2020-05-03T20:28:32+03:00",
+      "description": "6388984",
+      "id": 1017102000000020,
+      "name": "delicate-shadow 6388984",
+      "node_id": 102,
+      "resources": "delicate-shadow",
+      "updated_at": "2020-05-03T20:28:32+03:00"
+    },
+    "message": "role ba sarkawtooyi drwst kra"
+  },
+  "status": 200,
+  "time": "2020-05-03T20:28:32+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {},
+  "path": "/api/cloud/v1/roles",
+  "referer": "",
+  "reqID": 21,
+  "request": {
+    "description": "4693509",
+    "name": "red-frost 4693509",
+    "resources": "red-frost"
+  },
+  "time": "2020-05-03T20:28:32+03:00",
+  "uri": "/api/cloud/v1/roles",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 263,
+  "latency": 13,
+  "level": "info",
+  "msg": "response",
+  "resID": 21,
+  "response": {
+    "data": {
+      "company_id": 1017,
+      "created_at": "2020-05-03T20:28:33+03:00",
+      "description": "4693509",
+      "id": 1017102000000021,
+      "name": "red-frost 4693509",
+      "node_id": 102,
+      "resources": "red-frost",
+      "updated_at": "2020-05-03T20:28:33+03:00"
+    },
+    "message": "role ba sarkawtooyi drwst kra"
+  },
+  "status": 200,
+  "time": "2020-05-03T20:28:32+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {},
+  "path": "/api/cloud/v1/roles",
+  "referer": "",
+  "reqID": 22,
+  "request": {
+    "description": "9514323",
+    "name": "late-dawn 9514323",
+    "resources": "late-dawn"
+  },
+  "time": "2020-05-03T20:28:32+03:00",
+  "uri": "/api/cloud/v1/roles",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 263,
+  "latency": 12,
+  "level": "info",
+  "msg": "response",
+  "resID": 22,
+  "response": {
+    "data": {
+      "company_id": 1017,
+      "created_at": "2020-05-03T20:28:33+03:00",
+      "description": "9514323",
+      "id": 1017102000000022,
+      "name": "late-dawn 9514323",
+      "node_id": 102,
+      "resources": "late-dawn",
+      "updated_at": "2020-05-03T20:28:33+03:00"
+    },
+    "message": "role ba sarkawtooyi drwst kra"
+  },
+  "status": 200,
+  "time": "2020-05-03T20:28:32+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {},
+  "path": "/api/cloud/v1/roles",
+  "referer": "",
+  "reqID": 23,
+  "request": {
+    "description": "7537779",
+    "name": "ancient-paper 7537779",
+    "resources": "ancient-paper"
+  },
+  "time": "2020-05-03T20:28:32+03:00",
+  "uri": "/api/cloud/v1/roles",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 271,
+  "latency": 12,
+  "level": "info",
+  "msg": "response",
+  "resID": 23,
+  "response": {
+    "data": {
+      "company_id": 1017,
+      "created_at": "2020-05-03T20:28:33+03:00",
+      "description": "7537779",
+      "id": 1017102000000023,
+      "name": "ancient-paper 7537779",
+      "node_id": 102,
+      "resources": "ancient-paper",
+      "updated_at": "2020-05-03T20:28:33+03:00"
+    },
+    "message": "role ba sarkawtooyi drwst kra"
+  },
+  "status": 200,
+  "time": "2020-05-03T20:28:32+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {},
+  "path": "/api/cloud/v1/roles",
+  "referer": "",
+  "reqID": 24,
+  "request": {
+    "description": "833165",
+    "name": "quiet-shape 833165",
+    "resources": "quiet-shape"
+  },
+  "time": "2020-05-03T20:28:33+03:00",
+  "uri": "/api/cloud/v1/roles",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 265,
+  "latency": 13,
+  "level": "info",
+  "msg": "response",
+  "resID": 24,
+  "response": {
+    "data": {
+      "company_id": 1017,
+      "created_at": "2020-05-03T20:28:33+03:00",
+      "description": "833165",
+      "id": 1017102000000024,
+      "name": "quiet-shape 833165",
+      "node_id": 102,
+      "resources": "quiet-shape",
+      "updated_at": "2020-05-03T20:28:33+03:00"
+    },
+    "message": "role ba sarkawtooyi drwst kra"
+  },
+  "status": 200,
+  "time": "2020-05-03T20:28:33+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {},
+  "path": "/api/cloud/v1/roles",
+  "referer": "",
+  "reqID": 25,
+  "request": {
+    "description": "4951535",
+    "name": "still-waterfall 4951535",
+    "resources": "still-waterfall"
+  },
+  "time": "2020-05-03T20:28:33+03:00",
+  "uri": "/api/cloud/v1/roles",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 275,
+  "latency": 12,
+  "level": "info",
+  "msg": "response",
+  "resID": 25,
+  "response": {
+    "data": {
+      "company_id": 1017,
+      "created_at": "2020-05-03T20:28:33+03:00",
+      "description": "4951535",
+      "id": 1017102000000025,
+      "name": "still-waterfall 4951535",
+      "node_id": 102,
+      "resources": "still-waterfall",
+      "updated_at": "2020-05-03T20:28:33+03:00"
+    },
+    "message": "role ba sarkawtooyi drwst kra"
+  },
+  "status": 200,
+  "time": "2020-05-03T20:28:33+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {},
+  "path": "/api/cloud/v1/roles",
+  "referer": "",
+  "reqID": 26,
+  "request": {
+    "description": "2731097",
+    "name": "autumn-bush 2731097",
+    "resources": "autumn-bush"
+  },
+  "time": "2020-05-03T20:28:33+03:00",
+  "uri": "/api/cloud/v1/roles",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 267,
+  "latency": 13,
+  "level": "info",
+  "msg": "response",
+  "resID": 26,
+  "response": {
+    "data": {
+      "company_id": 1017,
+      "created_at": "2020-05-03T20:28:33+03:00",
+      "description": "2731097",
+      "id": 1017102000000026,
+      "name": "autumn-bush 2731097",
+      "node_id": 102,
+      "resources": "autumn-bush",
+      "updated_at": "2020-05-03T20:28:33+03:00"
+    },
+    "message": "role ba sarkawtooyi drwst kra"
+  },
+  "status": 200,
+  "time": "2020-05-03T20:28:33+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {},
+  "path": "/api/cloud/v1/roles",
+  "referer": "",
+  "reqID": 27,
+  "request": {
+    "description": "46637",
+    "name": "little-dust 46637",
+    "resources": "little-dust"
+  },
+  "time": "2020-05-03T20:28:33+03:00",
+  "uri": "/api/cloud/v1/roles",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 263,
+  "latency": 11,
+  "level": "info",
+  "msg": "response",
+  "resID": 27,
+  "response": {
+    "data": {
+      "company_id": 1017,
+      "created_at": "2020-05-03T20:28:34+03:00",
+      "description": "46637",
+      "id": 1017102000000027,
+      "name": "little-dust 46637",
+      "node_id": 102,
+      "resources": "little-dust",
+      "updated_at": "2020-05-03T20:28:34+03:00"
+    },
+    "message": "role ba sarkawtooyi drwst kra"
+  },
+  "status": 200,
+  "time": "2020-05-03T20:28:33+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {},
+  "path": "/api/cloud/v1/roles",
+  "referer": "",
+  "reqID": 28,
+  "request": {
+    "description": "1531364",
+    "name": "empty-star 1531364",
+    "resources": "empty-star"
+  },
+  "time": "2020-05-03T20:28:33+03:00",
+  "uri": "/api/cloud/v1/roles",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 265,
+  "latency": 11,
+  "level": "info",
+  "msg": "response",
+  "resID": 28,
+  "response": {
+    "data": {
+      "company_id": 1017,
+      "created_at": "2020-05-03T20:28:34+03:00",
+      "description": "1531364",
+      "id": 1017102000000028,
+      "name": "empty-star 1531364",
+      "node_id": 102,
+      "resources": "empty-star",
+      "updated_at": "2020-05-03T20:28:34+03:00"
+    },
+    "message": "role ba sarkawtooyi drwst kra"
+  },
+  "status": 200,
+  "time": "2020-05-03T20:28:33+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {},
+  "path": "/api/cloud/v1/roles",
+  "referer": "",
+  "reqID": 29,
+  "request": {
+    "description": "585665",
+    "name": "weathered-wildflower 585665",
+    "resources": "weathered-wildflower"
+  },
+  "time": "2020-05-03T20:28:33+03:00",
+  "uri": "/api/cloud/v1/roles",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 283,
+  "latency": 14,
+  "level": "info",
+  "msg": "response",
+  "resID": 29,
+  "response": {
+    "data": {
+      "company_id": 1017,
+      "created_at": "2020-05-03T20:28:34+03:00",
+      "description": "585665",
+      "id": 1017102000000029,
+      "name": "weathered-wildflower 585665",
+      "node_id": 102,
+      "resources": "weathered-wildflower",
+      "updated_at": "2020-05-03T20:28:34+03:00"
+    },
+    "message": "role ba sarkawtooyi drwst kra"
+  },
+  "status": 200,
+  "time": "2020-05-03T20:28:33+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {},
+  "path": "/api/cloud/v1/roles",
+  "referer": "",
+  "reqID": 30,
+  "request": {
+    "description": "6732365",
+    "name": "fragrant-pond 6732365",
+    "resources": "fragrant-pond"
+  },
+  "time": "2020-05-03T20:28:34+03:00",
+  "uri": "/api/cloud/v1/roles",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 271,
+  "latency": 12,
+  "level": "info",
+  "msg": "response",
+  "resID": 30,
+  "response": {
+    "data": {
+      "company_id": 1017,
+      "created_at": "2020-05-03T20:28:34+03:00",
+      "description": "6732365",
+      "id": 1017102000000030,
+      "name": "fragrant-pond 6732365",
+      "node_id": 102,
+      "resources": "fragrant-pond",
+      "updated_at": "2020-05-03T20:28:34+03:00"
+    },
+    "message": "role ba sarkawtooyi drwst kra"
+  },
+  "status": 200,
+  "time": "2020-05-03T20:28:34+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {},
+  "path": "/api/cloud/v1/roles",
+  "referer": "",
+  "reqID": 31,
+  "request": {
+    "description": "9103844",
+    "name": "sparkling-water 9103844",
+    "resources": "sparkling-water"
+  },
+  "time": "2020-05-03T20:28:34+03:00",
+  "uri": "/api/cloud/v1/roles",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 275,
+  "latency": 13,
+  "level": "info",
+  "msg": "response",
+  "resID": 31,
+  "response": {
+    "data": {
+      "company_id": 1017,
+      "created_at": "2020-05-03T20:28:34+03:00",
+      "description": "9103844",
+      "id": 1017102000000031,
+      "name": "sparkling-water 9103844",
+      "node_id": 102,
+      "resources": "sparkling-water",
+      "updated_at": "2020-05-03T20:28:34+03:00"
+    },
+    "message": "role ba sarkawtooyi drwst kra"
+  },
+  "status": 200,
+  "time": "2020-05-03T20:28:34+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {},
+  "path": "/api/cloud/v1/roles",
+  "referer": "",
+  "reqID": 32,
+  "request": {
+    "description": "6741214",
+    "name": "nameless-sea 6741214",
+    "resources": "nameless-sea"
+  },
+  "time": "2020-05-03T20:28:34+03:00",
+  "uri": "/api/cloud/v1/roles",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 269,
+  "latency": 13,
+  "level": "info",
+  "msg": "response",
+  "resID": 32,
+  "response": {
+    "data": {
+      "company_id": 1017,
+      "created_at": "2020-05-03T20:28:34+03:00",
+      "description": "6741214",
+      "id": 1017102000000032,
+      "name": "nameless-sea 6741214",
+      "node_id": 102,
+      "resources": "nameless-sea",
+      "updated_at": "2020-05-03T20:28:34+03:00"
+    },
+    "message": "role ba sarkawtooyi drwst kra"
+  },
+  "status": 200,
+  "time": "2020-05-03T20:28:34+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {},
+  "path": "/api/cloud/v1/roles",
+  "referer": "",
+  "reqID": 33,
+  "request": {
+    "description": "5644838",
+    "name": "young-breeze 5644838",
+    "resources": "young-breeze"
+  },
+  "time": "2020-05-03T20:28:34+03:00",
+  "uri": "/api/cloud/v1/roles",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 269,
+  "latency": 12,
+  "level": "info",
+  "msg": "response",
+  "resID": 33,
+  "response": {
+    "data": {
+      "company_id": 1017,
+      "created_at": "2020-05-03T20:28:35+03:00",
+      "description": "5644838",
+      "id": 1017102000000033,
+      "name": "young-breeze 5644838",
+      "node_id": 102,
+      "resources": "young-breeze",
+      "updated_at": "2020-05-03T20:28:35+03:00"
+    },
+    "message": "role ba sarkawtooyi drwst kra"
+  },
+  "status": 200,
+  "time": "2020-05-03T20:28:34+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {},
+  "path": "/api/cloud/v1/roles",
+  "referer": "",
+  "reqID": 34,
+  "request": {
+    "description": "9377799",
+    "name": "muddy-bird 9377799",
+    "resources": "muddy-bird"
+  },
+  "time": "2020-05-03T20:28:34+03:00",
+  "uri": "/api/cloud/v1/roles",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 265,
+  "latency": 12,
+  "level": "info",
+  "msg": "response",
+  "resID": 34,
+  "response": {
+    "data": {
+      "company_id": 1017,
+      "created_at": "2020-05-03T20:28:35+03:00",
+      "description": "9377799",
+      "id": 1017102000000034,
+      "name": "muddy-bird 9377799",
+      "node_id": 102,
+      "resources": "muddy-bird",
+      "updated_at": "2020-05-03T20:28:35+03:00"
+    },
+    "message": "role ba sarkawtooyi drwst kra"
+  },
+  "status": 200,
+  "time": "2020-05-03T20:28:34+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {},
+  "path": "/api/cloud/v1/roles",
+  "referer": "",
+  "reqID": 35,
+  "request": {
+    "description": "9837018",
+    "name": "purple-glade 9837018",
+    "resources": "purple-glade"
+  },
+  "time": "2020-05-03T20:28:34+03:00",
+  "uri": "/api/cloud/v1/roles",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 269,
+  "latency": 12,
+  "level": "info",
+  "msg": "response",
+  "resID": 35,
+  "response": {
+    "data": {
+      "company_id": 1017,
+      "created_at": "2020-05-03T20:28:35+03:00",
+      "description": "9837018",
+      "id": 1017102000000035,
+      "name": "purple-glade 9837018",
+      "node_id": 102,
+      "resources": "purple-glade",
+      "updated_at": "2020-05-03T20:28:35+03:00"
+    },
+    "message": "role ba sarkawtooyi drwst kra"
+  },
+  "status": 200,
+  "time": "2020-05-03T20:28:34+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {},
+  "path": "/api/cloud/v1/roles",
+  "referer": "",
+  "reqID": 36,
+  "request": {
+    "description": "9515927",
+    "name": "bold-butterfly 9515927",
+    "resources": "bold-butterfly"
+  },
+  "time": "2020-05-03T20:28:34+03:00",
+  "uri": "/api/cloud/v1/roles",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 273,
+  "latency": 12,
+  "level": "info",
+  "msg": "response",
+  "resID": 36,
+  "response": {
+    "data": {
+      "company_id": 1017,
+      "created_at": "2020-05-03T20:28:35+03:00",
+      "description": "9515927",
+      "id": 1017102000000036,
+      "name": "bold-butterfly 9515927",
+      "node_id": 102,
+      "resources": "bold-butterfly",
+      "updated_at": "2020-05-03T20:28:35+03:00"
+    },
+    "message": "role ba sarkawtooyi drwst kra"
+  },
+  "status": 200,
+  "time": "2020-05-03T20:28:34+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {},
+  "path": "/api/cloud/v1/roles",
+  "referer": "",
+  "reqID": 37,
+  "request": {
+    "description": "1038114",
+    "name": "divine-water 1038114",
+    "resources": "divine-water"
+  },
+  "time": "2020-05-03T20:28:35+03:00",
+  "uri": "/api/cloud/v1/roles",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 269,
+  "latency": 11,
+  "level": "info",
+  "msg": "response",
+  "resID": 37,
+  "response": {
+    "data": {
+      "company_id": 1017,
+      "created_at": "2020-05-03T20:28:35+03:00",
+      "description": "1038114",
+      "id": 1017102000000037,
+      "name": "divine-water 1038114",
+      "node_id": 102,
+      "resources": "divine-water",
+      "updated_at": "2020-05-03T20:28:35+03:00"
+    },
+    "message": "role ba sarkawtooyi drwst kra"
+  },
+  "status": 200,
+  "time": "2020-05-03T20:28:35+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {},
+  "path": "/api/cloud/v1/roles",
+  "referer": "",
+  "reqID": 38,
+  "request": {
+    "description": "2720375",
+    "name": "billowing-wind 2720375",
+    "resources": "billowing-wind"
+  },
+  "time": "2020-05-03T20:28:35+03:00",
+  "uri": "/api/cloud/v1/roles",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 273,
+  "latency": 11,
+  "level": "info",
+  "msg": "response",
+  "resID": 38,
+  "response": {
+    "data": {
+      "company_id": 1017,
+      "created_at": "2020-05-03T20:28:35+03:00",
+      "description": "2720375",
+      "id": 1017102000000038,
+      "name": "billowing-wind 2720375",
+      "node_id": 102,
+      "resources": "billowing-wind",
+      "updated_at": "2020-05-03T20:28:35+03:00"
+    },
+    "message": "role ba sarkawtooyi drwst kra"
+  },
+  "status": 200,
+  "time": "2020-05-03T20:28:35+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {},
+  "path": "/api/cloud/v1/roles",
+  "referer": "",
+  "reqID": 39,
+  "request": {
+    "description": "8776765",
+    "name": "silent-dawn 8776765",
+    "resources": "silent-dawn"
+  },
+  "time": "2020-05-03T20:28:35+03:00",
+  "uri": "/api/cloud/v1/roles",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 267,
+  "latency": 11,
+  "level": "info",
+  "msg": "response",
+  "resID": 39,
+  "response": {
+    "data": {
+      "company_id": 1017,
+      "created_at": "2020-05-03T20:28:35+03:00",
+      "description": "8776765",
+      "id": 1017102000000039,
+      "name": "silent-dawn 8776765",
+      "node_id": 102,
+      "resources": "silent-dawn",
+      "updated_at": "2020-05-03T20:28:35+03:00"
+    },
+    "message": "role ba sarkawtooyi drwst kra"
+  },
+  "status": 200,
+  "time": "2020-05-03T20:28:35+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {},
+  "path": "/api/cloud/v1/roles",
+  "referer": "",
+  "reqID": 40,
+  "request": {
+    "description": "9346028",
+    "name": "old-dream 9346028",
+    "resources": "old-dream"
+  },
+  "time": "2020-05-03T20:28:35+03:00",
+  "uri": "/api/cloud/v1/roles",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 263,
+  "latency": 12,
+  "level": "info",
+  "msg": "response",
+  "resID": 40,
+  "response": {
+    "data": {
+      "company_id": 1017,
+      "created_at": "2020-05-03T20:28:36+03:00",
+      "description": "9346028",
+      "id": 1017102000000040,
+      "name": "old-dream 9346028",
+      "node_id": 102,
+      "resources": "old-dream",
+      "updated_at": "2020-05-03T20:28:36+03:00"
+    },
+    "message": "role ba sarkawtooyi drwst kra"
+  },
+  "status": 200,
+  "time": "2020-05-03T20:28:35+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {},
+  "path": "/api/cloud/v1/roles",
+  "referer": "",
+  "reqID": 41,
+  "request": {
+    "description": "7826337",
+    "name": "proud-pine 7826337",
+    "resources": "proud-pine"
+  },
+  "time": "2020-05-03T20:28:35+03:00",
+  "uri": "/api/cloud/v1/roles",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 265,
+  "latency": 10,
+  "level": "info",
+  "msg": "response",
+  "resID": 41,
+  "response": {
+    "data": {
+      "company_id": 1017,
+      "created_at": "2020-05-03T20:28:36+03:00",
+      "description": "7826337",
+      "id": 1017102000000041,
+      "name": "proud-pine 7826337",
+      "node_id": 102,
+      "resources": "proud-pine",
+      "updated_at": "2020-05-03T20:28:36+03:00"
+    },
+    "message": "role ba sarkawtooyi drwst kra"
+  },
+  "status": 200,
+  "time": "2020-05-03T20:28:35+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {},
+  "path": "/api/cloud/v1/roles",
+  "referer": "",
+  "reqID": 42,
+  "request": {
+    "description": "3581193",
+    "name": "withered-flower 3581193",
+    "resources": "withered-flower"
+  },
+  "time": "2020-05-03T20:28:35+03:00",
+  "uri": "/api/cloud/v1/roles",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 275,
+  "latency": 12,
+  "level": "info",
+  "msg": "response",
+  "resID": 42,
+  "response": {
+    "data": {
+      "company_id": 1017,
+      "created_at": "2020-05-03T20:28:36+03:00",
+      "description": "3581193",
+      "id": 1017102000000042,
+      "name": "withered-flower 3581193",
+      "node_id": 102,
+      "resources": "withered-flower",
+      "updated_at": "2020-05-03T20:28:36+03:00"
+    },
+    "message": "role ba sarkawtooyi drwst kra"
+  },
+  "status": 200,
+  "time": "2020-05-03T20:28:35+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {},
+  "path": "/api/cloud/v1/roles",
+  "referer": "",
+  "reqID": 43,
+  "request": {
+    "description": "9626407",
+    "name": "crimson-sky 9626407",
+    "resources": "crimson-sky"
+  },
+  "time": "2020-05-03T20:28:35+03:00",
+  "uri": "/api/cloud/v1/roles",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 267,
+  "latency": 10,
+  "level": "info",
+  "msg": "response",
+  "resID": 43,
+  "response": {
+    "data": {
+      "company_id": 1017,
+      "created_at": "2020-05-03T20:28:36+03:00",
+      "description": "9626407",
+      "id": 1017102000000043,
+      "name": "crimson-sky 9626407",
+      "node_id": 102,
+      "resources": "crimson-sky",
+      "updated_at": "2020-05-03T20:28:36+03:00"
+    },
+    "message": "role ba sarkawtooyi drwst kra"
+  },
+  "status": 200,
+  "time": "2020-05-03T20:28:35+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {},
+  "path": "/api/cloud/v1/roles",
+  "referer": "",
+  "reqID": 44,
+  "request": {
+    "description": "6675971",
+    "name": "patient-firefly 6675971",
+    "resources": "patient-firefly"
+  },
+  "time": "2020-05-03T20:28:36+03:00",
+  "uri": "/api/cloud/v1/roles",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 275,
+  "latency": 12,
+  "level": "info",
+  "msg": "response",
+  "resID": 44,
+  "response": {
+    "data": {
+      "company_id": 1017,
+      "created_at": "2020-05-03T20:28:36+03:00",
+      "description": "6675971",
+      "id": 1017102000000044,
+      "name": "patient-firefly 6675971",
+      "node_id": 102,
+      "resources": "patient-firefly",
+      "updated_at": "2020-05-03T20:28:36+03:00"
+    },
+    "message": "role ba sarkawtooyi drwst kra"
+  },
+  "status": 200,
+  "time": "2020-05-03T20:28:36+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {},
+  "path": "/api/cloud/v1/roles",
+  "referer": "",
+  "reqID": 45,
+  "request": {
+    "description": "1413424",
+    "name": "proud-violet 1413424",
+    "resources": "proud-violet"
+  },
+  "time": "2020-05-03T20:28:36+03:00",
+  "uri": "/api/cloud/v1/roles",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 269,
+  "latency": 12,
+  "level": "info",
+  "msg": "response",
+  "resID": 45,
+  "response": {
+    "data": {
+      "company_id": 1017,
+      "created_at": "2020-05-03T20:28:36+03:00",
+      "description": "1413424",
+      "id": 1017102000000045,
+      "name": "proud-violet 1413424",
+      "node_id": 102,
+      "resources": "proud-violet",
+      "updated_at": "2020-05-03T20:28:36+03:00"
+    },
+    "message": "role ba sarkawtooyi drwst kra"
+  },
+  "status": 200,
+  "time": "2020-05-03T20:28:36+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {},
+  "path": "/api/cloud/v1/roles",
+  "referer": "",
+  "reqID": 46,
+  "request": {
+    "description": "7066539",
+    "name": "morning-cherry 7066539",
+    "resources": "morning-cherry"
+  },
+  "time": "2020-05-03T20:28:36+03:00",
+  "uri": "/api/cloud/v1/roles",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 273,
+  "latency": 12,
+  "level": "info",
+  "msg": "response",
+  "resID": 46,
+  "response": {
+    "data": {
+      "company_id": 1017,
+      "created_at": "2020-05-03T20:28:36+03:00",
+      "description": "7066539",
+      "id": 1017102000000046,
+      "name": "morning-cherry 7066539",
+      "node_id": 102,
+      "resources": "morning-cherry",
+      "updated_at": "2020-05-03T20:28:36+03:00"
+    },
+    "message": "role ba sarkawtooyi drwst kra"
+  },
+  "status": 200,
+  "time": "2020-05-03T20:28:36+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {},
+  "path": "/api/cloud/v1/roles",
+  "referer": "",
+  "reqID": 47,
+  "request": {
+    "description": "7161110",
+    "name": "wispy-dream 7161110",
+    "resources": "wispy-dream"
+  },
+  "time": "2020-05-03T20:28:36+03:00",
+  "uri": "/api/cloud/v1/roles",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 267,
+  "latency": 12,
+  "level": "info",
+  "msg": "response",
+  "resID": 47,
+  "response": {
+    "data": {
+      "company_id": 1017,
+      "created_at": "2020-05-03T20:28:37+03:00",
+      "description": "7161110",
+      "id": 1017102000000047,
+      "name": "wispy-dream 7161110",
+      "node_id": 102,
+      "resources": "wispy-dream",
+      "updated_at": "2020-05-03T20:28:37+03:00"
+    },
+    "message": "role ba sarkawtooyi drwst kra"
+  },
+  "status": 200,
+  "time": "2020-05-03T20:28:36+03:00"
+}
+{
+  "level": "info",
+  "method": "DELETE",
+  "msg": "request",
+  "params": {},
+  "path": "/api/cloud/v1/roles/1001101000000019",
+  "referer": "",
+  "reqID": 48,
+  "request": {},
+  "time": "2020-05-03T20:28:39+03:00",
+  "uri": "/api/cloud/v1/roles/1001101000000019",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 57,
+  "latency": 4,
+  "level": "info",
+  "msg": "response",
+  "resID": 48,
+  "response": {
+    "error": "record not found",
+    "message": "record booni nie"
+  },
+  "status": 404,
+  "time": "2020-05-03T20:28:39+03:00"
+}
+{
+  "level": "info",
+  "method": "DELETE",
+  "msg": "request",
+  "params": {},
+  "path": "/api/cloud/v1/roles/1017102000000047",
+  "referer": "",
+  "reqID": 49,
+  "request": {},
+  "time": "2020-05-03T20:29:13+03:00",
+  "uri": "/api/cloud/v1/roles/1017102000000047",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 43,
+  "latency": 17,
+  "level": "info",
+  "msg": "response",
+  "resID": 49,
+  "response": {
+    "message": "role ba sarkawtuyi delete boo"
+  },
+  "status": 200,
+  "time": "2020-05-03T20:29:13+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {},
+  "path": "/api/cloud/v1/users",
+  "referer": "",
+  "reqID": 50,
+  "request": {
+    "account": {
+      "code": 3859302,
+      "name": "lingering-sky",
+      "status": "active",
+      "type": "asset"
+    },
+    "language": "ku",
+    "password": "1234567890",
+    "role_id": 1001101000000001,
+    "role_id2": 1001101000000001,
+    "username": "lingering-sky"
+  },
+  "time": "2020-05-03T21:19:42+03:00",
+  "uri": "/api/cloud/v1/users",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 65,
+  "latency": 93,
+  "level": "info",
+  "msg": "response",
+  "resID": 50,
+  "response": {
+    "error": "Error 1364: Field 'name' doesn't have a default value"
+  },
+  "status": 500,
+  "time": "2020-05-03T21:19:42+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {
+    "lang": [
+      "ku"
+    ]
+  },
+  "path": "/api/cloud/v1/accounts",
+  "referer": "",
+  "reqID": 51,
+  "request": {
+    "code": 6027387,
+    "direction": "direct",
+    "name": "RANDOM_NAME_",
+    "parent_id": 1001101000000012,
+    "status": "active",
+    "type": "asset"
+  },
+  "time": "2020-05-03T21:21:01+03:00",
+  "uri": "/api/cloud/v1/accounts?lang=ku",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 55,
+  "latency": 1,
+  "level": "info",
+  "msg": "response",
+  "resID": 51,
+  "response": {
+    "error": "route not found",
+    "message": "route booni nie"
+  },
+  "status": 404,
+  "time": "2020-05-03T21:21:01+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {
+    "lang": [
+      "ku"
+    ]
+  },
+  "path": "/api/cloud/v1/accounts",
+  "referer": "",
+  "reqID": 1,
+  "request": {
+    "code": 8019067,
+    "direction": "direct",
+    "name": "RANDOM_NAME_",
+    "parent_id": 1001101000000012,
+    "status": "active",
+    "type": "asset"
+  },
+  "time": "2020-05-03T21:24:48+03:00",
+  "uri": "/api/cloud/v1/accounts?lang=ku",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 60,
+  "latency": 7,
+  "level": "info",
+  "msg": "response",
+  "resID": 1,
+  "response": {
+    "error": "Error 1146: Table 'sigma.accounts' doesn't exist"
+  },
+  "status": 500,
+  "time": "2020-05-03T21:24:48+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {
+    "lang": [
+      "ku"
+    ]
+  },
+  "path": "/api/cloud/v1/accounts",
+  "referer": "",
+  "reqID": 1,
+  "request": {
+    "code": 7484924,
+    "direction": "direct",
+    "name": "RANDOM_NAME_",
+    "parent_id": 1001101000000012,
+    "status": "active",
+    "type": "asset"
+  },
+  "time": "2020-05-03T21:25:15+03:00",
+  "uri": "/api/cloud/v1/accounts?lang=ku",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 313,
+  "latency": 13,
+  "level": "info",
+  "msg": "response",
+  "resID": 1,
+  "response": {
+    "data": {
+      "code": 7484924,
+      "company_id": 1017,
+      "created_at": "2020-05-03T21:25:15+03:00",
+      "direction": "direct",
+      "id": 1017102000000001,
+      "name": "RANDOM_NAME_",
+      "node_code": 102,
+      "parent_id": 1001101000000012,
+      "status": "active",
+      "type": "asset",
+      "updated_at": "2020-05-03T21:25:15+03:00"
+    },
+    "message": "account ba sarkawtooyi drwst kra"
+  },
+  "status": 200,
+  "time": "2020-05-03T21:25:15+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {
+    "lang": [
+      "ku"
+    ]
+  },
+  "path": "/api/cloud/v1/accounts",
+  "referer": "",
+  "reqID": 2,
+  "request": {
+    "code": 5565298,
+    "direction": "direct",
+    "name": "RANDOM_NAME_",
+    "parent_id": 1001101000000012,
+    "status": "active",
+    "type": "asset"
+  },
+  "time": "2020-05-03T21:25:16+03:00",
+  "uri": "/api/cloud/v1/accounts?lang=ku",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 118,
+  "latency": 8,
+  "level": "info",
+  "msg": "response",
+  "resID": 2,
+  "response": {
+    "error": "Error 1062: Duplicate entry '1017-RANDOM_NAME_' for key 'idx_companyID_name'",
+    "message": "peshtr daxl krawa"
+  },
+  "status": 409,
+  "time": "2020-05-03T21:25:16+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {
+    "lang": [
+      "ku"
+    ]
+  },
+  "path": "/api/cloud/v1/accounts",
+  "referer": "",
+  "reqID": 3,
+  "request": {
+    "code": 2823721,
+    "direction": "direct",
+    "name": "RANDOM_NAME_",
+    "parent_id": 1001101000000012,
+    "status": "active",
+    "type": "asset"
+  },
+  "time": "2020-05-03T21:25:16+03:00",
+  "uri": "/api/cloud/v1/accounts?lang=ku",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 118,
+  "latency": 10,
+  "level": "info",
+  "msg": "response",
+  "resID": 3,
+  "response": {
+    "error": "Error 1062: Duplicate entry '1017-RANDOM_NAME_' for key 'idx_companyID_name'",
+    "message": "peshtr daxl krawa"
+  },
+  "status": 409,
+  "time": "2020-05-03T21:25:16+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {
+    "lang": [
+      "ku"
+    ]
+  },
+  "path": "/api/cloud/v1/accounts",
+  "referer": "",
+  "reqID": 4,
+  "request": {
+    "code": 5952267,
+    "direction": "direct",
+    "name": "bitter-smoke",
+    "parent_id": 1001101000000012,
+    "status": "active",
+    "type": "asset"
+  },
+  "time": "2020-05-03T21:25:39+03:00",
+  "uri": "/api/cloud/v1/accounts?lang=ku",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 313,
+  "latency": 13,
+  "level": "info",
+  "msg": "response",
+  "resID": 4,
+  "response": {
+    "data": {
+      "code": 5952267,
+      "company_id": 1017,
+      "created_at": "2020-05-03T21:25:39+03:00",
+      "direction": "direct",
+      "id": 1017102000000002,
+      "name": "bitter-smoke",
+      "node_code": 102,
+      "parent_id": 1001101000000012,
+      "status": "active",
+      "type": "asset",
+      "updated_at": "2020-05-03T21:25:39+03:00"
+    },
+    "message": "account ba sarkawtooyi drwst kra"
+  },
+  "status": 200,
+  "time": "2020-05-03T21:25:39+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {
+    "lang": [
+      "ku"
+    ]
+  },
+  "path": "/api/cloud/v1/accounts",
+  "referer": "",
+  "reqID": 5,
+  "request": {
+    "code": 8807405,
+    "direction": "direct",
+    "name": "lively-waterfall",
+    "parent_id": 1001101000000012,
+    "status": "active",
+    "type": "asset"
+  },
+  "time": "2020-05-03T21:25:39+03:00",
+  "uri": "/api/cloud/v1/accounts?lang=ku",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 317,
+  "latency": 13,
+  "level": "info",
+  "msg": "response",
+  "resID": 5,
+  "response": {
+    "data": {
+      "code": 8807405,
+      "company_id": 1017,
+      "created_at": "2020-05-03T21:25:40+03:00",
+      "direction": "direct",
+      "id": 1017102000000003,
+      "name": "lively-waterfall",
+      "node_code": 102,
+      "parent_id": 1001101000000012,
+      "status": "active",
+      "type": "asset",
+      "updated_at": "2020-05-03T21:25:40+03:00"
+    },
+    "message": "account ba sarkawtooyi drwst kra"
+  },
+  "status": 200,
+  "time": "2020-05-03T21:25:39+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {
+    "lang": [
+      "ku"
+    ]
+  },
+  "path": "/api/cloud/v1/accounts",
+  "referer": "",
+  "reqID": 6,
+  "request": {
+    "code": 9263338,
+    "direction": "direct",
+    "name": "muddy-tree",
+    "parent_id": 1001101000000012,
+    "status": "active",
+    "type": "asset"
+  },
+  "time": "2020-05-03T21:25:40+03:00",
+  "uri": "/api/cloud/v1/accounts?lang=ku",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 311,
+  "latency": 12,
+  "level": "info",
+  "msg": "response",
+  "resID": 6,
+  "response": {
+    "data": {
+      "code": 9263338,
+      "company_id": 1017,
+      "created_at": "2020-05-03T21:25:40+03:00",
+      "direction": "direct",
+      "id": 1017102000000004,
+      "name": "muddy-tree",
+      "node_code": 102,
+      "parent_id": 1001101000000012,
+      "status": "active",
+      "type": "asset",
+      "updated_at": "2020-05-03T21:25:40+03:00"
+    },
+    "message": "account ba sarkawtooyi drwst kra"
+  },
+  "status": 200,
+  "time": "2020-05-03T21:25:40+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {
+    "lang": [
+      "ku"
+    ]
+  },
+  "path": "/api/cloud/v1/accounts",
+  "referer": "",
+  "reqID": 7,
+  "request": {
+    "code": 5786383,
+    "direction": "direct",
+    "name": "aged-star",
+    "parent_id": 1001101000000012,
+    "status": "active",
+    "type": "asset"
+  },
+  "time": "2020-05-03T21:25:40+03:00",
+  "uri": "/api/cloud/v1/accounts?lang=ku",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 310,
+  "latency": 10,
+  "level": "info",
+  "msg": "response",
+  "resID": 7,
+  "response": {
+    "data": {
+      "code": 5786383,
+      "company_id": 1017,
+      "created_at": "2020-05-03T21:25:41+03:00",
+      "direction": "direct",
+      "id": 1017102000000005,
+      "name": "aged-star",
+      "node_code": 102,
+      "parent_id": 1001101000000012,
+      "status": "active",
+      "type": "asset",
+      "updated_at": "2020-05-03T21:25:41+03:00"
+    },
+    "message": "account ba sarkawtooyi drwst kra"
+  },
+  "status": 200,
+  "time": "2020-05-03T21:25:40+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {
+    "lang": [
+      "ku"
+    ]
+  },
+  "path": "/api/cloud/v1/accounts",
+  "referer": "",
+  "reqID": 8,
+  "request": {
+    "code": 3055816,
+    "direction": "direct",
+    "name": "twilight-grass",
+    "parent_id": 1001101000000012,
+    "status": "active",
+    "type": "asset"
+  },
+  "time": "2020-05-03T21:25:40+03:00",
+  "uri": "/api/cloud/v1/accounts?lang=ku",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 315,
+  "latency": 11,
+  "level": "info",
+  "msg": "response",
+  "resID": 8,
+  "response": {
+    "data": {
+      "code": 3055816,
+      "company_id": 1017,
+      "created_at": "2020-05-03T21:25:41+03:00",
+      "direction": "direct",
+      "id": 1017102000000006,
+      "name": "twilight-grass",
+      "node_code": 102,
+      "parent_id": 1001101000000012,
+      "status": "active",
+      "type": "asset",
+      "updated_at": "2020-05-03T21:25:41+03:00"
+    },
+    "message": "account ba sarkawtooyi drwst kra"
+  },
+  "status": 200,
+  "time": "2020-05-03T21:25:40+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {
+    "lang": [
+      "ku"
+    ]
+  },
+  "path": "/api/cloud/v1/accounts",
+  "referer": "",
+  "reqID": 9,
+  "request": {
+    "code": 5584057,
+    "direction": "direct",
+    "name": "holy-silence",
+    "parent_id": 1001101000000012,
+    "status": "active",
+    "type": "asset"
+  },
+  "time": "2020-05-03T21:25:41+03:00",
+  "uri": "/api/cloud/v1/accounts?lang=ku",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 313,
+  "latency": 11,
+  "level": "info",
+  "msg": "response",
+  "resID": 9,
+  "response": {
+    "data": {
+      "code": 5584057,
+      "company_id": 1017,
+      "created_at": "2020-05-03T21:25:41+03:00",
+      "direction": "direct",
+      "id": 1017102000000007,
+      "name": "holy-silence",
+      "node_code": 102,
+      "parent_id": 1001101000000012,
+      "status": "active",
+      "type": "asset",
+      "updated_at": "2020-05-03T21:25:41+03:00"
+    },
+    "message": "account ba sarkawtooyi drwst kra"
+  },
+  "status": 200,
+  "time": "2020-05-03T21:25:41+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {
+    "lang": [
+      "ku"
+    ]
+  },
+  "path": "/api/cloud/v1/accounts",
+  "referer": "",
+  "reqID": 10,
+  "request": {
+    "code": 5495331,
+    "direction": "direct",
+    "name": "polished-haze",
+    "parent_id": 1001101000000012,
+    "status": "active",
+    "type": "asset"
+  },
+  "time": "2020-05-03T21:27:36+03:00",
+  "uri": "/api/cloud/v1/accounts?lang=ku",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 314,
+  "latency": 18,
+  "level": "info",
+  "msg": "response",
+  "resID": 10,
+  "response": {
+    "data": {
+      "code": 5495331,
+      "company_id": 1017,
+      "created_at": "2020-05-03T21:27:36+03:00",
+      "direction": "direct",
+      "id": 1017102000000008,
+      "name": "polished-haze",
+      "node_code": 102,
+      "parent_id": 1001101000000012,
+      "status": "active",
+      "type": "asset",
+      "updated_at": "2020-05-03T21:27:36+03:00"
+    },
+    "message": "account ba sarkawtooyi drwst kra"
+  },
+  "status": 200,
+  "time": "2020-05-03T21:27:36+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {
+    "lang": [
+      "ku"
+    ]
+  },
+  "path": "/api/cloud/v1/accounts",
+  "referer": "",
+  "reqID": 11,
+  "request": {
+    "code": 7060322,
+    "direction": "direct",
+    "name": "summer-dust",
+    "parent_id": 1001101000000012,
+    "status": "active",
+    "type": "asset"
+  },
+  "time": "2020-05-03T21:27:36+03:00",
+  "uri": "/api/cloud/v1/accounts?lang=ku",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 312,
+  "latency": 11,
+  "level": "info",
+  "msg": "response",
+  "resID": 11,
+  "response": {
+    "data": {
+      "code": 7060322,
+      "company_id": 1017,
+      "created_at": "2020-05-03T21:27:37+03:00",
+      "direction": "direct",
+      "id": 1017102000000009,
+      "name": "summer-dust",
+      "node_code": 102,
+      "parent_id": 1001101000000012,
+      "status": "active",
+      "type": "asset",
+      "updated_at": "2020-05-03T21:27:37+03:00"
+    },
+    "message": "account ba sarkawtooyi drwst kra"
+  },
+  "status": 200,
+  "time": "2020-05-03T21:27:36+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {
+    "lang": [
+      "ku"
+    ]
+  },
+  "path": "/api/cloud/v1/accounts",
+  "referer": "",
+  "reqID": 12,
+  "request": {
+    "code": 6819062,
+    "direction": "direct",
+    "name": "little-snow",
+    "parent_id": 1001101000000012,
+    "status": "active",
+    "type": "asset"
+  },
+  "time": "2020-05-03T21:27:36+03:00",
+  "uri": "/api/cloud/v1/accounts?lang=ku",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 312,
+  "latency": 13,
+  "level": "info",
+  "msg": "response",
+  "resID": 12,
+  "response": {
+    "data": {
+      "code": 6819062,
+      "company_id": 1017,
+      "created_at": "2020-05-03T21:27:37+03:00",
+      "direction": "direct",
+      "id": 1017102000000010,
+      "name": "little-snow",
+      "node_code": 102,
+      "parent_id": 1001101000000012,
+      "status": "active",
+      "type": "asset",
+      "updated_at": "2020-05-03T21:27:37+03:00"
+    },
+    "message": "account ba sarkawtooyi drwst kra"
+  },
+  "status": 200,
+  "time": "2020-05-03T21:27:36+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {
+    "lang": [
+      "ku"
+    ]
+  },
+  "path": "/api/cloud/v1/accounts",
+  "referer": "",
+  "reqID": 13,
+  "request": {
+    "code": 6067416,
+    "direction": "direct",
+    "name": "old-dream",
+    "parent_id": 1001101000000012,
+    "status": "active",
+    "type": "asset"
+  },
+  "time": "2020-05-03T21:27:37+03:00",
+  "uri": "/api/cloud/v1/accounts?lang=ku",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 310,
+  "latency": 11,
+  "level": "info",
+  "msg": "response",
+  "resID": 13,
+  "response": {
+    "data": {
+      "code": 6067416,
+      "company_id": 1017,
+      "created_at": "2020-05-03T21:27:37+03:00",
+      "direction": "direct",
+      "id": 1017102000000011,
+      "name": "old-dream",
+      "node_code": 102,
+      "parent_id": 1001101000000012,
+      "status": "active",
+      "type": "asset",
+      "updated_at": "2020-05-03T21:27:37+03:00"
+    },
+    "message": "account ba sarkawtooyi drwst kra"
+  },
+  "status": 200,
+  "time": "2020-05-03T21:27:37+03:00"
+}
+{
+  "level": "info",
+  "method": "DELETE",
+  "msg": "request",
+  "params": {
+    "lang": [
+      "ku"
+    ]
+  },
+  "path": "/api/cloud/v1/accounts/1001101000000004",
+  "referer": "",
+  "reqID": 14,
+  "request": {},
+  "time": "2020-05-03T21:27:43+03:00",
+  "uri": "/api/cloud/v1/accounts/1001101000000004?lang=ku",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 57,
+  "latency": 4,
+  "level": "info",
+  "msg": "response",
+  "resID": 14,
+  "response": {
+    "error": "record not found",
+    "message": "record booni nie"
+  },
+  "status": 404,
+  "time": "2020-05-03T21:27:43+03:00"
+}
+{
+  "level": "info",
+  "method": "DELETE",
+  "msg": "request",
+  "params": {
+    "lang": [
+      "ku"
+    ]
+  },
+  "path": "/api/cloud/v1/accounts/1016102000000007",
+  "referer": "",
+  "reqID": 15,
+  "request": {},
+  "time": "2020-05-03T21:32:40+03:00",
+  "uri": "/api/cloud/v1/accounts/1016102000000007?lang=ku",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 46,
+  "latency": 18,
+  "level": "info",
+  "msg": "response",
+  "resID": 15,
+  "response": {
+    "message": "account ba sarkawtuyi delete boo"
+  },
+  "status": 200,
+  "time": "2020-05-03T21:32:40+03:00"
+}
+{
+  "level": "info",
+  "method": "DELETE",
+  "msg": "request",
+  "params": {
+    "lang": [
+      "ku"
+    ]
+  },
+  "path": "/api/cloud/v1/accounts/1016102000000001",
+  "referer": "",
+  "reqID": 1,
+  "request": {},
+  "time": "2020-05-03T21:50:22+03:00",
+  "uri": "/api/cloud/v1/accounts/1016102000000001?lang=ku",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 90,
+  "latency": 5,
+  "level": "info",
+  "msg": "response",
+  "resID": 1,
+  "response": {
+    "error": "you don't have permission, out of scope!",
+    "message": "bot nie, la daraway scopa"
+  },
+  "status": 403,
+  "time": "2020-05-03T21:50:22+03:00"
+}
+{
+  "level": "info",
+  "method": "DELETE",
+  "msg": "request",
+  "params": {
+    "lang": [
+      "ku"
+    ]
+  },
+  "path": "/api/cloud/v1/accounts/1016102000000001",
+  "referer": "",
+  "reqID": 2,
+  "request": {},
+  "time": "2020-05-03T21:50:26+03:00",
+  "uri": "/api/cloud/v1/accounts/1016102000000001?lang=ku",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 90,
+  "latency": 5,
+  "level": "info",
+  "msg": "response",
+  "resID": 2,
+  "response": {
+    "error": "you don't have permission, out of scope!",
+    "message": "bot nie, la daraway scopa"
+  },
+  "status": 403,
+  "time": "2020-05-03T21:50:26+03:00"
+}
+{
+  "level": "info",
+  "method": "DELETE",
+  "msg": "request",
+  "params": {
+    "lang": [
+      "ku"
+    ]
+  },
+  "path": "/api/cloud/v1/accounts/1017102000000004",
+  "referer": "",
+  "reqID": 3,
+  "request": {},
+  "time": "2020-05-03T21:50:53+03:00",
+  "uri": "/api/cloud/v1/accounts/1017102000000004?lang=ku",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 46,
+  "latency": 18,
+  "level": "info",
+  "msg": "response",
+  "resID": 3,
+  "response": {
+    "message": "account ba sarkawtuyi delete boo"
+  },
+  "status": 200,
+  "time": "2020-05-03T21:50:53+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {},
+  "path": "/api/cloud/v1/users",
+  "referer": "",
+  "reqID": 1,
+  "request": {
+    "account": {
+      "code": 3681875,
+      "name": "silent-dream",
+      "status": "active",
+      "type": "asset"
+    },
+    "language": "ku",
+    "password": "1234567890",
+    "role_id": 1001101000000001,
+    "role_id2": 1001101000000001,
+    "username": "silent-dream"
+  },
+  "time": "2020-05-03T21:55:53+03:00",
+  "uri": "/api/cloud/v1/users",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 65,
+  "latency": 93,
+  "level": "info",
+  "msg": "response",
+  "resID": 1,
+  "response": {
+    "error": "Error 1364: Field 'name' doesn't have a default value"
+  },
+  "status": 500,
+  "time": "2020-05-03T21:55:53+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {},
+  "path": "/api/cloud/v1/users",
+  "referer": "",
+  "reqID": 2,
+  "request": {
+    "account": {
+      "code": 7465031,
+      "name": "crimson-wildflower",
+      "status": "active",
+      "type": "asset"
+    },
+    "language": "ku",
+    "password": "1234567890",
+    "role_id": 1001101000000001,
+    "role_id2": 1001101000000001,
+    "username": "crimson-wildflower"
+  },
+  "time": "2020-05-03T21:56:06+03:00",
+  "uri": "/api/cloud/v1/users",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 65,
+  "latency": 94,
+  "level": "info",
+  "msg": "response",
+  "resID": 2,
+  "response": {
+    "error": "Error 1364: Field 'name' doesn't have a default value"
+  },
+  "status": 500,
+  "time": "2020-05-03T21:56:06+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {},
+  "path": "/api/cloud/v1/users",
+  "referer": "",
+  "reqID": 3,
+  "request": {
+    "account": {
+      "code": 885592,
+      "name": "little-wave",
+      "status": "active",
+      "type": "asset"
+    },
+    "language": "ku",
+    "password": "1234567890",
+    "role_id": 1001101000000001,
+    "role_id2": 1001101000000001,
+    "username": "little-wave"
+  },
+  "time": "2020-05-03T21:56:15+03:00",
+  "uri": "/api/cloud/v1/users",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 65,
+  "latency": 93,
+  "level": "info",
+  "msg": "response",
+  "resID": 3,
+  "response": {
+    "error": "Error 1364: Field 'name' doesn't have a default value"
+  },
+  "status": 500,
+  "time": "2020-05-03T21:56:15+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {},
+  "path": "/api/cloud/v1/users",
+  "referer": "",
+  "reqID": 1,
+  "request": {
+    "account": {
+      "code": 9925658,
+      "name": "lingering-sea",
+      "status": "active",
+      "type": "asset"
+    },
+    "language": "ku",
+    "password": "1234567890",
+    "role_id": 1001101000000001,
+    "role_id2": 1001101000000001,
+    "username": "lingering-sea"
+  },
+  "time": "2020-05-03T21:56:42+03:00",
+  "uri": "/api/cloud/v1/users",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 65,
+  "latency": 94,
+  "level": "info",
+  "msg": "response",
+  "resID": 1,
+  "response": {
+    "error": "Error 1364: Field 'name' doesn't have a default value"
+  },
+  "status": 500,
+  "time": "2020-05-03T21:56:42+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {},
+  "path": "/api/cloud/v1/users",
+  "referer": "",
+  "reqID": 1,
+  "request": {
+    "account": {
+      "code": 3905859,
+      "name": "floral-glitter",
+      "status": "active",
+      "type": "asset"
+    },
+    "language": "ku",
+    "password": "1234567890",
+    "role_id": 1001101000000001,
+    "role_id2": 1001101000000001,
+    "username": "floral-glitter"
+  },
+  "time": "2020-05-03T22:01:07+03:00",
+  "uri": "/api/cloud/v1/users",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 65,
+  "latency": 95,
+  "level": "info",
+  "msg": "response",
+  "resID": 1,
+  "response": {
+    "error": "Error 1364: Field 'name' doesn't have a default value"
+  },
+  "status": 500,
+  "time": "2020-05-03T22:01:07+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {},
+  "path": "/api/cloud/v1/users",
+  "referer": "",
+  "reqID": 1,
+  "request": {
+    "account": {
+      "code": 2699583,
+      "name": "still-sea",
+      "status": "active",
+      "type": "asset"
+    },
+    "language": "ku",
+    "password": "1234567890",
+    "role_id": 1001101000000001,
+    "role_id2": 1001101000000001,
+    "username": "still-sea"
+  },
+  "time": "2020-05-03T22:04:00+03:00",
+  "uri": "/api/cloud/v1/users",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 134,
+  "latency": 98,
+  "level": "info",
+  "msg": "response",
+  "resID": 1,
+  "response": {
+    "data": {
+      "account": {},
+      "id": 1,
+      "language": "ku",
+      "role_id": 1001101000000001,
+      "username": "still-sea"
+    },
+    "message": "user created successfully"
+  },
+  "status": 200,
+  "time": "2020-05-03T22:04:00+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {},
+  "path": "/api/cloud/v1/users",
+  "referer": "",
+  "reqID": 2,
+  "request": {
+    "account": {
+      "code": 8187012,
+      "name": "dry-breeze",
+      "status": "active",
+      "type": "asset"
+    },
+    "language": "ku",
+    "password": "1234567890",
+    "role_id": 1001101000000001,
+    "role_id2": 1001101000000001,
+    "username": "dry-breeze"
+  },
+  "time": "2020-05-03T22:04:04+03:00",
+  "uri": "/api/cloud/v1/users",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 135,
+  "latency": 97,
+  "level": "info",
+  "msg": "response",
+  "resID": 2,
+  "response": {
+    "data": {
+      "account": {},
+      "id": 2,
+      "language": "ku",
+      "role_id": 1001101000000001,
+      "username": "dry-breeze"
+    },
+    "message": "user created successfully"
+  },
+  "status": 200,
+  "time": "2020-05-03T22:04:04+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {},
+  "path": "/api/cloud/v1/users",
+  "referer": "",
+  "reqID": 1,
+  "request": {
+    "account": {
+      "code": 8635008,
+      "name": "restless-leaf",
+      "status": "active",
+      "type": "asset"
+    },
+    "language": "ku",
+    "password": "1234567890",
+    "role_id": 1001101000000001,
+    "role_id2": 1001101000000001,
+    "username": "restless-leaf"
+  },
+  "time": "2020-05-03T22:18:11+03:00",
+  "uri": "/api/cloud/v1/users",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 138,
+  "latency": 99,
+  "level": "info",
+  "msg": "response",
+  "resID": 1,
+  "response": {
+    "data": {
+      "account": {},
+      "id": 3,
+      "language": "ku",
+      "role_id": 1001101000000001,
+      "username": "restless-leaf"
+    },
+    "message": "user created successfully"
+  },
+  "status": 200,
+  "time": "2020-05-03T22:18:11+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {},
+  "path": "/api/cloud/v1/users",
+  "referer": "",
+  "reqID": 2,
+  "request": {
+    "account": {
+      "code": 2943334,
+      "name": "aged-dew",
+      "status": "active",
+      "type": "asset"
+    },
+    "language": "ku",
+    "password": "1234567890",
+    "role_id": 1001101000000001,
+    "role_id2": 1001101000000001,
+    "username": "aged-dew"
+  },
+  "time": "2020-05-03T22:18:37+03:00",
+  "uri": "/api/cloud/v1/users",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 133,
+  "latency": 95,
+  "level": "info",
+  "msg": "response",
+  "resID": 2,
+  "response": {
+    "data": {
+      "account": {},
+      "id": 4,
+      "language": "ku",
+      "role_id": 1001101000000001,
+      "username": "aged-dew"
+    },
+    "message": "user created successfully"
+  },
+  "status": 200,
+  "time": "2020-05-03T22:18:37+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {},
+  "path": "/api/cloud/v1/users",
+  "referer": "",
+  "reqID": 3,
+  "request": {
+    "account": {
+      "code": 3143783,
+      "name": "silent-paper",
+      "status": "active",
+      "type": "asset"
+    },
+    "language": "ku",
+    "password": "1234567890",
+    "role_id": 1001101000000001,
+    "role_id2": 1001101000000001,
+    "username": "silent-paper"
+  },
+  "time": "2020-05-03T22:18:37+03:00",
+  "uri": "/api/cloud/v1/users",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 137,
+  "latency": 97,
+  "level": "info",
+  "msg": "response",
+  "resID": 3,
+  "response": {
+    "data": {
+      "account": {},
+      "id": 5,
+      "language": "ku",
+      "role_id": 1001101000000001,
+      "username": "silent-paper"
+    },
+    "message": "user created successfully"
+  },
+  "status": 200,
+  "time": "2020-05-03T22:18:38+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {},
+  "path": "/api/cloud/v1/users",
+  "referer": "",
+  "reqID": 4,
+  "request": {
+    "account": {
+      "code": 4276902,
+      "name": "small-night",
+      "status": "active",
+      "type": "asset"
+    },
+    "language": "ku",
+    "password": "1234567890",
+    "role_id": 1001101000000001,
+    "role_id2": 1001101000000001,
+    "username": "small-night"
+  },
+  "time": "2020-05-03T22:18:39+03:00",
+  "uri": "/api/cloud/v1/users",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 136,
+  "latency": 99,
+  "level": "info",
+  "msg": "response",
+  "resID": 4,
+  "response": {
+    "data": {
+      "account": {},
+      "id": 6,
+      "language": "ku",
+      "role_id": 1001101000000001,
+      "username": "small-night"
+    },
+    "message": "user created successfully"
+  },
+  "status": 200,
+  "time": "2020-05-03T22:18:39+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {},
+  "path": "/api/cloud/v1/users",
+  "referer": "",
+  "reqID": 5,
+  "request": {
+    "account": {
+      "code": 8000443,
+      "name": "cold-hill",
+      "status": "active",
+      "type": "asset"
+    },
+    "language": "ku",
+    "password": "1234567890",
+    "role_id": 1001101000000001,
+    "role_id2": 1001101000000001,
+    "username": "cold-hill"
+  },
+  "time": "2020-05-03T22:18:40+03:00",
+  "uri": "/api/cloud/v1/users",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 134,
+  "latency": 95,
+  "level": "info",
+  "msg": "response",
+  "resID": 5,
+  "response": {
+    "data": {
+      "account": {},
+      "id": 7,
+      "language": "ku",
+      "role_id": 1001101000000001,
+      "username": "cold-hill"
+    },
+    "message": "user created successfully"
+  },
+  "status": 200,
+  "time": "2020-05-03T22:18:40+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {},
+  "path": "/api/cloud/v1/users",
+  "referer": "",
+  "reqID": 6,
+  "request": {
+    "account": {
+      "code": 2950356,
+      "name": "twilight-glade",
+      "status": "active",
+      "type": "asset"
+    },
+    "language": "ku",
+    "password": "1234567890",
+    "role_id": 1001101000000001,
+    "role_id2": 1001101000000001,
+    "username": "twilight-glade"
+  },
+  "time": "2020-05-03T22:18:41+03:00",
+  "uri": "/api/cloud/v1/users",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 139,
+  "latency": 95,
+  "level": "info",
+  "msg": "response",
+  "resID": 6,
+  "response": {
+    "data": {
+      "account": {},
+      "id": 8,
+      "language": "ku",
+      "role_id": 1001101000000001,
+      "username": "twilight-glade"
+    },
+    "message": "user created successfully"
+  },
+  "status": 200,
+  "time": "2020-05-03T22:18:41+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {},
+  "path": "/api/cloud/v1/users",
+  "referer": "",
+  "reqID": 1,
+  "request": {
+    "account": {
+      "code": 262400,
+      "name": "bitter-bird",
+      "status": "active",
+      "type": "asset"
+    },
+    "language": "ku",
+    "password": "1234567890",
+    "role_id": 1001101000000001,
+    "role_id2": 1001101000000001,
+    "username": "bitter-bird"
+  },
+  "time": "2020-05-03T22:32:10+03:00",
+  "uri": "/api/cloud/v1/users",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 191,
+  "latency": 7,
+  "level": "info",
+  "msg": "response",
+  "resID": 1,
+  "response": {
+    "error": {
+      "error": "error in account's form",
+      "fields": [
+        {
+          "field": "direction",
+          "message": "data qabul kraw awanan direct, indirect",
+          "params": "direct, indirect",
+          "term": "accepted values are: %v"
+        }
+      ]
+    }
+  },
+  "status": 406,
+  "time": "2020-05-03T22:32:10+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {},
+  "path": "/api/cloud/v1/users",
+  "referer": "",
+  "reqID": 2,
+  "request": {
+    "account": {
+      "code": 6157064,
+      "direction": "direct",
+      "name": "hidden-haze",
+      "status": "active",
+      "type": "asset"
+    },
+    "language": "ku",
+    "password": "1234567890",
+    "role_id": 1001101000000001,
+    "role_id2": 1001101000000001,
+    "username": "hidden-haze"
+  },
+  "time": "2020-05-03T22:33:07+03:00",
+  "uri": "/api/cloud/v1/users",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 35,
+  "latency": 4,
+  "level": "info",
+  "msg": "response",
+  "resID": 2,
+  "response": {
+    "error": "can't start transaction"
+  },
+  "status": 500,
+  "time": "2020-05-03T22:33:07+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {},
+  "path": "/api/cloud/v1/users",
+  "referer": "",
+  "reqID": 3,
+  "request": {
+    "account": {
+      "code": 8039862,
+      "direction": "direct",
+      "name": "nameless-sunset",
+      "status": "active",
+      "type": "asset"
+    },
+    "language": "ku",
+    "password": "1234567890",
+    "role_id": 1001101000000001,
+    "role_id2": 1001101000000001,
+    "username": "nameless-sunset"
+  },
+  "time": "2020-05-03T22:33:10+03:00",
+  "uri": "/api/cloud/v1/users",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 35,
+  "latency": 3,
+  "level": "info",
+  "msg": "response",
+  "resID": 3,
+  "response": {
+    "error": "can't start transaction"
+  },
+  "status": 500,
+  "time": "2020-05-03T22:33:10+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {},
+  "path": "/api/cloud/v1/users",
+  "referer": "",
+  "reqID": 1,
+  "request": {
+    "account": {
+      "code": 2805562,
+      "direction": "direct",
+      "name": "solitary-dust",
+      "status": "active",
+      "type": "asset"
+    },
+    "language": "ku",
+    "password": "1234567890",
+    "role_id": 1001101000000001,
+    "role_id2": 1001101000000001,
+    "username": "solitary-dust"
+  },
+  "time": "2020-05-03T22:35:11+03:00",
+  "uri": "/api/cloud/v1/users",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 70,
+  "latency": 102,
+  "level": "info",
+  "msg": "response",
+  "resID": 1,
+  "response": {
+    "error": "sql: transaction has already been committed or rolled back"
+  },
+  "status": 500,
+  "time": "2020-05-03T22:35:12+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {},
+  "path": "/api/cloud/v1/users",
+  "referer": "",
+  "reqID": 1,
+  "request": {
+    "account": {
+      "code": 2278395,
+      "direction": "direct",
+      "name": "falling-dream",
+      "status": "active",
+      "type": "asset"
+    },
+    "language": "ku",
+    "password": "1234567890",
+    "role_id": 1001101000000001,
+    "role_id2": 1001101000000001,
+    "username": "falling-dream"
+  },
+  "time": "2020-05-03T22:38:02+03:00",
+  "uri": "/api/cloud/v1/users",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 138,
+  "latency": 99,
+  "level": "info",
+  "msg": "response",
+  "resID": 1,
+  "response": {
+    "data": {
+      "account": {},
+      "id": 9,
+      "language": "ku",
+      "role_id": 1001101000000001,
+      "username": "falling-dream"
+    },
+    "message": "user created successfully"
+  },
+  "status": 200,
+  "time": "2020-05-03T22:38:02+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {},
+  "path": "/api/cloud/v1/users",
+  "referer": "",
+  "reqID": 2,
+  "request": {
+    "account": {
+      "code": 7818431,
+      "direction": "direct",
+      "name": "late-butterfly",
+      "status": "active",
+      "type": "asset"
+    },
+    "language": "ku",
+    "password": "1234567890",
+    "role_id": 1001101000000001,
+    "role_id2": 1001101000000001,
+    "username": "late-butterfly"
+  },
+  "time": "2020-05-03T22:38:05+03:00",
+  "uri": "/api/cloud/v1/users",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 35,
+  "latency": 2,
+  "level": "info",
+  "msg": "response",
+  "resID": 2,
+  "response": {
+    "error": "can't start transaction"
+  },
+  "status": 500,
+  "time": "2020-05-03T22:38:05+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {},
+  "path": "/api/cloud/v1/users",
+  "referer": "",
+  "reqID": 3,
+  "request": {
+    "account": {
+      "code": 2725755,
+      "direction": "direct",
+      "name": "shy-sky",
+      "status": "active",
+      "type": "asset"
+    },
+    "language": "ku",
+    "password": "1234567890",
+    "role_id": 1001101000000001,
+    "role_id2": 1001101000000001,
+    "username": "shy-sky"
+  },
+  "time": "2020-05-03T22:38:07+03:00",
+  "uri": "/api/cloud/v1/users",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 35,
+  "latency": 2,
+  "level": "info",
+  "msg": "response",
+  "resID": 3,
+  "response": {
+    "error": "can't start transaction"
+  },
+  "status": 500,
+  "time": "2020-05-03T22:38:07+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {},
+  "path": "/api/cloud/v1/users",
+  "referer": "",
+  "reqID": 4,
+  "request": {
+    "account": {
+      "code": 7388236,
+      "direction": "direct",
+      "name": "divine-brook",
+      "status": "active",
+      "type": "asset"
+    },
+    "language": "ku",
+    "password": "1234567890",
+    "role_id": 1001101000000001,
+    "role_id2": 1001101000000001,
+    "username": "divine-brook"
+  },
+  "time": "2020-05-03T22:38:08+03:00",
+  "uri": "/api/cloud/v1/users",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 35,
+  "latency": 3,
+  "level": "info",
+  "msg": "response",
+  "resID": 4,
+  "response": {
+    "error": "can't start transaction"
+  },
+  "status": 500,
+  "time": "2020-05-03T22:38:08+03:00"
+}
+{
+  "level": "info",
+  "method": "POST",
+  "msg": "request",
+  "params": {},
+  "path": "/api/cloud/v1/users",
+  "referer": "",
+  "reqID": 1,
+  "request": {
+    "account": {
+      "code": 5778351,
+      "direction": "direct",
+      "name": "dawn-wave",
+      "status": "active",
+      "type": "asset"
+    },
+    "language": "ku",
+    "password": "1234567890",
+    "role_id": 1001101000000001,
+    "role_id2": 1001101000000001,
+    "username": "dawn-wave"
+  },
+  "time": "2020-05-03T22:38:48+03:00",
+  "uri": "/api/cloud/v1/users",
+  "user_agent": "gocrud/0.1"
+}
+{
+  "data_length": 70,
+  "latency": 100,
+  "level": "info",
+  "msg": "response",
+  "resID": 1,
+  "response": {
+    "error": "sql: transaction has already been committed or rolled back"
+  },
+  "status": 500,
+  "time": "2020-05-03T22:38:48+03:00"
+}

@@ -235,18 +235,18 @@ func (p *UserAPI) Excel(c *gin.Context) {
 		extra := v.Extra.(map[string]interface{})
 		column := &[]interface{}{
 			v.ID,
-			// v.Account.Name,
+			v.Account.Name,
 			v.Username,
-			// v.Account.Code,
-			// v.Account.Status,
+			v.Account.Code,
+			v.Account.Status,
 			extra["role"],
 			v.Language,
-			// v.Account.Type,
+			v.Account.Type,
 			v.Email,
-			// v.Account.Readonly,
-			// v.Account.Direction,
-			// v.Account.CreatedAt.Format("2006-01-02 15:04:05"),
-			// v.Account.UpdatedAt.Format("2006-01-02 15:04:05"),
+			v.Account.Readonly,
+			v.Account.Direction,
+			v.Account.CreatedAt.Format("2006-01-02 15:04:05"),
+			v.Account.UpdatedAt.Format("2006-01-02 15:04:05"),
 		}
 		err = ex.File.SetSheetRow(ex.ActiveSheet, fmt.Sprint("A", i+2), column)
 		p.Engine.CheckError(err, "Error in writing to the excel in user")

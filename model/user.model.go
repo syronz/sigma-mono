@@ -21,6 +21,7 @@ type User struct {
 	Email    string      `json:"email,omitempty"`
 	Extra    interface{} `sql:"-" json:"user_extra,omitempty"`
 	Error    error       `sql:"-" json:"user_error,omitempty"`
+	Account  Account     `sql:"-" json:"account,omitempty"`
 }
 
 // Pattern returns the search pattern to be used inside the gorm's where

@@ -3,14 +3,14 @@ package service
 import (
 	"fmt"
 	"net/http"
-	"sigma/domain/accounting/repo"
-	"sigma/domain/core"
-	"sigma/internal/enum/action"
-	"sigma/internal/param"
-	"sigma/internal/term"
-	"sigma/internal/types"
-	"sigma/model"
-	"sigma/utils/helper"
+	"sigmamono/internal/core"
+	"sigmamono/internal/enum/action"
+	"sigmamono/internal/param"
+	"sigmamono/internal/term"
+	"sigmamono/internal/types"
+	"sigmamono/model"
+	"sigmamono/repo"
+	"sigmamono/utils/helper"
 
 	"github.com/jinzhu/gorm"
 )
@@ -116,10 +116,14 @@ func (p *AccountServ) LastID(prefix types.RowID) (lastID types.RowID, err error)
 }
 
 // Delete account, it is soft delete
-func (p *AccountServ) Delete(accountID types.RowID) (account model.Account, err error) {
+func (p *AccountServ) Delete(accountID types.RowID, params param.Param) (account model.Account, err error) {
 
 	if account, err = p.FindByID(accountID); err != nil {
 		return account, core.NewErrorWithStatus(err.Error(), http.StatusNotFound)
+	}
+
+	if account.CompanyID != params.CompanyID {
+		return account, core.NewErrorWithStatus(term.You_dont_have_permission_out_of_scope, http.StatusForbidden)
 	}
 
 	// rename unique key to prevent duplication

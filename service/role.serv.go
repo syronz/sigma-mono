@@ -7,8 +7,10 @@ import (
 	"sigmamono/internal/enum/action"
 	"sigmamono/internal/param"
 	"sigmamono/internal/term"
+	"sigmamono/internal/types"
 	"sigmamono/model"
 	"sigmamono/repo"
+	"sigmamono/utils/helper"
 )
 
 // RoleServ for injecting auth repo
@@ -23,7 +25,7 @@ func ProvideRoleService(p repo.RoleRepo) RoleServ {
 }
 
 // FindByID for getting role by it's id
-func (p *RoleServ) FindByID(id uint64) (role model.Role, err error) {
+func (p *RoleServ) FindByID(id types.RowID) (role model.Role, err error) {
 	role, err = p.Repo.FindByID(id)
 	p.Engine.CheckError(err, fmt.Sprintf("Role with id %v", id))
 
@@ -50,6 +52,20 @@ func (p *RoleServ) List(params param.Param) (data map[string]interface{}, err er
 // Create a role
 func (p *RoleServ) Create(role model.Role, params param.Param) (createdRole model.Role, err error) {
 
+	var prefix, lastID types.RowID
+	if prefix, err = params.PrefixID(); err != nil {
+		return
+	}
+
+	if lastID, err = p.LastID(prefix); err != nil {
+		return
+	}
+
+	role.ID = lastID + 1
+
+	role.CompanyID = params.CompanyID
+	role.NodeCode = params.NodeCode
+
 	if err = role.Validate(action.Save); err != nil {
 		p.Engine.CheckError(err, term.Validation_failed)
 		return
@@ -65,6 +81,8 @@ func (p *RoleServ) Create(role model.Role, params param.Param) (createdRole mode
 // Save a role, if it is exist update it, if not create it
 func (p *RoleServ) Save(role model.Role) (savedRole model.Role, err error) {
 
+	role.CompanyID, role.NodeCode, _ = role.ID.Split()
+
 	if err = role.Validate(action.Save); err != nil {
 		p.Engine.CheckError(err, "validation failed")
 		return
@@ -76,11 +94,25 @@ func (p *RoleServ) Save(role model.Role) (savedRole model.Role, err error) {
 	return
 }
 
+// LastID of roles table
+func (p *RoleServ) LastID(prefix types.RowID) (lastID types.RowID, err error) {
+	role, err := p.Repo.LastRole(prefix)
+	lastID = role.ID
+	if lastID < helper.PrefixMinID(prefix) {
+		lastID = helper.PrefixMinID(prefix)
+	}
+	return
+}
+
 // Delete role, it is soft delete
-func (p *RoleServ) Delete(roleID uint64, params param.Param) (role model.Role, err error) {
+func (p *RoleServ) Delete(roleID types.RowID, params param.Param) (role model.Role, err error) {
 
 	if role, err = p.FindByID(roleID); err != nil {
 		return role, core.NewErrorWithStatus(err.Error(), http.StatusNotFound)
+	}
+
+	if role.CompanyID != params.CompanyID {
+		return role, core.NewErrorWithStatus(term.You_dont_have_permission_out_of_scope, http.StatusForbidden)
 	}
 
 	// rename unique key to prevent duplication
@@ -93,7 +125,7 @@ func (p *RoleServ) Delete(roleID uint64, params param.Param) (role model.Role, e
 }
 
 // HardDelete will delete the role permanently
-func (p *RoleServ) HardDelete(roleID uint64) error {
+func (p *RoleServ) HardDelete(roleID types.RowID) error {
 	role, err := p.FindByID(roleID)
 	if err != nil {
 		return core.NewErrorWithStatus(err.Error(), http.StatusNotFound)

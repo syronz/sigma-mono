@@ -3,6 +3,7 @@ package types
 import (
 	"database/sql/driver"
 	"fmt"
+	"sigmamono/internal/consts"
 	"strconv"
 )
 
@@ -29,6 +30,19 @@ func RowIDPointer(num uint64) *RowID {
 func StrToRowID(strNum string) (rowID RowID, err error) {
 	tmpID, err := strconv.ParseUint(strNum, 10, 64)
 	rowID = RowID(tmpID)
+	return
+}
+
+// Split break the id to three part, companyID, nodeCode and tailID
+func (r RowID) Split() (companyID RowID, nodeCode uint64, tailID RowID) {
+	tailID = r % consts.IDRange
+	r = r / consts.IDRange
+
+	nodeCode = r.ToUint64() % consts.NodeRange
+	r = r / consts.NodeRange
+
+	companyID = r
+
 	return
 }
 
