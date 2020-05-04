@@ -14,9 +14,9 @@ func Insert(engine *core.Engine) {
 		// table.InsertNodes(engine)
 		// table.InsertSettings(engine)
 		// table.InsertBonds(engine)
-		// table.InsertRoles(engine)
-		// table.InsertAccounts(engine)
-		// table.InsertUsers(engine)
+		table.InsertRoles(engine)
+		table.InsertAccounts(engine)
+		table.InsertUsers(engine)
 	}
 
 }

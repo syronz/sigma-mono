@@ -1,6 +1,7 @@
 package response
 
 import (
+	"fmt"
 	"net/http"
 	"sigmamono/internal/core"
 	"sigmamono/internal/term"
@@ -94,6 +95,7 @@ func (r *Response) JSON(data ...interface{}) {
 	case error:
 		r.status = http.StatusInternalServerError
 		errorCast := r.Result.Error.(error)
+		fmt.Printf("+++++++++++++\n+\n+\n+ \n %T \n %+v", errorCast, errorCast)
 		errText = errorCast.Error()
 		r.Result.Message, _ = r.Engine.SafeT(errText.(string),
 			core.GetLang(r.Context, r.Engine))
@@ -101,6 +103,10 @@ func (r *Response) JSON(data ...interface{}) {
 			r.status = http.StatusConflict
 			r.Result.Message = r.Engine.T(term.Duplication_happened,
 				core.GetLang(r.Context, r.Engine))
+		}
+
+		if strings.Contains(strings.ToUpper(errText.(string)), "NOT FOUND") {
+			r.status = http.StatusNotFound
 		}
 
 	case string:

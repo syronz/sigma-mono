@@ -42,12 +42,12 @@ func (p *CompanyAPI) FindByID(c *gin.Context) {
 	}
 
 	if company.ID, err = types.StrToRowID(c.Param("companyID")); err != nil {
-		resp.Error(term.Invalid_ID).JSON()
+		resp.Status(http.StatusNotAcceptable).Error(err).JSON()
 		return
 	}
 
 	if company, err = p.Service.FindByID(company.ID); err != nil {
-		resp.Status(http.StatusNotFound).Error(err).MessageT(term.Record_Not_Found).JSON()
+		resp.Error(err).JSON()
 		return
 	}
 

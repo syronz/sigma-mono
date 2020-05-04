@@ -15,12 +15,12 @@ func Route(rg gin.RouterGroup, engine *core.Engine) {
 
 	rg.Use(middleware.AuthGuard(engine))
 	rg.GET("/username/:username", userAPI.FindByUsername)
-	// rg.GET("/users", userAPI.List)
-	// rg.GET("/users/:userID", userAPI.FindByID)
+	rg.GET("/users", userAPI.List)
+	rg.GET("/users/:userID", userAPI.FindByID)
 	rg.POST("/users", userAPI.Create)
-	// rg.PUT("/users/:userID", userAPI.Update)
-	// rg.DELETE("/users/:userID", userAPI.Delete)
-	// rg.GET("excel/users", userAPI.Excel)
+	rg.PUT("/users/:userID", userAPI.Update)
+	rg.DELETE("/users/:userID", userAPI.Delete)
+	rg.GET("excel/users", userAPI.Excel)
 
 	rg.GET("/roles", roleAPI.List)
 	rg.GET("/roles/:roleID", roleAPI.FindByID)

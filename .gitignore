@@ -22,3 +22,4 @@
 *.vim
 *.DS_Store
 *.zip
+logs/*

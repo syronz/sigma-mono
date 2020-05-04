@@ -105,23 +105,8 @@ func (p *CompanyServ) Delete(companyID types.RowID) (company model.Company, err 
 		return company, core.NewErrorWithStatus(err.Error(), http.StatusNotFound)
 	}
 
-	// rename unique key to prevent duplication
-	company.LegalName = fmt.Sprintf("%v#%v", company.LegalName, company.ID)
-	_, err = p.Save(company)
-	p.Engine.CheckError(err, "rename company's legal name for prevent duplication")
-
 	err = p.Repo.Delete(company)
 	return
-}
-
-// HardDelete will delete the company permanently
-func (p *CompanyServ) HardDelete(companyID types.RowID) error {
-	company, err := p.FindByID(companyID)
-	if err != nil {
-		return core.NewErrorWithStatus(err.Error(), http.StatusNotFound)
-	}
-
-	return p.Repo.HardDelete(company)
 }
 
 // Excel is used for export excel file

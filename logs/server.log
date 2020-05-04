@@ -5296,4 +5296,6008 @@
   "msg": "",
   "time": "2020-05-03T22:45:32+03:00"
 }
-                                                                                                                                                                               
+                                                                                                                                                                               {
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T09:24:47+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T09:26:12+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "..................."
+  },
+  "file": "service/user.serv.go:94",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T09:26:30+03:00"
+}
+{
+  "data": {
+    "type": "model.User",
+    "value": {
+      "account": {
+        "code": 28817,
+        "direction": "direct",
+        "name": "young-bird",
+        "status": "active",
+        "type": "asset"
+      },
+      "id": 0,
+      "language": "ku",
+      "password": "1234567890",
+      "role_id": 1001101000000001,
+      "username": "young-bird"
+    }
+  },
+  "file": "service/user.serv.go:94",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T09:26:30+03:00"
+}
+{
+  "data": {
+    "type": "model.User",
+    "value": {
+      "account": {
+        "code": 28817,
+        "direction": "direct",
+        "name": "young-bird",
+        "status": "active",
+        "type": "asset"
+      },
+      "id": 0,
+      "language": "ku",
+      "password": "1234567890",
+      "role_id": 1001101000000001,
+      "username": "young-bird"
+    }
+  },
+  "file": "service/user.serv.go:100",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T09:26:30+03:00"
+}
+{
+  "err": "Error 1216: Cannot add or update a child row: a foreign key constraint fails",
+  "file": "service/user.serv.go:130",
+  "level": "info",
+  "msg": "Failed in saving user for {ID:0 RoleID:1001101000000001 Username:young-bird Password:$2a$10$Kxn9aaZ0hdqgLQ1hdvpllunVQMQgSD4WQSLp0x8Be4/S5wFwi.oDy Language:ku Email: Extra:\u003cnil\u003e Error:\u003cnil\u003e Account:{FixedCol:{ID:0 CreatedAt:\u003cnil\u003e UpdatedAt:\u003cnil\u003e DeletedAt:\u003cnil\u003e} CompanyID:0 NodeCode:0 ParentID:\u003cnil\u003e Name:young-bird Status:active Code:28817 Type:asset Readonly:false Score:0 Direction:direct Extra:\u003cnil\u003e Error:\u003cnil\u003e}}",
+  "time": "2020-05-04T09:26:30+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T09:28:00+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "..................."
+  },
+  "file": "service/user.serv.go:94",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T09:28:15+03:00"
+}
+{
+  "data": {
+    "type": "model.User",
+    "value": {
+      "account": {
+        "code": 3863045,
+        "direction": "direct",
+        "name": "old-morning",
+        "status": "active",
+        "type": "asset"
+      },
+      "id": 0,
+      "language": "ku",
+      "password": "1234567890",
+      "role_id": 1001101000000001,
+      "username": "old-morning"
+    }
+  },
+  "file": "service/user.serv.go:94",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T09:28:15+03:00"
+}
+{
+  "data": {
+    "type": "model.User",
+    "value": {
+      "account": {
+        "code": 3863045,
+        "direction": "direct",
+        "name": "old-morning",
+        "status": "active",
+        "type": "asset"
+      },
+      "id": 0,
+      "language": "ku",
+      "password": "1234567890",
+      "role_id": 1001101000000001,
+      "username": "old-morning"
+    }
+  },
+  "file": "service/user.serv.go:100",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T09:28:15+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "..................."
+  },
+  "file": "service/user.serv.go:94",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T09:28:16+03:00"
+}
+{
+  "data": {
+    "type": "model.User",
+    "value": {
+      "account": {
+        "code": 6319672,
+        "direction": "direct",
+        "name": "silent-dew",
+        "status": "active",
+        "type": "asset"
+      },
+      "id": 0,
+      "language": "ku",
+      "password": "1234567890",
+      "role_id": 1001101000000001,
+      "username": "silent-dew"
+    }
+  },
+  "file": "service/user.serv.go:94",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T09:28:16+03:00"
+}
+{
+  "data": {
+    "type": "model.User",
+    "value": {
+      "account": {
+        "code": 6319672,
+        "direction": "direct",
+        "name": "silent-dew",
+        "status": "active",
+        "type": "asset"
+      },
+      "id": 0,
+      "language": "ku",
+      "password": "1234567890",
+      "role_id": 1001101000000001,
+      "username": "silent-dew"
+    }
+  },
+  "file": "service/user.serv.go:100",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T09:28:16+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T09:30:36+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "..................."
+  },
+  "file": "service/user.serv.go:94",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T09:30:38+03:00"
+}
+{
+  "data": {
+    "type": "model.User",
+    "value": {
+      "account": {
+        "code": 7400058,
+        "direction": "direct",
+        "name": "quiet-mountain",
+        "status": "active",
+        "type": "asset"
+      },
+      "id": 0,
+      "language": "ku",
+      "password": "1234567890",
+      "role_id": 1001101000000001,
+      "username": "quiet-mountain"
+    }
+  },
+  "file": "service/user.serv.go:94",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T09:30:38+03:00"
+}
+{
+  "data": {
+    "type": "model.User",
+    "value": {
+      "account": {
+        "code": 7400058,
+        "direction": "direct",
+        "name": "quiet-mountain",
+        "status": "active",
+        "type": "asset"
+      },
+      "id": 0,
+      "language": "ku",
+      "password": "1234567890",
+      "role_id": 1001101000000001,
+      "username": "quiet-mountain"
+    }
+  },
+  "file": "service/user.serv.go:103",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T09:30:38+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T09:31:34+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "..................."
+  },
+  "file": "service/user.serv.go:94",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T09:31:35+03:00"
+}
+{
+  "data": {
+    "type": "model.User",
+    "value": {
+      "account": {
+        "code": 1086821,
+        "direction": "direct",
+        "name": "young-sky",
+        "status": "active",
+        "type": "asset"
+      },
+      "id": 0,
+      "language": "ku",
+      "password": "1234567890",
+      "role_id": 1001101000000001,
+      "username": "young-sky"
+    }
+  },
+  "file": "service/user.serv.go:94",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T09:31:35+03:00"
+}
+{
+  "data": {
+    "type": "model.User",
+    "value": {
+      "account": {
+        "code": 1086821,
+        "company_id": 1017,
+        "created_at": "2020-05-04T09:31:35+03:00",
+        "direction": "direct",
+        "id": 1017102000000002,
+        "name": "young-sky",
+        "node_code": 102,
+        "status": "active",
+        "type": "asset",
+        "updated_at": "2020-05-04T09:31:35+03:00"
+      },
+      "id": 0,
+      "language": "ku",
+      "password": "1234567890",
+      "role_id": 1001101000000001,
+      "username": "young-sky"
+    }
+  },
+  "file": "service/user.serv.go:105",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T09:31:35+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "..................."
+  },
+  "file": "service/user.serv.go:94",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T09:31:36+03:00"
+}
+{
+  "data": {
+    "type": "model.User",
+    "value": {
+      "account": {
+        "code": 3518162,
+        "direction": "direct",
+        "name": "withered-frog",
+        "status": "active",
+        "type": "asset"
+      },
+      "id": 0,
+      "language": "ku",
+      "password": "1234567890",
+      "role_id": 1001101000000001,
+      "username": "withered-frog"
+    }
+  },
+  "file": "service/user.serv.go:94",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T09:31:36+03:00"
+}
+{
+  "data": {
+    "type": "model.User",
+    "value": {
+      "account": {
+        "code": 3518162,
+        "company_id": 1017,
+        "created_at": "2020-05-04T09:31:36+03:00",
+        "direction": "direct",
+        "id": 1017102000000003,
+        "name": "withered-frog",
+        "node_code": 102,
+        "status": "active",
+        "type": "asset",
+        "updated_at": "2020-05-04T09:31:36+03:00"
+      },
+      "id": 0,
+      "language": "ku",
+      "password": "1234567890",
+      "role_id": 1001101000000001,
+      "username": "withered-frog"
+    }
+  },
+  "file": "service/user.serv.go:105",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T09:31:36+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T09:31:56+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "..................."
+  },
+  "file": "service/user.serv.go:94",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T09:32:00+03:00"
+}
+{
+  "data": {
+    "type": "model.User",
+    "value": {
+      "account": {
+        "code": 6166669,
+        "direction": "direct",
+        "name": "muddy-cloud",
+        "status": "active",
+        "type": "asset"
+      },
+      "id": 0,
+      "language": "ku",
+      "password": "1234567890",
+      "role_id": 1001101000000001,
+      "username": "muddy-cloud"
+    }
+  },
+  "file": "service/user.serv.go:94",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T09:32:00+03:00"
+}
+{
+  "data": {
+    "type": "model.User",
+    "value": {
+      "account": {
+        "code": 6166669,
+        "company_id": 1017,
+        "created_at": "2020-05-04T09:32:01+03:00",
+        "direction": "direct",
+        "id": 1017102000000004,
+        "name": "muddy-cloud",
+        "node_code": 102,
+        "status": "active",
+        "type": "asset",
+        "updated_at": "2020-05-04T09:32:01+03:00"
+      },
+      "id": 1017102000000004,
+      "language": "ku",
+      "password": "1234567890",
+      "role_id": 1001101000000001,
+      "username": "muddy-cloud"
+    }
+  },
+  "file": "service/user.serv.go:106",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T09:32:00+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T09:35:49+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T09:36:06+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T09:36:19+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T09:36:21+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T09:36:49+03:00"
+}
+{
+  "data": {
+    "type": "model.User",
+    "value": {
+      "account": {
+        "code": 9700534,
+        "company_id": 1017,
+        "created_at": "2020-05-04T09:36:56+03:00",
+        "direction": "direct",
+        "id": 1017102000000005,
+        "name": "cold-moon",
+        "node_code": 102,
+        "status": "active",
+        "type": "asset",
+        "updated_at": "2020-05-04T09:36:56+03:00"
+      },
+      "id": 1017102000000005,
+      "language": "ku",
+      "password": "1234567890",
+      "role_id": 1001101000000001,
+      "username": "cold-moon"
+    }
+  },
+  "file": "service/user.serv.go:115",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T09:36:55+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T09:37:31+03:00"
+}
+{
+  "data": {
+    "type": "model.User",
+    "value": {
+      "account": {
+        "code": 578921,
+        "company_id": 1017,
+        "created_at": "2020-05-04T09:37:33+03:00",
+        "direction": "direct",
+        "id": 1017102000000005,
+        "name": "fragrant-resonance",
+        "node_code": 102,
+        "status": "active",
+        "type": "asset",
+        "updated_at": "2020-05-04T09:37:33+03:00"
+      },
+      "id": 1017102000000005,
+      "language": "ku",
+      "password": "1234567890",
+      "role_id": 1001101000000001,
+      "username": "fragrant-resonance"
+    }
+  },
+  "file": "service/user.serv.go:117",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T09:37:32+03:00"
+}
+{
+  "err": "sql: transaction has already been committed or rolled back",
+  "file": "service/user.serv.go:147",
+  "level": "info",
+  "msg": "Failed in saving user for {ID:0 RoleID:1001101000000001 Username:fragrant-resonance Password:$2a$10$rD5aCEKVtTh9Wt5Ebx2NxO4W/t5b2X9zG.ipJFDAEYz7IKIqhpLy6 Language:ku Email: Extra:\u003cnil\u003e Error:\u003cnil\u003e Account:{FixedCol:{ID:1017102000000005 CreatedAt:2020-05-04 09:37:33 +0300 +03 UpdatedAt:2020-05-04 09:37:33 +0300 +03 DeletedAt:\u003cnil\u003e} CompanyID:1017 NodeCode:102 ParentID:\u003cnil\u003e Name:fragrant-resonance Status:active Code:578921 Type:asset Readonly:false Score:0 Direction:direct Extra:\u003cnil\u003e Error:\u003cnil\u003e}}",
+  "time": "2020-05-04T09:37:32+03:00"
+}
+{
+  "data": {
+    "type": "types.RowID",
+    "value": 1017102000000000
+  },
+  "file": "service/account.serv.go:65",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T09:39:11+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "can't start transaction"
+  },
+  "file": "service/account.serv.go:65",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T09:39:11+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T09:39:46+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T09:39:53+03:00"
+}
+{
+  "data": {
+    "type": "model.User",
+    "value": {
+      "account": {
+        "code": 4682541,
+        "company_id": 1017,
+        "created_at": "2020-05-04T09:39:58+03:00",
+        "direction": "direct",
+        "id": 1017102000000005,
+        "name": "rough-resonance",
+        "node_code": 102,
+        "status": "active",
+        "type": "asset",
+        "updated_at": "2020-05-04T09:39:58+03:00"
+      },
+      "id": 1017102000000005,
+      "language": "ku",
+      "password": "1234567890",
+      "role_id": 1001101000000001,
+      "username": "rough-resonance"
+    }
+  },
+  "file": "service/user.serv.go:117",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T09:39:57+03:00"
+}
+{
+  "err": "sql: transaction has already been committed or rolled back",
+  "file": "service/user.serv.go:147",
+  "level": "info",
+  "msg": "Failed in saving user for {ID:0 RoleID:1001101000000001 Username:rough-resonance Password:$2a$10$COh4IsaRrwTPMW862m/XteU5KCGDXBCfJHY2RiE1zNUtLc6ioeC7W Language:ku Email: Extra:\u003cnil\u003e Error:\u003cnil\u003e Account:{FixedCol:{ID:1017102000000005 CreatedAt:2020-05-04 09:39:58 +0300 +03 UpdatedAt:2020-05-04 09:39:58 +0300 +03 DeletedAt:\u003cnil\u003e} CompanyID:1017 NodeCode:102 ParentID:\u003cnil\u003e Name:rough-resonance Status:active Code:4682541 Type:asset Readonly:false Score:0 Direction:direct Extra:\u003cnil\u003e Error:\u003cnil\u003e}}",
+  "time": "2020-05-04T09:39:57+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T09:42:48+03:00"
+}
+{
+  "data": {
+    "type": "model.User",
+    "value": {
+      "account": {
+        "code": 3485528,
+        "company_id": 1017,
+        "created_at": "2020-05-04T09:42:51+03:00",
+        "direction": "direct",
+        "id": 1017102000000005,
+        "name": "red-cherry",
+        "node_code": 102,
+        "status": "active",
+        "type": "asset",
+        "updated_at": "2020-05-04T09:42:51+03:00"
+      },
+      "id": 1017102000000005,
+      "language": "ku",
+      "password": "1234567890",
+      "role_id": 1001101000000001,
+      "username": "red-cherry"
+    }
+  },
+  "file": "service/user.serv.go:117",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T09:42:50+03:00"
+}
+{
+  "data": {
+    "type": "types.RowID",
+    "value": 1017102000000000
+  },
+  "file": "service/account.serv.go:65",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T09:43:52+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "can't start transaction"
+  },
+  "file": "service/account.serv.go:65",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T09:43:52+03:00"
+}
+{
+  "data": {
+    "type": "types.RowID",
+    "value": 1017102000000000
+  },
+  "file": "service/account.serv.go:65",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T09:43:53+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "can't start transaction"
+  },
+  "file": "service/account.serv.go:65",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T09:43:53+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T09:48:33+03:00"
+}
+{
+  "data": {
+    "type": "model.User",
+    "value": {
+      "account": {
+        "code": 6794773,
+        "company_id": 1017,
+        "created_at": "2020-05-04T09:48:35+03:00",
+        "direction": "direct",
+        "id": 1017102000000005,
+        "name": "purple-lake",
+        "node_code": 102,
+        "status": "active",
+        "type": "asset",
+        "updated_at": "2020-05-04T09:48:35+03:00"
+      },
+      "id": 1017102000000005,
+      "language": "ku",
+      "password": "1234567890",
+      "role_id": 1001101000000001,
+      "username": "purple-lake"
+    }
+  },
+  "file": "service/user.serv.go:119",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T09:48:35+03:00"
+}
+{
+  "data": {
+    "type": "model.User",
+    "value": {
+      "account": {
+        "code": 4453116,
+        "company_id": 1017,
+        "created_at": "2020-05-04T09:48:36+03:00",
+        "direction": "direct",
+        "id": 1017102000000005,
+        "name": "purple-bird",
+        "node_code": 102,
+        "status": "active",
+        "type": "asset",
+        "updated_at": "2020-05-04T09:48:36+03:00"
+      },
+      "id": 1017102000000005,
+      "language": "ku",
+      "password": "1234567890",
+      "role_id": 1001101000000001,
+      "username": "purple-bird"
+    }
+  },
+  "file": "service/user.serv.go:119",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T09:48:36+03:00"
+}
+{
+  "data": {
+    "type": "model.User",
+    "value": {
+      "account": {
+        "code": 9946676,
+        "company_id": 1017,
+        "created_at": "2020-05-04T09:48:37+03:00",
+        "direction": "direct",
+        "id": 1017102000000005,
+        "name": "patient-silence",
+        "node_code": 102,
+        "status": "active",
+        "type": "asset",
+        "updated_at": "2020-05-04T09:48:37+03:00"
+      },
+      "id": 1017102000000005,
+      "language": "ku",
+      "password": "1234567890",
+      "role_id": 1001101000000001,
+      "username": "patient-silence"
+    }
+  },
+  "file": "service/user.serv.go:119",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T09:48:36+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T10:27:26+03:00"
+}
+{
+  "data": {
+    "type": "model.User",
+    "value": {
+      "account": {
+        "code": 9575262,
+        "company_id": 1017,
+        "created_at": "2020-05-04T10:27:29+03:00",
+        "direction": "direct",
+        "id": 1017102000000005,
+        "name": "winter-sun",
+        "node_code": 102,
+        "status": "active",
+        "type": "asset",
+        "updated_at": "2020-05-04T10:27:29+03:00"
+      },
+      "id": 1017102000000005,
+      "language": "ku",
+      "password": "1234567890",
+      "role_id": 1001101000000001,
+      "username": "winter-sun"
+    }
+  },
+  "file": "service/user.serv.go:120",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T10:27:28+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T10:56:12+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T10:56:53+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T10:57:22+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T10:57:26+03:00"
+}
+{
+  "data": {
+    "type": "model.User",
+    "value": {
+      "account": {
+        "code": 7686339,
+        "company_id": 1017,
+        "created_at": "2020-05-04T10:57:29+03:00",
+        "direction": "direct",
+        "id": 1017102000000006,
+        "name": "quiet-glitter",
+        "node_code": 102,
+        "status": "active",
+        "type": "asset",
+        "updated_at": "2020-05-04T10:57:29+03:00"
+      },
+      "id": 1017102000000006,
+      "language": "ku",
+      "password": "1234567890",
+      "role_id": 1001101000000001,
+      "username": "quiet-glitter"
+    }
+  },
+  "file": "service/user.serv.go:119",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T10:57:28+03:00"
+}
+{
+  "data": {
+    "type": "model.User",
+    "value": {
+      "account": {
+        "code": 4893410,
+        "company_id": 1017,
+        "created_at": "2020-05-04T10:57:43+03:00",
+        "direction": "direct",
+        "id": 1017102000000007,
+        "name": "weathered-sky",
+        "node_code": 102,
+        "status": "active",
+        "type": "asset",
+        "updated_at": "2020-05-04T10:57:43+03:00"
+      },
+      "id": 1017102000000007,
+      "language": "ku",
+      "password": "1234567890",
+      "role_id": 1001101000000001,
+      "username": "weathered-sky"
+    }
+  },
+  "file": "service/user.serv.go:119",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T10:57:43+03:00"
+}
+{
+  "data": {
+    "type": "model.User",
+    "value": {
+      "account": {
+        "code": 2535597,
+        "company_id": 1017,
+        "created_at": "2020-05-04T10:58:37+03:00",
+        "direction": "direct",
+        "id": 1017102000000008,
+        "name": "delicate-frost",
+        "node_code": 102,
+        "status": "active",
+        "type": "asset",
+        "updated_at": "2020-05-04T10:58:37+03:00"
+      },
+      "id": 1017102000000008,
+      "language": "ku",
+      "password": "1234567890",
+      "role_id": 1001101000000001,
+      "username": "RANDOM_NAME_"
+    }
+  },
+  "file": "service/user.serv.go:119",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T10:58:37+03:00"
+}
+{
+  "data": {
+    "type": "model.User",
+    "value": {
+      "account": {
+        "code": 3439805,
+        "company_id": 1017,
+        "created_at": "2020-05-04T10:58:56+03:00",
+        "direction": "direct",
+        "id": 1017102000000009,
+        "name": "silent-grass",
+        "node_code": 102,
+        "status": "active",
+        "type": "asset",
+        "updated_at": "2020-05-04T10:58:56+03:00"
+      },
+      "id": 1017102000000009,
+      "language": "ku",
+      "password": "1234567890",
+      "role_id": 1001101000000001,
+      "username": "RANDOM_NAME_"
+    }
+  },
+  "file": "service/user.serv.go:119",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T10:58:56+03:00"
+}
+{
+  "err": "Error 1062: Duplicate entry 'RANDOM_NAME_' for key 'username'",
+  "file": "service/user.serv.go:150",
+  "level": "info",
+  "msg": "Failed in saving user for {ID:0 RoleID:1001101000000001 Username:RANDOM_NAME_ Password:$2a$10$YvlZbDZfWRhoAQZ6s0sKA.AosISjLQNB6rvxwzFN44EjizqAP8FFG Language:ku Email: Extra:\u003cnil\u003e Error:\u003cnil\u003e Account:{FixedCol:{ID:1017102000000009 CreatedAt:2020-05-04 10:58:56 +0300 +03 UpdatedAt:2020-05-04 10:58:56 +0300 +03 DeletedAt:\u003cnil\u003e} CompanyID:1017 NodeCode:102 ParentID:\u003cnil\u003e Name:silent-grass Status:active Code:3439805 Type:asset Readonly:false Score:0 Direction:direct Extra:\u003cnil\u003e Error:\u003cnil\u003e}}",
+  "time": "2020-05-04T10:58:56+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T10:59:47+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T11:00:19+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T11:01:51+03:00"
+}
+{
+  "data": {
+    "type": "model.User",
+    "value": {
+      "account": {
+        "code": 1627354,
+        "company_id": 1017,
+        "created_at": "2020-05-04T11:01:53+03:00",
+        "direction": "direct",
+        "id": 1017102000000009,
+        "name": "twilight-field",
+        "node_code": 102,
+        "status": "active",
+        "type": "asset",
+        "updated_at": "2020-05-04T11:01:53+03:00"
+      },
+      "id": 1017102000000009,
+      "language": "ku",
+      "password": "1234567890",
+      "role_id": 1001101000000001,
+      "username": "RANDOM_NAME_"
+    }
+  },
+  "file": "service/user.serv.go:118",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T11:01:52+03:00"
+}
+{
+  "err": "Error 1062: Duplicate entry 'RANDOM_NAME_' for key 'username'",
+  "file": "service/user.serv.go:127",
+  "level": "info",
+  "msg": "Failed in saving user for {ID:1017102000000009 RoleID:1001101000000001 Username:RANDOM_NAME_ Password:$2a$10$EdVaYlYNhfXCbIUVOG3J2uqqTa3GfhnceLIYOQnKIYV.CdhxCXzza Language:ku Email: Extra:\u003cnil\u003e Error:\u003cnil\u003e Account:{FixedCol:{ID:1017102000000009 CreatedAt:2020-05-04 11:01:53 +0300 +03 UpdatedAt:2020-05-04 11:01:53 +0300 +03 DeletedAt:\u003cnil\u003e} CompanyID:1017 NodeCode:102 ParentID:\u003cnil\u003e Name:twilight-field Status:active Code:1627354 Type:asset Readonly:false Score:0 Direction:direct Extra:\u003cnil\u003e Error:\u003cnil\u003e}}",
+  "time": "2020-05-04T11:01:52+03:00"
+}
+{
+  "data": {
+    "type": "model.User",
+    "value": {
+      "account": {
+        "code": 1657547,
+        "company_id": 1017,
+        "created_at": "2020-05-04T11:01:59+03:00",
+        "direction": "direct",
+        "id": 1017102000000009,
+        "name": "summer-leaf",
+        "node_code": 102,
+        "status": "active",
+        "type": "asset",
+        "updated_at": "2020-05-04T11:01:59+03:00"
+      },
+      "id": 1017102000000009,
+      "language": "ku",
+      "password": "1234567890",
+      "role_id": 1001101000000001,
+      "username": "summer-leaf"
+    }
+  },
+  "file": "service/user.serv.go:118",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T11:01:59+03:00"
+}
+{
+  "data": {
+    "type": "model.User",
+    "value": {
+      "account": {
+        "code": 7463645,
+        "company_id": 1017,
+        "created_at": "2020-05-04T11:02:01+03:00",
+        "direction": "direct",
+        "id": 1017102000000010,
+        "name": "cool-sea",
+        "node_code": 102,
+        "status": "active",
+        "type": "asset",
+        "updated_at": "2020-05-04T11:02:01+03:00"
+      },
+      "id": 1017102000000010,
+      "language": "ku",
+      "password": "1234567890",
+      "role_id": 1001101000000001,
+      "username": "cool-sea"
+    }
+  },
+  "file": "service/user.serv.go:118",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T11:02:00+03:00"
+}
+{
+  "data": {
+    "type": "model.User",
+    "value": {
+      "account": {
+        "code": 8066517,
+        "company_id": 1017,
+        "created_at": "2020-05-04T11:02:02+03:00",
+        "direction": "direct",
+        "id": 1017102000000011,
+        "name": "shy-grass",
+        "node_code": 102,
+        "status": "active",
+        "type": "asset",
+        "updated_at": "2020-05-04T11:02:02+03:00"
+      },
+      "id": 1017102000000011,
+      "language": "ku",
+      "password": "1234567890",
+      "role_id": 1001101000000001,
+      "username": "shy-grass"
+    }
+  },
+  "file": "service/user.serv.go:118",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T11:02:02+03:00"
+}
+{
+  "data": {
+    "type": "model.User",
+    "value": {
+      "account": {
+        "code": 6494929,
+        "company_id": 1017,
+        "created_at": "2020-05-04T11:02:02+03:00",
+        "direction": "direct",
+        "id": 1017102000000012,
+        "name": "broken-mountain",
+        "node_code": 102,
+        "status": "active",
+        "type": "asset",
+        "updated_at": "2020-05-04T11:02:02+03:00"
+      },
+      "id": 1017102000000012,
+      "language": "ku",
+      "password": "1234567890",
+      "role_id": 1001101000000001,
+      "username": "broken-mountain"
+    }
+  },
+  "file": "service/user.serv.go:118",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T11:02:02+03:00"
+}
+{
+  "data": {
+    "type": "model.User",
+    "value": {
+      "account": {
+        "code": 846288,
+        "company_id": 1017,
+        "created_at": "2020-05-04T11:02:03+03:00",
+        "direction": "direct",
+        "id": 1017102000000013,
+        "name": "billowing-wildflower",
+        "node_code": 102,
+        "status": "active",
+        "type": "asset",
+        "updated_at": "2020-05-04T11:02:03+03:00"
+      },
+      "id": 1017102000000013,
+      "language": "ku",
+      "password": "1234567890",
+      "role_id": 1001101000000001,
+      "username": "billowing-wildflower"
+    }
+  },
+  "file": "service/user.serv.go:118",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T11:02:02+03:00"
+}
+{
+  "data": {
+    "type": "model.User",
+    "value": {
+      "account": {
+        "code": 360256,
+        "company_id": 1017,
+        "created_at": "2020-05-04T11:02:03+03:00",
+        "direction": "direct",
+        "id": 1017102000000014,
+        "name": "solitary-fire",
+        "node_code": 102,
+        "status": "active",
+        "type": "asset",
+        "updated_at": "2020-05-04T11:02:03+03:00"
+      },
+      "id": 1017102000000014,
+      "language": "ku",
+      "password": "1234567890",
+      "role_id": 1001101000000001,
+      "username": "solitary-fire"
+    }
+  },
+  "file": "service/user.serv.go:118",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T11:02:03+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T11:13:03+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T11:13:18+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T11:16:47+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T11:16:52+03:00"
+}
+{
+  "data": {
+    "type": "types.RowID",
+    "value": 1017102000000000
+  },
+  "file": "service/account.serv.go:65",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T11:17:04+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "no valid transaction"
+  },
+  "file": "service/account.serv.go:65",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T11:17:04+03:00"
+}
+{
+  "data": {
+    "type": "types.RowID",
+    "value": 1017102000000000
+  },
+  "file": "service/account.serv.go:65",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T11:17:05+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "no valid transaction"
+  },
+  "file": "service/account.serv.go:65",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T11:17:05+03:00"
+}
+{
+  "data": {
+    "type": "types.RowID",
+    "value": 1017102000000000
+  },
+  "file": "service/account.serv.go:65",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T11:17:06+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "no valid transaction"
+  },
+  "file": "service/account.serv.go:65",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T11:17:06+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T11:17:42+03:00"
+}
+{
+  "data": {
+    "type": "types.RowID",
+    "value": 1017102000000000
+  },
+  "file": "service/account.serv.go:65",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T11:17:44+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "no valid transaction"
+  },
+  "file": "service/account.serv.go:65",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T11:17:44+03:00"
+}
+{
+  "data": {
+    "type": "types.RowID",
+    "value": 1017102000000000
+  },
+  "file": "service/account.serv.go:65",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T11:17:45+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "no valid transaction"
+  },
+  "file": "service/account.serv.go:65",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T11:17:45+03:00"
+}
+{
+  "data": {
+    "type": "types.RowID",
+    "value": 1017102000000000
+  },
+  "file": "service/account.serv.go:65",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T11:17:46+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "no valid transaction"
+  },
+  "file": "service/account.serv.go:65",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T11:17:46+03:00"
+}
+{
+  "data": {
+    "type": "types.RowID",
+    "value": 1017102000000000
+  },
+  "file": "service/account.serv.go:65",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T11:17:46+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "no valid transaction"
+  },
+  "file": "service/account.serv.go:65",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T11:17:46+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T11:18:17+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T11:19:16+03:00"
+}
+{
+  "data": {
+    "type": "types.RowID",
+    "value": 1017102000000000
+  },
+  "file": "service/account.serv.go:65",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T11:19:20+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "no valid transaction"
+  },
+  "file": "service/account.serv.go:65",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T11:19:20+03:00"
+}
+{
+  "data": {
+    "type": "types.RowID",
+    "value": 1017102000000000
+  },
+  "file": "service/account.serv.go:65",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T11:19:21+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "no valid transaction; can't start transaction"
+  },
+  "file": "service/account.serv.go:65",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T11:19:21+03:00"
+}
+{
+  "data": {
+    "type": "types.RowID",
+    "value": 1017102000000000
+  },
+  "file": "service/account.serv.go:65",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T11:19:21+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "no valid transaction; can't start transaction"
+  },
+  "file": "service/account.serv.go:65",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T11:19:21+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T11:21:10+03:00"
+}
+{
+  "err": "Error 1062: Duplicate entry '1017102000000021' for key 'PRIMARY'",
+  "file": "service/user.serv.go:124",
+  "level": "info",
+  "msg": "Failed in saving user for {ID:1017102000000021 RoleID:1001101000000001 Username:winter-lake Password:$2a$10$rRFoX1JBzVtKJp7Hj.J7KekJ6R8ckGB/H22HgS1QMUnk6iF1F2vSu Language:ku Email: Extra:\u003cnil\u003e Error:\u003cnil\u003e Account:{FixedCol:{ID:1017102000000021 CreatedAt:2020-05-04 11:21:11 +0300 +03 UpdatedAt:2020-05-04 11:21:11 +0300 +03 DeletedAt:\u003cnil\u003e} CompanyID:1017 NodeCode:102 ParentID:\u003cnil\u003e Name:winter-lake Status:active Code:1625756 Type:asset Readonly:false Score:0 Direction:direct Extra:\u003cnil\u003e Error:\u003cnil\u003e}}",
+  "time": "2020-05-04T11:21:11+03:00"
+}
+{
+  "err": "Error 1062: Duplicate entry '1017102000000021' for key 'PRIMARY'",
+  "file": "service/user.serv.go:124",
+  "level": "info",
+  "msg": "Failed in saving user for {ID:1017102000000021 RoleID:1001101000000001 Username:late-cherry Password:$2a$10$8jRB5HGsfVqlLAAie6StquHqsw9//cayrCBBTeeJvqPdShmQPNItC Language:ku Email: Extra:\u003cnil\u003e Error:\u003cnil\u003e Account:{FixedCol:{ID:1017102000000021 CreatedAt:2020-05-04 11:21:13 +0300 +03 UpdatedAt:2020-05-04 11:21:13 +0300 +03 DeletedAt:\u003cnil\u003e} CompanyID:1017 NodeCode:102 ParentID:\u003cnil\u003e Name:late-cherry Status:active Code:4195963 Type:asset Readonly:false Score:0 Direction:direct Extra:\u003cnil\u003e Error:\u003cnil\u003e}}",
+  "time": "2020-05-04T11:21:12+03:00"
+}
+{
+  "err": "Error 1062: Duplicate entry '1017102000000021' for key 'PRIMARY'",
+  "file": "service/user.serv.go:124",
+  "level": "info",
+  "msg": "Failed in saving user for {ID:1017102000000021 RoleID:1001101000000001 Username:blue-shadow Password:$2a$10$lfLB/nzQl1/76ew8vSQdOuvG8tuf7q9YzHvuIJFZ954PU8KVepZ7a Language:ku Email: Extra:\u003cnil\u003e Error:\u003cnil\u003e Account:{FixedCol:{ID:1017102000000021 CreatedAt:2020-05-04 11:21:15 +0300 +03 UpdatedAt:2020-05-04 11:21:15 +0300 +03 DeletedAt:\u003cnil\u003e} CompanyID:1017 NodeCode:102 ParentID:\u003cnil\u003e Name:blue-shadow Status:active Code:3415602 Type:asset Readonly:false Score:0 Direction:direct Extra:\u003cnil\u003e Error:\u003cnil\u003e}}",
+  "time": "2020-05-04T11:21:14+03:00"
+}
+{
+  "err": "Error 1062: Duplicate entry '1017102000000021' for key 'PRIMARY'",
+  "file": "service/user.serv.go:124",
+  "level": "info",
+  "msg": "Failed in saving user for {ID:1017102000000021 RoleID:1001101000000001 Username:twilight-sea Password:$2a$10$M7kc2bzAFIsQ0TeXnfKBlOSVpTDPimp5fQ9NGAk5I.u4S0GrDeYXa Language:ku Email: Extra:\u003cnil\u003e Error:\u003cnil\u003e Account:{FixedCol:{ID:1017102000000021 CreatedAt:2020-05-04 11:21:15 +0300 +03 UpdatedAt:2020-05-04 11:21:15 +0300 +03 DeletedAt:\u003cnil\u003e} CompanyID:1017 NodeCode:102 ParentID:\u003cnil\u003e Name:twilight-sea Status:active Code:3436540 Type:asset Readonly:false Score:0 Direction:direct Extra:\u003cnil\u003e Error:\u003cnil\u003e}}",
+  "time": "2020-05-04T11:21:14+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T11:21:33+03:00"
+}
+{
+  "err": "Error 1062: Duplicate entry '1017102000000021' for key 'PRIMARY'",
+  "file": "service/user.serv.go:125",
+  "level": "info",
+  "msg": "Failed in saving user for {ID:1017102000000021 RoleID:1001101000000001 Username:hidden-thunder Password:$2a$10$nnKkmtr2Rv0Ja8gS2xBR4.bhnkIemFbFtknAhDytBaHo6xKa9DNcK Language:ku Email: Extra:\u003cnil\u003e Error:\u003cnil\u003e Account:{FixedCol:{ID:1017102000000021 CreatedAt:2020-05-04 11:21:35 +0300 +03 UpdatedAt:2020-05-04 11:21:35 +0300 +03 DeletedAt:\u003cnil\u003e} CompanyID:1017 NodeCode:102 ParentID:\u003cnil\u003e Name:hidden-thunder Status:active Code:1590549 Type:asset Readonly:false Score:0 Direction:direct Extra:\u003cnil\u003e Error:\u003cnil\u003e}}",
+  "time": "2020-05-04T11:21:34+03:00"
+}
+{
+  "err": "Error 1062: Duplicate entry '1017102000000021' for key 'PRIMARY'",
+  "file": "service/user.serv.go:125",
+  "level": "info",
+  "msg": "Failed in saving user for {ID:1017102000000021 RoleID:1001101000000001 Username:snowy-cloud Password:$2a$10$2OIcux7qUc3Sy5urjoZjPuRKl1uscc22AopTJQ5jcceys5p2yyYUW Language:ku Email: Extra:\u003cnil\u003e Error:\u003cnil\u003e Account:{FixedCol:{ID:1017102000000021 CreatedAt:2020-05-04 11:21:36 +0300 +03 UpdatedAt:2020-05-04 11:21:36 +0300 +03 DeletedAt:\u003cnil\u003e} CompanyID:1017 NodeCode:102 ParentID:\u003cnil\u003e Name:snowy-cloud Status:active Code:4588675 Type:asset Readonly:false Score:0 Direction:direct Extra:\u003cnil\u003e Error:\u003cnil\u003e}}",
+  "time": "2020-05-04T11:21:35+03:00"
+}
+{
+  "err": "Error 1062: Duplicate entry '1017102000000021' for key 'PRIMARY'",
+  "file": "service/user.serv.go:125",
+  "level": "info",
+  "msg": "Failed in saving user for {ID:1017102000000021 RoleID:1001101000000001 Username:old-fog Password:$2a$10$7RmlpWTHeToWsce4vrCfQ.ulMW/PMsmNtxonC9tNo5jE0xHyZcQMW Language:ku Email: Extra:\u003cnil\u003e Error:\u003cnil\u003e Account:{FixedCol:{ID:1017102000000021 CreatedAt:2020-05-04 11:21:36 +0300 +03 UpdatedAt:2020-05-04 11:21:36 +0300 +03 DeletedAt:\u003cnil\u003e} CompanyID:1017 NodeCode:102 ParentID:\u003cnil\u003e Name:old-fog Status:active Code:3117452 Type:asset Readonly:false Score:0 Direction:direct Extra:\u003cnil\u003e Error:\u003cnil\u003e}}",
+  "time": "2020-05-04T11:21:36+03:00"
+}
+{
+  "err": "Error 1062: Duplicate entry '1017102000000021' for key 'PRIMARY'",
+  "file": "service/user.serv.go:125",
+  "level": "info",
+  "msg": "Failed in saving user for {ID:1017102000000021 RoleID:1001101000000001 Username:polished-dust Password:$2a$10$SyRmOSKkhx705TPPk3tHguYTDhU8JOd83e8c6WkcT9SZ7DWanadXi Language:ku Email: Extra:\u003cnil\u003e Error:\u003cnil\u003e Account:{FixedCol:{ID:1017102000000021 CreatedAt:2020-05-04 11:21:38 +0300 +03 UpdatedAt:2020-05-04 11:21:38 +0300 +03 DeletedAt:\u003cnil\u003e} CompanyID:1017 NodeCode:102 ParentID:\u003cnil\u003e Name:polished-dust Status:active Code:860268 Type:asset Readonly:false Score:0 Direction:direct Extra:\u003cnil\u003e Error:\u003cnil\u003e}}",
+  "time": "2020-05-04T11:21:38+03:00"
+}
+{
+  "err": "Error 1062: Duplicate entry '1017102000000021' for key 'PRIMARY'",
+  "file": "service/user.serv.go:125",
+  "level": "info",
+  "msg": "Failed in saving user for {ID:1017102000000021 RoleID:1001101000000001 Username:spring-sound Password:$2a$10$HAUkE6I8ijTXtSjMnvUgSu2QMoNUuYKf3YHv7346IGkOqO5a0SxmG Language:ku Email: Extra:\u003cnil\u003e Error:\u003cnil\u003e Account:{FixedCol:{ID:1017102000000021 CreatedAt:2020-05-04 11:21:46 +0300 +03 UpdatedAt:2020-05-04 11:21:46 +0300 +03 DeletedAt:\u003cnil\u003e} CompanyID:1017 NodeCode:102 ParentID:\u003cnil\u003e Name:spring-sound Status:active Code:3618988 Type:asset Readonly:false Score:0 Direction:direct Extra:\u003cnil\u003e Error:\u003cnil\u003e}}",
+  "time": "2020-05-04T11:21:46+03:00"
+}
+{
+  "err": "Error 1062: Duplicate entry '1017102000000021' for key 'PRIMARY'",
+  "file": "service/user.serv.go:125",
+  "level": "info",
+  "msg": "Failed in saving user for {ID:1017102000000021 RoleID:1001101000000001 Username:proud-leaf Password:$2a$10$eyNG1yenC7FfqrNlpg5Fdubtu2SinBptRCo7cqkc9tKNt75.cfolG Language:ku Email: Extra:\u003cnil\u003e Error:\u003cnil\u003e Account:{FixedCol:{ID:1017102000000021 CreatedAt:2020-05-04 11:21:46 +0300 +03 UpdatedAt:2020-05-04 11:21:46 +0300 +03 DeletedAt:\u003cnil\u003e} CompanyID:1017 NodeCode:102 ParentID:\u003cnil\u003e Name:proud-leaf Status:active Code:8505212 Type:asset Readonly:false Score:0 Direction:direct Extra:\u003cnil\u003e Error:\u003cnil\u003e}}",
+  "time": "2020-05-04T11:21:46+03:00"
+}
+{
+  "err": "Error 1062: Duplicate entry '1017102000000021' for key 'PRIMARY'",
+  "file": "service/user.serv.go:125",
+  "level": "info",
+  "msg": "Failed in saving user for {ID:1017102000000021 RoleID:1001101000000001 Username:floral-glade Password:$2a$10$D2vvVSQspIioUDngThfyc.qMZ5U2OELehq/gW7jBtFQFA9xDfE30m Language:ku Email: Extra:\u003cnil\u003e Error:\u003cnil\u003e Account:{FixedCol:{ID:1017102000000021 CreatedAt:2020-05-04 11:28:37 +0300 +03 UpdatedAt:2020-05-04 11:28:37 +0300 +03 DeletedAt:\u003cnil\u003e} CompanyID:1017 NodeCode:102 ParentID:\u003cnil\u003e Name:floral-glade Status:active Code:2652697 Type:asset Readonly:false Score:0 Direction:direct Extra:\u003cnil\u003e Error:\u003cnil\u003e}}",
+  "time": "2020-05-04T11:28:37+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T11:29:00+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T11:30:19+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T11:30:48+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T11:31:34+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T11:31:38+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T11:31:51+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T11:32:29+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T11:32:37+03:00"
+}
+{
+  "data": {
+    "type": "types.RowID",
+    "value": 1017102000000000
+  },
+  "file": "service/account.serv.go:65",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T11:32:42+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "no valid transaction"
+  },
+  "file": "service/account.serv.go:65",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T11:32:42+03:00"
+}
+{
+  "data": {
+    "type": "types.RowID",
+    "value": 1017102000000000
+  },
+  "file": "service/account.serv.go:65",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T11:32:42+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "no valid transaction; can't start transaction"
+  },
+  "file": "service/account.serv.go:65",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T11:32:42+03:00"
+}
+{
+  "data": {
+    "type": "types.RowID",
+    "value": 1017102000000000
+  },
+  "file": "service/account.serv.go:65",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T11:32:43+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "no valid transaction; can't start transaction"
+  },
+  "file": "service/account.serv.go:65",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T11:32:43+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T11:32:52+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T11:33:06+03:00"
+}
+{
+  "err": "Error 1062: Duplicate entry '1017102000000038' for key 'PRIMARY'",
+  "file": "service/user.serv.go:125",
+  "level": "info",
+  "msg": "Failed in saving user for {ID:1017102000000038 RoleID:1001101000000001 Username:small-sunset Password:$2a$10$YUf6kZ22v8GCxHrGpfA8Aedr1/h//XOteA0gO19PFOyuU5tCUxbpq Language:ku Email: Extra:\u003cnil\u003e Error:\u003cnil\u003e Account:{FixedCol:{ID:1017102000000038 CreatedAt:2020-05-04 11:33:09 +0300 +03 UpdatedAt:2020-05-04 11:33:09 +0300 +03 DeletedAt:\u003cnil\u003e} CompanyID:1017 NodeCode:102 ParentID:\u003cnil\u003e Name:small-sunset Status:active Code:6061701 Type:asset Readonly:false Score:0 Direction:direct Extra:\u003cnil\u003e Error:\u003cnil\u003e}}",
+  "time": "2020-05-04T11:33:08+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T11:33:19+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T11:33:37+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T11:33:51+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T11:33:58+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T11:34:02+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T11:34:23+03:00"
+}
+{
+  "err": "Error 1062: Duplicate entry '1017-22' for key 'idx_companyID_code'",
+  "file": "service/account.serv.go:81",
+  "level": "info",
+  "msg": "Failed in creating account for {FixedCol:{ID:1017102000000047 CreatedAt:\u003cnil\u003e UpdatedAt:\u003cnil\u003e DeletedAt:\u003cnil\u003e} CompanyID:1017 NodeCode:102 ParentID:\u003cnil\u003e Name:silent-hill Status:active Code:22 Type:asset Readonly:false Score:0 Direction:direct Extra:\u003cnil\u003e Error:\u003cnil\u003e}",
+  "time": "2020-05-04T11:34:59+03:00"
+}
+{
+  "data": {
+    "type": "types.RowID",
+    "value": 1017102000000000
+  },
+  "file": "service/account.serv.go:65",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T11:35:00+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "can't start transaction"
+  },
+  "file": "service/account.serv.go:65",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T11:35:00+03:00"
+}
+{
+  "data": {
+    "type": "types.RowID",
+    "value": 1017102000000000
+  },
+  "file": "service/account.serv.go:65",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T11:35:01+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "can't start transaction"
+  },
+  "file": "service/account.serv.go:65",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T11:35:01+03:00"
+}
+{
+  "data": {
+    "type": "types.RowID",
+    "value": 1017102000000000
+  },
+  "file": "service/account.serv.go:65",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T11:35:02+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "can't start transaction"
+  },
+  "file": "service/account.serv.go:65",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T11:35:02+03:00"
+}
+{
+  "data": {
+    "type": "types.RowID",
+    "value": 1017102000000000
+  },
+  "file": "service/account.serv.go:65",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T11:35:02+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "can't start transaction"
+  },
+  "file": "service/account.serv.go:65",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T11:35:02+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T11:35:19+03:00"
+}
+{
+  "err": "Error 1062: Duplicate entry '1017-22' for key 'idx_companyID_code'",
+  "file": "service/account.serv.go:81",
+  "level": "info",
+  "msg": "Failed in creating account for {FixedCol:{ID:1017102000000047 CreatedAt:\u003cnil\u003e UpdatedAt:\u003cnil\u003e DeletedAt:\u003cnil\u003e} CompanyID:1017 NodeCode:102 ParentID:\u003cnil\u003e Name:polished-bird Status:active Code:22 Type:asset Readonly:false Score:0 Direction:direct Extra:\u003cnil\u003e Error:\u003cnil\u003e}",
+  "time": "2020-05-04T11:36:22+03:00"
+}
+{
+  "err": "Error 1062: Duplicate entry '1017-22' for key 'idx_companyID_code'",
+  "file": "service/account.serv.go:81",
+  "level": "info",
+  "msg": "Failed in creating account for {FixedCol:{ID:1017102000000002 CreatedAt:\u003cnil\u003e UpdatedAt:\u003cnil\u003e DeletedAt:\u003cnil\u003e} CompanyID:1017 NodeCode:102 ParentID:\u003cnil\u003e Name:empty-feather Status:active Code:22 Type:asset Readonly:false Score:0 Direction:direct Extra:\u003cnil\u003e Error:\u003cnil\u003e}",
+  "time": "2020-05-04T11:39:26+03:00"
+}
+{
+  "data": {
+    "type": "types.RowID",
+    "value": 1017102000000000
+  },
+  "file": "service/account.serv.go:65",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T11:39:44+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "can't start transaction"
+  },
+  "file": "service/account.serv.go:65",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T11:39:44+03:00"
+}
+{
+  "data": {
+    "type": "types.RowID",
+    "value": 1017102000000000
+  },
+  "file": "service/account.serv.go:65",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T11:39:47+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "can't start transaction"
+  },
+  "file": "service/account.serv.go:65",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T11:39:47+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T11:40:09+03:00"
+}
+{
+  "err": "Error 1062: Duplicate entry '1017-22' for key 'idx_companyID_code'",
+  "file": "service/account.serv.go:81",
+  "level": "info",
+  "msg": "Failed in creating account for {FixedCol:{ID:1017102000000002 CreatedAt:\u003cnil\u003e UpdatedAt:\u003cnil\u003e DeletedAt:\u003cnil\u003e} CompanyID:1017 NodeCode:102 ParentID:\u003cnil\u003e Name:crimson-smoke Status:active Code:22 Type:asset Readonly:false Score:0 Direction:direct Extra:\u003cnil\u003e Error:\u003cnil\u003e}",
+  "time": "2020-05-04T11:40:21+03:00"
+}
+{
+  "err": "Error 1062: Duplicate entry '1017-22' for key 'idx_companyID_code'",
+  "file": "service/account.serv.go:81",
+  "level": "info",
+  "msg": "Failed in creating account for {FixedCol:{ID:1017102000000002 CreatedAt:\u003cnil\u003e UpdatedAt:\u003cnil\u003e DeletedAt:\u003cnil\u003e} CompanyID:1017 NodeCode:102 ParentID:\u003cnil\u003e Name:shy-dew Status:active Code:22 Type:asset Readonly:false Score:0 Direction:direct Extra:\u003cnil\u003e Error:\u003cnil\u003e}",
+  "time": "2020-05-04T11:40:22+03:00"
+}
+{
+  "err": "Error 1062: Duplicate entry '1017-22' for key 'idx_companyID_code'",
+  "file": "service/account.serv.go:81",
+  "level": "info",
+  "msg": "Failed in creating account for {FixedCol:{ID:1017102000000002 CreatedAt:\u003cnil\u003e UpdatedAt:\u003cnil\u003e DeletedAt:\u003cnil\u003e} CompanyID:1017 NodeCode:102 ParentID:\u003cnil\u003e Name:muddy-butterfly Status:active Code:22 Type:asset Readonly:false Score:0 Direction:direct Extra:\u003cnil\u003e Error:\u003cnil\u003e}",
+  "time": "2020-05-04T11:40:23+03:00"
+}
+{
+  "err": "Error 1062: Duplicate entry '1017-22' for key 'idx_companyID_code'",
+  "file": "service/account.serv.go:81",
+  "level": "info",
+  "msg": "Failed in creating account for {FixedCol:{ID:1017102000000002 CreatedAt:\u003cnil\u003e UpdatedAt:\u003cnil\u003e DeletedAt:\u003cnil\u003e} CompanyID:1017 NodeCode:102 ParentID:\u003cnil\u003e Name:aged-grass Status:active Code:22 Type:asset Readonly:false Score:0 Direction:direct Extra:\u003cnil\u003e Error:\u003cnil\u003e}",
+  "time": "2020-05-04T11:40:23+03:00"
+}
+{
+  "err": "Error 1062: Duplicate entry '1017-22' for key 'idx_companyID_code'",
+  "file": "service/account.serv.go:81",
+  "level": "info",
+  "msg": "Failed in creating account for {FixedCol:{ID:1017102000000002 CreatedAt:\u003cnil\u003e UpdatedAt:\u003cnil\u003e DeletedAt:\u003cnil\u003e} CompanyID:1017 NodeCode:102 ParentID:\u003cnil\u003e Name:damp-shape Status:active Code:22 Type:asset Readonly:false Score:0 Direction:direct Extra:\u003cnil\u003e Error:\u003cnil\u003e}",
+  "time": "2020-05-04T11:40:24+03:00"
+}
+{
+  "err": "Error 1062: Duplicate entry '1017-22' for key 'idx_companyID_code'",
+  "file": "service/account.serv.go:81",
+  "level": "info",
+  "msg": "Failed in creating account for {FixedCol:{ID:1017102000000002 CreatedAt:\u003cnil\u003e UpdatedAt:\u003cnil\u003e DeletedAt:\u003cnil\u003e} CompanyID:1017 NodeCode:102 ParentID:\u003cnil\u003e Name:withered-water Status:active Code:22 Type:asset Readonly:false Score:0 Direction:direct Extra:\u003cnil\u003e Error:\u003cnil\u003e}",
+  "time": "2020-05-04T11:40:24+03:00"
+}
+{
+  "err": "Error 1062: Duplicate entry '1017-22' for key 'idx_companyID_code'",
+  "file": "service/account.serv.go:81",
+  "level": "info",
+  "msg": "Failed in creating account for {FixedCol:{ID:1017102000000002 CreatedAt:\u003cnil\u003e UpdatedAt:\u003cnil\u003e DeletedAt:\u003cnil\u003e} CompanyID:1017 NodeCode:102 ParentID:\u003cnil\u003e Name:weathered-morning Status:active Code:22 Type:asset Readonly:false Score:0 Direction:direct Extra:\u003cnil\u003e Error:\u003cnil\u003e}",
+  "time": "2020-05-04T11:40:25+03:00"
+}
+{
+  "err": "Error 1062: Duplicate entry '1017-22' for key 'idx_companyID_code'",
+  "file": "service/account.serv.go:81",
+  "level": "info",
+  "msg": "Failed in creating account for {FixedCol:{ID:1017102000000002 CreatedAt:\u003cnil\u003e UpdatedAt:\u003cnil\u003e DeletedAt:\u003cnil\u003e} CompanyID:1017 NodeCode:102 ParentID:\u003cnil\u003e Name:lingering-pine Status:active Code:22 Type:asset Readonly:false Score:0 Direction:direct Extra:\u003cnil\u003e Error:\u003cnil\u003e}",
+  "time": "2020-05-04T11:40:25+03:00"
+}
+{
+  "err": "Error 1062: Duplicate entry '1017-22' for key 'idx_companyID_code'",
+  "file": "service/account.serv.go:81",
+  "level": "info",
+  "msg": "Failed in creating account for {FixedCol:{ID:1017102000000002 CreatedAt:\u003cnil\u003e UpdatedAt:\u003cnil\u003e DeletedAt:\u003cnil\u003e} CompanyID:1017 NodeCode:102 ParentID:\u003cnil\u003e Name:weathered-wave Status:active Code:22 Type:asset Readonly:false Score:0 Direction:direct Extra:\u003cnil\u003e Error:\u003cnil\u003e}",
+  "time": "2020-05-04T11:40:25+03:00"
+}
+{
+  "err": "Error 1062: Duplicate entry '1017-23' for key 'idx_companyID_code'",
+  "file": "service/account.serv.go:81",
+  "level": "info",
+  "msg": "Failed in creating account for {FixedCol:{ID:1017102000000003 CreatedAt:\u003cnil\u003e UpdatedAt:\u003cnil\u003e DeletedAt:\u003cnil\u003e} CompanyID:1017 NodeCode:102 ParentID:\u003cnil\u003e Name:bold-lake Status:active Code:23 Type:asset Readonly:false Score:0 Direction:direct Extra:\u003cnil\u003e Error:\u003cnil\u003e}",
+  "time": "2020-05-04T11:40:39+03:00"
+}
+{
+  "err": "Error 1062: Duplicate entry '1017-23' for key 'idx_companyID_code'",
+  "file": "service/account.serv.go:81",
+  "level": "info",
+  "msg": "Failed in creating account for {FixedCol:{ID:1017102000000003 CreatedAt:\u003cnil\u003e UpdatedAt:\u003cnil\u003e DeletedAt:\u003cnil\u003e} CompanyID:1017 NodeCode:102 ParentID:\u003cnil\u003e Name:quiet-dawn Status:active Code:23 Type:asset Readonly:false Score:0 Direction:direct Extra:\u003cnil\u003e Error:\u003cnil\u003e}",
+  "time": "2020-05-04T11:40:40+03:00"
+}
+{
+  "err": "Error 1062: Duplicate entry '1017-23' for key 'idx_companyID_code'",
+  "file": "service/account.serv.go:81",
+  "level": "info",
+  "msg": "Failed in creating account for {FixedCol:{ID:1017102000000003 CreatedAt:\u003cnil\u003e UpdatedAt:\u003cnil\u003e DeletedAt:\u003cnil\u003e} CompanyID:1017 NodeCode:102 ParentID:\u003cnil\u003e Name:sparkling-wind Status:active Code:23 Type:asset Readonly:false Score:0 Direction:direct Extra:\u003cnil\u003e Error:\u003cnil\u003e}",
+  "time": "2020-05-04T11:40:40+03:00"
+}
+{
+  "err": "Error 1062: Duplicate entry '1017-23' for key 'idx_companyID_code'",
+  "file": "service/account.serv.go:81",
+  "level": "info",
+  "msg": "Failed in creating account for {FixedCol:{ID:1017102000000003 CreatedAt:\u003cnil\u003e UpdatedAt:\u003cnil\u003e DeletedAt:\u003cnil\u003e} CompanyID:1017 NodeCode:102 ParentID:\u003cnil\u003e Name:cool-violet Status:active Code:23 Type:asset Readonly:false Score:0 Direction:direct Extra:\u003cnil\u003e Error:\u003cnil\u003e}",
+  "time": "2020-05-04T11:40:40+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T11:40:47+03:00"
+}
+{
+  "err": "Error 1062: Duplicate entry '1017-23' for key 'idx_companyID_code'",
+  "file": "service/account.serv.go:81",
+  "level": "info",
+  "msg": "Failed in creating account for {FixedCol:{ID:1017102000000003 CreatedAt:\u003cnil\u003e UpdatedAt:\u003cnil\u003e DeletedAt:\u003cnil\u003e} CompanyID:1017 NodeCode:102 ParentID:\u003cnil\u003e Name:old-shadow Status:active Code:23 Type:asset Readonly:false Score:0 Direction:direct Extra:\u003cnil\u003e Error:\u003cnil\u003e}",
+  "time": "2020-05-04T11:40:48+03:00"
+}
+{
+  "data": {
+    "type": "types.RowID",
+    "value": 1017102000000000
+  },
+  "file": "service/account.serv.go:65",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T11:40:51+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "can't start transaction"
+  },
+  "file": "service/account.serv.go:65",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T11:40:51+03:00"
+}
+{
+  "data": {
+    "type": "types.RowID",
+    "value": 1017102000000000
+  },
+  "file": "service/account.serv.go:65",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T11:40:51+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "can't start transaction"
+  },
+  "file": "service/account.serv.go:65",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T11:40:51+03:00"
+}
+{
+  "data": {
+    "type": "types.RowID",
+    "value": 1017102000000000
+  },
+  "file": "service/account.serv.go:65",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T11:40:53+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "can't start transaction"
+  },
+  "file": "service/account.serv.go:65",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T11:40:53+03:00"
+}
+{
+  "data": {
+    "type": "types.RowID",
+    "value": 1017102000000000
+  },
+  "file": "service/account.serv.go:65",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T11:40:53+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "can't start transaction"
+  },
+  "file": "service/account.serv.go:65",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T11:40:53+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T11:40:58+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T11:41:07+03:00"
+}
+{
+  "err": "Error 1062: Duplicate entry '1017-23' for key 'idx_companyID_code'",
+  "file": "service/account.serv.go:81",
+  "level": "info",
+  "msg": "Failed in creating account for {FixedCol:{ID:1017102000000003 CreatedAt:\u003cnil\u003e UpdatedAt:\u003cnil\u003e DeletedAt:\u003cnil\u003e} CompanyID:1017 NodeCode:102 ParentID:\u003cnil\u003e Name:quiet-lake Status:active Code:23 Type:asset Readonly:false Score:0 Direction:direct Extra:\u003cnil\u003e Error:\u003cnil\u003e}",
+  "time": "2020-05-04T11:41:07+03:00"
+}
+{
+  "err": "Error 1062: Duplicate entry '1017-23' for key 'idx_companyID_code'",
+  "file": "service/account.serv.go:81",
+  "level": "info",
+  "msg": "Failed in creating account for {FixedCol:{ID:1017102000000003 CreatedAt:\u003cnil\u003e UpdatedAt:\u003cnil\u003e DeletedAt:\u003cnil\u003e} CompanyID:1017 NodeCode:102 ParentID:\u003cnil\u003e Name:dark-grass Status:active Code:23 Type:asset Readonly:false Score:0 Direction:direct Extra:\u003cnil\u003e Error:\u003cnil\u003e}",
+  "time": "2020-05-04T11:41:07+03:00"
+}
+{
+  "err": "Error 1062: Duplicate entry '1017-23' for key 'idx_companyID_code'",
+  "file": "service/account.serv.go:81",
+  "level": "info",
+  "msg": "Failed in creating account for {FixedCol:{ID:1017102000000003 CreatedAt:\u003cnil\u003e UpdatedAt:\u003cnil\u003e DeletedAt:\u003cnil\u003e} CompanyID:1017 NodeCode:102 ParentID:\u003cnil\u003e Name:winter-night Status:active Code:23 Type:asset Readonly:false Score:0 Direction:direct Extra:\u003cnil\u003e Error:\u003cnil\u003e}",
+  "time": "2020-05-04T11:41:08+03:00"
+}
+{
+  "err": "Error 1062: Duplicate entry '1017-23' for key 'idx_companyID_code'",
+  "file": "service/account.serv.go:81",
+  "level": "info",
+  "msg": "Failed in creating account for {FixedCol:{ID:1017102000000003 CreatedAt:\u003cnil\u003e UpdatedAt:\u003cnil\u003e DeletedAt:\u003cnil\u003e} CompanyID:1017 NodeCode:102 ParentID:\u003cnil\u003e Name:empty-hill Status:active Code:23 Type:asset Readonly:false Score:0 Direction:direct Extra:\u003cnil\u003e Error:\u003cnil\u003e}",
+  "time": "2020-05-04T11:41:08+03:00"
+}
+{
+  "err": "Error 1062: Duplicate entry '1017-23' for key 'idx_companyID_code'",
+  "file": "service/account.serv.go:81",
+  "level": "info",
+  "msg": "Failed in creating account for {FixedCol:{ID:1017102000000003 CreatedAt:\u003cnil\u003e UpdatedAt:\u003cnil\u003e DeletedAt:\u003cnil\u003e} CompanyID:1017 NodeCode:102 ParentID:\u003cnil\u003e Name:still-snowflake Status:active Code:23 Type:asset Readonly:false Score:0 Direction:direct Extra:\u003cnil\u003e Error:\u003cnil\u003e}",
+  "time": "2020-05-04T11:41:09+03:00"
+}
+{
+  "err": "Error 1062: Duplicate entry '1017-23' for key 'idx_companyID_code'",
+  "file": "service/account.serv.go:81",
+  "level": "info",
+  "msg": "Failed in creating account for {FixedCol:{ID:1017102000000003 CreatedAt:\u003cnil\u003e UpdatedAt:\u003cnil\u003e DeletedAt:\u003cnil\u003e} CompanyID:1017 NodeCode:102 ParentID:\u003cnil\u003e Name:aged-shape Status:active Code:23 Type:asset Readonly:false Score:0 Direction:direct Extra:\u003cnil\u003e Error:\u003cnil\u003e}",
+  "time": "2020-05-04T11:41:09+03:00"
+}
+{
+  "err": "Error 1062: Duplicate entry '1017-23' for key 'idx_companyID_code'",
+  "file": "service/account.serv.go:81",
+  "level": "info",
+  "msg": "Failed in creating account for {FixedCol:{ID:1017102000000003 CreatedAt:\u003cnil\u003e UpdatedAt:\u003cnil\u003e DeletedAt:\u003cnil\u003e} CompanyID:1017 NodeCode:102 ParentID:\u003cnil\u003e Name:spring-flower Status:active Code:23 Type:asset Readonly:false Score:0 Direction:direct Extra:\u003cnil\u003e Error:\u003cnil\u003e}",
+  "time": "2020-05-04T11:41:09+03:00"
+}
+{
+  "err": "Error 1062: Duplicate entry '1017-23' for key 'idx_companyID_code'",
+  "file": "service/account.serv.go:81",
+  "level": "info",
+  "msg": "Failed in creating account for {FixedCol:{ID:1017102000000003 CreatedAt:\u003cnil\u003e UpdatedAt:\u003cnil\u003e DeletedAt:\u003cnil\u003e} CompanyID:1017 NodeCode:102 ParentID:\u003cnil\u003e Name:snowy-dew Status:active Code:23 Type:asset Readonly:false Score:0 Direction:direct Extra:\u003cnil\u003e Error:\u003cnil\u003e}",
+  "time": "2020-05-04T11:41:09+03:00"
+}
+{
+  "err": "Error 1062: Duplicate entry '1017-23' for key 'idx_companyID_code'",
+  "file": "service/account.serv.go:81",
+  "level": "info",
+  "msg": "Failed in creating account for {FixedCol:{ID:1017102000000003 CreatedAt:\u003cnil\u003e UpdatedAt:\u003cnil\u003e DeletedAt:\u003cnil\u003e} CompanyID:1017 NodeCode:102 ParentID:\u003cnil\u003e Name:spring-dust Status:active Code:23 Type:asset Readonly:false Score:0 Direction:direct Extra:\u003cnil\u003e Error:\u003cnil\u003e}",
+  "time": "2020-05-04T11:41:10+03:00"
+}
+{
+  "err": "Error 1062: Duplicate entry '1017-23' for key 'idx_companyID_code'",
+  "file": "service/account.serv.go:81",
+  "level": "info",
+  "msg": "Failed in creating account for {FixedCol:{ID:1017102000000003 CreatedAt:\u003cnil\u003e UpdatedAt:\u003cnil\u003e DeletedAt:\u003cnil\u003e} CompanyID:1017 NodeCode:102 ParentID:\u003cnil\u003e Name:lingering-cloud Status:active Code:23 Type:asset Readonly:false Score:0 Direction:direct Extra:\u003cnil\u003e Error:\u003cnil\u003e}",
+  "time": "2020-05-04T11:41:10+03:00"
+}
+{
+  "err": "Error 1062: Duplicate entry '1017-23' for key 'idx_companyID_code'",
+  "file": "service/account.serv.go:81",
+  "level": "info",
+  "msg": "Failed in creating account for {FixedCol:{ID:1017102000000003 CreatedAt:\u003cnil\u003e UpdatedAt:\u003cnil\u003e DeletedAt:\u003cnil\u003e} CompanyID:1017 NodeCode:102 ParentID:\u003cnil\u003e Name:divine-snow Status:active Code:23 Type:asset Readonly:false Score:0 Direction:direct Extra:\u003cnil\u003e Error:\u003cnil\u003e}",
+  "time": "2020-05-04T11:41:10+03:00"
+}
+{
+  "err": "Error 1062: Duplicate entry '1017-23' for key 'idx_companyID_code'",
+  "file": "service/account.serv.go:81",
+  "level": "info",
+  "msg": "Failed in creating account for {FixedCol:{ID:1017102000000003 CreatedAt:\u003cnil\u003e UpdatedAt:\u003cnil\u003e DeletedAt:\u003cnil\u003e} CompanyID:1017 NodeCode:102 ParentID:\u003cnil\u003e Name:divine-shape Status:active Code:23 Type:asset Readonly:false Score:0 Direction:direct Extra:\u003cnil\u003e Error:\u003cnil\u003e}",
+  "time": "2020-05-04T11:41:11+03:00"
+}
+{
+  "err": "Error 1062: Duplicate entry '1017-24' for key 'idx_companyID_code'",
+  "file": "service/account.serv.go:81",
+  "level": "info",
+  "msg": "Failed in creating account for {FixedCol:{ID:1017102000000004 CreatedAt:\u003cnil\u003e UpdatedAt:\u003cnil\u003e DeletedAt:\u003cnil\u003e} CompanyID:1017 NodeCode:102 ParentID:\u003cnil\u003e Name:delicate-sky Status:active Code:24 Type:asset Readonly:false Score:0 Direction:direct Extra:\u003cnil\u003e Error:\u003cnil\u003e}",
+  "time": "2020-05-04T11:41:22+03:00"
+}
+{
+  "err": "Error 1062: Duplicate entry '1017-24' for key 'idx_companyID_code'",
+  "file": "service/account.serv.go:81",
+  "level": "info",
+  "msg": "Failed in creating account for {FixedCol:{ID:1017102000000004 CreatedAt:\u003cnil\u003e UpdatedAt:\u003cnil\u003e DeletedAt:\u003cnil\u003e} CompanyID:1017 NodeCode:102 ParentID:\u003cnil\u003e Name:solitary-mountain Status:active Code:24 Type:asset Readonly:false Score:0 Direction:direct Extra:\u003cnil\u003e Error:\u003cnil\u003e}",
+  "time": "2020-05-04T11:41:22+03:00"
+}
+{
+  "err": "Error 1062: Duplicate entry '1017-24' for key 'idx_companyID_code'",
+  "file": "service/account.serv.go:81",
+  "level": "info",
+  "msg": "Failed in creating account for {FixedCol:{ID:1017102000000004 CreatedAt:\u003cnil\u003e UpdatedAt:\u003cnil\u003e DeletedAt:\u003cnil\u003e} CompanyID:1017 NodeCode:102 ParentID:\u003cnil\u003e Name:cool-mountain Status:active Code:24 Type:asset Readonly:false Score:0 Direction:direct Extra:\u003cnil\u003e Error:\u003cnil\u003e}",
+  "time": "2020-05-04T11:41:23+03:00"
+}
+{
+  "err": "Error 1062: Duplicate entry 'RANDOM_NAME_' for key 'username'",
+  "file": "service/user.serv.go:124",
+  "level": "info",
+  "msg": "Failed in saving user for {ID:1017102000000005 RoleID:1001101000000001 Username:RANDOM_NAME_ Password:$2a$10$rFElKFnUQXQek2YERRBbC.r6kdAiidkD7WdcoOqwHmr/GBOYBUIr2 Language:ku Email: Extra:\u003cnil\u003e Error:\u003cnil\u003e Account:{FixedCol:{ID:1017102000000005 CreatedAt:2020-05-04 11:42:59 +0300 +03 UpdatedAt:2020-05-04 11:42:59 +0300 +03 DeletedAt:\u003cnil\u003e} CompanyID:1017 NodeCode:102 ParentID:\u003cnil\u003e Name:icy-hill Status:active Code:9650919 Type:asset Readonly:false Score:0 Direction:direct Extra:\u003cnil\u003e Error:\u003cnil\u003e}}",
+  "time": "2020-05-04T11:42:59+03:00"
+}
+{
+  "err": "Error 1062: Duplicate entry 'RANDOM_NAME_' for key 'username'",
+  "file": "service/user.serv.go:124",
+  "level": "info",
+  "msg": "Failed in saving user for {ID:1017102000000005 RoleID:1001101000000001 Username:RANDOM_NAME_ Password:$2a$10$ycf5Ca2FH72Rs/T4nGbMWOPaedsw9BNYEDfu5WXNv/MmnNZXVuEWu Language:ku Email: Extra:\u003cnil\u003e Error:\u003cnil\u003e Account:{FixedCol:{ID:1017102000000005 CreatedAt:2020-05-04 11:43:01 +0300 +03 UpdatedAt:2020-05-04 11:43:01 +0300 +03 DeletedAt:\u003cnil\u003e} CompanyID:1017 NodeCode:102 ParentID:\u003cnil\u003e Name:proud-dawn Status:active Code:5704942 Type:asset Readonly:false Score:0 Direction:direct Extra:\u003cnil\u003e Error:\u003cnil\u003e}}",
+  "time": "2020-05-04T11:43:01+03:00"
+}
+{
+  "err": "Error 1062: Duplicate entry 'RANDOM_NAME_' for key 'username'",
+  "file": "service/user.serv.go:124",
+  "level": "info",
+  "msg": "Failed in saving user for {ID:1017102000000005 RoleID:1001101000000001 Username:RANDOM_NAME_ Password:$2a$10$WQejXBZNVatxKZBvYdHhg.88Vz4vUK2./AuER7MeWzD.F0btk4zGi Language:ku Email: Extra:\u003cnil\u003e Error:\u003cnil\u003e Account:{FixedCol:{ID:1017102000000005 CreatedAt:2020-05-04 11:43:02 +0300 +03 UpdatedAt:2020-05-04 11:43:02 +0300 +03 DeletedAt:\u003cnil\u003e} CompanyID:1017 NodeCode:102 ParentID:\u003cnil\u003e Name:snowy-fire Status:active Code:1989715 Type:asset Readonly:false Score:0 Direction:direct Extra:\u003cnil\u003e Error:\u003cnil\u003e}}",
+  "time": "2020-05-04T11:43:01+03:00"
+}
+{
+  "err": "Error 1062: Duplicate entry 'RANDOM_NAME_' for key 'username'",
+  "file": "service/user.serv.go:124",
+  "level": "info",
+  "msg": "Failed in saving user for {ID:1017102000000005 RoleID:1001101000000001 Username:RANDOM_NAME_ Password:$2a$10$MQQFk4VluOal7vLZkIY12ODdnpYMxOZqwL3lkIfVP.GVkfEozaFoG Language:ku Email: Extra:\u003cnil\u003e Error:\u003cnil\u003e Account:{FixedCol:{ID:1017102000000005 CreatedAt:2020-05-04 11:43:02 +0300 +03 UpdatedAt:2020-05-04 11:43:02 +0300 +03 DeletedAt:\u003cnil\u003e} CompanyID:1017 NodeCode:102 ParentID:\u003cnil\u003e Name:holy-butterfly Status:active Code:6349749 Type:asset Readonly:false Score:0 Direction:direct Extra:\u003cnil\u003e Error:\u003cnil\u003e}}",
+  "time": "2020-05-04T11:43:02+03:00"
+}
+{
+  "err": "Error 1062: Duplicate entry 'RANDOM_NAME_' for key 'username'",
+  "file": "service/user.serv.go:124",
+  "level": "info",
+  "msg": "Failed in saving user for {ID:1017102000000005 RoleID:1001101000000001 Username:RANDOM_NAME_ Password:$2a$10$EhtFNZXNpyPtn9adAAvaWuZqDhKDpPrwJZ1bnlahhlxV99YqBWdo6 Language:ku Email: Extra:\u003cnil\u003e Error:\u003cnil\u003e Account:{FixedCol:{ID:1017102000000005 CreatedAt:2020-05-04 11:43:03 +0300 +03 UpdatedAt:2020-05-04 11:43:03 +0300 +03 DeletedAt:\u003cnil\u003e} CompanyID:1017 NodeCode:102 ParentID:\u003cnil\u003e Name:wandering-cloud Status:active Code:6850867 Type:asset Readonly:false Score:0 Direction:direct Extra:\u003cnil\u003e Error:\u003cnil\u003e}}",
+  "time": "2020-05-04T11:43:02+03:00"
+}
+{
+  "err": "Error 1062: Duplicate entry 'RANDOM_NAME_' for key 'username'",
+  "file": "service/user.serv.go:124",
+  "level": "info",
+  "msg": "Failed in saving user for {ID:1017102000000005 RoleID:1001101000000001 Username:RANDOM_NAME_ Password:$2a$10$B5HC1Zt/djJfht0b2RE59ev3xsD2RqRn/tu1s5bcH1IFJETXAd/2i Language:ku Email: Extra:\u003cnil\u003e Error:\u003cnil\u003e Account:{FixedCol:{ID:1017102000000005 CreatedAt:2020-05-04 11:43:03 +0300 +03 UpdatedAt:2020-05-04 11:43:03 +0300 +03 DeletedAt:\u003cnil\u003e} CompanyID:1017 NodeCode:102 ParentID:\u003cnil\u003e Name:bold-shape Status:active Code:2841526 Type:asset Readonly:false Score:0 Direction:direct Extra:\u003cnil\u003e Error:\u003cnil\u003e}}",
+  "time": "2020-05-04T11:43:03+03:00"
+}
+{
+  "err": "Error 1062: Duplicate entry 'RANDOM_NAME_' for key 'username'",
+  "file": "service/user.serv.go:124",
+  "level": "info",
+  "msg": "Failed in saving user for {ID:1017102000000005 RoleID:1001101000000001 Username:RANDOM_NAME_ Password:$2a$10$o3OCceF75yQA53/2JrbCnuy5omNE1ZKiUEXRpGAmT3TC7bVT27x0i Language:ku Email: Extra:\u003cnil\u003e Error:\u003cnil\u003e Account:{FixedCol:{ID:1017102000000005 CreatedAt:2020-05-04 11:43:04 +0300 +03 UpdatedAt:2020-05-04 11:43:04 +0300 +03 DeletedAt:\u003cnil\u003e} CompanyID:1017 NodeCode:102 ParentID:\u003cnil\u003e Name:dark-river Status:active Code:8660398 Type:asset Readonly:false Score:0 Direction:direct Extra:\u003cnil\u003e Error:\u003cnil\u003e}}",
+  "time": "2020-05-04T11:43:03+03:00"
+}
+{
+  "err": "Error 1062: Duplicate entry 'RANDOM_NAME_' for key 'username'",
+  "file": "service/user.serv.go:124",
+  "level": "info",
+  "msg": "Failed in saving user for {ID:1017102000000005 RoleID:1001101000000001 Username:RANDOM_NAME_ Password:$2a$10$9baYGVivaM88MZumCfouwOLuC63/4d3os7dkhn4DBgayqeXNzO4dy Language:ku Email: Extra:\u003cnil\u003e Error:\u003cnil\u003e Account:{FixedCol:{ID:1017102000000005 CreatedAt:2020-05-04 11:43:04 +0300 +03 UpdatedAt:2020-05-04 11:43:04 +0300 +03 DeletedAt:\u003cnil\u003e} CompanyID:1017 NodeCode:102 ParentID:\u003cnil\u003e Name:muddy-star Status:active Code:8343534 Type:asset Readonly:false Score:0 Direction:direct Extra:\u003cnil\u003e Error:\u003cnil\u003e}}",
+  "time": "2020-05-04T11:43:04+03:00"
+}
+{
+  "err": "Error 1062: Duplicate entry 'RANDOM_NAME_' for key 'username'",
+  "file": "service/user.serv.go:124",
+  "level": "info",
+  "msg": "Failed in saving user for {ID:1017102000000005 RoleID:1001101000000001 Username:RANDOM_NAME_ Password:$2a$10$zfop11FBTC9GBq2Su2o56evn9scAg8HuZZkmq7MwTeHJ0qFUZGD86 Language:ku Email: Extra:\u003cnil\u003e Error:\u003cnil\u003e Account:{FixedCol:{ID:1017102000000005 CreatedAt:2020-05-04 11:43:04 +0300 +03 UpdatedAt:2020-05-04 11:43:04 +0300 +03 DeletedAt:\u003cnil\u003e} CompanyID:1017 NodeCode:102 ParentID:\u003cnil\u003e Name:ancient-cherry Status:active Code:1151566 Type:asset Readonly:false Score:0 Direction:direct Extra:\u003cnil\u003e Error:\u003cnil\u003e}}",
+  "time": "2020-05-04T11:43:04+03:00"
+}
+{
+  "err": "Error 1062: Duplicate entry 'RANDOM_NAME_' for key 'username'",
+  "file": "service/user.serv.go:124",
+  "level": "info",
+  "msg": "Failed in saving user for {ID:1017102000000005 RoleID:1001101000000001 Username:RANDOM_NAME_ Password:$2a$10$vRumXPlOeZHst/AOL96IG.lciet0ePJJgru8rHWOQY.R2NDdTAaQq Language:ku Email: Extra:\u003cnil\u003e Error:\u003cnil\u003e Account:{FixedCol:{ID:1017102000000005 CreatedAt:2020-05-04 11:43:05 +0300 +03 UpdatedAt:2020-05-04 11:43:05 +0300 +03 DeletedAt:\u003cnil\u003e} CompanyID:1017 NodeCode:102 ParentID:\u003cnil\u003e Name:nameless-forest Status:active Code:8024200 Type:asset Readonly:false Score:0 Direction:direct Extra:\u003cnil\u003e Error:\u003cnil\u003e}}",
+  "time": "2020-05-04T11:43:05+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T13:02:49+03:00"
+}
+{
+  "data": {
+    "type": "[]dto.UserDto",
+    "value": []
+  },
+  "file": "repo/user.repo.go:80",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T13:02:52+03:00"
+}
+{
+  "data": {
+    "type": "\u003cnil\u003e",
+    "value": null
+  },
+  "file": "api/user.api.go:91",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T13:02:52+03:00"
+}
+{
+  "data": {
+    "type": "[]dto.UserDto",
+    "value": []
+  },
+  "file": "repo/user.repo.go:80",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T13:02:54+03:00"
+}
+{
+  "data": {
+    "type": "\u003cnil\u003e",
+    "value": null
+  },
+  "file": "api/user.api.go:91",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T13:02:54+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T13:03:44+03:00"
+}
+{
+  "data": {
+    "type": "param.Param",
+    "value": {
+      "CompanyID": 1017,
+      "Language": "ku",
+      "Limit": 2,
+      "NodeCode": 102,
+      "Offset": 0,
+      "Order": "users.id desc",
+      "PreCondition": "",
+      "Search": "",
+      "Select": "*",
+      "UserID": 1017102000000001
+    }
+  },
+  "file": "service/user.serv.go:79",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T13:03:50+03:00"
+}
+{
+  "data": {
+    "type": "[]dto.UserDto",
+    "value": []
+  },
+  "file": "repo/user.repo.go:80",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T13:03:50+03:00"
+}
+{
+  "data": {
+    "type": "\u003cnil\u003e",
+    "value": null
+  },
+  "file": "api/user.api.go:91",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T13:03:50+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T13:07:16+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T13:07:24+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T13:07:34+03:00"
+}
+{
+  "data": {
+    "type": "param.Param",
+    "value": {
+      "CompanyID": 1017,
+      "Language": "ku",
+      "Limit": 2,
+      "NodeCode": 102,
+      "Offset": 0,
+      "Order": "users.id desc",
+      "PreCondition": "",
+      "Search": "",
+      "Select": "*",
+      "UserID": 1017102000000001
+    }
+  },
+  "file": "service/user.serv.go:79",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T13:07:37+03:00"
+}
+{
+  "data": {
+    "type": "[]dto.UserDto",
+    "value": []
+  },
+  "file": "repo/user.repo.go:80",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T13:07:37+03:00"
+}
+{
+  "data": {
+    "type": "\u003cnil\u003e",
+    "value": null
+  },
+  "file": "api/user.api.go:91",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T13:07:37+03:00"
+}
+{
+  "err": "Error 1216: Cannot add or update a child row: a foreign key constraint fails",
+  "file": "service/user.serv.go:126",
+  "level": "info",
+  "msg": "Failed in saving user for {ID:1017102000000008 RoleID:1001101000000001 Username:small-wind Password:$2a$10$dQVHXfZCillqBd7iwlo8bOOSQ7fRqCi6imucNyjKMCh1tms1SVnNO Language:ku Email: Extra:\u003cnil\u003e Error:\u003cnil\u003e Account:{FixedCol:{ID:1017102000000008 CreatedAt:2020-05-04 13:07:45 +0300 +03 UpdatedAt:2020-05-04 13:07:45 +0300 +03 DeletedAt:\u003cnil\u003e} CompanyID:1017 NodeCode:102 ParentID:\u003cnil\u003e Name:small-wind Status:active Code:4399344 Type:asset Readonly:false Score:0 Direction:direct Extra:\u003cnil\u003e Error:\u003cnil\u003e}}",
+  "time": "2020-05-04T13:07:44+03:00"
+}
+{
+  "err": "Error 1216: Cannot add or update a child row: a foreign key constraint fails",
+  "file": "service/user.serv.go:126",
+  "level": "info",
+  "msg": "Failed in saving user for {ID:1017102000000008 RoleID:1001101000000001 Username:autumn-rain Password:$2a$10$aGiK1TkcmVw2VHM5VJbEie.yixPYpMjTxUXD6UlKdFWtG21WWCZKu Language:ku Email: Extra:\u003cnil\u003e Error:\u003cnil\u003e Account:{FixedCol:{ID:1017102000000008 CreatedAt:2020-05-04 13:07:45 +0300 +03 UpdatedAt:2020-05-04 13:07:45 +0300 +03 DeletedAt:\u003cnil\u003e} CompanyID:1017 NodeCode:102 ParentID:\u003cnil\u003e Name:autumn-rain Status:active Code:1300708 Type:asset Readonly:false Score:0 Direction:direct Extra:\u003cnil\u003e Error:\u003cnil\u003e}}",
+  "time": "2020-05-04T13:07:45+03:00"
+}
+{
+  "data": {
+    "type": "\u003cnil\u003e",
+    "value": null
+  },
+  "file": "api/role.api.go:72",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T13:07:57+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T13:09:03+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T13:09:11+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T13:09:16+03:00"
+}
+{
+  "data": {
+    "type": "param.Param",
+    "value": {
+      "CompanyID": 1017,
+      "Language": "ku",
+      "Limit": 2,
+      "NodeCode": 102,
+      "Offset": 0,
+      "Order": "users.id desc",
+      "PreCondition": "",
+      "Search": "",
+      "Select": "*",
+      "UserID": 1017102000000001
+    }
+  },
+  "file": "service/user.serv.go:79",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T13:09:50+03:00"
+}
+{
+  "data": {
+    "type": "[]dto.UserDto",
+    "value": [
+      {
+        "account": {},
+        "code": 8521102,
+        "created_at": "2020-05-04T13:09:39+03:00",
+        "direction": "direct",
+        "id": 1017102000000018,
+        "language": "ku",
+        "name": "restless-cloud",
+        "role": "Super-Admin",
+        "role_id": 1001101000000001,
+        "status": "active",
+        "type": "asset",
+        "updated_at": "2020-05-04T13:09:39+03:00",
+        "username": "restless-cloud"
+      },
+      {
+        "account": {},
+        "code": 4978002,
+        "created_at": "2020-05-04T13:09:39+03:00",
+        "direction": "direct",
+        "id": 1017102000000017,
+        "language": "ku",
+        "name": "wandering-cloud",
+        "role": "Super-Admin",
+        "role_id": 1001101000000001,
+        "status": "active",
+        "type": "asset",
+        "updated_at": "2020-05-04T13:09:39+03:00",
+        "username": "wandering-cloud"
+      }
+    ]
+  },
+  "file": "repo/user.repo.go:80",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T13:09:50+03:00"
+}
+{
+  "data": {
+    "type": "\u003cnil\u003e",
+    "value": null
+  },
+  "file": "api/user.api.go:91",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T13:09:50+03:00"
+}
+{
+  "data": {
+    "type": "param.Param",
+    "value": {
+      "CompanyID": 1017,
+      "Language": "ku",
+      "Limit": 2,
+      "NodeCode": 102,
+      "Offset": 0,
+      "Order": "users.id desc",
+      "PreCondition": "",
+      "Search": "",
+      "Select": "*",
+      "UserID": 1017102000000001
+    }
+  },
+  "file": "service/user.serv.go:79",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T13:09:51+03:00"
+}
+{
+  "data": {
+    "type": "[]dto.UserDto",
+    "value": [
+      {
+        "account": {},
+        "code": 8521102,
+        "created_at": "2020-05-04T13:09:39+03:00",
+        "direction": "direct",
+        "id": 1017102000000018,
+        "language": "ku",
+        "name": "restless-cloud",
+        "role": "Super-Admin",
+        "role_id": 1001101000000001,
+        "status": "active",
+        "type": "asset",
+        "updated_at": "2020-05-04T13:09:39+03:00",
+        "username": "restless-cloud"
+      },
+      {
+        "account": {},
+        "code": 4978002,
+        "created_at": "2020-05-04T13:09:39+03:00",
+        "direction": "direct",
+        "id": 1017102000000017,
+        "language": "ku",
+        "name": "wandering-cloud",
+        "role": "Super-Admin",
+        "role_id": 1001101000000001,
+        "status": "active",
+        "type": "asset",
+        "updated_at": "2020-05-04T13:09:39+03:00",
+        "username": "wandering-cloud"
+      }
+    ]
+  },
+  "file": "repo/user.repo.go:80",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T13:09:51+03:00"
+}
+{
+  "data": {
+    "type": "\u003cnil\u003e",
+    "value": null
+  },
+  "file": "api/user.api.go:91",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T13:09:51+03:00"
+}
+{
+  "data": {
+    "type": "param.Param",
+    "value": {
+      "CompanyID": 1017,
+      "Language": "ku",
+      "Limit": 2,
+      "NodeCode": 102,
+      "Offset": 0,
+      "Order": "users.id desc",
+      "PreCondition": "",
+      "Search": "",
+      "Select": "*",
+      "UserID": 1017102000000001
+    }
+  },
+  "file": "service/user.serv.go:79",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T13:09:55+03:00"
+}
+{
+  "data": {
+    "type": "[]dto.UserDto",
+    "value": [
+      {
+        "account": {},
+        "code": 8521102,
+        "created_at": "2020-05-04T13:09:39+03:00",
+        "direction": "direct",
+        "id": 1017102000000018,
+        "language": "ku",
+        "name": "restless-cloud",
+        "role": "Super-Admin",
+        "role_id": 1001101000000001,
+        "status": "active",
+        "type": "asset",
+        "updated_at": "2020-05-04T13:09:39+03:00",
+        "username": "restless-cloud"
+      },
+      {
+        "account": {},
+        "code": 4978002,
+        "created_at": "2020-05-04T13:09:39+03:00",
+        "direction": "direct",
+        "id": 1017102000000017,
+        "language": "ku",
+        "name": "wandering-cloud",
+        "role": "Super-Admin",
+        "role_id": 1001101000000001,
+        "status": "active",
+        "type": "asset",
+        "updated_at": "2020-05-04T13:09:39+03:00",
+        "username": "wandering-cloud"
+      }
+    ]
+  },
+  "file": "repo/user.repo.go:80",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T13:09:55+03:00"
+}
+{
+  "data": {
+    "type": "\u003cnil\u003e",
+    "value": null
+  },
+  "file": "api/user.api.go:91",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T13:09:55+03:00"
+}
+{
+  "data": {
+    "type": "param.Param",
+    "value": {
+      "CompanyID": 1017,
+      "Language": "ku",
+      "Limit": 2,
+      "NodeCode": 102,
+      "Offset": 0,
+      "Order": "users.id desc",
+      "PreCondition": "",
+      "Search": "",
+      "Select": "*",
+      "UserID": 1017102000000001
+    }
+  },
+  "file": "service/user.serv.go:79",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T13:09:56+03:00"
+}
+{
+  "data": {
+    "type": "[]dto.UserDto",
+    "value": [
+      {
+        "account": {},
+        "code": 8521102,
+        "created_at": "2020-05-04T13:09:39+03:00",
+        "direction": "direct",
+        "id": 1017102000000018,
+        "language": "ku",
+        "name": "restless-cloud",
+        "role": "Super-Admin",
+        "role_id": 1001101000000001,
+        "status": "active",
+        "type": "asset",
+        "updated_at": "2020-05-04T13:09:39+03:00",
+        "username": "restless-cloud"
+      },
+      {
+        "account": {},
+        "code": 4978002,
+        "created_at": "2020-05-04T13:09:39+03:00",
+        "direction": "direct",
+        "id": 1017102000000017,
+        "language": "ku",
+        "name": "wandering-cloud",
+        "role": "Super-Admin",
+        "role_id": 1001101000000001,
+        "status": "active",
+        "type": "asset",
+        "updated_at": "2020-05-04T13:09:39+03:00",
+        "username": "wandering-cloud"
+      }
+    ]
+  },
+  "file": "repo/user.repo.go:80",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T13:09:56+03:00"
+}
+{
+  "data": {
+    "type": "\u003cnil\u003e",
+    "value": null
+  },
+  "file": "api/user.api.go:91",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T13:09:56+03:00"
+}
+{
+  "data": {
+    "type": "param.Param",
+    "value": {
+      "CompanyID": 1017,
+      "Language": "ku",
+      "Limit": 2,
+      "NodeCode": 102,
+      "Offset": 0,
+      "Order": "users.id desc",
+      "PreCondition": "",
+      "Search": "",
+      "Select": "*",
+      "UserID": 1017102000000001
+    }
+  },
+  "file": "service/user.serv.go:79",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T13:09:56+03:00"
+}
+{
+  "data": {
+    "type": "[]dto.UserDto",
+    "value": [
+      {
+        "account": {},
+        "code": 8521102,
+        "created_at": "2020-05-04T13:09:39+03:00",
+        "direction": "direct",
+        "id": 1017102000000018,
+        "language": "ku",
+        "name": "restless-cloud",
+        "role": "Super-Admin",
+        "role_id": 1001101000000001,
+        "status": "active",
+        "type": "asset",
+        "updated_at": "2020-05-04T13:09:39+03:00",
+        "username": "restless-cloud"
+      },
+      {
+        "account": {},
+        "code": 4978002,
+        "created_at": "2020-05-04T13:09:39+03:00",
+        "direction": "direct",
+        "id": 1017102000000017,
+        "language": "ku",
+        "name": "wandering-cloud",
+        "role": "Super-Admin",
+        "role_id": 1001101000000001,
+        "status": "active",
+        "type": "asset",
+        "updated_at": "2020-05-04T13:09:39+03:00",
+        "username": "wandering-cloud"
+      }
+    ]
+  },
+  "file": "repo/user.repo.go:80",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T13:09:56+03:00"
+}
+{
+  "data": {
+    "type": "\u003cnil\u003e",
+    "value": null
+  },
+  "file": "api/user.api.go:91",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T13:09:56+03:00"
+}
+{
+  "data": {
+    "type": "[]dto.UserDto",
+    "value": [
+      {
+        "account": {},
+        "code": 5229110,
+        "created_at": "2020-05-04T13:09:31+03:00",
+        "direction": "direct",
+        "id": 1017102000000008,
+        "language": "ku",
+        "name": "spring-water",
+        "role": "Super-Admin",
+        "role_id": 1001101000000001,
+        "status": "active",
+        "type": "asset",
+        "updated_at": "2020-05-04T13:09:31+03:00",
+        "username": "spring-water"
+      },
+      {
+        "account": {},
+        "code": 2574943,
+        "created_at": "2020-05-04T13:09:32+03:00",
+        "direction": "direct",
+        "id": 1017102000000009,
+        "language": "ku",
+        "name": "quiet-fog",
+        "role": "Super-Admin",
+        "role_id": 1001101000000001,
+        "status": "active",
+        "type": "asset",
+        "updated_at": "2020-05-04T13:09:32+03:00",
+        "username": "quiet-fog"
+      },
+      {
+        "account": {},
+        "code": 9450684,
+        "created_at": "2020-05-04T13:09:32+03:00",
+        "direction": "direct",
+        "id": 1017102000000010,
+        "language": "ku",
+        "name": "billowing-grass",
+        "role": "Super-Admin",
+        "role_id": 1001101000000001,
+        "status": "active",
+        "type": "asset",
+        "updated_at": "2020-05-04T13:09:32+03:00",
+        "username": "billowing-grass"
+      },
+      {
+        "account": {},
+        "code": 5769548,
+        "created_at": "2020-05-04T13:09:33+03:00",
+        "direction": "direct",
+        "id": 1017102000000011,
+        "language": "ku",
+        "name": "hidden-paper",
+        "role": "Super-Admin",
+        "role_id": 1001101000000001,
+        "status": "active",
+        "type": "asset",
+        "updated_at": "2020-05-04T13:09:33+03:00",
+        "username": "hidden-paper"
+      },
+      {
+        "account": {},
+        "code": 6496116,
+        "created_at": "2020-05-04T13:09:33+03:00",
+        "direction": "direct",
+        "id": 1017102000000012,
+        "language": "ku",
+        "name": "white-forest",
+        "role": "Super-Admin",
+        "role_id": 1001101000000001,
+        "status": "active",
+        "type": "asset",
+        "updated_at": "2020-05-04T13:09:33+03:00",
+        "username": "white-forest"
+      },
+      {
+        "account": {},
+        "code": 8927721,
+        "created_at": "2020-05-04T13:09:34+03:00",
+        "direction": "direct",
+        "id": 1017102000000013,
+        "language": "ku",
+        "name": "ancient-frog",
+        "role": "Super-Admin",
+        "role_id": 1001101000000001,
+        "status": "active",
+        "type": "asset",
+        "updated_at": "2020-05-04T13:09:34+03:00",
+        "username": "ancient-frog"
+      },
+      {
+        "account": {},
+        "code": 2363818,
+        "created_at": "2020-05-04T13:09:34+03:00",
+        "direction": "direct",
+        "id": 1017102000000014,
+        "language": "ku",
+        "name": "delicate-wave",
+        "role": "Super-Admin",
+        "role_id": 1001101000000001,
+        "status": "active",
+        "type": "asset",
+        "updated_at": "2020-05-04T13:09:34+03:00",
+        "username": "delicate-wave"
+      },
+      {
+        "account": {},
+        "code": 5277501,
+        "created_at": "2020-05-04T13:09:38+03:00",
+        "direction": "direct",
+        "id": 1017102000000015,
+        "language": "ku",
+        "name": "bitter-sun",
+        "role": "Super-Admin",
+        "role_id": 1001101000000001,
+        "status": "active",
+        "type": "asset",
+        "updated_at": "2020-05-04T13:09:38+03:00",
+        "username": "bitter-sun"
+      },
+      {
+        "account": {},
+        "code": 198437,
+        "created_at": "2020-05-04T13:09:39+03:00",
+        "direction": "direct",
+        "id": 1017102000000016,
+        "language": "ku",
+        "name": "still-bird",
+        "role": "Super-Admin",
+        "role_id": 1001101000000001,
+        "status": "active",
+        "type": "asset",
+        "updated_at": "2020-05-04T13:09:39+03:00",
+        "username": "still-bird"
+      },
+      {
+        "account": {},
+        "code": 4978002,
+        "created_at": "2020-05-04T13:09:39+03:00",
+        "direction": "direct",
+        "id": 1017102000000017,
+        "language": "ku",
+        "name": "wandering-cloud",
+        "role": "Super-Admin",
+        "role_id": 1001101000000001,
+        "status": "active",
+        "type": "asset",
+        "updated_at": "2020-05-04T13:09:39+03:00",
+        "username": "wandering-cloud"
+      },
+      {
+        "account": {},
+        "code": 8521102,
+        "created_at": "2020-05-04T13:09:39+03:00",
+        "direction": "direct",
+        "id": 1017102000000018,
+        "language": "ku",
+        "name": "restless-cloud",
+        "role": "Super-Admin",
+        "role_id": 1001101000000001,
+        "status": "active",
+        "type": "asset",
+        "updated_at": "2020-05-04T13:09:39+03:00",
+        "username": "restless-cloud"
+      }
+    ]
+  },
+  "file": "repo/user.repo.go:80",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T13:10:19+03:00"
+}
+{
+  "data": {
+    "type": "*json.SyntaxError",
+    "value": {
+      "Offset": 1
+    }
+  },
+  "file": "middleware/apilogger.go:101",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T13:10:19+03:00"
+}
+{
+  "err": "record not found",
+  "file": "service/user.serv.go:67",
+  "level": "error",
+  "msg": "User with username super",
+  "time": "2020-05-04T13:10:28+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T13:15:15+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T13:15:21+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T13:15:25+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T13:15:56+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T13:16:00+03:00"
+}
+{
+  "err": "Error 1216: Cannot add or update a child row: a foreign key constraint fails",
+  "file": "service/user.serv.go:181",
+  "level": "info",
+  "msg": "Failed in saving user for {ID:0 RoleID:1001101000000001 Username:super Password:$2a$10$s3jr2ZJyT4UQCo9li/NKCu6YXo1Bcc1FMYNJk.Axqkco26e9ZPcuS Language:ku Email: Extra:\u003cnil\u003e Error:\u003cnil\u003e Account:{FixedCol:{ID:1001101000000002 CreatedAt:\u003cnil\u003e UpdatedAt:\u003cnil\u003e DeletedAt:\u003cnil\u003e} CompanyID:1001 NodeCode:101 ParentID:0xc000228588 Name:super Status:active Code:110001 Type:asset Readonly:false Score:0 Direction:direct Extra:\u003cnil\u003e Error:\u003cnil\u003e}}",
+  "time": "2020-05-04T13:16:06+03:00"
+}
+{
+  "file": "table/users.go:53",
+  "level": "fatal",
+  "msg": "Error 1216: Cannot add or update a child row: a foreign key constraint fails",
+  "time": "2020-05-04T13:16:06+03:00"
+}
+{
+  "err": "Error 1216: Cannot add or update a child row: a foreign key constraint fails",
+  "file": "service/user.serv.go:181",
+  "level": "info",
+  "msg": "Failed in saving user for {ID:0 RoleID:1001101000000001 Username:super Password:$2a$10$RZts8JR8d8gScsFW4kdi.ek8h9XHJw26Meods4pIuCp6VUO4wK.PW Language:ku Email: Extra:\u003cnil\u003e Error:\u003cnil\u003e Account:{FixedCol:{ID:1001101000000002 CreatedAt:\u003cnil\u003e UpdatedAt:\u003cnil\u003e DeletedAt:\u003cnil\u003e} CompanyID:1001 NodeCode:101 ParentID:0xc00018ca28 Name:super Status:active Code:110001 Type:asset Readonly:false Score:0 Direction:direct Extra:\u003cnil\u003e Error:\u003cnil\u003e}}",
+  "time": "2020-05-04T13:17:22+03:00"
+}
+{
+  "file": "table/users.go:53",
+  "level": "fatal",
+  "msg": "Error 1216: Cannot add or update a child row: a foreign key constraint fails",
+  "time": "2020-05-04T13:17:22+03:00"
+}
+{
+  "err": "Error 1216: Cannot add or update a child row: a foreign key constraint fails",
+  "file": "service/user.serv.go:181",
+  "level": "info",
+  "msg": "Failed in saving user for {ID:0 RoleID:1001101000000001 Username:super Password:$2a$10$8h0Mt2pIYGeE7PFAw71meeaP2L2td6kC1Z.p7vbF712VSTb5GBLYu Language:ku Email: Extra:\u003cnil\u003e Error:\u003cnil\u003e Account:{FixedCol:{ID:1001101000000002 CreatedAt:\u003cnil\u003e UpdatedAt:\u003cnil\u003e DeletedAt:\u003cnil\u003e} CompanyID:1001 NodeCode:101 ParentID:0xc00018d6c8 Name:super Status:active Code:110001 Type:asset Readonly:false Score:0 Direction:direct Extra:\u003cnil\u003e Error:\u003cnil\u003e}}",
+  "time": "2020-05-04T13:17:43+03:00"
+}
+{
+  "file": "table/users.go:53",
+  "level": "fatal",
+  "msg": "Error 1216: Cannot add or update a child row: a foreign key constraint fails",
+  "time": "2020-05-04T13:17:43+03:00"
+}
+{
+  "err": "Error 1216: Cannot add or update a child row: a foreign key constraint fails",
+  "file": "service/user.serv.go:181",
+  "level": "info",
+  "msg": "Failed in saving user for {ID:0 RoleID:1001101000000001 Username:super Password:$2a$10$YHj9.YZdzFu.F7mzCV3.Q.4ddl0ddZ5tCdk984MlS/LUnuPk7BspG Language:ku Email: Extra:\u003cnil\u003e Error:\u003cnil\u003e Account:{FixedCol:{ID:1001101000000002 CreatedAt:\u003cnil\u003e UpdatedAt:\u003cnil\u003e DeletedAt:\u003cnil\u003e} CompanyID:1001 NodeCode:101 ParentID:0xc0001ba668 Name:super Status:active Code:110001 Type:asset Readonly:false Score:0 Direction:direct Extra:\u003cnil\u003e Error:\u003cnil\u003e}}",
+  "time": "2020-05-04T13:17:52+03:00"
+}
+{
+  "file": "table/users.go:53",
+  "level": "fatal",
+  "msg": "Error 1216: Cannot add or update a child row: a foreign key constraint fails",
+  "time": "2020-05-04T13:17:52+03:00"
+}
+{
+  "err": "Error 1216: Cannot add or update a child row: a foreign key constraint fails",
+  "file": "service/user.serv.go:181",
+  "level": "info",
+  "msg": "Failed in saving user for {ID:0 RoleID:1001101000000001 Username:super Password:$2a$10$Ri0MGOyLad02J984ZTGSfOImHq87x86.rd2D6KYR8dMGxL11.yJwC Language:ku Email: Extra:\u003cnil\u003e Error:\u003cnil\u003e Account:{FixedCol:{ID:1001101000000002 CreatedAt:\u003cnil\u003e UpdatedAt:\u003cnil\u003e DeletedAt:\u003cnil\u003e} CompanyID:1001 NodeCode:101 ParentID:0xc0002002e8 Name:super Status:active Code:110001 Type:asset Readonly:false Score:0 Direction:direct Extra:\u003cnil\u003e Error:\u003cnil\u003e}}",
+  "time": "2020-05-04T13:18:43+03:00"
+}
+{
+  "file": "table/users.go:53",
+  "level": "fatal",
+  "msg": "Error 1216: Cannot add or update a child row: a foreign key constraint fails",
+  "time": "2020-05-04T13:18:43+03:00"
+}
+{
+  "err": "Error 1216: Cannot add or update a child row: a foreign key constraint fails",
+  "file": "service/user.serv.go:181",
+  "level": "info",
+  "msg": "Failed in saving user for {ID:0 RoleID:1001101000000001 Username:super Password:$2a$10$Hx3Gv9j4xu.DU49LxUPOoun6KDtAI0PB0xqSkqSLP0ZBdQYkG.5lq Language:ku Email: Extra:\u003cnil\u003e Error:\u003cnil\u003e Account:{FixedCol:{ID:1001101000000002 CreatedAt:\u003cnil\u003e UpdatedAt:\u003cnil\u003e DeletedAt:\u003cnil\u003e} CompanyID:1001 NodeCode:101 ParentID:0xc0002522e8 Name:super Status:active Code:110001 Type:asset Readonly:false Score:0 Direction:direct Extra:\u003cnil\u003e Error:\u003cnil\u003e}}",
+  "time": "2020-05-04T13:19:03+03:00"
+}
+{
+  "file": "table/users.go:53",
+  "level": "fatal",
+  "msg": "Error 1216: Cannot add or update a child row: a foreign key constraint fails",
+  "time": "2020-05-04T13:19:03+03:00"
+}
+{
+  "err": "Error 1216: Cannot add or update a child row: a foreign key constraint fails",
+  "file": "service/user.serv.go:181",
+  "level": "info",
+  "msg": "Failed in saving user for {ID:0 RoleID:1001101000000001 Username:super Password:$2a$10$QRgnpJjJaX47liYXSffejul4mDzbflFOdTVHru5wNuEi/Nlb5y21i Language:ku Email: Extra:\u003cnil\u003e Error:\u003cnil\u003e Account:{FixedCol:{ID:1001101000000002 CreatedAt:\u003cnil\u003e UpdatedAt:\u003cnil\u003e DeletedAt:\u003cnil\u003e} CompanyID:1001 NodeCode:101 ParentID:0xc0001f2ad8 Name:super Status:active Code:110001 Type:asset Readonly:false Score:0 Direction:direct Extra:\u003cnil\u003e Error:\u003cnil\u003e}}",
+  "time": "2020-05-04T13:20:26+03:00"
+}
+{
+  "file": "table/users.go:53",
+  "level": "fatal",
+  "msg": "Error 1216: Cannot add or update a child row: a foreign key constraint fails",
+  "time": "2020-05-04T13:20:26+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T13:20:37+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T13:22:25+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T13:22:44+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T13:29:02+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T13:29:33+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T13:30:22+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T13:30:32+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T13:30:39+03:00"
+}
+{
+  "err": "record not found",
+  "file": "service/user.serv.go:32",
+  "level": "error",
+  "msg": "User with id 1001101000000015",
+  "time": "2020-05-04T13:30:48+03:00"
+}
+{
+  "err": "error in account's form, [{direction  accepted values are: %v direct, indirect}]",
+  "file": "service/account.serv.go:93",
+  "level": "error",
+  "msg": "validation failed",
+  "time": "2020-05-04T13:30:48+03:00"
+}
+{
+  "err": "record not found",
+  "file": "service/user.serv.go:32",
+  "level": "error",
+  "msg": "User with id 1001101000000015",
+  "time": "2020-05-04T13:31:33+03:00"
+}
+{
+  "err": "Error 1216: Cannot add or update a child row: a foreign key constraint fails",
+  "file": "service/user.serv.go:198",
+  "level": "info",
+  "msg": "Failed in saving user for {ID:0 RoleID:1001101000000001 Username:crimson-voice Password:$2a$10$5.6ZF51kinhtXOHoNgsOF.cgxUIPJHXAcup07906SuGT.gaETlZcK Language:fa Email: Extra:\u003cnil\u003e Error:\u003cnil\u003e Account:{FixedCol:{ID:1001101000000015 CreatedAt:2020-05-04 13:31:33 +0300 +03 UpdatedAt:2020-05-04 13:31:33 +0300 +03 DeletedAt:\u003cnil\u003e} CompanyID:1001 NodeCode:101 ParentID:\u003cnil\u003e Name:Ahmed Status:active Code:1087620 Type:asset Readonly:false Score:0 Direction:direct Extra:\u003cnil\u003e Error:\u003cnil\u003e}}",
+  "time": "2020-05-04T13:31:33+03:00"
+}
+{
+  "err": "record not found",
+  "file": "service/user.serv.go:32",
+  "level": "error",
+  "msg": "User with id 1001101000000002",
+  "time": "2020-05-04T13:31:42+03:00"
+}
+{
+  "data": {
+    "type": "param.Param",
+    "value": {
+      "CompanyID": 1017,
+      "Language": "ku",
+      "Limit": 2,
+      "NodeCode": 102,
+      "Offset": 0,
+      "Order": "users.id desc",
+      "PreCondition": "",
+      "Search": "",
+      "Select": "*",
+      "UserID": 1017102000000001
+    }
+  },
+  "file": "service/user.serv.go:79",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T13:31:52+03:00"
+}
+{
+  "data": {
+    "type": "[]dto.UserDto",
+    "value": [
+      {
+        "account": {},
+        "code": 8521102,
+        "created_at": "2020-05-04T13:09:39+03:00",
+        "direction": "direct",
+        "id": 1017102000000018,
+        "language": "ku",
+        "name": "restless-cloud",
+        "role": "Super-Admin",
+        "role_id": 1001101000000001,
+        "status": "active",
+        "type": "asset",
+        "updated_at": "2020-05-04T13:09:39+03:00",
+        "username": "restless-cloud"
+      },
+      {
+        "account": {},
+        "code": 4978002,
+        "created_at": "2020-05-04T13:09:39+03:00",
+        "direction": "direct",
+        "id": 1017102000000017,
+        "language": "ku",
+        "name": "wandering-cloud",
+        "role": "Super-Admin",
+        "role_id": 1001101000000001,
+        "status": "active",
+        "type": "asset",
+        "updated_at": "2020-05-04T13:09:39+03:00",
+        "username": "wandering-cloud"
+      }
+    ]
+  },
+  "file": "repo/user.repo.go:80",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T13:31:52+03:00"
+}
+{
+  "data": {
+    "type": "\u003cnil\u003e",
+    "value": null
+  },
+  "file": "api/user.api.go:91",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T13:31:52+03:00"
+}
+{
+  "err": "Error 1216: Cannot add or update a child row: a foreign key constraint fails",
+  "file": "service/user.serv.go:198",
+  "level": "info",
+  "msg": "Failed in saving user for {ID:0 RoleID:1001101000000001 Username:wispy-frost Password:$2a$10$SDiZQU.RTy36nWqubTnAU.gT/xpl8se8ZTPudge8bn38gmaB3/2qK Language:fa Email: Extra:\u003cnil\u003e Error:\u003cnil\u003e Account:{FixedCol:{ID:1017102000000018 CreatedAt:2020-05-04 13:09:39 +0300 +03 UpdatedAt:2020-05-04 13:32:24 +0300 +03 DeletedAt:\u003cnil\u003e} CompanyID:1017 NodeCode:102 ParentID:\u003cnil\u003e Name:Ahmed Status:active Code:2296669 Type:asset Readonly:false Score:0 Direction:direct Extra:\u003cnil\u003e Error:\u003cnil\u003e}}",
+  "time": "2020-05-04T13:32:24+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T13:33:50+03:00"
+}
+{
+  "err": "Error 1062: Duplicate entry 'white-forest' for key 'username'",
+  "file": "service/user.serv.go:198",
+  "level": "info",
+  "msg": "Failed in saving user for {ID:1017102000000018 RoleID:1001101000000001 Username:white-forest Password:$2a$10$99ZXDL9DzqxjyLbfTjTyY.qFkS1qF8yt1P6r.DAJknPVKydlfo9eK Language:fa Email: Extra:\u003cnil\u003e Error:\u003cnil\u003e Account:{FixedCol:{ID:1017102000000018 CreatedAt:2020-05-04 13:09:39 +0300 +03 UpdatedAt:2020-05-04 13:35:20 +0300 +03 DeletedAt:\u003cnil\u003e} CompanyID:1017 NodeCode:102 ParentID:\u003cnil\u003e Name:saman Status:active Code:2223306 Type:asset Readonly:false Score:0 Direction:direct Extra:\u003cnil\u003e Error:\u003cnil\u003e}}",
+  "time": "2020-05-04T13:35:19+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T13:40:06+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T13:40:11+03:00"
+}
+{
+  "err": "error in account's form, [{direction  accepted values are: %v direct, indirect}]",
+  "file": "service/account.serv.go:93",
+  "level": "error",
+  "msg": "validation failed",
+  "time": "2020-05-04T13:40:18+03:00"
+}
+{
+  "file": "table/users.go:53",
+  "level": "fatal",
+  "msg": "error in account's form, [{direction  accepted values are: %v direct, indirect}]",
+  "time": "2020-05-04T13:40:18+03:00"
+}
+{
+  "err": "error in account's form, [{direction  accepted values are: %v direct, indirect}]",
+  "file": "service/account.serv.go:93",
+  "level": "error",
+  "msg": "validation failed",
+  "time": "2020-05-04T13:40:36+03:00"
+}
+{
+  "file": "table/users.go:53",
+  "level": "fatal",
+  "msg": "error in account's form, [{direction  accepted values are: %v direct, indirect}]",
+  "time": "2020-05-04T13:40:36+03:00"
+}
+{
+  "err": "error in account's form, [{direction  accepted values are: %v direct, indirect}]",
+  "file": "service/account.serv.go:93",
+  "level": "error",
+  "msg": "validation failed",
+  "time": "2020-05-04T13:42:07+03:00"
+}
+{
+  "file": "table/users.go:53",
+  "level": "fatal",
+  "msg": "error in account's form, [{direction  accepted values are: %v direct, indirect}]",
+  "time": "2020-05-04T13:42:07+03:00"
+}
+{
+  "err": "error in account's form, [{direction  accepted values are: %v direct, indirect}]",
+  "file": "service/account.serv.go:93",
+  "level": "error",
+  "msg": "validation failed",
+  "time": "2020-05-04T13:43:42+03:00"
+}
+{
+  "file": "table/users.go:53",
+  "level": "fatal",
+  "msg": "error in account's form, [{direction  accepted values are: %v direct, indirect}]",
+  "time": "2020-05-04T13:43:42+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T13:47:32+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T13:47:34+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T13:51:30+03:00"
+}
+{
+  "data": {
+    "type": "[]dto.UserDto",
+    "value": []
+  },
+  "file": "repo/user.repo.go:80",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T13:52:05+03:00"
+}
+{
+  "data": {
+    "type": "*json.SyntaxError",
+    "value": {
+      "Offset": 1
+    }
+  },
+  "file": "middleware/apilogger.go:101",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T13:52:06+03:00"
+}
+{
+  "data": {
+    "type": "*errors.errorString",
+    "value": {}
+  },
+  "file": "middleware/apilogger.go:101",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T13:52:49+03:00"
+}
+{
+  "data": {
+    "type": "*errors.errorString",
+    "value": {}
+  },
+  "file": "middleware/apilogger.go:101",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T13:52:50+03:00"
+}
+{
+  "data": {
+    "type": "*errors.errorString",
+    "value": {}
+  },
+  "file": "middleware/apilogger.go:101",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T13:56:53+03:00"
+}
+{
+  "data": {
+    "type": "*errors.errorString",
+    "value": {}
+  },
+  "file": "middleware/apilogger.go:101",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T13:57:09+03:00"
+}
+{
+  "data": {
+    "type": "[]dto.UserDto",
+    "value": []
+  },
+  "file": "repo/user.repo.go:80",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T13:57:09+03:00"
+}
+{
+  "data": {
+    "type": "*json.SyntaxError",
+    "value": {
+      "Offset": 1
+    }
+  },
+  "file": "middleware/apilogger.go:101",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T13:57:09+03:00"
+}
+{
+  "data": {
+    "type": "*errors.errorString",
+    "value": {}
+  },
+  "file": "middleware/apilogger.go:101",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T13:57:19+03:00"
+}
+{
+  "data": {
+    "type": "[]dto.UserDto",
+    "value": []
+  },
+  "file": "repo/user.repo.go:80",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T13:57:19+03:00"
+}
+{
+  "data": {
+    "type": "*json.SyntaxError",
+    "value": {
+      "Offset": 1
+    }
+  },
+  "file": "middleware/apilogger.go:101",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T13:57:19+03:00"
+}
+{
+  "data": {
+    "type": "param.Param",
+    "value": {
+      "CompanyID": 1017,
+      "Language": "ku",
+      "Limit": 2,
+      "NodeCode": 102,
+      "Offset": 0,
+      "Order": "users.id desc",
+      "PreCondition": "",
+      "Search": "",
+      "Select": "*",
+      "UserID": 1017102000000001
+    }
+  },
+  "file": "service/user.serv.go:79",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T13:58:28+03:00"
+}
+{
+  "data": {
+    "type": "[]dto.UserDto",
+    "value": []
+  },
+  "file": "repo/user.repo.go:80",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T13:58:28+03:00"
+}
+{
+  "data": {
+    "type": "\u003cnil\u003e",
+    "value": null
+  },
+  "file": "api/user.api.go:91",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T13:58:28+03:00"
+}
+{
+  "data": {
+    "type": "param.Param",
+    "value": {
+      "CompanyID": 1017,
+      "Language": "ku",
+      "Limit": 2,
+      "NodeCode": 102,
+      "Offset": 0,
+      "Order": "users.id desc",
+      "PreCondition": "",
+      "Search": "",
+      "Select": "*",
+      "UserID": 1017102000000001
+    }
+  },
+  "file": "service/user.serv.go:79",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T13:58:37+03:00"
+}
+{
+  "data": {
+    "type": "[]dto.UserDto",
+    "value": [
+      {
+        "account": {},
+        "code": 4011632,
+        "created_at": "2020-05-04T13:58:35+03:00",
+        "direction": "direct",
+        "id": 1017102000000012,
+        "language": "ku",
+        "name": "purple-glade",
+        "role": "Super-Admin",
+        "role_id": 1001101000000001,
+        "status": "active",
+        "type": "asset",
+        "updated_at": "2020-05-04T13:58:35+03:00",
+        "username": "purple-glade"
+      },
+      {
+        "account": {},
+        "code": 6963675,
+        "created_at": "2020-05-04T13:58:35+03:00",
+        "direction": "direct",
+        "id": 1017102000000011,
+        "language": "ku",
+        "name": "dry-grass",
+        "role": "Super-Admin",
+        "role_id": 1001101000000001,
+        "status": "active",
+        "type": "asset",
+        "updated_at": "2020-05-04T13:58:35+03:00",
+        "username": "dry-grass"
+      }
+    ]
+  },
+  "file": "repo/user.repo.go:80",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T13:58:37+03:00"
+}
+{
+  "data": {
+    "type": "\u003cnil\u003e",
+    "value": null
+  },
+  "file": "api/user.api.go:91",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T13:58:37+03:00"
+}
+{
+  "data": {
+    "type": "*errors.errorString",
+    "value": {}
+  },
+  "file": "middleware/apilogger.go:101",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T13:58:52+03:00"
+}
+{
+  "data": {
+    "type": "[]dto.UserDto",
+    "value": [
+      {
+        "account": {},
+        "code": 1439059,
+        "created_at": "2020-05-04T13:58:34+03:00",
+        "direction": "direct",
+        "id": 1017102000000001,
+        "language": "ku",
+        "name": "misty-leaf",
+        "role": "Super-Admin",
+        "role_id": 1001101000000001,
+        "status": "active",
+        "type": "asset",
+        "updated_at": "2020-05-04T13:58:34+03:00",
+        "username": "misty-leaf"
+      },
+      {
+        "account": {},
+        "code": 5370909,
+        "created_at": "2020-05-04T13:58:34+03:00",
+        "direction": "direct",
+        "id": 1017102000000002,
+        "language": "ku",
+        "name": "frosty-tree",
+        "role": "Super-Admin",
+        "role_id": 1001101000000001,
+        "status": "active",
+        "type": "asset",
+        "updated_at": "2020-05-04T13:58:34+03:00",
+        "username": "frosty-tree"
+      },
+      {
+        "account": {},
+        "code": 9204644,
+        "created_at": "2020-05-04T13:58:34+03:00",
+        "direction": "direct",
+        "id": 1017102000000003,
+        "language": "ku",
+        "name": "patient-flower",
+        "role": "Super-Admin",
+        "role_id": 1001101000000001,
+        "status": "active",
+        "type": "asset",
+        "updated_at": "2020-05-04T13:58:34+03:00",
+        "username": "patient-flower"
+      },
+      {
+        "account": {},
+        "code": 9928390,
+        "created_at": "2020-05-04T13:58:34+03:00",
+        "direction": "direct",
+        "id": 1017102000000004,
+        "language": "ku",
+        "name": "crimson-forest",
+        "role": "Super-Admin",
+        "role_id": 1001101000000001,
+        "status": "active",
+        "type": "asset",
+        "updated_at": "2020-05-04T13:58:34+03:00",
+        "username": "crimson-forest"
+      },
+      {
+        "account": {},
+        "code": 3206640,
+        "created_at": "2020-05-04T13:58:34+03:00",
+        "direction": "direct",
+        "id": 1017102000000005,
+        "language": "ku",
+        "name": "throbbing-butterfly",
+        "role": "Super-Admin",
+        "role_id": 1001101000000001,
+        "status": "active",
+        "type": "asset",
+        "updated_at": "2020-05-04T13:58:34+03:00",
+        "username": "throbbing-butterfly"
+      },
+      {
+        "account": {},
+        "code": 6402371,
+        "created_at": "2020-05-04T13:58:35+03:00",
+        "direction": "direct",
+        "id": 1017102000000006,
+        "language": "ku",
+        "name": "falling-shape",
+        "role": "Super-Admin",
+        "role_id": 1001101000000001,
+        "status": "active",
+        "type": "asset",
+        "updated_at": "2020-05-04T13:58:35+03:00",
+        "username": "falling-shape"
+      },
+      {
+        "account": {},
+        "code": 7118915,
+        "created_at": "2020-05-04T13:58:35+03:00",
+        "direction": "direct",
+        "id": 1017102000000007,
+        "language": "ku",
+        "name": "falling-wind",
+        "role": "Super-Admin",
+        "role_id": 1001101000000001,
+        "status": "active",
+        "type": "asset",
+        "updated_at": "2020-05-04T13:58:35+03:00",
+        "username": "falling-wind"
+      },
+      {
+        "account": {},
+        "code": 7251459,
+        "created_at": "2020-05-04T13:58:35+03:00",
+        "direction": "direct",
+        "id": 1017102000000008,
+        "language": "ku",
+        "name": "quiet-paper",
+        "role": "Super-Admin",
+        "role_id": 1001101000000001,
+        "status": "active",
+        "type": "asset",
+        "updated_at": "2020-05-04T13:58:35+03:00",
+        "username": "quiet-paper"
+      },
+      {
+        "account": {},
+        "code": 4517772,
+        "created_at": "2020-05-04T13:58:35+03:00",
+        "direction": "direct",
+        "id": 1017102000000009,
+        "language": "ku",
+        "name": "green-brook",
+        "role": "Super-Admin",
+        "role_id": 1001101000000001,
+        "status": "active",
+        "type": "asset",
+        "updated_at": "2020-05-04T13:58:35+03:00",
+        "username": "green-brook"
+      },
+      {
+        "account": {},
+        "code": 8584546,
+        "created_at": "2020-05-04T13:58:35+03:00",
+        "direction": "direct",
+        "id": 1017102000000010,
+        "language": "ku",
+        "name": "holy-dust",
+        "role": "Super-Admin",
+        "role_id": 1001101000000001,
+        "status": "active",
+        "type": "asset",
+        "updated_at": "2020-05-04T13:58:35+03:00",
+        "username": "holy-dust"
+      },
+      {
+        "account": {},
+        "code": 6963675,
+        "created_at": "2020-05-04T13:58:35+03:00",
+        "direction": "direct",
+        "id": 1017102000000011,
+        "language": "ku",
+        "name": "dry-grass",
+        "role": "Super-Admin",
+        "role_id": 1001101000000001,
+        "status": "active",
+        "type": "asset",
+        "updated_at": "2020-05-04T13:58:35+03:00",
+        "username": "dry-grass"
+      },
+      {
+        "account": {},
+        "code": 4011632,
+        "created_at": "2020-05-04T13:58:35+03:00",
+        "direction": "direct",
+        "id": 1017102000000012,
+        "language": "ku",
+        "name": "purple-glade",
+        "role": "Super-Admin",
+        "role_id": 1001101000000001,
+        "status": "active",
+        "type": "asset",
+        "updated_at": "2020-05-04T13:58:35+03:00",
+        "username": "purple-glade"
+      }
+    ]
+  },
+  "file": "repo/user.repo.go:80",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T13:58:52+03:00"
+}
+{
+  "data": {
+    "type": "*json.SyntaxError",
+    "value": {
+      "Offset": 1
+    }
+  },
+  "file": "middleware/apilogger.go:101",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T13:58:52+03:00"
+}
+{
+  "data": {
+    "type": "*errors.errorString",
+    "value": {}
+  },
+  "file": "middleware/apilogger.go:101",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T14:00:40+03:00"
+}
+{
+  "data": {
+    "type": "[]dto.UserDto",
+    "value": [
+      {
+        "account": {},
+        "code": 9204644,
+        "created_at": "2020-05-04T13:58:34+03:00",
+        "direction": "direct",
+        "id": 1017102000000003,
+        "language": "ku",
+        "name": "patient-flower",
+        "role": "Super-Admin",
+        "role_id": 1001101000000001,
+        "status": "active",
+        "type": "asset",
+        "updated_at": "2020-05-04T13:58:34+03:00",
+        "username": "patient-flower"
+      }
+    ]
+  },
+  "file": "repo/user.repo.go:80",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T14:00:40+03:00"
+}
+{
+  "data": {
+    "type": "*json.SyntaxError",
+    "value": {
+      "Offset": 1
+    }
+  },
+  "file": "middleware/apilogger.go:101",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T14:00:40+03:00"
+}
+{
+  "data": {
+    "type": "*errors.errorString",
+    "value": {}
+  },
+  "file": "middleware/apilogger.go:101",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T14:00:52+03:00"
+}
+{
+  "data": {
+    "type": "[]dto.UserDto",
+    "value": [
+      {
+        "account": {},
+        "code": 9204644,
+        "created_at": "2020-05-04T13:58:34+03:00",
+        "direction": "direct",
+        "id": 1017102000000003,
+        "language": "ku",
+        "name": "patient-flower",
+        "role": "Super-Admin",
+        "role_id": 1001101000000001,
+        "status": "active",
+        "type": "asset",
+        "updated_at": "2020-05-04T13:58:34+03:00",
+        "username": "patient-flower"
+      }
+    ]
+  },
+  "file": "repo/user.repo.go:80",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T14:00:52+03:00"
+}
+{
+  "data": {
+    "type": "*json.SyntaxError",
+    "value": {
+      "Offset": 1
+    }
+  },
+  "file": "middleware/apilogger.go:101",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T14:00:52+03:00"
+}
+{
+  "data": {
+    "type": "*errors.errorString",
+    "value": {}
+  },
+  "file": "middleware/apilogger.go:101",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T14:01:45+03:00"
+}
+{
+  "data": {
+    "type": "[]dto.UserDto",
+    "value": [
+      {
+        "account": {},
+        "id": 1017102000000001,
+        "role_id": 0,
+        "username": "misty-leaf"
+      },
+      {
+        "account": {},
+        "id": 1017102000000002,
+        "role_id": 0,
+        "username": "frosty-tree"
+      },
+      {
+        "account": {},
+        "id": 1017102000000003,
+        "role_id": 0,
+        "username": "patient-flower"
+      },
+      {
+        "account": {},
+        "id": 1017102000000004,
+        "role_id": 0,
+        "username": "crimson-forest"
+      },
+      {
+        "account": {},
+        "id": 1017102000000005,
+        "role_id": 0,
+        "username": "throbbing-butterfly"
+      },
+      {
+        "account": {},
+        "id": 1017102000000006,
+        "role_id": 0,
+        "username": "falling-shape"
+      },
+      {
+        "account": {},
+        "id": 1017102000000007,
+        "role_id": 0,
+        "username": "falling-wind"
+      },
+      {
+        "account": {},
+        "id": 1017102000000008,
+        "role_id": 0,
+        "username": "quiet-paper"
+      },
+      {
+        "account": {},
+        "id": 1017102000000009,
+        "role_id": 0,
+        "username": "green-brook"
+      },
+      {
+        "account": {},
+        "id": 1017102000000010,
+        "role_id": 0,
+        "username": "holy-dust"
+      },
+      {
+        "account": {},
+        "id": 1017102000000011,
+        "role_id": 0,
+        "username": "dry-grass"
+      },
+      {
+        "account": {},
+        "id": 1017102000000012,
+        "role_id": 0,
+        "username": "purple-glade"
+      }
+    ]
+  },
+  "file": "repo/user.repo.go:80",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T14:01:45+03:00"
+}
+{
+  "data": {
+    "type": "*errors.errorString",
+    "value": {}
+  },
+  "file": "middleware/apilogger.go:101",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T14:01:46+03:00"
+}
+{
+  "data": {
+    "type": "[]dto.UserDto",
+    "value": [
+      {
+        "account": {},
+        "id": 1017102000000001,
+        "role_id": 0,
+        "username": "misty-leaf"
+      },
+      {
+        "account": {},
+        "id": 1017102000000002,
+        "role_id": 0,
+        "username": "frosty-tree"
+      },
+      {
+        "account": {},
+        "id": 1017102000000003,
+        "role_id": 0,
+        "username": "patient-flower"
+      },
+      {
+        "account": {},
+        "id": 1017102000000004,
+        "role_id": 0,
+        "username": "crimson-forest"
+      },
+      {
+        "account": {},
+        "id": 1017102000000005,
+        "role_id": 0,
+        "username": "throbbing-butterfly"
+      },
+      {
+        "account": {},
+        "id": 1017102000000006,
+        "role_id": 0,
+        "username": "falling-shape"
+      },
+      {
+        "account": {},
+        "id": 1017102000000007,
+        "role_id": 0,
+        "username": "falling-wind"
+      },
+      {
+        "account": {},
+        "id": 1017102000000008,
+        "role_id": 0,
+        "username": "quiet-paper"
+      },
+      {
+        "account": {},
+        "id": 1017102000000009,
+        "role_id": 0,
+        "username": "green-brook"
+      },
+      {
+        "account": {},
+        "id": 1017102000000010,
+        "role_id": 0,
+        "username": "holy-dust"
+      },
+      {
+        "account": {},
+        "id": 1017102000000011,
+        "role_id": 0,
+        "username": "dry-grass"
+      },
+      {
+        "account": {},
+        "id": 1017102000000012,
+        "role_id": 0,
+        "username": "purple-glade"
+      }
+    ]
+  },
+  "file": "repo/user.repo.go:80",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T14:01:46+03:00"
+}
+{
+  "data": {
+    "type": "*errors.errorString",
+    "value": {}
+  },
+  "file": "middleware/apilogger.go:101",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T14:02:00+03:00"
+}
+{
+  "data": {
+    "type": "[]dto.UserDto",
+    "value": [
+      {
+        "account": {},
+        "id": 1017102000000001,
+        "role_id": 0
+      },
+      {
+        "account": {},
+        "id": 1017102000000002,
+        "role_id": 0
+      },
+      {
+        "account": {},
+        "id": 1017102000000003,
+        "role_id": 0
+      },
+      {
+        "account": {},
+        "id": 1017102000000004,
+        "role_id": 0
+      },
+      {
+        "account": {},
+        "id": 1017102000000005,
+        "role_id": 0
+      },
+      {
+        "account": {},
+        "id": 1017102000000006,
+        "role_id": 0
+      },
+      {
+        "account": {},
+        "id": 1017102000000007,
+        "role_id": 0
+      },
+      {
+        "account": {},
+        "id": 1017102000000008,
+        "role_id": 0
+      },
+      {
+        "account": {},
+        "id": 1017102000000009,
+        "role_id": 0
+      },
+      {
+        "account": {},
+        "id": 1017102000000010,
+        "role_id": 0
+      },
+      {
+        "account": {},
+        "id": 1017102000000011,
+        "role_id": 0
+      },
+      {
+        "account": {},
+        "id": 1017102000000012,
+        "role_id": 0
+      }
+    ]
+  },
+  "file": "repo/user.repo.go:80",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T14:02:00+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T14:09:43+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T14:13:40+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T14:13:51+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T14:13:58+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T14:14:03+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T14:14:40+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T14:17:56+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T14:18:14+03:00"
+}
+{
+  "err": "record not found",
+  "file": "service/account.serv.go:32",
+  "level": "error",
+  "msg": "Account with id 1001101000000002",
+  "time": "2020-05-04T14:19:09+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T14:28:07+03:00"
+}
+{
+  "err": "record not found",
+  "file": "service/account.serv.go:32",
+  "level": "error",
+  "msg": "Account with id 1001101000000002",
+  "time": "2020-05-04T14:28:41+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T14:29:09+03:00"
+}
+{
+  "err": "record not found",
+  "file": "service/account.serv.go:32",
+  "level": "error",
+  "msg": "Account with id 1001101000000002",
+  "time": "2020-05-04T14:29:15+03:00"
+}
+{
+  "file": "service/user.serv.go:46",
+  "level": "error",
+  "msg": "record not found",
+  "time": "2020-05-04T14:29:15+03:00"
+}
+{
+  "err": "record not found",
+  "file": "service/account.serv.go:32",
+  "level": "error",
+  "msg": "Account with id 1001101000000002",
+  "time": "2020-05-04T14:29:16+03:00"
+}
+{
+  "file": "service/user.serv.go:46",
+  "level": "error",
+  "msg": "record not found",
+  "time": "2020-05-04T14:29:16+03:00"
+}
+{
+  "err": "record not found",
+  "file": "service/account.serv.go:32",
+  "level": "error",
+  "msg": "Account with id 1001101000000002",
+  "time": "2020-05-04T14:29:18+03:00"
+}
+{
+  "file": "service/user.serv.go:46",
+  "level": "error",
+  "msg": "record not found",
+  "time": "2020-05-04T14:29:18+03:00"
+}
+{
+  "err": "record not found",
+  "file": "service/account.serv.go:32",
+  "level": "error",
+  "msg": "Account with id 1001101000000002",
+  "time": "2020-05-04T14:29:18+03:00"
+}
+{
+  "file": "service/user.serv.go:46",
+  "level": "error",
+  "msg": "record not found",
+  "time": "2020-05-04T14:29:18+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T14:29:24+03:00"
+}
+{
+  "err": "record not found",
+  "file": "service/account.serv.go:32",
+  "level": "error",
+  "msg": "Account with id 1001101000000002",
+  "time": "2020-05-04T14:29:55+03:00"
+}
+{
+  "file": "service/user.serv.go:46",
+  "level": "error",
+  "msg": "record not found",
+  "time": "2020-05-04T14:29:55+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T14:30:11+03:00"
+}
+{
+  "err": "record not found",
+  "file": "service/user.serv.go:32",
+  "level": "error",
+  "msg": "User with id 1001101000000010",
+  "time": "2020-05-04T14:31:11+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T14:36:05+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T14:39:58+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T14:41:06+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T14:43:12+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T14:43:30+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T14:43:56+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T14:44:02+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T14:44:15+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T14:44:28+03:00"
+}
+{
+  "err": "record not found",
+  "file": "service/account.serv.go:32",
+  "level": "error",
+  "msg": "Account with id 1017102000000004",
+  "time": "2020-05-04T14:44:38+03:00"
+}
+{
+  "err": "record not found",
+  "file": "service/account.serv.go:32",
+  "level": "error",
+  "msg": "Account with id 1017102000000004",
+  "time": "2020-05-04T14:44:39+03:00"
+}
+{
+  "err": "record not found",
+  "file": "service/account.serv.go:32",
+  "level": "error",
+  "msg": "Account with id 1017102000000004",
+  "time": "2020-05-04T14:44:39+03:00"
+}
+{
+  "err": "record not found",
+  "file": "service/account.serv.go:32",
+  "level": "error",
+  "msg": "Account with id 1017102000000004",
+  "time": "2020-05-04T14:44:40+03:00"
+}
+{
+  "err": "record not found",
+  "file": "service/account.serv.go:32",
+  "level": "error",
+  "msg": "Account with id 1017102000000016",
+  "time": "2020-05-04T15:06:30+03:00"
+}
+{
+  "err": "record not found",
+  "file": "service/account.serv.go:32",
+  "level": "error",
+  "msg": "Account with id 1017102000000016",
+  "time": "2020-05-04T15:06:42+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T15:06:54+03:00"
+}
+{
+  "err": "Error 1146: Table 'sigma_mono.accounts' doesn't exist",
+  "file": "service/account.serv.go:32",
+  "level": "error",
+  "msg": "Account with id 1017102000000016",
+  "time": "2020-05-04T15:07:31+03:00"
+}
+{
+  "err": "Error 1146: Table 'sigma_mono.accounts' doesn't exist",
+  "file": "service/account.serv.go:32",
+  "level": "error",
+  "msg": "Account with id 1017102000000016",
+  "time": "2020-05-04T15:08:45+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T15:09:05+03:00"
+}
+{
+  "err": "Error 1146: Table 'sigma_mono.accounts' doesn't exist",
+  "file": "service/account.serv.go:32",
+  "level": "error",
+  "msg": "Account with id 1017102000000016",
+  "time": "2020-05-04T15:09:11+03:00"
+}
+{
+  "err": "Error 1146: Table 'sigma_mono.accounts' doesn't exist",
+  "file": "service/account.serv.go:32",
+  "level": "error",
+  "msg": "Account with id 1017102000000016",
+  "time": "2020-05-04T15:09:13+03:00"
+}
+{
+  "err": "Error 1146: Table 'sigma_mono.accounts' doesn't exist",
+  "file": "service/account.serv.go:32",
+  "level": "error",
+  "msg": "Account with id 1017102000000016",
+  "time": "2020-05-04T15:09:13+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T15:10:51+03:00"
+}
+{
+  "err": "record not found",
+  "file": "service/account.serv.go:32",
+  "level": "error",
+  "msg": "Account with id 1017102000000016",
+  "time": "2020-05-04T15:10:56+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T15:11:38+03:00"
+}
+{
+  "err": "record not found",
+  "file": "service/account.serv.go:32",
+  "level": "error",
+  "msg": "Account with id 1017102000000016",
+  "time": "2020-05-04T15:11:54+03:00"
+}
+{
+  "err": "record not found",
+  "file": "service/account.serv.go:32",
+  "level": "error",
+  "msg": "Account with id 1017102000000016",
+  "time": "2020-05-04T15:11:56+03:00"
+}
+{
+  "file": "service/user.serv.go:186",
+  "level": "error",
+  "msg": "you don't have permission, out of scope!",
+  "time": "2020-05-04T15:12:28+03:00"
+}
+{
+  "file": "service/user.serv.go:186",
+  "level": "error",
+  "msg": "you don't have permission, out of scope!",
+  "time": "2020-05-04T15:12:34+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T15:13:25+03:00"
+}
+{
+  "file": "service/user.serv.go:186",
+  "level": "error",
+  "msg": "you don't have permission, out of scope!",
+  "time": "2020-05-04T15:13:26+03:00"
+}
+{
+  "file": "service/user.serv.go:186",
+  "level": "error",
+  "msg": "you don't have permission, out of scope!",
+  "time": "2020-05-04T15:13:30+03:00"
+}
+{
+  "file": "service/user.serv.go:186",
+  "level": "error",
+  "msg": "you don't have permission, out of scope!",
+  "time": "2020-05-04T15:13:30+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T15:13:54+03:00"
+}
+{
+  "file": "service/user.serv.go:186",
+  "level": "error",
+  "msg": "you don't have permission, out of scope!",
+  "time": "2020-05-04T15:13:58+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T15:14:24+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T15:14:31+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T15:14:44+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T15:15:23+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T15:15:29+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T15:16:04+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T15:16:07+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T15:16:11+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T15:16:20+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T15:20:04+03:00"
+}
+{
+  "err": "record not found",
+  "file": "service/account.serv.go:32",
+  "level": "error",
+  "msg": "Account with id 1017102000000016",
+  "time": "2020-05-04T15:20:15+03:00"
+}
+{
+  "file": "service/account.serv.go:122",
+  "level": "error",
+  "msg": "record not found",
+  "time": "2020-05-04T15:20:15+03:00"
+}
+{
+  "err": "record not found",
+  "file": "service/account.serv.go:32",
+  "level": "error",
+  "msg": "Account with id 1017102000000016",
+  "time": "2020-05-04T15:20:24+03:00"
+}
+{
+  "file": "service/account.serv.go:122",
+  "level": "error",
+  "msg": "record not found",
+  "time": "2020-05-04T15:20:24+03:00"
+}
+{
+  "file": "service/account.serv.go:134",
+  "level": "error",
+  "msg": "Error 1217: Cannot delete or update a parent row: a foreign key constraint fails",
+  "time": "2020-05-04T15:21:07+03:00"
+}
+{
+  "err": "record not found",
+  "file": "service/account.serv.go:32",
+  "level": "error",
+  "msg": "Account with id 1017102000000019",
+  "time": "2020-05-04T15:21:48+03:00"
+}
+{
+  "file": "service/account.serv.go:122",
+  "level": "error",
+  "msg": "record not found",
+  "time": "2020-05-04T15:21:48+03:00"
+}
+{
+  "err": "record not found",
+  "file": "service/account.serv.go:32",
+  "level": "error",
+  "msg": "Account with id 1017102000000019",
+  "time": "2020-05-04T15:21:50+03:00"
+}
+{
+  "file": "service/account.serv.go:122",
+  "level": "error",
+  "msg": "record not found",
+  "time": "2020-05-04T15:21:50+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T15:29:39+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T15:29:56+03:00"
+}
+{
+  "file": "service/account.serv.go:129",
+  "level": "error",
+  "msg": "you don't have permission, out of scope!",
+  "time": "2020-05-04T15:30:30+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T15:35:49+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T15:36:14+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T15:36:47+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T15:38:12+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T15:38:28+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T15:41:37+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T15:42:07+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T15:42:25+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T15:44:25+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T15:44:50+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T15:45:32+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T15:45:42+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T15:45:58+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T15:46:01+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T15:48:34+03:00"
+}
+{
+  "err": "record not found",
+  "file": "service/account.serv.go:32",
+  "level": "error",
+  "msg": "Account with id 1017102000000015",
+  "time": "2020-05-04T16:01:15+03:00"
+}
+{
+  "file": "service/account.serv.go:122",
+  "level": "error",
+  "msg": "record not found",
+  "time": "2020-05-04T16:01:15+03:00"
+}
+{
+  "err": "record not found",
+  "file": "service/account.serv.go:32",
+  "level": "error",
+  "msg": "Account with id 1017102000000015",
+  "time": "2020-05-04T16:01:16+03:00"
+}
+{
+  "file": "service/account.serv.go:122",
+  "level": "error",
+  "msg": "record not found",
+  "time": "2020-05-04T16:01:16+03:00"
+}
+{
+  "err": "record not found",
+  "file": "service/account.serv.go:32",
+  "level": "error",
+  "msg": "Account with id 1017102000000015",
+  "time": "2020-05-04T16:01:17+03:00"
+}
+{
+  "file": "service/account.serv.go:122",
+  "level": "error",
+  "msg": "record not found",
+  "time": "2020-05-04T16:01:17+03:00"
+}
+{
+  "err": "record not found",
+  "file": "service/account.serv.go:32",
+  "level": "error",
+  "msg": "Account with id 1017102000000015",
+  "time": "2020-05-04T16:01:19+03:00"
+}
+{
+  "file": "service/account.serv.go:122",
+  "level": "error",
+  "msg": "record not found",
+  "time": "2020-05-04T16:01:19+03:00"
+}
+{
+  "err": "record not found",
+  "file": "service/account.serv.go:32",
+  "level": "error",
+  "msg": "Account with id 1017102000000015",
+  "time": "2020-05-04T16:01:20+03:00"
+}
+{
+  "file": "service/account.serv.go:122",
+  "level": "error",
+  "msg": "record not found",
+  "time": "2020-05-04T16:01:20+03:00"
+}
+{
+  "err": "record not found",
+  "file": "service/role.serv.go:30",
+  "level": "error",
+  "msg": "Role with id 1017102000000047",
+  "time": "2020-05-04T16:01:39+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T16:06:05+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T16:08:45+03:00"
+}
+{
+  "err": "record not found",
+  "file": "service/role.serv.go:30",
+  "level": "error",
+  "msg": "Role with id 1017102000000001",
+  "time": "2020-05-04T16:08:51+03:00"
+}
+{
+  "err": "record not found",
+  "file": "service/role.serv.go:30",
+  "level": "error",
+  "msg": "Role with id 1017102000000001",
+  "time": "2020-05-04T16:08:53+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T16:10:19+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T16:10:57+03:00"
+}
+{
+  "err": "Error 1216: Cannot add or update a child row: a foreign key constraint fails",
+  "file": "service/user.serv.go:114",
+  "level": "info",
+  "msg": "Failed in saving user for {ID:1017102000000050 RoleID:1017102000000002 Username:proud-feather Password:$2a$10$yJSRWQkc1n4ImiAarlIbBuE9aDqVz3el2M4md7O78YZLm/lbA0Owa Language:ku Email: Extra:\u003cnil\u003e Error:\u003cnil\u003e Account:{FixedCol:{ID:1017102000000050 CreatedAt:2020-05-04 16:11:34 +0300 +03 UpdatedAt:2020-05-04 16:11:34 +0300 +03 DeletedAt:\u003cnil\u003e} CompanyID:1017 NodeCode:102 ParentID:\u003cnil\u003e Name:proud-feather Status:active Code:8919298 Type:asset Readonly:false Score:0 Direction:direct Extra:\u003cnil\u003e Error:\u003cnil\u003e}}",
+  "time": "2020-05-04T16:11:33+03:00"
+}
+{
+  "err": "Error 1216: Cannot add or update a child row: a foreign key constraint fails",
+  "file": "service/user.serv.go:114",
+  "level": "info",
+  "msg": "Failed in saving user for {ID:1017102000000050 RoleID:1017102000000002 Username:proud-frog Password:$2a$10$C7PabB5Y87D3WT/7Wtc0fOF93Pk9P2IvASs/mdktR7jGmpNTxOVXu Language:ku Email: Extra:\u003cnil\u003e Error:\u003cnil\u003e Account:{FixedCol:{ID:1017102000000050 CreatedAt:2020-05-04 16:11:38 +0300 +03 UpdatedAt:2020-05-04 16:11:38 +0300 +03 DeletedAt:\u003cnil\u003e} CompanyID:1017 NodeCode:102 ParentID:\u003cnil\u003e Name:proud-frog Status:active Code:7893024 Type:asset Readonly:false Score:0 Direction:direct Extra:\u003cnil\u003e Error:\u003cnil\u003e}}",
+  "time": "2020-05-04T16:11:37+03:00"
+}
+{
+  "err": "Error 1216: Cannot add or update a child row: a foreign key constraint fails",
+  "file": "service/user.serv.go:114",
+  "level": "info",
+  "msg": "Failed in saving user for {ID:1017102000000050 RoleID:1017102000000002 Username:delicate-field Password:$2a$10$nRGxfFTE2BLqmx.YN2J.YOKruAdYHH5uphuCB2wKxSixECL5hs.SK Language:ku Email: Extra:\u003cnil\u003e Error:\u003cnil\u003e Account:{FixedCol:{ID:1017102000000050 CreatedAt:2020-05-04 16:11:38 +0300 +03 UpdatedAt:2020-05-04 16:11:38 +0300 +03 DeletedAt:\u003cnil\u003e} CompanyID:1017 NodeCode:102 ParentID:\u003cnil\u003e Name:delicate-field Status:active Code:4456414 Type:asset Readonly:false Score:0 Direction:direct Extra:\u003cnil\u003e Error:\u003cnil\u003e}}",
+  "time": "2020-05-04T16:11:38+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T16:14:49+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T16:15:34+03:00"
+}
+{
+  "err": "record not found",
+  "file": "service/role.serv.go:30",
+  "level": "error",
+  "msg": "Role with id 1017102000000003",
+  "time": "2020-05-04T16:17:39+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T16:25:27+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T16:28:26+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T16:30:40+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T16:39:35+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T16:40:32+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T16:41:24+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T16:41:45+03:00"
+}
+{
+  "err": "record not found",
+  "file": "service/company.serv.go:29",
+  "level": "error",
+  "msg": "Company with id 9001",
+  "time": "2020-05-04T16:42:29+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T16:44:13+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T16:44:47+03:00"
+}
+{
+  "err": "record not found",
+  "file": "service/company.serv.go:29",
+  "level": "error",
+  "msg": "Company with id 9001",
+  "time": "2020-05-04T16:44:53+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T16:45:46+03:00"
+}
+{
+  "err": "record not found",
+  "file": "service/company.serv.go:29",
+  "level": "error",
+  "msg": "Company with id 9001",
+  "time": "2020-05-04T16:45:47+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T16:46:20+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T16:46:42+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T16:47:14+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T16:47:22+03:00"
+}
+{
+  "err": "record not found",
+  "file": "service/account.serv.go:32",
+  "level": "error",
+  "msg": "Account with id 1017102000000015",
+  "time": "2020-05-04T16:47:34+03:00"
+}
+{
+  "file": "service/account.serv.go:122",
+  "level": "error",
+  "msg": "record not found",
+  "time": "2020-05-04T16:47:34+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T16:47:44+03:00"
+}
+{
+  "err": "record not found",
+  "file": "service/account.serv.go:32",
+  "level": "error",
+  "msg": "Account with id 1017102000000015",
+  "time": "2020-05-04T16:47:46+03:00"
+}
+{
+  "file": "service/account.serv.go:122",
+  "level": "error",
+  "msg": "record not found",
+  "time": "2020-05-04T16:47:46+03:00"
+}
+{
+  "err": "record not found",
+  "file": "service/account.serv.go:32",
+  "level": "error",
+  "msg": "Account with id 1017102000000015",
+  "time": "2020-05-04T16:47:47+03:00"
+}
+{
+  "file": "service/account.serv.go:122",
+  "level": "error",
+  "msg": "record not found",
+  "time": "2020-05-04T16:47:47+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T16:48:00+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T16:48:38+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T16:48:46+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T16:49:12+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T16:49:22+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T16:49:27+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T16:49:46+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T16:49:57+03:00"
+}
+{
+  "err": "record not found",
+  "file": "service/role.serv.go:30",
+  "level": "error",
+  "msg": "Role with id 1017102000000003",
+  "time": "2020-05-04T16:50:05+03:00"
+}
+{
+  "err": "record not found",
+  "file": "service/role.serv.go:30",
+  "level": "error",
+  "msg": "Role with id 1017102000000003",
+  "time": "2020-05-04T16:50:05+03:00"
+}
+{
+  "err": "record not found",
+  "file": "service/role.serv.go:30",
+  "level": "error",
+  "msg": "Role with id 1017102000000003",
+  "time": "2020-05-04T16:50:06+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T16:51:32+03:00"
+}
+{
+  "err": "record not found",
+  "file": "service/role.serv.go:30",
+  "level": "error",
+  "msg": "Role with id 1017102000000003",
+  "time": "2020-05-04T16:51:34+03:00"
+}
+{
+  "err": "record not found",
+  "file": "service/role.serv.go:30",
+  "level": "error",
+  "msg": "Role with id 1017102000000003",
+  "time": "2020-05-04T16:51:36+03:00"
+}
+{
+  "err": "record not found",
+  "file": "service/role.serv.go:30",
+  "level": "error",
+  "msg": "Role with id 1017102000000003",
+  "time": "2020-05-04T16:51:36+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T16:52:47+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T16:52:50+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T16:53:01+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T16:53:36+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T16:53:44+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T16:54:44+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T16:54:45+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T16:54:59+03:00"
+}
+{
+  "err": "record not found",
+  "file": "service/company.serv.go:29",
+  "level": "error",
+  "msg": "Company with id 9001",
+  "time": "2020-05-04T16:55:05+03:00"
+}
+{
+  "err": "record not found",
+  "file": "service/company.serv.go:29",
+  "level": "error",
+  "msg": "Company with id 9001",
+  "time": "2020-05-04T16:55:06+03:00"
+}
+{
+  "err": "record not found",
+  "file": "service/company.serv.go:29",
+  "level": "error",
+  "msg": "Company with id 9001",
+  "time": "2020-05-04T16:55:07+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T16:55:24+03:00"
+}
+{
+  "err": "record not found",
+  "file": "service/company.serv.go:29",
+  "level": "error",
+  "msg": "Company with id 9001",
+  "time": "2020-05-04T16:55:25+03:00"
+}
+{
+  "err": "record not found",
+  "file": "service/company.serv.go:29",
+  "level": "error",
+  "msg": "Company with id 9001",
+  "time": "2020-05-04T16:55:27+03:00"
+}
+{
+  "err": "record not found",
+  "file": "service/company.serv.go:29",
+  "level": "error",
+  "msg": "Company with id 9001",
+  "time": "2020-05-04T16:55:27+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T16:55:40+03:00"
+}
+{
+  "err": "record not found",
+  "file": "service/company.serv.go:29",
+  "level": "error",
+  "msg": "Company with id 9001",
+  "time": "2020-05-04T16:55:41+03:00"
+}
+{
+  "err": "record not found",
+  "file": "service/company.serv.go:29",
+  "level": "error",
+  "msg": "Company with id 9001",
+  "time": "2020-05-04T16:55:43+03:00"
+}
+{
+  "err": "record not found",
+  "file": "service/company.serv.go:29",
+  "level": "error",
+  "msg": "Company with id 9001",
+  "time": "2020-05-04T16:55:43+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T16:55:48+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T16:57:19+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T16:57:46+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T16:57:55+03:00"
+}
+{
+  "data": {
+    "type": "string",
+    "value": "server started!"
+  },
+  "file": "cloud/main.go:40",
+  "level": "debug",
+  "msg": "",
+  "time": "2020-05-04T16:58:24+03:00"
+}

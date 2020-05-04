@@ -108,17 +108,12 @@ func (p *RoleServ) LastID(prefix types.RowID) (lastID types.RowID, err error) {
 func (p *RoleServ) Delete(roleID types.RowID, params param.Param) (role model.Role, err error) {
 
 	if role, err = p.FindByID(roleID); err != nil {
-		return role, core.NewErrorWithStatus(err.Error(), http.StatusNotFound)
+		return
 	}
 
 	if role.CompanyID != params.CompanyID {
 		return role, core.NewErrorWithStatus(term.You_dont_have_permission_out_of_scope, http.StatusForbidden)
 	}
-
-	// rename unique key to prevent duplication
-	role.Name = fmt.Sprintf("%v#%v", role.Name, role.ID)
-	_, err = p.Save(role)
-	p.Engine.CheckError(err, "rename role's name for prevent duplication")
 
 	err = p.Repo.Delete(role)
 	return

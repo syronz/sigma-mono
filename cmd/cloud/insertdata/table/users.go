@@ -2,6 +2,7 @@ package table
 
 import (
 	"sigmamono/internal/core"
+	"sigmamono/internal/enum/accountdirection"
 	"sigmamono/internal/enum/accountstatus"
 	"sigmamono/internal/enum/accounttype"
 	"sigmamono/internal/enum/lang"
@@ -29,6 +30,7 @@ func InsertUsers(engine *core.Engine) {
 				ParentID:  types.RowIDPointer(1001101000000001),
 				CompanyID: 1001,
 				NodeCode:  101,
+				Direction: accountdirection.Direct,
 				Type:      accounttype.Asset,
 				Name:      engine.Env.Cloud.SuperAdminUsername,
 				Code:      110001,

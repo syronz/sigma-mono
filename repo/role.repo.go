@@ -82,7 +82,7 @@ func (p *RoleRepo) LastRole(prefix types.RowID) (role model.Role, err error) {
 
 // Delete role
 func (p *RoleRepo) Delete(role model.Role) (err error) {
-	err = p.Engine.DB.Delete(&role).Error
+	err = p.Engine.DB.Unscoped().Delete(&role).Error
 	return
 }
 

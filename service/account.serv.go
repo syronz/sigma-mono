@@ -119,19 +119,23 @@ func (p *AccountServ) LastID(prefix types.RowID) (lastID types.RowID, err error)
 func (p *AccountServ) Delete(accountID types.RowID, params param.Param) (account model.Account, err error) {
 
 	if account, err = p.FindByID(accountID); err != nil {
-		return account, core.NewErrorWithStatus(err.Error(), http.StatusNotFound)
+		p.Engine.ServerLog.Error(err.Error())
+		return
 	}
 
 	if account.CompanyID != params.CompanyID {
-		return account, core.NewErrorWithStatus(term.You_dont_have_permission_out_of_scope, http.StatusForbidden)
+		err = core.NewErrorWithStatus(term.You_dont_have_permission_out_of_scope, http.StatusForbidden)
+		p.Engine.ServerLog.Error(err.Error())
+		return
 	}
 
-	// rename unique key to prevent duplication
-	account.Name = fmt.Sprintf("%v#%v", account.Name, account.ID)
-	_, err = p.Save(account)
-	p.Engine.CheckError(err, "rename account's name for prevent duplication")
+	if err = p.Repo.Delete(account); err != nil {
+		p.Engine.ServerLog.Error(err.Error())
+		return
+		// return account, core.NewErrorWithStatus(err.Error(), http.StatusNotFound).
+		// 	SetMsg(term.Error_in_deleting_account)
+	}
 
-	err = p.Repo.Delete(account)
 	return
 }
 

@@ -74,7 +74,7 @@ func (p *AccountRepo) LastAccount(prefix types.RowID) (account model.Account, er
 
 // Delete account
 func (p *AccountRepo) Delete(account model.Account) (err error) {
-	err = p.Engine.DB.Delete(&account).Error
+	err = p.Engine.DB.Unscoped().Delete(&account).Error
 	return
 }
 

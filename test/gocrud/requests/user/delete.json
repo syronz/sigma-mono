@@ -1,6 +1,6 @@
 {
   "method":"delete",
-  "url":"_URL_/users/1001101000000010",
+  "url":"_URL_/users/1017102000000017",
   "authorization":"Bearer _TOKEN_",
   "payload": {}
 }

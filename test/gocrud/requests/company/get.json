@@ -1,6 +1,7 @@
 {
 	"method":"get",
 	"url":"_URL_/companies/1001?lang=ar",
+	"url":"_URL_/companies/-9001?lang=ar",
 	"authorization":"Bearer _TOKEN_",
 	"payload": {}
 }

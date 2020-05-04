@@ -187,7 +187,9 @@ func (p *UserAPI) Delete(c *gin.Context) {
 		return
 	}
 
-	if user, err = p.Service.Delete(user.ID); err != nil {
+	params := param.Get(c, p.Engine, thisRoles)
+
+	if user, err = p.Service.Delete(user.ID, params); err != nil {
 		resp.Status(http.StatusInternalServerError).Error(err).JSON()
 		return
 	}

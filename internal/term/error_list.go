@@ -35,6 +35,7 @@ const (
 	Error_in_accounts_form                = "error in account's form"
 	Accepted_values_are_v                 = "accepted values are: %v"
 	Error_in_deleting_user                = "error in deleting user"
+	Error_in_deleting_account             = "error in deleting account"
 	Error_in_getting_user                 = "error in getting user"
 	Email_is_not_valid                    = "email is not valid"
 	Error_in_phones_url                   = "error in phone's url"
