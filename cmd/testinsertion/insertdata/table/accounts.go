@@ -2,7 +2,6 @@ package table
 
 import (
 	"sigmamono/internal/core"
-	"sigmamono/internal/enum/accounttype"
 	"sigmamono/internal/types"
 	"sigmamono/model"
 	"sigmamono/repo"
@@ -20,9 +19,10 @@ func InsertAccounts(engine *core.Engine) {
 			},
 			CompanyID: 1001,
 			NodeCode:  101,
-			Name:      accounttype.Asset,
+			Name:      "asset base",
 			Status:    "active",
 			Code:      122,
+			// Type:      accounttype.Asset,
 			Type:      "asset",
 			Readonly:  true,
 			Score:     1,
@@ -34,7 +34,6 @@ func InsertAccounts(engine *core.Engine) {
 		if _, err := accountService.Save(v); err != nil {
 			engine.ServerLog.Fatal(err)
 		}
-
 	}
 
 }

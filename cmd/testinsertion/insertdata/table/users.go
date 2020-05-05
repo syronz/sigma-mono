@@ -20,8 +20,8 @@ func InsertUsers(engine *core.Engine) {
 		{
 			ID:       1001101000000002,
 			RoleID:   1001101000000001,
-			Username: engine.Env.Cloud.SuperAdminUsername,
-			Password: engine.Env.Cloud.SuperAdminPassword,
+			Username: "admin",
+			Password: "admin",
 			Language: string(lang.Ku),
 			Account: model.Account{
 				FixedCol: types.FixedCol{
@@ -32,7 +32,7 @@ func InsertUsers(engine *core.Engine) {
 				NodeCode:  101,
 				Direction: accountdirection.Direct,
 				Type:      accounttype.Asset,
-				Name:      engine.Env.Cloud.SuperAdminUsername,
+				Name:      "admin",
 				Code:      110001,
 				Status:    accountstatus.Active,
 			},
@@ -54,7 +54,6 @@ func InsertUsers(engine *core.Engine) {
 		if _, err := userService.Save(v); err != nil {
 			engine.ServerLog.Fatal(err)
 		}
-
 	}
 
 }

@@ -4,7 +4,6 @@ import (
 	"log"
 	"sigmamono/internal/core"
 
-	"github.com/gin-gonic/gin"
 	"github.com/jinzhu/gorm"
 )
 
@@ -16,11 +15,13 @@ func ConnectDB(engine *core.Engine) {
 		log.Fatalln(err.Error())
 	}
 
-	engine.DB.LogMode(false)
+	// engine.DB.LogMode(false)
 
-	if gin.IsDebugging() {
-		engine.DB.LogMode(true)
-	}
+	// if gin.IsDebugging() {
+	// 	engine.DB.LogMode(true)
+	// }
+
+	engine.DB.LogMode(engine.Env.Database.Data.Log)
 }
 
 // ConnectActivityDB initiate the db connection by getting help from gorm
@@ -32,9 +33,11 @@ func ConnectActivityDB(engine *core.Engine) {
 		log.Fatalln(err.Error())
 	}
 
-	engine.ActivityDB.LogMode(false)
+	engine.DB.LogMode(engine.Env.Database.Data.Log)
 
-	if gin.IsDebugging() {
-		engine.ActivityDB.LogMode(true)
-	}
+	// engine.ActivityDB.LogMode(false)
+
+	// if gin.IsDebugging() {
+	// 	engine.ActivityDB.LogMode(true)
+	// }
 }

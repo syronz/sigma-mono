@@ -1,0 +1,40 @@
+{
+	"server": {
+		"port": "8184",
+		"addr": "localhost"
+	},
+	"setting": {
+		"password_salt":  "",
+    "auto_migrate": true,
+		"jwt_secret_key":  "kz84HcnwKSn0k2vk6Ddw03kdck9k9SKedWFdGkwe70",
+		"jwt_expiration": 1000000,
+    "excel_max_rows": 100000
+	},
+	"database": {
+		"data": {
+			"dsn":  "travis@tcp(127.0.0.1:3306)/sigma_test?charset=utf8&parseTime=True&loc=Local",
+			"type": "mysql",
+      "log": false
+		},
+		"activity": {
+			"dsn":  "travis@tcp(127.0.0.1:3306)/sigma_test?charset=utf8&parseTime=True&loc=Local",
+			"type": "mysql",
+      "log": false
+		}
+	},
+	"log": {
+		"server_log": {
+			"format":     "json",
+			"output":     "/home/diako/projects/sigma/logs/server.log",
+			"output":     "stdout",
+			"level":      "trace",
+			"json_indent": true
+		},
+		"api_log": {
+			"format":     "json",
+			"output":     "stdout",
+			"level":      "trace",
+			"json_indent": true
+		}
+	}
+}

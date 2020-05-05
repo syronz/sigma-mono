@@ -57,7 +57,6 @@ func (p *CompanyServ) Save(company model.Company) (savedCompany model.Company, e
 		if company.ID < consts.MinCompanyID {
 			company.ID = consts.MinCompanyID
 		}
-
 		savedCompany, err = p.create(company)
 	} else {
 		savedCompany, err = p.update(company)

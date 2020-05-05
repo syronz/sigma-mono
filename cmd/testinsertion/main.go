@@ -1,43 +1,38 @@
 package main
 
 import (
-	"sigmamono/cmd/cloud/determine"
-	"sigmamono/cmd/cloud/insertdata"
-	"sigmamono/cmd/cloud/server"
+	"flag"
+	"fmt"
+	"sigmamono/cmd/testinsertion/determine"
+	"sigmamono/cmd/testinsertion/insertdata"
 	"sigmamono/internal/initiate"
 	"sigmamono/internal/logparam"
+	"sigmamono/test/kernel"
 
 	_ "github.com/jinzhu/gorm/dialects/mysql"
 	_ "github.com/jinzhu/gorm/dialects/postgres"
 	_ "github.com/jinzhu/gorm/dialects/sqlite"
 )
 
+var noRest bool
+
+func init() {
+	flag.BoolVar(&noRest, "noReset", false, "by default it drop tables before migrate")
+}
+
 func main() {
+	flag.Parse()
+	fmt.Println(noRest)
 
-	// engine := setup.LoadEnv()
-	// logparam.ServerLog(engine)
-	// logparam.APILog(engine)
-	// setup.LoadTerms(engine)
-	// setup.AES(engine)
-	// setup.ConnectDB(engine)
-	// setup.ConnectActivityDB(engine)
-	// migrate.Migrate(engine)
-
-	// go insertdata.Insert(engine)
-
-	// server.Initialize(engine)
-
-	engine := initiate.LoadEnv()
+	engine := kernel.LoadTestEnv()
 	logparam.ServerLog(engine)
 	logparam.APILog(engine)
 	initiate.LoadTerms(engine)
 	initiate.ConnectDB(engine)
 	initiate.ConnectActivityDB(engine)
-	determine.Migrate(engine)
-	initiate.Migrate(engine)
+	determine.Migrate(engine, noRest)
 	insertdata.Insert(engine)
 
-	engine.Debug("server started!")
-	server.Start(engine)
+	fmt.Println("Data has been reset successfully")
 
 }

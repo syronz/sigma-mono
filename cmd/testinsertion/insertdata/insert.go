@@ -1,7 +1,7 @@
 package insertdata
 
 import (
-	"sigmamono/cmd/cloud/insertdata/table"
+	"sigmamono/cmd/testinsertion/insertdata/table"
 	"sigmamono/internal/core"
 )
 

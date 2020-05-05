@@ -90,7 +90,7 @@ func (p *AccountServ) Save(account model.Account) (savedAccount model.Account, e
 	account.CompanyID, account.NodeCode, _ = account.ID.Split()
 
 	if err = account.Validate(action.Save); err != nil {
-		p.Engine.CheckError(err, "validation failed")
+		p.Engine.CheckError(err, "validation failed", account)
 		return
 	}
 

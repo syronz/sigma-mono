@@ -39,7 +39,6 @@ type Setting struct {
 	JWTExpiration      int    `env:"SIGMA_JWT_EXPIRATION,required" json:"jwt_expiration"`
 	RecordRead         bool   `env:"SIGMA_RECORD_READ" json:"record_read"`
 	RecordWrite        bool   `env:"SIGMA_RECORD_WRITE" json:"record_write"`
-	TermsPath          string `env:"SIGMA_TERMS_PATH" json:"terms_path"`
 	DefaultLanguage    string `env:"SIGMA_DEFAULT_LANGUAGE" json:"default_language"`
 	TranslateInBackend bool   `env:"SIGMA_TRANSLATE_IN_BACKEND" json:"translate_in_backend"`
 	ExcelMaxRows       uint64 `env:"SIGMA_EXCEL_MAX_ROWS" json:"excel_max_rows"`
@@ -55,12 +54,14 @@ type Database struct {
 type Data struct {
 	DSN  string `env:"SIGMA_DATABASE_DATA_URL,required" json:"dsn"`
 	Type string `env:"SIGMA_DATABASE_DATA_TYPE,required" json:"type"`
+	Log  bool   `env:"SIGMA_DATABASE_DATA_LOG" json:"log"`
 }
 
 // Activity is used inside the Database struct
 type Activity struct {
 	DSN  string `env:"SIGMA_DATABASE_ACTIVITY_URL,required" json:"dsn"`
 	Type string `env:"SIGMA_DATABASE_ACTIVITY_TYPE,required" json:"type"`
+	Log  bool   `env:"SIGMA_DATABASE_ACTIVITY_LOG" json:"log"`
 }
 
 // Log configuration terms hold here

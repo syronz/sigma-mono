@@ -4,6 +4,8 @@ import (
 	"encoding/json"
 	"log"
 	"os"
+	"path/filepath"
+	"runtime"
 	"sigmamono/internal/core"
 	"sigmamono/internal/term"
 )
@@ -12,7 +14,12 @@ import (
 func LoadTerms(engine *core.Engine) {
 	dict := term.Dict{}
 	dict.Terms = make(map[string]term.Term)
-	file, err := os.Open(engine.Env.Setting.TermsPath)
+
+	// get current directory
+	_, dir, _, _ := runtime.Caller(0)
+	termPath := filepath.Join(filepath.Dir(dir), "../..", "env", "terms.json")
+
+	file, err := os.Open(termPath)
 	if err != nil {
 		log.Fatal("can't open terms file: ", err)
 	}
