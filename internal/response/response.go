@@ -93,9 +93,11 @@ func (r *Response) JSON(data ...interface{}) {
 		r.status = errorCast.Status
 
 	case error:
-		r.status = http.StatusInternalServerError
+		if r.status == 0 {
+			r.status = http.StatusInternalServerError
+		}
 		errorCast := r.Result.Error.(error)
-		fmt.Printf("+++++++++++++\n+\n+\n+ \n %T \n %+v", errorCast, errorCast)
+		fmt.Printf("DSH+++++++++++++\n+\n+\n+ \n %T \n %+v", errorCast, errorCast)
 		errText = errorCast.Error()
 		r.Result.Message, _ = r.Engine.SafeT(errText.(string),
 			core.GetLang(r.Context, r.Engine))

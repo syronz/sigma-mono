@@ -42,7 +42,8 @@ func (p *CompanyAPI) FindByID(c *gin.Context) {
 	}
 
 	if company.ID, err = types.StrToRowID(c.Param("companyID")); err != nil {
-		resp.Status(http.StatusNotAcceptable).Error(err).JSON()
+		resp.Status(http.StatusNotAcceptable).Error(err).MessageT(term.Invalid_ID).JSON()
+		// resp.Status(http.StatusNotAcceptable).Error(err).JSON()
 		return
 	}
 

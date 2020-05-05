@@ -1,0 +1,39 @@
+package table
+
+import (
+	"sigmamono/internal/core"
+	"sigmamono/internal/enum/nodestatus"
+	"sigmamono/internal/enum/nodetype"
+	"sigmamono/internal/types"
+	"sigmamono/model"
+	"sigmamono/repo"
+	"sigmamono/service"
+)
+
+// InsertNodes for add required nodes
+func InsertNodes(engine *core.Engine) {
+	nodeRepo := repo.ProvideNodeRepo(engine)
+	nodeService := service.ProvideNodeService(nodeRepo)
+	nodes := []model.Node{
+		{
+			GormCol: types.GormCol{
+				ID: 1,
+			},
+			Code:      101,
+			Type:      nodetype.Online,
+			CompanyID: 1001,
+			Name:      "Base",
+			Status:    nodestatus.Active,
+			MachineID: "111111", //engine.Env.MachineID,
+			Phone:     "07505149171",
+		},
+	}
+
+	for _, v := range nodes {
+		if _, err := nodeService.Save(v); err != nil {
+			engine.ServerLog.Fatal(err)
+		}
+
+	}
+
+}
