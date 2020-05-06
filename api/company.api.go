@@ -71,7 +71,7 @@ func (p *CompanyAPI) List(c *gin.Context) {
 
 	data, err := p.Service.List(params)
 	if err != nil {
-		resp.Status(http.StatusNotFound).Error(term.Record_Not_Found).JSON()
+		resp.Status(http.StatusNotFound).Error(err).Message(term.Record_Not_Found).JSON()
 		return
 	}
 

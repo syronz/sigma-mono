@@ -6,6 +6,7 @@ import (
 	"os/exec"
 	"path/filepath"
 	"runtime"
+	"sigmamono/internal/param"
 )
 
 var logQuery = flag.Bool("log", false, "Print queries")
@@ -41,4 +42,18 @@ func runMain(dir string) {
 	if err := command.Run(); err != nil {
 		log.Fatal("Error in reseting the database\n", err)
 	}
+}
+
+func getRegularParam(order string) (params param.Param) {
+	params.Pagination.Select = "*"
+	params.Pagination.Order = order
+	params.Pagination.Limit = 10
+	params.Pagination.Offset = 0
+	params.Search = ""
+	params.UserID = 1001101000000002
+	params.CompanyID = 1001
+	params.NodeCode = 101
+	params.Language = "ku"
+
+	return params
 }

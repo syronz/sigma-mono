@@ -1,6 +1,7 @@
 {
 	"method":"get",
 	"url":"_URL_/companies?order_by=name&direction=asc&page=3&page_size=4",
+	"url":"_URL_/companies?order_by=name&direction=asc&page=1&page_size=4&select='droptable'",
 	"authorization":"Bearer _TOKEN_",
 	"payload": {}
 }

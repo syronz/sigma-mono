@@ -36,8 +36,8 @@ func (p *CompanyServ) List(params param.Param) (data map[string]interface{}, err
 
 	data = make(map[string]interface{})
 
-	data["list"], err = p.Repo.List(params)
-	if err != nil {
+	if data["list"], err = p.Repo.List(params); err != nil {
+		p.Engine.CheckError(err, "error in getting list", params)
 		return
 	}
 	p.Engine.CheckError(err, "companies list")

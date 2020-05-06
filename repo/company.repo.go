@@ -73,7 +73,7 @@ func (p *CompanyRepo) LastCompany() (company model.Company, err error) {
 
 // Delete company
 func (p *CompanyRepo) Delete(company model.Company) (err error) {
-	err = p.Engine.DB.Delete(&company).Error
+	err = p.Engine.DB.Unscoped().Delete(&company).Error
 	return
 }
 

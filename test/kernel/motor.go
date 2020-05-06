@@ -13,11 +13,12 @@ import (
 // StartMotor for generating engine special for TDD
 func StartMotor(printQueries bool, debugLevel bool) *core.Engine {
 	engine := LoadTestEnv()
-	if debugLevel {
-		engine.Env.Log.ServerLog.Level = "debug"
-	}
 	logparam.ServerLog(engine)
 	initiate.LoadTerms(engine)
+	if debugLevel {
+		engine.Env.Log.ServerLog.Level = "trace"
+	}
+	logparam.ServerLog(engine)
 	initiate.ConnectDB(engine, printQueries)
 	initiate.ConnectActivityDB(engine)
 
