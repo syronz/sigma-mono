@@ -31,7 +31,7 @@ func main() {
 	logparam.ServerLog(engine)
 	logparam.APILog(engine)
 	initiate.LoadTerms(engine)
-	initiate.ConnectDB(engine)
+	initiate.ConnectDB(engine, false)
 	initiate.ConnectActivityDB(engine)
 	determine.Migrate(engine)
 	initiate.Migrate(engine)

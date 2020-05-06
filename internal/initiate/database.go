@@ -8,7 +8,7 @@ import (
 )
 
 // ConnectDB initiate the db connection by getting help from gorm
-func ConnectDB(engine *core.Engine) {
+func ConnectDB(engine *core.Engine, printQueries bool) {
 	var err error
 	engine.DB, err = gorm.Open(engine.Env.Database.Data.Type, engine.Env.Database.Data.DSN)
 	if err != nil {
@@ -22,6 +22,10 @@ func ConnectDB(engine *core.Engine) {
 	// }
 
 	engine.DB.LogMode(engine.Env.Database.Data.Log)
+
+	if printQueries {
+		engine.DB.LogMode(true)
+	}
 }
 
 // ConnectActivityDB initiate the db connection by getting help from gorm
@@ -33,7 +37,7 @@ func ConnectActivityDB(engine *core.Engine) {
 		log.Fatalln(err.Error())
 	}
 
-	engine.DB.LogMode(engine.Env.Database.Data.Log)
+	engine.ActivityDB.LogMode(engine.Env.Database.Activity.Log)
 
 	// engine.ActivityDB.LogMode(false)
 

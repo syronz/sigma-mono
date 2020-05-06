@@ -27,13 +27,13 @@
 			"format":     "json",
 			"output":     "/home/diako/projects/sigma/logs/server.log",
 			"output":     "stdout",
-			"level":      "trace",
+			"level":      "fatal",
 			"json_indent": true
 		},
 		"api_log": {
 			"format":     "json",
 			"output":     "stdout",
-			"level":      "trace",
+			"level":      "fatal",
 			"json_indent": true
 		}
 	}

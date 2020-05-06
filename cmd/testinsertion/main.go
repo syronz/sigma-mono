@@ -14,25 +14,30 @@ import (
 	_ "github.com/jinzhu/gorm/dialects/sqlite"
 )
 
-var noRest bool
+var noReset bool
+var logQuery bool
 
 func init() {
-	flag.BoolVar(&noRest, "noReset", false, "by default it drop tables before migrate")
+	flag.BoolVar(&noReset, "noReset", false, "by default it drop tables before migrate")
+	flag.BoolVar(&logQuery, "logQuery", false, "print queries in gorm")
 }
 
 func main() {
 	flag.Parse()
-	fmt.Println(noRest)
 
 	engine := kernel.LoadTestEnv()
 	logparam.ServerLog(engine)
 	logparam.APILog(engine)
 	initiate.LoadTerms(engine)
-	initiate.ConnectDB(engine)
+	initiate.ConnectDB(engine, logQuery)
 	initiate.ConnectActivityDB(engine)
-	determine.Migrate(engine, noRest)
+	determine.Migrate(engine, noReset)
 	insertdata.Insert(engine)
 
-	fmt.Println("Data has been reset successfully")
+	if noReset {
+		fmt.Println("Data has been migrated successfully (no reset)")
+	} else {
+		fmt.Println("Data has been reset successfully")
+	}
 
 }
