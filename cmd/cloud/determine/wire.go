@@ -11,6 +11,12 @@ import (
 	"github.com/google/wire"
 )
 
+func initVersionAPI(e *core.Engine) api.VersionAPI {
+	wire.Build(repo.ProvideVersionRepo, service.ProvideVersionService,
+		api.ProvideVersionAPI)
+	return api.VersionAPI{}
+}
+
 func initCompanyAPI(e *core.Engine) api.CompanyAPI {
 	wire.Build(repo.ProvideCompanyRepo, service.ProvideCompanyService,
 		api.ProvideCompanyAPI)

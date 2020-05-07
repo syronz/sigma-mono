@@ -12,10 +12,10 @@ type Version struct {
 	types.GormCol
 	Name          string                 `gorm:"not null;unique" json:"name,omitempty"`
 	Features      string                 `gorm:"type:text" json:"features,omitempty"`
-	NodeCount     int                    `json:"node_count"`
-	LocationCount int                    `json:"location_count"`
-	UserCount     int                    `json:"user_count"`
-	MonthExpire   int                    `json:"month_expire"`
+	NodeCount     int                    `json:"node_count,omitempty"`
+	LocationCount int                    `json:"location_count,omitempty"`
+	UserCount     int                    `json:"user_count,omitempty"`
+	MonthExpire   int                    `json:"month_expire,omitempty"`
 	Description   string                 `json:"description,omitempty"`
 	Extra         map[string]interface{} `sql:"-" json:"extra_version,omitempty"`
 }

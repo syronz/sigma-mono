@@ -1,16 +1,12 @@
 {
   "method":"put",
-  "url":"_URL_/versions/23?lang=ku",
+  "url":"_URL_/versions/39?lang=ku",
   "authorization":"Bearer _TOKEN_",
   "payload": {
     "type":"multi branch with centeral finance",
     "name": "Fast Version",
-    "legal_name": "_RANDOM_NAME_",
+    "features": "_RANDOM_NAME_",
     "server": "127.0.0.1:9093",
-    "expiration":"2022-01-01",
-    "plan":"",
-    "detail":"this is detail",
-    "phone": "_RANDOM_NUMBER_",
-    "key":"123456"
+    "expiration":"2022-01-01"
   }
 }

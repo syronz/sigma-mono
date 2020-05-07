@@ -111,7 +111,7 @@ func (p *CompanyServ) Delete(companyID types.RowID) (company model.Company, err 
 func (p *CompanyServ) Excel(params param.Param) (companies []model.Company, err error) {
 	params.Limit = p.Engine.Env.Setting.ExcelMaxRows
 	params.Offset = 0
-	params.Order = "id ASC"
+	params.Order = "companies.id ASC"
 
 	companies, err = p.Repo.List(params)
 	p.Engine.CheckError(err, "companies excel")

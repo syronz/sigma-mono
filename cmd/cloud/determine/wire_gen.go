@@ -14,6 +14,13 @@ import (
 
 // Injectors from wire.go:
 
+func initVersionAPI(e *core.Engine) api.VersionAPI {
+	versionRepo := repo.ProvideVersionRepo(e)
+	versionServ := service.ProvideVersionService(versionRepo)
+	versionAPI := api.ProvideVersionAPI(versionServ)
+	return versionAPI
+}
+
 func initCompanyAPI(e *core.Engine) api.CompanyAPI {
 	companyRepo := repo.ProvideCompanyRepo(e)
 	companyServ := service.ProvideCompanyService(companyRepo)

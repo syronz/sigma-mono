@@ -12,6 +12,7 @@ func Migrate(engine *core.Engine, noReset bool) {
 		dropTable(engine)
 	}
 
+	engine.DB.AutoMigrate(&model.Version{})
 	engine.DB.AutoMigrate(&model.Company{})
 	engine.DB.AutoMigrate(&model.Node{}).
 		AddForeignKey("company_id", "companies(id)", "RESTRICT", "RESTRICT")
@@ -38,6 +39,9 @@ func dropTable(engine *core.Engine) {
 		engine.ServerLog.Error(err)
 	}
 	if err = engine.DB.DropTable(&model.Company{}).Error; err != nil {
+		engine.ServerLog.Error(err)
+	}
+	if err = engine.DB.DropTable(&model.Version{}).Error; err != nil {
 		engine.ServerLog.Error(err)
 	}
 }

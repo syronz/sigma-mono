@@ -120,7 +120,6 @@ func (p *CompanyAPI) Update(c *gin.Context) {
 	var company, companyBefore, companyUpdated model.Company
 
 	company.ID, err = types.StrToRowID(c.Param("companyID"))
-
 	if err != nil {
 		resp.Error(term.Invalid_ID).JSON()
 		return
@@ -164,7 +163,7 @@ func (p *CompanyAPI) Delete(c *gin.Context) {
 	}
 
 	if company, err = p.Service.Delete(company.ID); err != nil {
-		resp.Status(http.StatusInternalServerError).Error(err).JSON()
+		resp.Error(err).JSON()
 		return
 	}
 

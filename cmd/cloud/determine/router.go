@@ -9,10 +9,19 @@ import (
 
 // Route trigger router and api methods
 func Route(rg gin.RouterGroup, engine *core.Engine) {
+	versionAPI := initVersionAPI(engine)
 	companyAPI := initCompanyAPI(engine)
 	nodeAPI := initNodeAPI(engine)
 
 	rg.Use(middleware.AuthGuard(engine))
+
+	rg.GET("/versions", versionAPI.List)
+	rg.POST("/versions", versionAPI.Create)
+	rg.PUT("/versions/:versionID", versionAPI.Update)
+	rg.DELETE("/versions/:versionID", versionAPI.Delete)
+	rg.GET("/versions/:versionID", versionAPI.FindByID)
+	rg.GET("/excel/versions", versionAPI.Excel)
+
 	rg.GET("/companies", companyAPI.List)
 	rg.POST("/companies", companyAPI.Create)
 	rg.PUT("/companies/:companyID", companyAPI.Update)
