@@ -38,23 +38,7 @@ func (p Node) Columns(variate string) (string, error) {
 	full := []string{"nodes.id", "nodes.company_id", "nodes.name", "nodes.phone",
 		"nodes.created_at", "nodes.updated_at", "companies.name as company_name"}
 
-	fieldError := core.NewFieldError(term.Error_in_nodes_url)
-
-	if variate == "*" {
-		return strings.Join(full, ","), nil
-	}
-
-	variates := strings.Split(variate, ",")
-	for _, v := range variates {
-		if ok, _ := helper.Includes(full, v); !ok {
-			fieldError.Add(term.V_is_not_valid, v, strings.Join(full, ", "))
-		}
-	}
-	if fieldError.HasError() {
-		return "", fieldError
-	}
-
-	return variate, nil
+	return checkColumns(full, variate)
 }
 
 // Validate check the type of

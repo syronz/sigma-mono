@@ -5,8 +5,6 @@ import (
 	"sigmamono/internal/enum/action"
 	"sigmamono/internal/term"
 	"sigmamono/internal/types"
-	"sigmamono/utils/helper"
-	"strings"
 )
 
 // Bond model
@@ -38,24 +36,7 @@ func (p Bond) Columns(variate string) (string, error) {
 		"companies.detail", "companies.phone", "companies.email", "companies.website",
 		"companies.type", "companies.code"}
 
-	fieldError := core.NewFieldError(term.Error_in_url)
-
-	if variate == "*" {
-		return strings.Join(full, ","), nil
-	}
-
-	variates := strings.Split(variate, ",")
-	for _, v := range variates {
-		if ok, _ := helper.Includes(full, v); !ok {
-			fieldError.Add(term.V_is_not_valid, v, strings.Join(full, ", "))
-		}
-	}
-	if fieldError.HasError() {
-		return "", fieldError
-	}
-
-	return variate, nil
-
+	return checkColumns(full, variate)
 }
 
 // Validate check the type of

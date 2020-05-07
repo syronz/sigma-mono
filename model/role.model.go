@@ -5,8 +5,6 @@ import (
 	"sigmamono/internal/enum/action"
 	"sigmamono/internal/term"
 	"sigmamono/internal/types"
-	"sigmamono/utils/helper"
-	"strings"
 )
 
 // Role model
@@ -32,23 +30,7 @@ func (p Role) Columns(variate string) (string, error) {
 	full := []string{"roles.id", "roles.company_id", "roles.name", "roles.description", "roles.resources",
 		"roles.created_at", "roles.updated_at"}
 
-	fieldError := core.NewFieldError(term.Error_in_url)
-
-	if variate == "*" {
-		return strings.Join(full, ","), nil
-	}
-
-	variates := strings.Split(variate, ",")
-	for _, v := range variates {
-		if ok, _ := helper.Includes(full, v); !ok {
-			fieldError.Add(term.V_is_not_valid, v, strings.Join(full, ", "))
-		}
-	}
-	if fieldError.HasError() {
-		return "", fieldError
-	}
-
-	return variate, nil
+	return checkColumns(full, variate)
 }
 
 // Validate check the type of fields

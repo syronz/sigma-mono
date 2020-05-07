@@ -1,6 +1,7 @@
 {
 	"method":"get",
 	"url":"_URL_/companies",
+	"url":"_URL_/companies?select=companies.name,companies.id",
 	"authorization":"Bearer _TOKEN_",
 	"payload": {}
 }

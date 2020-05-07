@@ -43,23 +43,7 @@ func (p User) Columns(variate string) (string, error) {
 		"accounts.readonly", "accounts.score", "accounts.direction", "accounts.created_at",
 		"accounts.updated_at", "accounts.deleted_at", "roles.name as role"}
 
-	fieldError := core.NewFieldError(term.Error_in_nodes_url)
-
-	if variate == "*" {
-		return strings.Join(full, ","), nil
-	}
-
-	variates := strings.Split(variate, ",")
-	for _, v := range variates {
-		if ok, _ := helper.Includes(full, v); !ok {
-			fieldError.Add(term.V_is_not_valid, v, strings.Join(full, ", "))
-		}
-	}
-	if fieldError.HasError() {
-		return "", fieldError
-	}
-
-	return variate, nil
+	return checkColumns(full, variate)
 }
 
 // Validate check the type of
