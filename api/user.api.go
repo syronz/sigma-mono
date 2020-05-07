@@ -54,7 +54,7 @@ func (p *UserAPI) FindByID(c *gin.Context) {
 
 	user.Password = ""
 
-	p.Engine.Record(c, event.CompanyView)
+	resp.Record(event.CompanyView)
 	resp.Status(http.StatusOK).
 		MessageT(term.V_info, thisUser).
 		JSON(user)
@@ -94,7 +94,7 @@ func (p *UserAPI) List(c *gin.Context) {
 		return
 	}
 
-	p.Engine.Record(c, event.NodeList)
+	resp.Record(event.NodeList)
 	resp.Status(http.StatusOK).
 		MessageT(term.List_of_V, thisUsers).
 		JSON(data)
@@ -123,7 +123,7 @@ func (p *UserAPI) Create(c *gin.Context) {
 	}
 
 	user.Password = ""
-	p.Engine.Record(c, event.UserCreate, nil, user)
+	resp.Record(event.UserCreate, nil, user)
 
 	resp.Status(http.StatusOK).
 		Message(term.User_created_successfully).
@@ -162,7 +162,7 @@ func (p *UserAPI) Update(c *gin.Context) {
 		return
 	}
 
-	p.Engine.Record(c, event.UserUpdate, userBefore, userUpdated)
+	resp.Record(event.UserUpdate, userBefore, userUpdated)
 
 	resp.Status(http.StatusOK).
 		MessageT(term.V_updated_successfully, thisUser).
@@ -194,7 +194,7 @@ func (p *UserAPI) Delete(c *gin.Context) {
 		return
 	}
 
-	p.Engine.Record(c, event.UserDelete, user)
+	resp.Record(event.UserDelete, user)
 	resp.Status(http.StatusOK).
 		MessageT(term.V_deleted_successfully, thisUser).
 		JSON()
@@ -266,7 +266,7 @@ func (p *UserAPI) Excel(c *gin.Context) {
 		return
 	}
 
-	p.Engine.Record(c, event.NodeExcel)
+	resp.Record(event.NodeExcel)
 
 	c.Header("Content-Description", "File Transfer")
 	c.Header("Content-Disposition", "attachment; filename="+downloadName)

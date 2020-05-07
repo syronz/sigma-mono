@@ -51,7 +51,7 @@ func (p *RoleAPI) FindByID(c *gin.Context) {
 		return
 	}
 
-	p.Engine.Record(c, event.RoleView)
+	resp.Record(event.RoleView)
 	resp.Status(http.StatusOK).
 		MessageT(term.V_info, thisRole).
 		JSON(role)
@@ -75,7 +75,7 @@ func (p *RoleAPI) List(c *gin.Context) {
 		return
 	}
 
-	p.Engine.Record(c, event.RoleList)
+	resp.Record(event.RoleList)
 	resp.Status(http.StatusOK).
 		MessageT(term.List_of_V, thisRoles).
 		JSON(data)
@@ -104,7 +104,7 @@ func (p *RoleAPI) Create(c *gin.Context) {
 		return
 	}
 
-	p.Engine.Record(c, event.RoleCreate, nil, role)
+	resp.Record(event.RoleCreate, nil, role)
 
 	resp.Status(http.StatusOK).
 		MessageT(term.V_created_successfully, thisRole).
@@ -144,7 +144,7 @@ func (p *RoleAPI) Update(c *gin.Context) {
 		return
 	}
 
-	p.Engine.Record(c, event.RoleUpdate, roleBefore, role)
+	resp.Record(event.RoleUpdate, roleBefore, role)
 
 	resp.Status(http.StatusOK).
 		MessageT(term.V_updated_successfully, thisRole).
@@ -174,7 +174,7 @@ func (p *RoleAPI) Delete(c *gin.Context) {
 		return
 	}
 
-	p.Engine.Record(c, event.RoleDelete, role)
+	resp.Record(event.RoleDelete, role)
 	resp.Status(http.StatusOK).
 		MessageT(term.V_deleted_successfully, thisRole).
 		JSON()
@@ -223,7 +223,7 @@ func (p *RoleAPI) Excel(c *gin.Context) {
 		return
 	}
 
-	p.Engine.Record(c, event.RoleExcel)
+	resp.Record(event.RoleExcel)
 
 	c.Header("Content-Description", "File Transfer")
 	c.Header("Content-Disposition", "attachment; filename="+downloadName)

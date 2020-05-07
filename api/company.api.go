@@ -43,7 +43,6 @@ func (p *CompanyAPI) FindByID(c *gin.Context) {
 
 	if company.ID, err = types.StrToRowID(c.Param("companyID")); err != nil {
 		resp.Status(http.StatusNotAcceptable).Error(err).MessageT(term.Invalid_ID).JSON()
-		// resp.Status(http.StatusNotAcceptable).Error(err).JSON()
 		return
 	}
 
@@ -52,7 +51,7 @@ func (p *CompanyAPI) FindByID(c *gin.Context) {
 		return
 	}
 
-	p.Engine.Record(c, event.CompanyView)
+	resp.Record(event.CompanyView)
 	resp.Status(http.StatusOK).
 		MessageT(term.V_info, thisCompany).
 		JSON(company)
@@ -75,7 +74,9 @@ func (p *CompanyAPI) List(c *gin.Context) {
 		return
 	}
 
-	p.Engine.Record(c, event.CompanyList)
+	// p.Engine.Record(c, event.CompanyList)
+	resp.Record(event.CompanyList)
+	// p.Engine.Record(c, event.CompanyView)
 	resp.Status(http.StatusOK).
 		MessageT(term.List_of_V, thisCompanies).
 		JSON(data)
@@ -102,7 +103,8 @@ func (p *CompanyAPI) Create(c *gin.Context) {
 		return
 	}
 
-	p.Engine.Record(c, event.CompanyCreate, nil, company)
+	// p.Engine.Record(c, event.CompanyCreate, nil, company)
+	resp.Record(event.CompanyCreate, nil, company)
 
 	resp.Status(http.StatusOK).
 		MessageT(term.V_created_successfully, thisCompany).
@@ -143,7 +145,7 @@ func (p *CompanyAPI) Update(c *gin.Context) {
 		return
 	}
 
-	p.Engine.Record(c, event.CompanyUpdate, companyBefore, company)
+	resp.Record(event.CompanyUpdate, companyBefore, company)
 
 	resp.Status(http.StatusOK).
 		MessageT(term.V_updated_successfully, thisCompany).
@@ -171,7 +173,7 @@ func (p *CompanyAPI) Delete(c *gin.Context) {
 		return
 	}
 
-	p.Engine.Record(c, event.CompanyDelete, company)
+	resp.Record(event.CompanyDelete, company)
 	resp.Status(http.StatusOK).
 		MessageT(term.V_deleted_successfully, thisCompany).
 		JSON()
@@ -193,7 +195,7 @@ func (p *CompanyAPI) Excel(c *gin.Context) {
 		return
 	}
 
-	p.Engine.Record(c, event.CompanyExcel)
+	resp.Record(event.CompanyExcel)
 
 	ex := excel.New("company")
 	ex.AddSheet("Companies").

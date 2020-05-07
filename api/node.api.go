@@ -51,7 +51,7 @@ func (p *NodeAPI) FindByID(c *gin.Context) {
 		return
 	}
 
-	p.Engine.Record(c, event.NodeView)
+	resp.Record(event.NodeView)
 	resp.Status(http.StatusOK).
 		MessageT(term.V_info, thisNode).
 		JSON(node)
@@ -75,7 +75,7 @@ func (p *NodeAPI) List(c *gin.Context) {
 		return
 	}
 
-	p.Engine.Record(c, event.NodeList)
+	resp.Record(event.NodeList)
 	resp.Status(http.StatusOK).
 		MessageT(term.List_of_V, thisNodes).
 		JSON(data)
@@ -102,7 +102,7 @@ func (p *NodeAPI) Create(c *gin.Context) {
 		return
 	}
 
-	p.Engine.Record(c, event.NodeCreate, nil, node)
+	resp.Record(event.NodeCreate, nil, node)
 
 	resp.Status(http.StatusOK).
 		MessageT(term.V_created_successfully, thisNode).
@@ -142,7 +142,7 @@ func (p *NodeAPI) Update(c *gin.Context) {
 		return
 	}
 
-	p.Engine.Record(c, event.NodeUpdate, nodeBefore, node)
+	resp.Record(event.NodeUpdate, nodeBefore, node)
 
 	resp.Status(http.StatusOK).
 		MessageT(term.V_updated_successfully, thisNode).
@@ -170,7 +170,7 @@ func (p *NodeAPI) Delete(c *gin.Context) {
 		return
 	}
 
-	p.Engine.Record(c, event.NodeDelete, node)
+	resp.Record(event.NodeDelete, node)
 	resp.Status(http.StatusOK).
 		MessageT(term.V_deleted_successfully, thisNode).
 		JSON()
@@ -219,7 +219,7 @@ func (p *NodeAPI) Excel(c *gin.Context) {
 		return
 	}
 
-	p.Engine.Record(c, event.NodeExcel)
+	resp.Record(event.NodeExcel)
 
 	c.Header("Content-Description", "File Transfer")
 	c.Header("Content-Disposition", "attachment; filename="+downloadName)
@@ -244,7 +244,7 @@ func (p *NodeAPI) Activate(c *gin.Context) {
 		return
 	}
 
-	p.Engine.Record(c, event.NodeActivate, nil, node)
+	resp.Record(event.NodeActivate, nil, node)
 
 	resp.Status(http.StatusOK).
 		MessageT(term.V_created_successfully, thisNode).

@@ -51,7 +51,7 @@ func (p *AccountAPI) FindByID(c *gin.Context) {
 		return
 	}
 
-	p.Engine.Record(c, event.AccountView)
+	resp.Record(event.AccountView)
 	resp.Status(http.StatusOK).
 		MessageT(term.V_info, thisAccount).
 		JSON(account)
@@ -75,7 +75,7 @@ func (p *AccountAPI) List(c *gin.Context) {
 		return
 	}
 
-	p.Engine.Record(c, event.AccountList)
+	resp.Record(event.AccountList)
 	resp.Status(http.StatusOK).
 		MessageT(term.List_of_V, thisAccounts).
 		JSON(data)
@@ -104,7 +104,7 @@ func (p *AccountAPI) Create(c *gin.Context) {
 		return
 	}
 
-	p.Engine.Record(c, event.AccountCreate, nil, account)
+	resp.Record(event.AccountCreate, nil, account)
 
 	resp.Status(http.StatusOK).
 		MessageT(term.V_created_successfully, thisAccount).
@@ -144,7 +144,7 @@ func (p *AccountAPI) Update(c *gin.Context) {
 		return
 	}
 
-	p.Engine.Record(c, event.AccountUpdate, accountBefore, account)
+	resp.Record(event.AccountUpdate, accountBefore, account)
 
 	resp.Status(http.StatusOK).
 		MessageT(term.V_updated_successfully, thisAccount).
@@ -174,7 +174,7 @@ func (p *AccountAPI) Delete(c *gin.Context) {
 		return
 	}
 
-	p.Engine.Record(c, event.AccountDelete, account)
+	resp.Record(event.AccountDelete, account)
 	resp.Status(http.StatusOK).
 		MessageT(term.V_deleted_successfully, thisAccount).
 		JSON()
@@ -196,7 +196,7 @@ func (p *AccountAPI) Excel(c *gin.Context) {
 		return
 	}
 
-	p.Engine.Record(c, event.AccountExcel)
+	resp.Record(event.AccountExcel)
 
 	ex := excel.New("account")
 	ex.AddSheet("Accounts").

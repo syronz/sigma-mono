@@ -4,11 +4,9 @@ import (
 	"encoding/json"
 	"fmt"
 	"sigmamono/env"
-	"sigmamono/internal/enum/event"
 	"sigmamono/internal/enum/lang"
 	"sigmamono/internal/term"
 
-	"github.com/gin-gonic/gin"
 	"github.com/jinzhu/gorm"
 	"github.com/sirupsen/logrus"
 	goaes "github.com/syronz/goAES"
@@ -69,29 +67,4 @@ func (e *Engine) T(str string, language lang.Language, params ...interface{}) st
 // SafeT Translating the term and if the word won't exist return false
 func (e *Engine) SafeT(str string, language lang.Language, params ...interface{}) (string, bool) {
 	return e.Dict.SafeTranslate(str, language, params...)
-}
-
-// Record call the record method from activity
-func (e *Engine) Record(c *gin.Context, ev event.Event, data ...interface{}) {
-
-	// var tmpData []interface{}
-	// tmpData = append(tmpData, c)
-	// tmpData = append(tmpData, ev)
-
-	// // get data and put them separately in new interface
-	// var tmpParts []interface{}
-	// tmpParts = append(tmpParts, data...)
-
-	// tmpData = append(tmpData, tmpParts)
-	// aggObj := types.Aggregate{
-	// 	Domain: domains.Central,
-	// 	Operate: types.Operate{
-	// 		Entity: "Activity",
-	// 		Method: "Create",
-	// 		Args:   tmpData,
-	// 	},
-	// }
-
-	// e.Agg <- aggObj
-
 }

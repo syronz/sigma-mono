@@ -1,13 +1,13 @@
 {
   "method":"put",
-  "url":"_URL_/companies/1020?lang=ku",
+  "url":"_URL_/companies/1010?lang=ku",
   "authorization":"Bearer _TOKEN_",
   "payload": {
     "type":"multi branch with centeral finance",
     "name": "Fast Company",
     "legal_name": "_RANDOM_NAME_",
     "server": "127.0.0.1:9093",
-    "expiration":"2022-01-01",
+    "expiration":"2022-01-01T12:15:25.000Z",
     "plan":"",
     "detail":"this is detail",
     "phone": "_RANDOM_NUMBER_",
