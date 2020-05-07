@@ -39,7 +39,7 @@ func InsertCompanies(engine *core.Engine) {
 			Key:        "08595aa978f4c",
 			Expiration: time.Now().AddDate(100, 0, 0),
 			License:    "for update 1",
-			Detail:     "used for foreing tables, don't delete",
+			Detail:     "used for foreign tables, don't delete",
 			Phone:      "for update 1",
 			Email:      "for update 1",
 			Website:    "for update 1",
