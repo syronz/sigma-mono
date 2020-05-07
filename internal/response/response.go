@@ -111,6 +111,11 @@ func (r *Response) JSON(data ...interface{}) {
 			r.status = http.StatusNotFound
 		}
 
+		if r.status == http.StatusInternalServerError && r.Result.Message == "" {
+			r.Result.Message, _ = r.Engine.SafeT(term.Internal_Error,
+				core.GetLang(r.Context, r.Engine))
+		}
+
 	case string:
 		errorCast := r.Result.Error.(string)
 		errText = errorCast

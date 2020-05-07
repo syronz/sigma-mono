@@ -52,4 +52,7 @@ const (
 	License_is_not_valid                  = "license is not valid"
 	Company_license_has_been_expired      = "Company's license has been expired"
 	Company_key_is_not_valid              = "Company key is not valid"
+	CompanyID                             = "company_id"
+	Internal_Error                        = "internal error"
+	MachineID                             = "Machine ID"
 )

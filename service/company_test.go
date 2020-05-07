@@ -94,7 +94,7 @@ func TestCompanyCreate(t *testing.T) {
 	for _, v := range samples {
 		_, err := companyServ.Save(v.in)
 		if (v.err == nil && err != nil) || (v.err != nil && err == nil) {
-			t.Errorf("ERROR FOR ::::%+v::: \nRETURNS :::%+v:::, \nIT SHOULD BE :::%+v:::", v.in, err, v.err)
+			t.Errorf("\nERROR FOR :::%+v::: \nRETURNS :::%+v:::, \nIT SHOULD BE :::%+v:::", v.in, err, v.err)
 		}
 	}
 

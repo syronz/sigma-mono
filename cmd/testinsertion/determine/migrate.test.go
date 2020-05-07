@@ -13,6 +13,8 @@ func Migrate(engine *core.Engine, noReset bool) {
 	}
 
 	engine.DB.AutoMigrate(&model.Company{})
+	engine.DB.AutoMigrate(&model.Node{}).
+		AddForeignKey("company_id", "companies(id)", "RESTRICT", "RESTRICT")
 
 	engine.DB.AutoMigrate(&model.Role{})
 	engine.DB.AutoMigrate(&model.Account{})
@@ -24,15 +26,18 @@ func Migrate(engine *core.Engine, noReset bool) {
 func dropTable(engine *core.Engine) {
 	var err error
 	if err = engine.DB.DropTable(&model.User{}).Error; err != nil {
-		engine.ServerLog.Fatal(err)
+		engine.ServerLog.Error(err)
 	}
 	if err = engine.DB.DropTable(&model.Account{}).Error; err != nil {
-		engine.ServerLog.Fatal(err)
+		engine.ServerLog.Error(err)
 	}
 	if err = engine.DB.DropTable(&model.Role{}).Error; err != nil {
-		engine.ServerLog.Fatal(err)
+		engine.ServerLog.Error(err)
+	}
+	if err = engine.DB.DropTable(&model.Node{}).Error; err != nil {
+		engine.ServerLog.Error(err)
 	}
 	if err = engine.DB.DropTable(&model.Company{}).Error; err != nil {
-		engine.ServerLog.Fatal(err)
+		engine.ServerLog.Error(err)
 	}
 }

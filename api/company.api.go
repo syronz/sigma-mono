@@ -70,13 +70,11 @@ func (p *CompanyAPI) List(c *gin.Context) {
 
 	data, err := p.Service.List(params)
 	if err != nil {
-		resp.Status(http.StatusNotFound).Error(err).Message(term.Record_Not_Found).JSON()
+		resp.Error(err).JSON()
 		return
 	}
 
-	// p.Engine.Record(c, event.CompanyList)
 	resp.Record(event.CompanyList)
-	// p.Engine.Record(c, event.CompanyView)
 	resp.Status(http.StatusOK).
 		MessageT(term.List_of_V, thisCompanies).
 		JSON(data)
@@ -103,9 +101,7 @@ func (p *CompanyAPI) Create(c *gin.Context) {
 		return
 	}
 
-	// p.Engine.Record(c, event.CompanyCreate, nil, company)
 	resp.Record(event.CompanyCreate, nil, company)
-
 	resp.Status(http.StatusOK).
 		MessageT(term.V_created_successfully, thisCompany).
 		JSON(createdCompany)
@@ -146,7 +142,6 @@ func (p *CompanyAPI) Update(c *gin.Context) {
 	}
 
 	resp.Record(event.CompanyUpdate, companyBefore, company)
-
 	resp.Status(http.StatusOK).
 		MessageT(term.V_updated_successfully, thisCompany).
 		JSON(companyUpdated)

@@ -15,10 +15,10 @@ import (
 // Node model
 type Node struct {
 	types.GormCol
-	CompanyID   types.RowID            `gorm:"unique_index:idx_companyID_nodeCode,idx_companyID_machineID" json:"company_id,omitempty"`
+	CompanyID   types.RowID            `gorm:"unique_index:idx_companyID_nodeCode,idx_companyID_machineID,idx_companyID_nodeName" json:"company_id,omitempty"`
 	Code        uint64                 `gorm:"not null;unique_index:idx_companyID_nodeCode" json:"code,omitempty"`
 	Type        string                 `gorm:"not null" json:"type,omitempty"`
-	Name        string                 `gorm:"not null;unique" json:"name,omitempty"`
+	Name        string                 `gorm:"not null;unique_index:idx_companyID_nodeName" json:"name,omitempty"`
 	MachineID   string                 `gorm:"not null;unique_index:idx_companyID_machineID" json:"machine_id,omitempty"`
 	Status      string                 `gorm:"default:'inactive'" json:"status,omitempty"`
 	Phone       string                 `gorm:"not null" json:"phone,omitempty"`
@@ -35,7 +35,7 @@ func (p Node) Pattern() string {
 
 // Columns return list of total columns according to request, useful for inner joins
 func (p Node) Columns(variate string) (string, error) {
-	full := []string{"nodes.id", "nodes.company_id", "nodes.name", "nodes.secret_key", "nodes.phone",
+	full := []string{"nodes.id", "nodes.company_id", "nodes.name", "nodes.phone",
 		"nodes.created_at", "nodes.updated_at", "companies.name as company_name"}
 
 	fieldError := core.NewFieldError(term.Error_in_nodes_url)
@@ -71,7 +71,15 @@ func (p *Node) Validate(act action.Action) error {
 			fieldError.Add(term.V_is_required, term.Phone, term.Phone)
 		}
 
-		if p.Code < consts.MinNodeCode || p.ID > consts.MaxNodeCode {
+		if p.CompanyID == 0 {
+			fieldError.Add(term.V_is_required, term.CompanyID, term.CompanyID)
+		}
+
+		if p.MachineID == "" {
+			fieldError.Add(term.V_is_required, term.MachineID, term.MachineID)
+		}
+
+		if p.Code < consts.MinNodeCode || p.Code > consts.MaxNodeCode {
 			fieldError.Add(term.V_is_not_valid, term.Code, term.Code)
 		}
 
@@ -80,12 +88,12 @@ func (p *Node) Validate(act action.Action) error {
 				strings.Join(nodetype.Types, ", "), term.Type)
 		}
 
-		if p.Status != "" {
-			if ok, _ := helper.Includes(nodestatus.Statuses, p.Status); !ok {
-				fieldError.Add(term.Accepted_values_for_status_are_v,
-					strings.Join(nodestatus.Statuses, ", "), "status")
-			}
+		// if p.Status != "" {
+		if ok, _ := helper.Includes(nodestatus.Statuses, p.Status); !ok {
+			fieldError.Add(term.Accepted_values_for_status_are_v,
+				strings.Join(nodestatus.Statuses, ", "), "status")
 		}
+		// }
 
 	}
 

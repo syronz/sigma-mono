@@ -42,12 +42,12 @@ func (p *NodeAPI) FindByID(c *gin.Context) {
 	}
 
 	if node.ID, err = types.StrToRowID(c.Param("nodeID")); err != nil {
-		resp.Error(term.Invalid_ID).JSON()
+		resp.Status(http.StatusNotAcceptable).Error(err).MessageT(term.Invalid_ID).JSON()
 		return
 	}
 
 	if node, err = p.Service.FindByID(node.ID); err != nil {
-		resp.Status(http.StatusNotFound).Error(err).MessageT(term.Record_Not_Found).JSON()
+		resp.Error(err).JSON()
 		return
 	}
 
@@ -69,7 +69,6 @@ func (p *NodeAPI) List(c *gin.Context) {
 	params := param.Get(c, p.Engine, thisNodes)
 
 	data, err := p.Service.List(params)
-	p.Engine.Debug(err)
 	if err != nil {
 		resp.Error(err).JSON()
 		return
@@ -103,7 +102,6 @@ func (p *NodeAPI) Create(c *gin.Context) {
 	}
 
 	resp.Record(event.NodeCreate, nil, node)
-
 	resp.Status(http.StatusOK).
 		MessageT(term.V_created_successfully, thisNode).
 		JSON(createdNode)

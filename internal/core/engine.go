@@ -51,11 +51,14 @@ func (e *Engine) CheckError(err error, message string, data ...interface{}) {
 
 // CheckInfo print all errors which happened inside the services, mainly they just have
 // an error and a message
-func (e *Engine) CheckInfo(err error, message string) {
+func (e *Engine) CheckInfo(err error, message string, data ...interface{}) {
 	if err != nil {
 		e.ServerLog.WithFields(logrus.Fields{
 			"err": err.Error(),
 		}).Info(message)
+		if data != nil {
+			e.Debug(data...)
+		}
 	}
 }
 

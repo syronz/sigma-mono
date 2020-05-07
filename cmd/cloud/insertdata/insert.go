@@ -11,7 +11,7 @@ func Insert(engine *core.Engine) {
 	if engine.Env.Setting.AutoMigrate {
 		// table.InsertVersions(engine)
 		table.InsertCompanies(engine)
-		// table.InsertNodes(engine)
+		table.InsertNodes(engine)
 		// table.InsertSettings(engine)
 		// table.InsertBonds(engine)
 		table.InsertRoles(engine)

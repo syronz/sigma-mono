@@ -26,7 +26,7 @@ func ProvideCompanyService(p repo.CompanyRepo) CompanyServ {
 // FindByID for getting company by it's id
 func (p *CompanyServ) FindByID(id types.RowID) (company model.Company, err error) {
 	company, err = p.Repo.FindByID(id)
-	p.Engine.CheckError(err, fmt.Sprintf("Company with id %v", id))
+	p.Engine.CheckInfo(err, fmt.Sprintf("Company with id %v", id))
 
 	return
 }
@@ -37,13 +37,12 @@ func (p *CompanyServ) List(params param.Param) (data map[string]interface{}, err
 	data = make(map[string]interface{})
 
 	if data["list"], err = p.Repo.List(params); err != nil {
-		p.Engine.CheckError(err, "error in getting list", params)
+		p.Engine.CheckError(err, "companies list", params)
 		return
 	}
-	p.Engine.CheckError(err, "companies list")
 
 	data["count"], err = p.Repo.Count(params)
-	p.Engine.CheckError(err, "companies count")
+	p.Engine.CheckError(err, "companies count", params)
 
 	return
 }
@@ -68,12 +67,12 @@ func (p *CompanyServ) Save(company model.Company) (savedCompany model.Company, e
 func (p *CompanyServ) create(company model.Company) (result model.Company, err error) {
 
 	if err = company.Validate(action.Save); err != nil {
-		p.Engine.CheckError(err, "validation failed")
+		p.Engine.CheckInfo(err, "validation failed for saving company", company)
 		return
 	}
 
 	result, err = p.Repo.Create(company)
-	p.Engine.CheckInfo(err, fmt.Sprintf("Failed in creating company for %+v", company))
+	p.Engine.CheckError(err, "company not created", company)
 
 	return
 }
@@ -81,12 +80,12 @@ func (p *CompanyServ) create(company model.Company) (result model.Company, err e
 func (p *CompanyServ) update(company model.Company) (result model.Company, err error) {
 
 	if err = company.Validate(action.Save); err != nil {
-		p.Engine.CheckError(err, "validation failed")
+		p.Engine.CheckInfo(err, "validation failed for saving company", company)
 		return
 	}
 
 	result, err = p.Repo.Update(company)
-	p.Engine.CheckInfo(err, fmt.Sprintf("Failed in updating company for %+v", company))
+	p.Engine.CheckError(err, "company not updated", company)
 
 	return
 }
@@ -104,7 +103,7 @@ func (p *CompanyServ) Delete(companyID types.RowID) (company model.Company, err 
 		return company, core.NewErrorWithStatus(err.Error(), http.StatusNotFound)
 	}
 
-	err = p.Repo.Delete(company)
+	err = p.Repo.HardDelete(company)
 	return
 }
 

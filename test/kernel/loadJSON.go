@@ -8,6 +8,8 @@ import (
 	"path/filepath"
 	"runtime"
 	"sigmamono/internal/core"
+
+	"github.com/syronz/machineid"
 )
 
 // LoadTestEnv is used for testing environment
@@ -30,6 +32,10 @@ func LoadTestEnv() *core.Engine {
 	err = json.Unmarshal(byteValue, &engine.Env)
 	if err != nil {
 		log.Fatalln(err, "error in unmarshal JSON")
+	}
+
+	if engine.Env.MachineID, err = machineid.ProtectedID("SigmaMono"); err != nil {
+		log.Fatal(err)
 	}
 
 	return engine

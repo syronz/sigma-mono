@@ -28,7 +28,7 @@ func ProvideNodeService(p repo.NodeRepo) NodeServ {
 // FindByID for getting node by it's id
 func (p *NodeServ) FindByID(id types.RowID) (node model.Node, err error) {
 	node, err = p.Repo.FindByID(id)
-	p.Engine.CheckError(err, fmt.Sprintf("Node with id %v", id))
+	p.Engine.CheckInfo(err, fmt.Sprintf("Node with id %v", id))
 
 	return
 }
@@ -38,14 +38,13 @@ func (p *NodeServ) List(params param.Param) (data map[string]interface{}, err er
 
 	data = make(map[string]interface{})
 
-	data["list"], err = p.Repo.List(params)
-	p.Engine.CheckError(err, "nodes list")
-	if err != nil {
+	if data["list"], err = p.Repo.List(params); err != nil {
+		p.Engine.CheckError(err, "nodes list", params)
 		return
 	}
 
 	data["count"], err = p.Repo.Count(params)
-	p.Engine.CheckError(err, "nodes count")
+	p.Engine.CheckError(err, "nodes count", params)
 
 	return
 }
@@ -66,6 +65,7 @@ func (p *NodeServ) create(node model.Node) (result model.Node, err error) {
 
 	lastCode, err := p.LastCode(node.CompanyID)
 	if err != nil {
+		p.Engine.CheckError(err, "error in returning lastCode for node")
 		return
 	}
 
@@ -76,13 +76,12 @@ func (p *NodeServ) create(node model.Node) (result model.Node, err error) {
 	}
 
 	if err = node.Validate(action.Save); err != nil {
-		p.Engine.CheckError(err, "validation failed")
+		p.Engine.CheckInfo(err, "validation failed for saving node", node)
 		return
 	}
 
 	result, err = p.Repo.Create(node)
-
-	p.Engine.CheckInfo(err, fmt.Sprintf("Failed in creating node for %+v", node))
+	p.Engine.CheckError(err, "node not created", node)
 
 	return
 }
@@ -90,12 +89,12 @@ func (p *NodeServ) create(node model.Node) (result model.Node, err error) {
 func (p *NodeServ) update(node model.Node) (result model.Node, err error) {
 
 	if err = node.Validate(action.Save); err != nil {
-		p.Engine.CheckError(err, "validation failed")
+		p.Engine.CheckInfo(err, "validation failed for saving node", node)
 		return
 	}
 
 	result, err = p.Repo.Update(node)
-	p.Engine.CheckInfo(err, fmt.Sprintf("Failed in updating node for %+v", node))
+	p.Engine.CheckError(err, "node not updated", node)
 
 	return
 }

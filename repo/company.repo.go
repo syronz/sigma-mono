@@ -26,7 +26,6 @@ func (p *CompanyRepo) FindByID(id types.RowID) (company model.Company, err error
 
 // List of companies
 func (p *CompanyRepo) List(params param.Param) (companies []model.Company, err error) {
-
 	columns, err := model.Company{}.Columns(params.Select)
 	if err != nil {
 		return
@@ -46,7 +45,6 @@ func (p *CompanyRepo) List(params param.Param) (companies []model.Company, err e
 func (p *CompanyRepo) Count(params param.Param) (count uint64, err error) {
 	err = p.Engine.DB.Table("companies").
 		Select(params.Select).
-		Where("deleted_at is null").
 		Where(search.Parse(params, model.Company{}.Pattern())).
 		Count(&count).Error
 	return
@@ -73,7 +71,7 @@ func (p *CompanyRepo) LastCompany() (company model.Company, err error) {
 
 // Delete company
 func (p *CompanyRepo) Delete(company model.Company) (err error) {
-	err = p.Engine.DB.Unscoped().Delete(&company).Error
+	err = p.Engine.DB.Delete(&company).Error
 	return
 }
 
