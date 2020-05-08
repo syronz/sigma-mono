@@ -23,6 +23,7 @@
 *.DS_Store
 *.zip
 logs/*
+!logs/.gitkeep
 tags
 testinsertion
 cloud
