@@ -12,15 +12,25 @@ func Route(rg gin.RouterGroup, engine *core.Engine) {
 	versionAPI := initVersionAPI(engine)
 	companyAPI := initCompanyAPI(engine)
 	nodeAPI := initNodeAPI(engine)
+	licenseAPI := initLicenseAPI(engine)
+	registerAPI := initRegisterAPI(engine)
+
+	// route no need to token
+	rg.POST("/register", registerAPI.Register)
 
 	rg.Use(middleware.AuthGuard(engine))
 
+	// route need to token
 	rg.GET("/versions", versionAPI.List)
 	rg.POST("/versions", versionAPI.Create)
 	rg.PUT("/versions/:versionID", versionAPI.Update)
 	rg.DELETE("/versions/:versionID", versionAPI.Delete)
 	rg.GET("/versions/:versionID", versionAPI.FindByID)
 	rg.GET("/excel/versions", versionAPI.Excel)
+
+	rg.POST("/licenses/public/:versionID/:count", licenseAPI.GeneratePublic)
+	// rg.POST("/licenses/private", licenseAPI.GeneratePrivate)
+	rg.PUT("/licenses", licenseAPI.Update)
 
 	rg.GET("/companies", companyAPI.List)
 	rg.POST("/companies", companyAPI.Create)

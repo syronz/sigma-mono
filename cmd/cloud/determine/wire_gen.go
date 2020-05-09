@@ -21,6 +21,18 @@ func initVersionAPI(e *core.Engine) api.VersionAPI {
 	return versionAPI
 }
 
+func initLicenseAPI(e *core.Engine) api.LicenseAPI {
+	licenseServ := service.ProvideLicenseService(e)
+	licenseAPI := api.ProvideLicenseAPI(licenseServ)
+	return licenseAPI
+}
+
+func initRegisterAPI(e *core.Engine) api.RegisterAPI {
+	registerServ := service.ProvideRegisterService(e)
+	registerAPI := api.ProvideRegisterAPI(registerServ)
+	return registerAPI
+}
+
 func initCompanyAPI(e *core.Engine) api.CompanyAPI {
 	companyRepo := repo.ProvideCompanyRepo(e)
 	companyServ := service.ProvideCompanyService(companyRepo)

@@ -12,7 +12,7 @@ func Insert(engine *core.Engine) {
 		table.InsertVersions(engine)
 		table.InsertCompanies(engine)
 		table.InsertNodes(engine)
-		// table.InsertBonds(engine)
+		table.InsertBonds(engine)
 		table.InsertSettings(engine)
 		table.InsertRoles(engine)
 		table.InsertAccounts(engine)

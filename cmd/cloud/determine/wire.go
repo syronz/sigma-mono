@@ -17,6 +17,16 @@ func initVersionAPI(e *core.Engine) api.VersionAPI {
 	return api.VersionAPI{}
 }
 
+func initLicenseAPI(e *core.Engine) api.LicenseAPI {
+	wire.Build(service.ProvideLicenseService, api.ProvideLicenseAPI)
+	return api.LicenseAPI{}
+}
+
+func initRegisterAPI(e *core.Engine) api.RegisterAPI {
+	wire.Build(service.ProvideRegisterService, api.ProvideRegisterAPI)
+	return api.RegisterAPI{}
+}
+
 func initCompanyAPI(e *core.Engine) api.CompanyAPI {
 	wire.Build(repo.ProvideCompanyRepo, service.ProvideCompanyService,
 		api.ProvideCompanyAPI)
