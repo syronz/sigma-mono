@@ -185,7 +185,6 @@ func TestNodeList(t *testing.T) {
 			count = 0
 		}
 		if (v.err == nil && err != nil) || (v.err != nil && err == nil) || count != v.count {
-			t.Log(".........................", data)
 			t.Errorf("FOR ::::%+v::: \nRETURNS :::%+v:::, \nIT SHOULD BE :::%+v:::", v.params, data["count"], v.count)
 		}
 	}
@@ -210,7 +209,6 @@ func TestNodeExcel(t *testing.T) {
 	for _, v := range samples {
 		data, err := nodeServ.Excel(v.params)
 		if (v.err == nil && err != nil) || (v.err != nil && err == nil) || uint64(len(data)) < v.count {
-			t.Log(".........................", data)
 			t.Errorf("FOR ::::%+v::: \nRETURNS :::%+v:::, \nIT SHOULD BE :::%+v::: \nErr :::%+v:::",
 				v.params, uint64(len(data)), v.count, err)
 		}

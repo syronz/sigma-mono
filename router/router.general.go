@@ -12,8 +12,15 @@ func Route(rg gin.RouterGroup, engine *core.Engine) {
 	userAPI := initUserAPI(engine)
 	roleAPI := initRoleAPI(engine)
 	accountAPI := initAccountAPI(engine)
+	settingAPI := initSettingAPI(engine)
 
 	rg.Use(middleware.AuthGuard(engine))
+
+	rg.GET("/settings", settingAPI.List)
+	rg.GET("/settings/:settingID", settingAPI.FindByID)
+	rg.PUT("/settings/:settingID", settingAPI.Update)
+	rg.GET("excel/settings", settingAPI.Excel)
+
 	rg.GET("/username/:username", userAPI.FindByUsername)
 	rg.GET("/users", userAPI.List)
 	rg.GET("/users/:userID", userAPI.FindByID)

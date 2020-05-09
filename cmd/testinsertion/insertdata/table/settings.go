@@ -203,6 +203,26 @@ func InsertSettings(engine *core.Engine) {
 			Type:        "int",
 			Description: "difference time for letting user edit element in hour",
 		},
+		{
+			FixedCol: types.FixedCol{
+				ID: 1001101000000020,
+			},
+			CompanyID:   1001,
+			Property:    "for update 1",
+			Value:       "for update 1",
+			Type:        "for update 1",
+			Description: "for update 1",
+		},
+		{
+			FixedCol: types.FixedCol{
+				ID: 1001101000000021,
+			},
+			CompanyID:   1001,
+			Property:    "for update 2",
+			Value:       "for update 2",
+			Type:        "for update 2",
+			Description: "for update 2",
+		},
 	}
 
 	for _, v := range settings {

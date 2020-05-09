@@ -77,6 +77,14 @@ func TestVersionCreate(t *testing.T) {
 			},
 			err: nil,
 		},
+		{
+			in: model.Version{
+				Features:      "wrong type",
+				LocationCount: 13,
+				UserCount:     13,
+			},
+			err: errors.New("name is required"),
+		},
 	}
 
 	for _, v := range samples {
@@ -145,7 +153,7 @@ func TestVersionDelete(t *testing.T) {
 		err error
 	}{
 		{
-			id:  1004,
+			id:  77,
 			err: nil,
 		},
 		{
@@ -180,7 +188,7 @@ func TestVersionList(t *testing.T) {
 		{
 			params: regularParam,
 			err:    nil,
-			count:  6,
+			count:  5,
 		},
 	}
 
@@ -192,7 +200,6 @@ func TestVersionList(t *testing.T) {
 			count = 0
 		}
 		if (v.err == nil && err != nil) || (v.err != nil && err == nil) || count != v.count {
-			t.Log(".........................", data)
 			t.Errorf("FOR ::::%+v::: \nRETURNS :::%+v:::, \nIT SHOULD BE :::%+v:::", v.params, data["count"], v.count)
 		}
 	}
@@ -217,7 +224,6 @@ func TestVersionExcel(t *testing.T) {
 	for _, v := range samples {
 		data, err := versionServ.Excel(v.params)
 		if (v.err == nil && err != nil) || (v.err != nil && err == nil) || uint64(len(data)) < v.count {
-			t.Log(".........................", data)
 			t.Errorf("FOR ::::%+v::: \nRETURNS :::%+v:::, \nIT SHOULD BE :::%+v::: \nErr :::%+v:::",
 				v.params, uint64(len(data)), v.count, err)
 		}

@@ -12,6 +12,7 @@ func Migrate(engine *core.Engine, noReset bool) {
 		dropTable(engine)
 	}
 
+	engine.DB.AutoMigrate(&model.Setting{})
 	engine.DB.AutoMigrate(&model.Version{})
 	engine.DB.AutoMigrate(&model.Company{})
 	engine.DB.AutoMigrate(&model.Node{}).

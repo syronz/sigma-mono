@@ -63,10 +63,87 @@ func InsertRoles(engine *core.Engine) {
 			Resources:   strings.Join([]string{r.ActivitySelf}, ", "),
 			Description: "cashier has all privileges - after migration reset",
 		},
+		{
+			FixedCol: types.FixedCol{
+				ID: 1001101000000004,
+			},
+			CompanyID:   1001,
+			NodeCode:    101,
+			Name:        "for foreign 1",
+			Resources:   r.SupperAccess,
+			Description: "for foreign 1",
+		},
+		{
+			FixedCol: types.FixedCol{
+				ID: 1001101000000005,
+			},
+			CompanyID:   1001,
+			NodeCode:    101,
+			Name:        "for update 1",
+			Resources:   r.SupperAccess,
+			Description: "for update 1",
+		},
+		{
+			FixedCol: types.FixedCol{
+				ID: 1001101000000006,
+			},
+			CompanyID:   1001,
+			NodeCode:    101,
+			Name:        "for update 2",
+			Resources:   r.SupperAccess,
+			Description: "for update 2",
+		},
+		{
+			FixedCol: types.FixedCol{
+				ID: 1001101000000007,
+			},
+			CompanyID:   1001,
+			NodeCode:    101,
+			Name:        "for delete 1",
+			Resources:   r.SupperAccess,
+			Description: "for delete 1",
+		},
+		{
+			FixedCol: types.FixedCol{
+				ID: 1001101000000008,
+			},
+			CompanyID:   1001,
+			NodeCode:    101,
+			Name:        "for search 1",
+			Resources:   r.SupperAccess,
+			Description: "searchTerm1",
+		},
+		{
+			FixedCol: types.FixedCol{
+				ID: 1001101000000009,
+			},
+			CompanyID:   1001,
+			NodeCode:    101,
+			Name:        "for search 2",
+			Resources:   r.SupperAccess,
+			Description: "searchTerm1",
+		},
+		{
+			FixedCol: types.FixedCol{
+				ID: 1001101000000010,
+			},
+			CompanyID:   1001,
+			NodeCode:    101,
+			Name:        "for search 3",
+			Resources:   r.SupperAccess,
+			Description: "searchTerm1",
+		},
+		{
+			FixedCol: types.FixedCol{
+				ID: 1002101000000001,
+			},
+			CompanyID:   1002,
+			NodeCode:    101,
+			Name:        "for delete 2",
+			Resources:   r.SupperAccess,
+			Description: "for delete 2",
+		},
 	}
-	// roles[0].ID = types.RowID(1)
-	// roles[1].ID = types.RowID(2)
-	// roles[2].ID = types.RowID(3)
 
 	for _, v := range roles {
 		if _, err := roleService.Save(v); err != nil {

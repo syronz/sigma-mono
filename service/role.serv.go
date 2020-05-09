@@ -54,10 +54,12 @@ func (p *RoleServ) Create(role model.Role, params param.Param) (createdRole mode
 
 	var prefix, lastID types.RowID
 	if prefix, err = params.PrefixID(); err != nil {
+		p.Engine.CheckError(err, "company_id is not exist in JWT's token", params)
 		return
 	}
 
 	if lastID, err = p.LastID(prefix); err != nil {
+		p.Engine.CheckError(err, "error in getting the lastID")
 		return
 	}
 

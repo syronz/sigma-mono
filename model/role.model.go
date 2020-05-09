@@ -22,6 +22,7 @@ type Role struct {
 func (p Role) Pattern() string {
 	return `(roles.name LIKE '%[1]v%%' OR
 		roles.id = '%[1]v' OR
+		roles.description LIKE '%%%[1]v%%' OR
 		roles.resources LIKE '%%%[1]v%%')`
 }
 
@@ -38,7 +39,7 @@ func (p *Role) Validate(act action.Action) error {
 	fieldError := core.NewFieldError(term.Error_in_role_form)
 
 	switch act {
-	case action.Create:
+	case action.Save:
 		if p.Name == "" {
 			fieldError.Add(term.V_is_required, "Name", "name")
 		}
