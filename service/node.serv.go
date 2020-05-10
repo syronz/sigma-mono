@@ -50,7 +50,8 @@ func (p *NodeServ) List(params param.Param) (data map[string]interface{}, err er
 }
 
 // Save node
-func (p *NodeServ) Save(node model.Node) (savedNode model.Node, err error) {
+func (p *NodeServ) Save(node model.Node, params param.Param) (savedNode model.Node, err error) {
+	node.CompanyID = params.CompanyID
 
 	if node.ID > 0 {
 		savedNode, err = p.update(node)
@@ -110,7 +111,7 @@ func (p *NodeServ) LastCode(companyID types.RowID) (lastCode uint64, err error) 
 }
 
 // Delete node, it is soft delete
-func (p *NodeServ) Delete(nodeID types.RowID) (node model.Node, err error) {
+func (p *NodeServ) Delete(nodeID types.RowID, params param.Param) (node model.Node, err error) {
 
 	if node, err = p.FindByID(nodeID); err != nil {
 		return node, core.NewErrorWithStatus(err.Error(), http.StatusNotFound)
@@ -118,7 +119,7 @@ func (p *NodeServ) Delete(nodeID types.RowID) (node model.Node, err error) {
 
 	// rename unique key to prevent duplication
 	node.Name = fmt.Sprintf("%v#%v", node.Name, node.ID)
-	_, err = p.Save(node)
+	_, err = p.Save(node, params)
 	p.Engine.CheckError(err, "rename node's name for prevent duplication")
 
 	err = p.Repo.Delete(node)

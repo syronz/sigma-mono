@@ -23,7 +23,6 @@ type Node struct {
 	Status      string                 `gorm:"default:'inactive'" json:"status,omitempty"`
 	Phone       string                 `gorm:"not null" json:"phone,omitempty"`
 	Extra       map[string]interface{} `sql:"-" json:"extra_node,omitempty"`
-	Error       error                  `sql:"-" json:"error,omitempty"`
 	CompanyName string                 `sql:"-" json:"company_name,omitempty"`
 }
 
@@ -55,9 +54,9 @@ func (p *Node) Validate(act action.Action) error {
 			fieldError.Add(term.V_is_required, term.Phone, term.Phone)
 		}
 
-		if p.CompanyID == 0 {
-			fieldError.Add(term.V_is_required, term.CompanyID, term.CompanyID)
-		}
+		// if p.CompanyID == 0 {
+		// 	fieldError.Add(term.V_is_required, term.CompanyID, term.CompanyID)
+		// }
 
 		if p.MachineID == "" {
 			fieldError.Add(term.V_is_required, term.MachineID, term.MachineID)

@@ -63,9 +63,12 @@ func (p *RegisterServ) Register(register dto.Register) (result dto.Register, err
 	register.Node.Code = 101
 	register.Node.MachineID = "basic"
 	register.Node.Status = nodestatus.Active
+	params := param.Param{
+		CompanyID: company.ID,
+	}
 	nodeServ := ProvideNodeService(repo.ProvideNodeRepo(p.Engine))
 	var node model.Node
-	if node, err = nodeServ.Save(register.Node); err != nil {
+	if node, err = nodeServ.Save(register.Node, params); err != nil {
 		p.Engine.DB = original
 		tx.Rollback()
 		return
@@ -93,10 +96,11 @@ func (p *RegisterServ) Register(register dto.Register) (result dto.Register, err
 	}
 
 	// Create role
-	params := param.Param{
-		CompanyID: company.ID,
-		NodeCode:  node.Code,
-	}
+	// params := param.Param{
+	// 	CompanyID: company.ID,
+	// 	NodeCode:  node.Code,
+	// }
+	params.NodeCode = node.Code
 
 	admin := model.Role{
 		// CompanyID: company.ID,

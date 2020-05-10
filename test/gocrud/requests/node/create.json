@@ -3,7 +3,7 @@
   "url":"_URL_/nodes?lang=ku",
   "authorization":"Bearer _TOKEN_",
   "payload": {
-    "company_id":1001,
+    "company_id2":1001,
     "code":_RANDOM_NUMBER_,
     "type": "laptop",
     "name": "_RANDOM_NAME_",

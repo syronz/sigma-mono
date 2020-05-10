@@ -4,6 +4,7 @@ import (
 	"sigmamono/internal/core"
 	"sigmamono/internal/enum/nodestatus"
 	"sigmamono/internal/enum/nodetype"
+	"sigmamono/internal/param"
 	"sigmamono/internal/types"
 	"sigmamono/model"
 	"sigmamono/repo"
@@ -14,35 +15,47 @@ import (
 func InsertNodes(engine *core.Engine) {
 	nodeRepo := repo.ProvideNodeRepo(engine)
 	nodeService := service.ProvideNodeService(nodeRepo)
-	nodes := []model.Node{
+
+	nodes := []struct {
+		node   model.Node
+		params param.Param
+	}{
 		{
-			GormCol: types.GormCol{
-				ID: 1,
+			node: model.Node{
+				GormCol: types.GormCol{
+					ID: 1,
+				},
+				Code:      101,
+				Type:      nodetype.Online,
+				Name:      "Base",
+				MachineID: engine.Env.MachineID,
+				Status:    nodestatus.Active,
+				Phone:     "07505149171",
 			},
-			CompanyID: 1001,
-			Code:      101,
-			Type:      nodetype.Online,
-			Name:      "Base",
-			MachineID: "111111",
-			Status:    nodestatus.Active,
-			Phone:     "07505149171",
+			params: param.Param{
+				CompanyID: 1001,
+			},
 		},
 		{
-			GormCol: types.GormCol{
-				ID: 2,
+			node: model.Node{
+				GormCol: types.GormCol{
+					ID: 2,
+				},
+				Code:      101,
+				Type:      nodetype.Online,
+				Name:      "Base",
+				MachineID: engine.Env.MachineID,
+				Status:    nodestatus.Active,
+				Phone:     "07505149171",
 			},
-			CompanyID: 1002,
-			Code:      101,
-			Type:      nodetype.Online,
-			Name:      "Base",
-			MachineID: "111111",
-			Status:    nodestatus.Active,
-			Phone:     "07505149171",
+			params: param.Param{
+				CompanyID: 1002,
+			},
 		},
 	}
 
 	for _, v := range nodes {
-		if _, err := nodeService.Save(v); err != nil {
+		if _, err := nodeService.Save(v.node, v.params); err != nil {
 			engine.ServerLog.Fatal(err)
 		}
 

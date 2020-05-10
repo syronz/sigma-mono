@@ -95,7 +95,8 @@ func (p *NodeAPI) Create(c *gin.Context) {
 		return
 	}
 
-	createdNode, err := p.Service.Save(node)
+	params := param.Get(c, p.Engine, thisNodes)
+	createdNode, err := p.Service.Save(node, params)
 	if err != nil {
 		resp.Error(err).JSON()
 		return
@@ -135,7 +136,8 @@ func (p *NodeAPI) Update(c *gin.Context) {
 		return
 	}
 
-	if nodeUpdated, err = p.Service.Save(node); err != nil {
+	params := param.Get(c, p.Engine, thisNodes)
+	if nodeUpdated, err = p.Service.Save(node, params); err != nil {
 		resp.Error(err).JSON()
 		return
 	}
@@ -163,7 +165,8 @@ func (p *NodeAPI) Delete(c *gin.Context) {
 		return
 	}
 
-	if node, err = p.Service.Delete(node.ID); err != nil {
+	params := param.Get(c, p.Engine, thisNodes)
+	if node, err = p.Service.Delete(node.ID, params); err != nil {
 		resp.Status(http.StatusInternalServerError).Error(err).JSON()
 		return
 	}
