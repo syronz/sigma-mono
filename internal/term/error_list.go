@@ -55,4 +55,5 @@ const (
 	CompanyID                             = "company_id"
 	Internal_Error                        = "internal error"
 	MachineID                             = "Machine ID"
+	Company_not_exist_in_bond             = "company not exist in bond"
 )

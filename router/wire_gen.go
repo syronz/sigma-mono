@@ -14,6 +14,12 @@ import (
 
 // Injectors from wire.go:
 
+func initAuthAPI(e *core.Engine) api.AuthAPI {
+	authServ := service.ProvideAuthService(e)
+	authAPI := api.ProvideAuthAPI(authServ)
+	return authAPI
+}
+
 func initSettingAPI(e *core.Engine) api.SettingAPI {
 	settingRepo := repo.ProvideSettingRepo(e)
 	settingServ := service.ProvideSettingService(settingRepo)

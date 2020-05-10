@@ -79,13 +79,51 @@ func (p *UserServ) List(params param.Param) (data map[string]interface{}, err er
 }
 
 // Create user
+// func (p *UserServ) Create(user model.User,
+// 	params param.Param) (createdUser model.User, err error) {
+
+// 	if err = user.Validate(action.Create); err != nil {
+// 		p.Engine.CheckError(err, "Failed in validation")
+// 		return
+// 	}
+
+// 	original := p.Engine.DB
+// 	tx := p.Engine.DB.Begin()
+// 	defer func() {
+// 		if r := recover(); r != nil {
+// 			tx.Rollback()
+// 		}
+// 	}()
+// 	p.Engine.DB = tx
+
+// 	user.Account.Direction = accountdirection.Direct
+
+// 	accountServ := ProvideAccountService(repo.ProvideAccountRepo(p.Engine))
+// 	if user.Account, err = accountServ.Create(user.Account, params); err != nil {
+// 		p.Engine.DB = original
+// 		tx.Rollback()
+// 		return
+// 	}
+// 	user.ID = user.Account.ID
+
+// 	user.Password, err = password.Hash(user.Password, p.Engine.Env.Setting.PasswordSalt)
+// 	p.Engine.CheckError(err, fmt.Sprintf("Hashing password failed for %+v", user))
+
+// 	if createdUser, err = p.Repo.Create(user); err != nil {
+// 		tx.Rollback()
+// 		p.Engine.CheckInfo(err, fmt.Sprintf("Failed in saving user for %+v", user))
+// 	}
+// 	tx.Commit()
+// 	p.Engine.DB = original
+
+// 	createdUser.Password = ""
+// 	createdUser.Account = user.Account
+
+// 	return
+// }
+
 func (p *UserServ) Create(user model.User,
 	params param.Param) (createdUser model.User, err error) {
-
-	if err = user.Validate(action.Create); err != nil {
-		p.Engine.CheckError(err, "Failed in validation")
-		return
-	}
 
 	original := p.Engine.DB
 	tx := p.Engine.DB.Begin()
@@ -96,12 +134,40 @@ func (p *UserServ) Create(user model.User,
 	}()
 	p.Engine.DB = tx
 
+	if createdUser, err = p.CreateRollback(user, params); err != nil {
+		tx.Rollback()
+	}
+
+	tx.Commit()
+	p.Engine.DB = original
+
+	return
+}
+
+func (p *UserServ) CreateRollback(user model.User,
+	params param.Param) (createdUser model.User, err error) {
+
+	if err = user.Validate(action.Create); err != nil {
+		p.Engine.CheckError(err, "Failed in validation")
+		return
+	}
+
+	// original := p.Engine.DB
+	// tx := p.Engine.DB.Begin()
+	// defer func() {
+	// 	if r := recover(); r != nil {
+	// 		tx.Rollback()
+	// 	}
+	// }()
+	// p.Engine.DB = tx
+
 	user.Account.Direction = accountdirection.Direct
 
 	accountServ := ProvideAccountService(repo.ProvideAccountRepo(p.Engine))
 	if user.Account, err = accountServ.Create(user.Account, params); err != nil {
-		p.Engine.DB = original
-		tx.Rollback()
+		// p.Engine.DB = original
+		// tx.Rollback()
+		p.Engine.DB.Rollback()
 		return
 	}
 	user.ID = user.Account.ID
@@ -110,11 +176,12 @@ func (p *UserServ) Create(user model.User,
 	p.Engine.CheckError(err, fmt.Sprintf("Hashing password failed for %+v", user))
 
 	if createdUser, err = p.Repo.Create(user); err != nil {
-		tx.Rollback()
+		// tx.Rollback()
+		p.Engine.DB.Rollback()
 		p.Engine.CheckInfo(err, fmt.Sprintf("Failed in saving user for %+v", user))
 	}
-	tx.Commit()
-	p.Engine.DB = original
+	// tx.Commit()
+	// p.Engine.DB = original
 
 	createdUser.Password = ""
 	createdUser.Account = user.Account

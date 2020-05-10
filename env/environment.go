@@ -2,7 +2,7 @@ package env
 
 // Environment directly fetch os envs with getting help from env
 type Environment struct {
-	Node      `json:"node"`
+	NodeApp   `json:"node_app"`
 	Cloud     `json:"cloud"`
 	Setting   `json:"setting"`
 	Database  `json:"database"`
@@ -10,8 +10,8 @@ type Environment struct {
 	MachineID string
 }
 
-// Node hold gin and tls configuration
-type Node struct {
+// NodeApp hold gin and tls configuration
+type NodeApp struct {
 	Port     string `env:"SIGMA_NODE_PORT" json:"port"`
 	ADDR     string `env:"SIGMA_NODE_ADDR" json:"addr"`
 	TLSKey   string `env:"SIGMA_TLS_KEY" json:"tls_key"`
@@ -42,6 +42,7 @@ type Setting struct {
 	DefaultLanguage    string `env:"SIGMA_DEFAULT_LANGUAGE" json:"default_language"`
 	TranslateInBackend bool   `env:"SIGMA_TRANSLATE_IN_BACKEND" json:"translate_in_backend"`
 	ExcelMaxRows       uint64 `env:"SIGMA_EXCEL_MAX_ROWS" json:"excel_max_rows"`
+	TermsPath          string `env:"SIGMA_TERMS_PATH" json:"sigma_terms_path"`
 }
 
 // Database hold DB connections, in case we just have one database use same DSN for both

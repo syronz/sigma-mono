@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"log"
 	"net/http"
-	"sigmamono/cmd/cloud/determine"
+	"sigmamono/cmd/nodeapp/determine"
 	"sigmamono/internal/core"
 	"sigmamono/internal/middleware"
 	"sigmamono/internal/response"
@@ -37,13 +37,13 @@ func Start(engine *core.Engine) *gin.Engine {
 	// No Route "Not Found"
 	notFoundRoute(r, engine)
 
-	rg := r.Group("/api/cloud/v1")
+	rg := r.Group("/api/nodeapp/v1")
 	{
 		router.Route(*rg, engine)
 		determine.Route(*rg, engine)
 	}
 
-	if err := r.Run(fmt.Sprintf("%v:%v", engine.Env.Cloud.ADDR, engine.Env.Cloud.Port)); err != nil {
+	if err := r.Run(fmt.Sprintf("%v:%v", engine.Env.NodeApp.ADDR, engine.Env.NodeApp.Port)); err != nil {
 		log.Fatalln(err)
 	}
 

@@ -13,6 +13,9 @@ func Route(rg gin.RouterGroup, engine *core.Engine) {
 	roleAPI := initRoleAPI(engine)
 	accountAPI := initAccountAPI(engine)
 	settingAPI := initSettingAPI(engine)
+	authAPI := initAuthAPI(engine)
+
+	rg.POST("/login", authAPI.Login)
 
 	rg.Use(middleware.AuthGuard(engine))
 

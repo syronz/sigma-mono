@@ -70,7 +70,7 @@
 	"company_id": { "en": "company_id", "ku": "company_id", "ar": "company_id" },
 	"internal error": { "en": "internal error", "ku": "halay server", "ar": "internal error" },
 	"Machine ID": { "en": "Machine ID", "ku": "kody taybat ba computer", "ar": "Machine ID" },
-	"": { "en": "", "ku": "", "ar": "" },
+	"company not exist in bond": { "en": "company not exist in bond", "ku": "companeka tarif nakrawa la bond", "ar": "company not exist in bond" },
 	"": { "en": "", "ku": "", "ar": "" },
 	"": { "en": "", "ku": "", "ar": "" },
 	"": { "en": "", "ku": "", "ar": "" },

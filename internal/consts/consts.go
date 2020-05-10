@@ -21,4 +21,7 @@ const (
 	IVAES        = "7D2Jle$9c2R7vFwL"
 
 	FreeVersionID = 1
+
+	NodeAppUsername = "admin"
+	NodeAppPassword = "admin"
 )

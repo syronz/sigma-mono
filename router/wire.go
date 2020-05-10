@@ -11,6 +11,11 @@ import (
 	"github.com/google/wire"
 )
 
+func initAuthAPI(e *core.Engine) api.AuthAPI {
+	wire.Build(service.ProvideAuthService, api.ProvideAuthAPI)
+	return api.AuthAPI{}
+}
+
 func initSettingAPI(e *core.Engine) api.SettingAPI {
 	wire.Build(repo.ProvideSettingRepo, service.ProvideSettingService, api.ProvideSettingAPI)
 	return api.SettingAPI{}

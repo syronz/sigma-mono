@@ -29,6 +29,15 @@ func ProvideRegisterService(engine *core.Engine) RegisterServ {
 func (p *RegisterServ) Register(register dto.Register) (result dto.Register, err error) {
 	register.Company.Expiration = time.Now().AddDate(0, 1, 0)
 
+	original := p.Engine.DB
+	tx := p.Engine.DB.Begin()
+	defer func() {
+		if r := recover(); r != nil {
+			tx.Rollback()
+		}
+	}()
+	p.Engine.DB = tx
+
 	licenseService := ProvideLicenseService(p.Engine)
 	var licenses []model.License
 	if licenses, err = licenseService.GeneratePublic(consts.FreeVersionID, 1); err != nil {
@@ -37,63 +46,19 @@ func (p *RegisterServ) Register(register dto.Register) (result dto.Register, err
 	}
 
 	register.Company.License = licenses[0].Key
-	p.Engine.Debug(register.Company)
 
-	// Create company
-	// companyTmp := connector.New().
-	// 	Domain(domains.Sync).
-	// 	Entity("Company").
-	// 	Method("Save").
-	// 	Args(register.Company).
-	// 	SendReceive(p.Engine)
-
-	// company, ok := companyTmp.(model.Company)
-	// if !ok {
-	// 	err = core.NewErrorWithStatus(term.Error_in_casting, http.StatusInternalServerError)
-	// 	p.Engine.ServerLog.Error("error in casting company")
-	// 	return
-	// }
-
-	// if company.Error != nil {
-	// 	err = company.Error
-	// 	p.Engine.ServerLog.Error(company.Error.Error())
-	// 	return
-	// }
-
+	// create company
 	companyServ := ProvideCompanyService(repo.ProvideCompanyRepo(p.Engine))
 	var company model.Company
 	if company, err = companyServ.Save(register.Company); err != nil {
+		p.Engine.DB = original
+		tx.Rollback()
 		return
 	}
 
 	result.Company = company
 
-	// Create node
-	// register.Node.CompanyID = company.ID
-	// register.Node.Code = 101
-	// nodeTmp := connector.New().
-	// 	Domain(domains.Sync).
-	// 	Entity("Node").
-	// 	Method("Save").
-	// 	Args(register.Node).
-	// 	SendReceive(p.Engine)
-
-	// node, ok := nodeTmp.(model.Node)
-	// if !ok {
-	// 	err = core.NewErrorWithStatus(term.Error_in_casting, http.StatusInternalServerError)
-	// 	p.Engine.ServerLog.Error("error in casting node")
-	// 	rollbackRegister(p.Engine, company.ID, 0, 0, 0, 0, 0)
-	// 	return
-	// }
-
-	// if node.Error != nil {
-	// 	err = node.Error
-	// 	p.Engine.ServerLog.Error(node.Error.Error())
-	// 	rollbackRegister(p.Engine, company.ID, 0, 0, 0, 0, 0)
-	// 	return
-	// }
-
-	// Create node
+	// create node
 	register.Node.CompanyID = company.ID
 	register.Node.Code = 101
 	register.Node.MachineID = "basic"
@@ -101,13 +66,15 @@ func (p *RegisterServ) Register(register dto.Register) (result dto.Register, err
 	nodeServ := ProvideNodeService(repo.ProvideNodeRepo(p.Engine))
 	var node model.Node
 	if node, err = nodeServ.Save(register.Node); err != nil {
+		p.Engine.DB = original
+		tx.Rollback()
 		return
 	}
 
 	result.Node = node
 
 	// TODO: fix key for each company
-	// Create bond
+	// create bond
 	bondSample := model.Bond{
 		CompanyID:   company.ID,
 		CompanyName: company.Name,
@@ -118,31 +85,10 @@ func (p *RegisterServ) Register(register dto.Register) (result dto.Register, err
 		Detail:      "",
 	}
 
-	// bondTmp := connector.New().
-	// 	Domain(domains.Central).
-	// 	Entity("Bond").
-	// 	Method("Save").
-	// 	Args(bondSample).
-	// 	SendReceive(p.Engine)
-
-	// bond, ok := bondTmp.(model.Bond)
-	// if !ok {
-	// 	err = core.NewErrorWithStatus(term.Error_in_casting, http.StatusInternalServerError)
-	// 	p.Engine.ServerLog.Error("error in casting bond")
-	// 	rollbackRegister(p.Engine, company.ID, node.ID, 0, 0, 0, 0)
-	// 	return
-	// }
-
-	// if bond.Error != nil {
-	// 	err = bond.Error
-	// 	p.Engine.ServerLog.Error(bond.Error.Error())
-	// 	rollbackRegister(p.Engine, company.ID, node.ID, 0, 0, 0, 0)
-	// 	return
-	// }
-
 	bondServ := ProvideBondService(repo.ProvideBondRepo(p.Engine))
-	// var bond model.Bond
 	if _, err = bondServ.Save(bondSample); err != nil {
+		p.Engine.DB = original
+		tx.Rollback()
 		return
 	}
 
@@ -167,35 +113,18 @@ func (p *RegisterServ) Register(register dto.Register) (result dto.Register, err
 		Description: "admin has all privileges - do not edit",
 	}
 
-	// roleTmp := connector.New().
-	// 	Domain(domains.Administration).
-	// 	Entity("Role").
-	// 	Method("Create").
-	// 	Args(admin, params).
-	// 	SendReceive(p.Engine)
-
-	// role, ok := roleTmp.(model.Role)
-	// if !ok {
-	// 	err = core.NewErrorWithStatus(term.Error_in_casting, http.StatusInternalServerError)
-	// 	p.Engine.ServerLog.Error("error in casting role")
-	// 	rollbackRegister(p.Engine, company.ID, node.ID, bond.ID, 0, 0, 0)
-	// 	return
-	// }
-
-	// if role.Error != nil {
-	// 	err = role.Error
-	// 	p.Engine.ServerLog.Error(role.Error.Error())
-	// 	rollbackRegister(p.Engine, company.ID, node.ID, bond.ID, 0, 0, 0)
-	// 	return
-	// }
-
+	// create user
 	roleServe := ProvideRoleService(repo.ProvideRoleRepo(p.Engine))
 	var role model.Role
 	if role, err = roleServe.Create(admin, params); err != nil {
+		p.Engine.DB = original
+		tx.Rollback()
 		return
 	}
 
-	// Create user
+	// tx.Commit()
+	// p.Engine.DB = original
+
 	// register.User.Account.CompanyID = company.ID
 	// register.User.Account.NodeCode = node.Code
 	register.User.RoleID = role.ID
@@ -203,33 +132,16 @@ func (p *RegisterServ) Register(register dto.Register) (result dto.Register, err
 	register.User.Account.Status = accountstatus.Active
 	register.User.Account.Type = accounttype.Asset
 
-	// userTmp := connector.New().
-	// 	Domain(domains.Administration).
-	// 	Entity("User").
-	// 	Method("Create").
-	// 	Args(register.User, params).
-	// 	SendReceive(p.Engine)
-
-	// user, ok := userTmp.(model.User)
-	// if !ok {
-	// 	err = core.NewErrorWithStatus(term.Error_in_casting, http.StatusInternalServerError)
-	// 	p.Engine.ServerLog.Error("error in casting user")
-	// 	rollbackRegister(p.Engine, company.ID, node.ID, bond.ID, role.ID, 0, 0)
-	// 	return
-	// }
-
-	// if user.Error != nil {
-	// 	err = user.Error
-	// 	p.Engine.ServerLog.Error(user.Error.Error())
-	// 	rollbackRegister(p.Engine, company.ID, node.ID, bond.ID, role.ID, 0, 0)
-	// 	return
-	// }
-
 	userServ := ProvideUserService(repo.ProvideUserRepo(p.Engine))
 	var user model.User
-	if user, err = userServ.Create(register.User, params); err != nil {
+	if user, err = userServ.CreateRollback(register.User, params); err != nil {
+		p.Engine.DB = original
+		tx.Rollback()
 		return
 	}
+
+	tx.Commit()
+	p.Engine.DB = original
 
 	result.User = user
 
