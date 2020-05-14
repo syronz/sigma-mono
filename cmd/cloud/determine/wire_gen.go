@@ -22,7 +22,8 @@ func initVersionAPI(e *core.Engine) api.VersionAPI {
 }
 
 func initLicenseAPI(e *core.Engine) api.LicenseAPI {
-	licenseServ := service.ProvideLicenseService(e)
+	licenseRepo := repo.ProvideLicenseRepo(e)
+	licenseServ := service.ProvideLicenseService(licenseRepo)
 	licenseAPI := api.ProvideLicenseAPI(licenseServ)
 	return licenseAPI
 }

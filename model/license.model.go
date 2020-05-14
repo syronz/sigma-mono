@@ -4,6 +4,8 @@ import (
 	"sigmamono/internal/core"
 	"sigmamono/internal/enum/action"
 	"sigmamono/internal/term"
+	"sigmamono/internal/types"
+	"time"
 )
 
 // License model
@@ -12,6 +14,13 @@ type License struct {
 	Key    string `json:"key,omitempty"`
 	Serial string `json:"serial,omitempty"`
 	Count  int    `json:"count,omitempty"`
+}
+
+// Activation keeps usage of licenses to prevent duplication
+type Activation struct {
+	License   string      `gorm:"primary_key" json:"license"`
+	UsedAt    time.Time   `json:"used_at"`
+	CompanyID types.RowID `json:"company_id"`
 }
 
 // Validate check the type of

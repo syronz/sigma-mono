@@ -1,0 +1,6 @@
+{
+	"method":"get",
+	"url":"_URL_/companies?search=license>20496a9178f5958273cae64d",
+	"authorization":"Bearer _TOKEN_",
+	"payload": {}
+}

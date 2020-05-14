@@ -29,7 +29,7 @@ func ProvideRegisterService(engine *core.Engine) RegisterServ {
 func (p *RegisterServ) Register(register dto.Register) (result dto.Register, err error) {
 	register.Company.Expiration = time.Now().AddDate(0, 1, 0)
 
-	original := p.Engine.DB
+	originalDB := p.Engine.DB
 	tx := p.Engine.DB.Begin()
 	defer func() {
 		if r := recover(); r != nil {
@@ -38,7 +38,8 @@ func (p *RegisterServ) Register(register dto.Register) (result dto.Register, err
 	}()
 	p.Engine.DB = tx
 
-	licenseService := ProvideLicenseService(p.Engine)
+	// licenseService := ProvideLicenseService(p.Engine)
+	licenseService := ProvideLicenseService(repo.ProvideLicenseRepo(p.Engine))
 	var licenses []model.License
 	if licenses, err = licenseService.GeneratePublic(consts.FreeVersionID, 1); err != nil {
 		p.Engine.CheckError(err, "error in generating public serial for registration")
@@ -51,7 +52,7 @@ func (p *RegisterServ) Register(register dto.Register) (result dto.Register, err
 	companyServ := ProvideCompanyService(repo.ProvideCompanyRepo(p.Engine))
 	var company model.Company
 	if company, err = companyServ.Save(register.Company); err != nil {
-		p.Engine.DB = original
+		p.Engine.DB = originalDB
 		tx.Rollback()
 		return
 	}
@@ -69,7 +70,7 @@ func (p *RegisterServ) Register(register dto.Register) (result dto.Register, err
 	nodeServ := ProvideNodeService(repo.ProvideNodeRepo(p.Engine))
 	var node model.Node
 	if node, err = nodeServ.Save(register.Node, params); err != nil {
-		p.Engine.DB = original
+		p.Engine.DB = originalDB
 		tx.Rollback()
 		return
 	}
@@ -90,7 +91,7 @@ func (p *RegisterServ) Register(register dto.Register) (result dto.Register, err
 
 	bondServ := ProvideBondService(repo.ProvideBondRepo(p.Engine))
 	if _, err = bondServ.Save(bondSample); err != nil {
-		p.Engine.DB = original
+		p.Engine.DB = originalDB
 		tx.Rollback()
 		return
 	}
@@ -121,13 +122,13 @@ func (p *RegisterServ) Register(register dto.Register) (result dto.Register, err
 	roleServe := ProvideRoleService(repo.ProvideRoleRepo(p.Engine))
 	var role model.Role
 	if role, err = roleServe.Create(admin, params); err != nil {
-		p.Engine.DB = original
+		p.Engine.DB = originalDB
 		tx.Rollback()
 		return
 	}
 
 	// tx.Commit()
-	// p.Engine.DB = original
+	// p.Engine.DB = originalDB
 
 	// register.User.Account.CompanyID = company.ID
 	// register.User.Account.NodeCode = node.Code
@@ -139,13 +140,13 @@ func (p *RegisterServ) Register(register dto.Register) (result dto.Register, err
 	userServ := ProvideUserService(repo.ProvideUserRepo(p.Engine))
 	var user model.User
 	if user, err = userServ.CreateRollback(register.User, params); err != nil {
-		p.Engine.DB = original
+		p.Engine.DB = originalDB
 		tx.Rollback()
 		return
 	}
 
 	tx.Commit()
-	p.Engine.DB = original
+	p.Engine.DB = originalDB
 
 	result.User = user
 

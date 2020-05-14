@@ -64,6 +64,7 @@
 	"range is %v to %v": { "en": "range is %v to %v", "ku": "la %v ta %v ghabool dakre", "ar": "range is %v to %v" },
 	"string is not valid": { "en": "string is not valid", "ku": "rastaka halaya", "ar": "string is not valid" },
 	"license is not valid": { "en": "license is not valid", "ku": "license halaya", "ar": "license is not valid" },
+	"license is used before": { "en": "license is used before", "ku": "license bakar hato", "ar": "license is used before" },
 	"Company's license has been expired": { "en": "Company's license has been expired", "ku": "lisensi compani basar cho", "ar": "al expired" },
 	"Company key is not valid": { "en": "Company key is not valid", "ku": "company key halaya", "ar": "Company key is not valid" },
 	"you don't have permission, out of scope!": { "en": "you don't have permission, out of scope!", "ku": "bot nie, la daraway scopa", "ar": "you don't have permission, out of scope!" },

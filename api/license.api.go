@@ -94,5 +94,4 @@ func (p *LicenseAPI) Update(c *gin.Context) {
 	resp.Status(http.StatusOK).
 		MessageT(term.V_updated_successfully, thisLicense).
 		JSON(companyKey)
-
 }

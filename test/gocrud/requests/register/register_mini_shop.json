@@ -1,0 +1,24 @@
+{
+  "method":"post",
+  "url":"_URL_/register?lang=ku",
+  "payload": {
+    "company": {
+      "type":"simple POS",
+      "name": "Mini Shop",
+      "detail":"",
+      "phone": "07505149171"
+    },
+    "node": {
+      "type": "PC",
+      "name": "Shop"
+    },
+    "user": {
+      "language":"ku",
+      "username": "diako",
+      "password": "123456789",
+      "account": {
+        "name":"Diako Amir"
+      }
+    }
+  }
+}

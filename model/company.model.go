@@ -46,7 +46,8 @@ func (p Company) Pattern() string {
 func (p Company) Columns(variate string) (string, error) {
 	full := []string{"companies.id", "companies.name", "companies.legal_name",
 		"companies.key", "companies.expiration", "companies.detail", "companies.phone",
-		"companies.email", "companies.website", "companies.type", "companies.code"}
+		"companies.email", "companies.website", "companies.type", "companies.code",
+		"companies.license"}
 
 	return checkColumns(full, variate)
 }

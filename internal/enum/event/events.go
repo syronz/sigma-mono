@@ -16,12 +16,13 @@ const (
 
 	LicenseCreate Event = "license-create"
 
-	CompanyCreate Event = "company-create"
-	CompanyUpdate Event = "company-update"
-	CompanyDelete Event = "company-delete"
-	CompanyList   Event = "company-list"
-	CompanyView   Event = "company-view"
-	CompanyExcel  Event = "company-excel"
+	CompanyCreate   Event = "company-create"
+	CompanyUpdate   Event = "company-update"
+	CompanyDelete   Event = "company-delete"
+	CompanyList     Event = "company-list"
+	CompanyView     Event = "company-view"
+	CompanyExcel    Event = "company-excel"
+	CompanyRegister Event = "company-register"
 
 	BondCreate Event = "bond-create"
 	BondUpdate Event = "bond-update"

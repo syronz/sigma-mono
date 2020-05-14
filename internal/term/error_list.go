@@ -50,6 +50,7 @@ const (
 	Range_is_v_to_v                       = "range is %v to %v"
 	String_is_not_valid                   = "string is not valid"
 	License_is_not_valid                  = "license is not valid"
+	License_is_used_before                = "license is used before"
 	Company_license_has_been_expired      = "Company's license has been expired"
 	Company_key_is_not_valid              = "Company key is not valid"
 	CompanyID                             = "company_id"

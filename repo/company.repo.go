@@ -24,6 +24,12 @@ func (p *CompanyRepo) FindByID(id types.RowID) (company model.Company, err error
 	return
 }
 
+// FindByLicense for company
+func (p *CompanyRepo) FindByLicense(license string) (company model.Company, err error) {
+	err = p.Engine.DB.Where("license = ?", license).First(&company).Error
+	return
+}
+
 // List of companies
 func (p *CompanyRepo) List(params param.Param) (companies []model.Company, err error) {
 	columns, err := model.Company{}.Columns(params.Select)

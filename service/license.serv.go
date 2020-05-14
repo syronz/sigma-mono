@@ -18,12 +18,13 @@ import (
 
 // LicenseServ for injecting auth repo
 type LicenseServ struct {
+	Repo   repo.LicenseRepo
 	Engine *core.Engine
 }
 
 // ProvideLicenseService for license is used in wire
-func ProvideLicenseService(engine *core.Engine) LicenseServ {
-	return LicenseServ{Engine: engine}
+func ProvideLicenseService(p repo.LicenseRepo) LicenseServ {
+	return LicenseServ{Repo: p, Engine: p.Engine}
 }
 
 // GeneratePublic create serials for public usage
@@ -89,19 +90,44 @@ func (p *LicenseServ) Update(license model.License,
 	}
 
 	if versionID, err = types.StrToRowID(decryptedStr); err != nil {
-		err = fmt.Errorf(term.License_is_not_valid)
+		err = core.NewErrorWithStatus(term.License_is_not_valid, http.StatusForbidden)
 		return
 	}
 
 	versionService := ProvideVersionService(repo.ProvideVersionRepo(p.Engine))
 	if version, err = versionService.FindByID(versionID); err != nil {
-		err = fmt.Errorf(term.License_is_not_valid)
+		err = core.NewErrorWithStatus(term.License_is_not_valid, http.StatusForbidden)
+		return
+	}
+
+	originalDB := p.Engine.DB
+	tx := p.Engine.DB.Begin()
+	defer func() {
+		if r := recover(); r != nil {
+			tx.Rollback()
+		}
+	}()
+	p.Engine.DB = tx
+
+	var activation = model.Activation{
+		License:   license.Key,
+		UsedAt:    time.Now(),
+		CompanyID: params.CompanyID,
+	}
+
+	if activation, err = p.Repo.Create(activation); err != nil {
+		p.Engine.DB = originalDB
+		tx.Rollback()
+		err = core.NewErrorWithStatus(term.License_is_used_before, http.StatusNotAcceptable)
 		return
 	}
 
 	var company model.Company
 	companyServ := ProvideCompanyService(repo.ProvideCompanyRepo(p.Engine))
+
 	if company, err = companyServ.FindByID(params.CompanyID); err != nil {
+		p.Engine.DB = originalDB
+		tx.Rollback()
 		return
 	}
 
@@ -119,17 +145,24 @@ func (p *LicenseServ) Update(license model.License,
 
 	var companyKeyJSON []byte
 	if companyKeyJSON, err = json.Marshal(companyKey); err != nil {
+		p.Engine.DB = originalDB
+		tx.Rollback()
 		return
 	}
 
 	if companyKeyEncrypted, err = aes.EncryptTwice(string(companyKeyJSON)); err != nil {
+		p.Engine.DB = originalDB
+		tx.Rollback()
 		return
 	}
 
 	company.Expiration = newExpiration
 	company.Key = companyKeyEncrypted
+	company.License = license.Key
 
 	if company, err = companyServ.Save(company); err != nil {
+		p.Engine.DB = originalDB
+		tx.Rollback()
 		p.Engine.CheckError(err, "error in saving the company")
 		return
 	}
@@ -137,18 +170,24 @@ func (p *LicenseServ) Update(license model.License,
 	bondServ := ProvideBondService(repo.ProvideBondRepo(p.Engine))
 	var bond model.Bond
 	if bond, err = bondServ.FindByCompanyID(company.ID); err != nil {
+		p.Engine.DB = originalDB
+		tx.Rollback()
 		err = core.NewErrorWithStatus(term.Error_in_casting, http.StatusInternalServerError)
 		p.Engine.CheckError(err, "error in bond inside the license.serve.go")
 		return
-
 	}
 
 	bond.Key = companyKeyEncrypted
 
 	if bond, err = bondServ.Save(bond); err != nil {
+		p.Engine.DB = originalDB
+		tx.Rollback()
 		p.Engine.CheckError(bond.Error, "error in bond inside the license.serve.go")
 		return
 	}
+
+	tx.Commit()
+	p.Engine.DB = originalDB
 
 	return
 }

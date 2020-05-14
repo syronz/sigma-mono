@@ -18,7 +18,8 @@ func initVersionAPI(e *core.Engine) api.VersionAPI {
 }
 
 func initLicenseAPI(e *core.Engine) api.LicenseAPI {
-	wire.Build(service.ProvideLicenseService, api.ProvideLicenseAPI)
+	wire.Build(repo.ProvideLicenseRepo, service.ProvideLicenseService,
+		api.ProvideLicenseAPI)
 	return api.LicenseAPI{}
 }
 

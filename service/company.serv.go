@@ -27,7 +27,13 @@ func ProvideCompanyService(p repo.CompanyRepo) CompanyServ {
 func (p *CompanyServ) FindByID(id types.RowID) (company model.Company, err error) {
 	company, err = p.Repo.FindByID(id)
 	p.Engine.CheckInfo(err, fmt.Sprintf("Company with id %v", id))
+	return
+}
 
+// FindByLicense for getting company by it's id
+func (p *CompanyServ) FindByLicense(license string) (company model.Company, err error) {
+	company, err = p.Repo.FindByLicense(license)
+	p.Engine.CheckInfo(err, fmt.Sprintf("Company with license %v", license))
 	return
 }
 
@@ -35,6 +41,8 @@ func (p *CompanyServ) FindByID(id types.RowID) (company model.Company, err error
 func (p *CompanyServ) List(params param.Param) (data map[string]interface{}, err error) {
 
 	data = make(map[string]interface{})
+
+	p.Engine.Debug(params)
 
 	if data["list"], err = p.Repo.List(params); err != nil {
 		p.Engine.CheckError(err, "companies list", params)
