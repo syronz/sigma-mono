@@ -10,8 +10,8 @@
 				"_URL_":"http://127.0.0.1:7173/api/cloud/v1",
         "_TOKEN_":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImRpYWtvIiwiaWQiOjEwMDMxMDIwMDAwMDAwMDEsImxhbmd1YWdlIjoia3UiLCJjb21wYW55X2lkIjoxMDAzLCJub2RlX2NvZGUiOjEwMiwiZXhwIjoxNTk0NDU4MDUxfQ.-wXG7eEPOpcaFqLkOWIcCkT3jDdlfvkeMXe8aMqFbp0"
 			},
-			"node": {
-				"_URL_":"http://127.0.0.1:8183/api/node/v1",
+			"nodeapp": {
+				"_URL_":"http://127.0.0.1:8183/api/nodeapp/v1",
         "_TOKEN_":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InVzZXIiLCJpZCI6MSwibGFuZ3VhZ2UiOiJlbiIsImV4cCI6MTU4ODIzOTQzNH0.vxG2OaKiONK4_E5UJpMUy3jGsCgI5dOIfw2I1Y46iN0"
 			},
 			"sync": {

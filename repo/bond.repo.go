@@ -100,6 +100,7 @@ func (p *BondRepo) RegisterNode(node model.Node,
 
 	var payloadBytes []byte
 	if payloadBytes, err = json.Marshal(node); err != nil {
+		p.Engine.CheckError(err, "error in marshal json")
 		return
 	}
 
@@ -107,6 +108,7 @@ func (p *BondRepo) RegisterNode(node model.Node,
 
 	var req *http.Request
 	if req, err = http.NewRequest("POST", serverAddress, body); err != nil {
+		p.Engine.CheckError(err, "error in creating request")
 		return
 	}
 	req.Header.Set("Accept", "*/*")
@@ -115,8 +117,11 @@ func (p *BondRepo) RegisterNode(node model.Node,
 
 	client := &http.Client{}
 
+	p.Engine.Debug(serverAddress)
+
 	var resp *http.Response
 	if resp, err = client.Do(req); err != nil {
+		p.Engine.CheckError(err, "error in sending request")
 		return
 	}
 	defer resp.Body.Close()
@@ -150,7 +155,7 @@ func (p *BondRepo) RegisterNode(node model.Node,
 
 	bond = respMap.Data
 
-	p.Engine.Debug(respMap, bond)
+	p.Engine.Debug("^^^^^^^^^^^^^^^^^:", bond)
 
 	return
 }

@@ -8,7 +8,6 @@ import (
 	"sigmamono/internal/enum/action"
 	"sigmamono/internal/enum/nodestatus"
 	"sigmamono/internal/param"
-	"sigmamono/internal/term"
 	"sigmamono/internal/types"
 	"sigmamono/model"
 	"sigmamono/repo"
@@ -158,24 +157,27 @@ func (p *NodeServ) Activate(node model.Node) (bond model.Bond, err error) {
 	// 	Args(node.Extra["company_key"]).
 	// 	SendReceive(p.Engine)
 
-	var companyKey model.CompanyKey
+	// var companyKey model.CompanyKey
+
 	// var ok bool
 	// if companyKey, ok = companyKeyTmp.(model.CompanyKey); !ok {
 	// 	return
 	// }
 
-	if companyKey.Error != nil {
-		p.Engine.CheckError(companyKey.Error, "error in parsing company-key")
-		err = fmt.Errorf(term.Company_key_is_not_valid)
-		return
-	}
+	// if companyKey.Error != nil {
+	// 	p.Engine.CheckError(companyKey.Error, "error in parsing company-key")
+	// 	err = fmt.Errorf(term.Company_key_is_not_valid)
+	// 	return
+	// }
+
+	// p.Engine.Debug("******************", node)
 
 	nodeToSave := model.Node{
-		CompanyID: companyKey.CompanyID,
+		CompanyID: node.CompanyID,
 		Type:      node.Type,
 		Name:      node.Name,
 		MachineID: node.Extra["machine_id"].(string),
-		Status:    nodestatus.Inactive,
+		Status:    nodestatus.Active,
 		Phone:     node.Phone,
 	}
 
@@ -184,12 +186,12 @@ func (p *NodeServ) Activate(node model.Node) (bond model.Bond, err error) {
 		return
 	}
 
-	bond.CompanyID = companyKey.CompanyID
-	bond.CompanyName = companyKey.CompanyName
+	bond.CompanyID = nodeToSave.CompanyID
+	bond.CompanyName = nodeToSave.Name
 	bond.NodeCode = createdNode.Code
 	bond.NodeName = createdNode.Name
 	bond.Key = node.Extra["company_key"].(string)
-	bond.MachineID = node.MachineID
+	bond.MachineID = nodeToSave.MachineID
 
 	return
 }

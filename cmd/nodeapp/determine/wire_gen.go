@@ -14,35 +14,9 @@ import (
 
 // Injectors from wire.go:
 
-func initVersionAPI(e *core.Engine) api.VersionAPI {
-	versionRepo := repo.ProvideVersionRepo(e)
-	versionServ := service.ProvideVersionService(versionRepo)
-	versionAPI := api.ProvideVersionAPI(versionServ)
-	return versionAPI
-}
-
-func initLicenseAPI(e *core.Engine) api.LicenseAPI {
-	licenseServ := service.ProvideLicenseService(e)
-	licenseAPI := api.ProvideLicenseAPI(licenseServ)
-	return licenseAPI
-}
-
-func initRegisterAPI(e *core.Engine) api.RegisterAPI {
-	registerServ := service.ProvideRegisterService(e)
-	registerAPI := api.ProvideRegisterAPI(registerServ)
-	return registerAPI
-}
-
-func initCompanyAPI(e *core.Engine) api.CompanyAPI {
-	companyRepo := repo.ProvideCompanyRepo(e)
-	companyServ := service.ProvideCompanyService(companyRepo)
-	companyAPI := api.ProvideCompanyAPI(companyServ)
-	return companyAPI
-}
-
-func initNodeAPI(e *core.Engine) api.NodeAPI {
-	nodeRepo := repo.ProvideNodeRepo(e)
-	nodeServ := service.ProvideNodeService(nodeRepo)
-	nodeAPI := api.ProvideNodeAPI(nodeServ)
-	return nodeAPI
+func initBondAPI(e *core.Engine) api.BondAPI {
+	bondRepo := repo.ProvideBondRepo(e)
+	bondServ := service.ProvideBondService(bondRepo)
+	bondAPI := api.ProvideBondAPI(bondServ)
+	return bondAPI
 }

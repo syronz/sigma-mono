@@ -17,6 +17,7 @@ func Route(rg gin.RouterGroup, engine *core.Engine) {
 
 	// route no need to token
 	rg.POST("/register", registerAPI.Register)
+	rg.POST("/activate/nodeapp", nodeAPI.Activate)
 
 	rg.Use(middleware.AuthGuard(engine))
 

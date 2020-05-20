@@ -195,10 +195,17 @@ func (p *BondServ) RegisterNode(node model.Node) (bond model.Bond, err error) {
 	}
 
 	node.Extra["machine_id"] = p.Engine.Env.MachineID
+	node.CompanyID = companyKey.CompanyID
+
+	p.Engine.Debug(node)
 
 	if bond, err = p.Repo.RegisterNode(node,
 		companyKey.ServerAddress+"/activate/nodeapp"); err != nil {
 		p.Engine.CheckError(err, "Error in sending acitvation request for node")
+		return
+	}
+
+	if bond, err = p.Save(bond); err != nil {
 		return
 	}
 
