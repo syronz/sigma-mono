@@ -14,9 +14,9 @@ import (
 
 // Injectors from wire.go:
 
-func initBondAPI(e *core.Engine) api.BondAPI {
-	bondRepo := repo.ProvideBondRepo(e)
-	bondServ := service.ProvideBondService(bondRepo)
-	bondAPI := api.ProvideBondAPI(bondServ)
-	return bondAPI
+func initStationAPI(e *core.Engine) api.StationAPI {
+	stationRepo := repo.ProvideStationRepo(e)
+	stationServ := service.ProvideStationService(stationRepo)
+	stationAPI := api.ProvideStationAPI(stationServ)
+	return stationAPI
 }

@@ -42,7 +42,7 @@ const (
 	Error_in_phones_form                  = "error in phone's form"
 	Error_in_saving_user                  = "error in saving user"
 	Error_in_saving_role                  = "error in saving role"
-	Error_in_saving_bond                  = "error in saving bond"
+	Error_in_saving_station               = "error in saving station"
 	CompanyID_not_exist_in_context        = "company_id not exist in the context"
 	NodeCode_not_exist_in_context         = "node_code not exist in the context"
 	Validation_failed                     = "validation failed"
@@ -56,5 +56,5 @@ const (
 	CompanyID                             = "company_id"
 	Internal_Error                        = "internal error"
 	MachineID                             = "Machine ID"
-	Company_not_exist_in_bond             = "company not exist in bond"
+	Company_not_exist_in_station          = "company not exist in station"
 )

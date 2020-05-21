@@ -8,9 +8,9 @@ const (
 	CompanyWrite = "company:write"
 	CompanyExcel = "company:excel"
 
-	BondRead  = "bond:read"
-	BondWrite = "bond:write"
-	BondExcel = "bond:excel"
+	StationRead  = "station:read"
+	StationWrite = "station:write"
+	StationExcel = "station:excel"
 
 	NodeRead  = "node:read"
 	NodeWrite = "node:write"

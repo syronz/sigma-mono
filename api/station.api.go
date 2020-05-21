@@ -16,57 +16,57 @@ import (
 	"github.com/gin-gonic/gin"
 )
 
-const thisBond = "bond"
-const thisBonds = "bonds"
+const thisStation = "station"
+const thisStations = "stations"
 
-// BondAPI for injecting bond service
-type BondAPI struct {
-	Service service.BondServ
+// StationAPI for injecting station service
+type StationAPI struct {
+	Service service.StationServ
 	Engine  *core.Engine
 }
 
-// ProvideBondAPI for bond is used in wire
-func ProvideBondAPI(c service.BondServ) BondAPI {
-	return BondAPI{Service: c, Engine: c.Engine}
+// ProvideStationAPI for station is used in wire
+func ProvideStationAPI(c service.StationServ) StationAPI {
+	return StationAPI{Service: c, Engine: c.Engine}
 }
 
-// FindByID is used for fetch a bond by it's id
-func (p *BondAPI) FindByID(c *gin.Context) {
+// FindByID is used for fetch a station by it's id
+func (p *StationAPI) FindByID(c *gin.Context) {
 	resp := response.New(p.Engine, c)
 	var err error
-	var bond model.Bond
+	var station model.Station
 
-	if resp.CheckAccess(resource.BondRead) {
+	if resp.CheckAccess(resource.StationRead) {
 		resp.Status(http.StatusForbidden).Error(term.You_dont_have_permission).JSON()
 		return
 	}
 
-	if bond.ID, err = types.StrToRowID(c.Param("bondID")); err != nil {
+	if station.ID, err = types.StrToRowID(c.Param("stationID")); err != nil {
 		resp.Status(http.StatusNotAcceptable).Error(err).MessageT(term.Invalid_ID).JSON()
 		return
 	}
 
-	if bond, err = p.Service.FindByID(bond.ID); err != nil {
+	if station, err = p.Service.FindByID(station.ID); err != nil {
 		resp.Error(err).JSON()
 		return
 	}
 
-	resp.Record(event.BondView)
+	resp.Record(event.StationView)
 	resp.Status(http.StatusOK).
-		MessageT(term.V_info, thisBond).
-		JSON(bond)
+		MessageT(term.V_info, thisStation).
+		JSON(station)
 }
 
-// List of bonds
-func (p *BondAPI) List(c *gin.Context) {
+// List of stations
+func (p *StationAPI) List(c *gin.Context) {
 	resp := response.New(p.Engine, c)
 
-	if resp.CheckAccess(resource.BondWrite) {
+	if resp.CheckAccess(resource.StationWrite) {
 		resp.Status(http.StatusForbidden).Error(term.You_dont_have_permission).JSON()
 		return
 	}
 
-	params := param.Get(c, p.Engine, thisBonds)
+	params := param.Get(c, p.Engine, thisStations)
 
 	data, err := p.Service.List(params)
 	if err != nil {
@@ -74,61 +74,61 @@ func (p *BondAPI) List(c *gin.Context) {
 		return
 	}
 
-	resp.Record(event.BondList)
+	resp.Record(event.StationList)
 	resp.Status(http.StatusOK).
-		MessageT(term.List_of_V, thisBonds).
+		MessageT(term.List_of_V, thisStations).
 		JSON(data)
 }
 
-// Delete bond
-func (p *BondAPI) Delete(c *gin.Context) {
+// Delete station
+func (p *StationAPI) Delete(c *gin.Context) {
 	resp := response.New(p.Engine, c)
 	var err error
-	var bond model.Bond
+	var station model.Station
 
-	if resp.CheckAccess(resource.BondWrite) {
+	if resp.CheckAccess(resource.StationWrite) {
 		resp.Status(http.StatusForbidden).Error(term.You_dont_have_permission).JSON()
 		return
 	}
 
-	if bond.ID, err = types.StrToRowID(c.Param("bondID")); err != nil {
+	if station.ID, err = types.StrToRowID(c.Param("stationID")); err != nil {
 		resp.Error(term.Invalid_ID).JSON()
 		return
 	}
 
-	if bond, err = p.Service.Delete(bond.ID); err != nil {
+	if station, err = p.Service.Delete(station.ID); err != nil {
 		resp.Error(err).JSON()
 		return
 	}
 
-	resp.Record(event.BondDelete, bond)
+	resp.Record(event.StationDelete, station)
 	resp.Status(http.StatusOK).
-		MessageT(term.V_deleted_successfully, thisBond).
+		MessageT(term.V_deleted_successfully, thisStation).
 		JSON()
 }
 
 // Excel generate excel files based on search
-func (p *BondAPI) Excel(c *gin.Context) {
+func (p *StationAPI) Excel(c *gin.Context) {
 	resp := response.New(p.Engine, c)
 
-	if resp.CheckAccess(resource.BondExcel) {
+	if resp.CheckAccess(resource.StationExcel) {
 		resp.Status(http.StatusForbidden).Error(term.You_dont_have_permission).JSON()
 		return
 	}
 
-	params := param.Get(c, p.Engine, thisBonds)
-	bonds, err := p.Service.Excel(params)
+	params := param.Get(c, p.Engine, thisStations)
+	stations, err := p.Service.Excel(params)
 	if err != nil {
 		resp.Status(http.StatusNotFound).Error(term.Record_Not_Found).JSON()
 		return
 	}
 
-	resp.Record(event.BondExcel)
+	resp.Record(event.StationExcel)
 
-	ex := excel.New("bond")
-	ex.AddSheet("Bonds").
+	ex := excel.New("station")
+	ex.AddSheet("Stations").
 		AddSheet("Summary").
-		Active("Bonds").
+		Active("Stations").
 		SetPageLayout("landscape", "A4").
 		SetPageMargins(0.2).
 		SetHeaderFooter().
@@ -136,12 +136,12 @@ func (p *BondAPI) Excel(c *gin.Context) {
 		SetColWidth("M", "M", 20).
 		Active("Summary").
 		SetColWidth("A", "D", 20).
-		Active("Bonds").
+		Active("Stations").
 		WriteHeader("ID", "Name", "Legal Name", "Server Address", "Expiration", "Plan",
 			"Detail", "Phone", "Email", "Website", "Type", "Code", "Updated At").
 		SetSheetFields("ID", "Name", "LegalName", "ServerAddress", "Expiration", "Plan",
 			"Detail", "Phone", "Email", "Website", "Type", "Code", "UpdatedAt").
-		WriteData(bonds).
+		WriteData(stations).
 		AddTable()
 
 	buffer, downloadName, err := ex.Generate()
@@ -158,9 +158,9 @@ func (p *BondAPI) Excel(c *gin.Context) {
 
 }
 
-// RegisterNode is used for communicate with cloud and if everyting fine create a bond
+// RegisterNode is used for communicate with cloud and if everyting fine create a station
 // based on returned data
-func (p *BondAPI) RegisterNode(c *gin.Context) {
+func (p *StationAPI) RegisterNode(c *gin.Context) {
 	resp := response.New(p.Engine, c)
 	var err error
 	var node model.Node
@@ -170,16 +170,16 @@ func (p *BondAPI) RegisterNode(c *gin.Context) {
 		return
 	}
 
-	var bond model.Bond
-	if bond, err = p.Service.RegisterNode(node); err != nil {
+	var station model.Station
+	if station, err = p.Service.RegisterNode(node); err != nil {
 		resp.Error(err).JSON()
 		return
 	}
 
-	resp.Record(event.NodeActivate, nil, bond)
+	resp.Record(event.NodeActivate, nil, station)
 
 	resp.Status(http.StatusOK).
-		MessageT(term.V_created_successfully, thisBond).
-		JSON(bond)
+		MessageT(term.V_created_successfully, thisStation).
+		JSON(station)
 
 }

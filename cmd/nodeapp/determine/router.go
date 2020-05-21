@@ -9,9 +9,9 @@ import (
 
 // Route trigger router and api methods
 func Route(rg gin.RouterGroup, engine *core.Engine) {
-	bondAPI := initBondAPI(engine)
+	stationAPI := initStationAPI(engine)
 
-	rg.POST("/activate/register/nodeapp", bondAPI.RegisterNode)
+	rg.POST("/activate/register/nodeapp", stationAPI.RegisterNode)
 
 	rg.Use(middleware.AuthGuard(engine))
 

@@ -53,27 +53,27 @@ func (p *AuthServ) Login(auth model.Auth) (user model.User, err error) {
 	if password.Verify(auth.Password, user.Password,
 		p.Engine.Env.Setting.PasswordSalt) {
 
-		// bond := connector.New().
+		// station := connector.New().
 		// 	Domain(domains.Central).
-		// 	Entity("Bond").
+		// 	Entity("Station").
 		// 	Method("FindByCompanyID").
 		// 	Args(user.Account.CompanyID).
-		// 	SendReceive(p.Engine).(model.Bond)
+		// 	SendReceive(p.Engine).(model.Station)
 
-		// companyKey := bond.Extra["company_key"].(model.CompanyKey)
+		// companyKey := station.Extra["company_key"].(model.CompanyKey)
 		// if companyKey.Expiration.Before(time.Now()) {
 		// 	err = errors.New(term.Company_license_has_been_expired)
 		// 	return
 		// }
 
-		bondServ := ProvideBondService(repo.ProvideBondRepo(p.Engine))
-		var bond model.Bond
-		if bond, err = bondServ.FindByCompanyID(user.Account.CompanyID); err != nil {
-			err = errors.New(term.Company_not_exist_in_bond)
+		stationServ := ProvideStationService(repo.ProvideStationRepo(p.Engine))
+		var station model.Station
+		if station, err = stationServ.FindByCompanyID(user.Account.CompanyID); err != nil {
+			err = errors.New(term.Company_not_exist_in_station)
 			return
 		}
 
-		companyKey := bond.Extra["company_key"].(model.CompanyKey)
+		companyKey := station.Extra["company_key"].(model.CompanyKey)
 		if companyKey.Expiration.Before(time.Now()) {
 			err = errors.New(term.Company_license_has_been_expired)
 			return
@@ -85,8 +85,8 @@ func (p *AuthServ) Login(auth model.Auth) (user model.User, err error) {
 			Username:  auth.Username,
 			ID:        user.ID,
 			Language:  user.Language,
-			CompanyID: bond.CompanyID,
-			NodeCode:  bond.NodeCode,
+			CompanyID: station.CompanyID,
+			NodeCode:  station.NodeCode,
 			StandardClaims: jwt.StandardClaims{
 				ExpiresAt: expirationTime.Unix(),
 			},

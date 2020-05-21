@@ -11,7 +11,7 @@ import (
 	"github.com/google/wire"
 )
 
-func initBondAPI(e *core.Engine) api.BondAPI {
-	wire.Build(repo.ProvideBondRepo, service.ProvideBondService, api.ProvideBondAPI)
-	return api.BondAPI{}
+func initStationAPI(e *core.Engine) api.StationAPI {
+	wire.Build(repo.ProvideStationRepo, service.ProvideStationService, api.ProvideStationAPI)
+	return api.StationAPI{}
 }

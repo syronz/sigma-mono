@@ -78,8 +78,8 @@ func (p *RegisterServ) Register(register dto.Register) (result dto.Register, err
 	result.Node = node
 
 	// TODO: fix key for each company
-	// create bond
-	bondSample := model.Bond{
+	// create station
+	stationSample := model.Station{
 		CompanyID:   company.ID,
 		CompanyName: company.Name,
 		NodeCode:    node.Code,
@@ -89,8 +89,8 @@ func (p *RegisterServ) Register(register dto.Register) (result dto.Register, err
 		Detail:      "",
 	}
 
-	bondServ := ProvideBondService(repo.ProvideBondRepo(p.Engine))
-	if _, err = bondServ.Save(bondSample); err != nil {
+	stationServ := ProvideStationService(repo.ProvideStationRepo(p.Engine))
+	if _, err = stationServ.Save(stationSample); err != nil {
 		p.Engine.DB = originalDB
 		tx.Rollback()
 		return

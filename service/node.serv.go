@@ -148,11 +148,11 @@ func (p *NodeServ) Excel(params param.Param) (nodes []model.Node, err error) {
 }
 
 // Activate is used when a nodeapp send activation request to the cloud
-func (p *NodeServ) Activate(node model.Node) (bond model.Bond, err error) {
+func (p *NodeServ) Activate(node model.Node) (station model.Station, err error) {
 
 	// companyKeyTmp := connector.New().
 	// 	Domain(domains.Central).
-	// 	Entity("Bond").
+	// 	Entity("Station").
 	// 	Method("ParseCompanyKey").
 	// 	Args(node.Extra["company_key"]).
 	// 	SendReceive(p.Engine)
@@ -186,12 +186,12 @@ func (p *NodeServ) Activate(node model.Node) (bond model.Bond, err error) {
 		return
 	}
 
-	bond.CompanyID = nodeToSave.CompanyID
-	bond.CompanyName = nodeToSave.Name
-	bond.NodeCode = createdNode.Code
-	bond.NodeName = createdNode.Name
-	bond.Key = node.Extra["company_key"].(string)
-	bond.MachineID = nodeToSave.MachineID
+	station.CompanyID = nodeToSave.CompanyID
+	station.CompanyName = nodeToSave.Name
+	station.NodeCode = createdNode.Code
+	station.NodeName = createdNode.Name
+	station.Key = node.Extra["company_key"].(string)
+	station.MachineID = nodeToSave.MachineID
 
 	return
 }

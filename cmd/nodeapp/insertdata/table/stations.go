@@ -8,11 +8,11 @@ import (
 	"sigmamono/service"
 )
 
-// InsertBonds for add required bonds
-func InsertBonds(engine *core.Engine) {
-	bondRepo := repo.ProvideBondRepo(engine)
-	bondService := service.ProvideBondService(bondRepo)
-	bonds := []model.Bond{
+// InsertStations for add required stations
+func InsertStations(engine *core.Engine) {
+	stationRepo := repo.ProvideStationRepo(engine)
+	stationService := service.ProvideStationService(stationRepo)
+	stations := []model.Station{
 		{
 			GormCol: types.GormCol{
 				ID: 1,
@@ -39,8 +39,8 @@ func InsertBonds(engine *core.Engine) {
 		},
 	}
 
-	for _, v := range bonds {
-		if _, err := bondService.Save(v); err != nil {
+	for _, v := range stations {
+		if _, err := stationService.Save(v); err != nil {
 			engine.ServerLog.Fatal(err)
 		}
 	}

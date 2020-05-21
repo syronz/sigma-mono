@@ -24,12 +24,12 @@ const (
 	CompanyExcel    Event = "company-excel"
 	CompanyRegister Event = "company-register"
 
-	BondCreate Event = "bond-create"
-	BondUpdate Event = "bond-update"
-	BondDelete Event = "bond-delete"
-	BondList   Event = "bond-list"
-	BondView   Event = "bond-view"
-	BondExcel  Event = "bond-excel"
+	StationCreate Event = "station-create"
+	StationUpdate Event = "station-update"
+	StationDelete Event = "station-delete"
+	StationList   Event = "station-list"
+	StationView   Event = "station-view"
+	StationExcel  Event = "station-excel"
 
 	NodeCreate   Event = "node-create"
 	NodeUpdate   Event = "node-update"

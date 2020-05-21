@@ -7,8 +7,8 @@ import (
 	"sigmamono/internal/types"
 )
 
-// Bond model
-type Bond struct {
+// Station model
+type Station struct {
 	types.GormCol
 	CompanyID   types.RowID            `gorm:"not null;unique" json:"company_id,omitempty"`
 	CompanyName string                 `gorm:"not null;unique" json:"company_name,omitempty"`
@@ -18,11 +18,11 @@ type Bond struct {
 	MachineID   string                 `json:"machine_id,omitempty"`
 	Detail      string                 `json:"detail,omitempty"`
 	Error       error                  `sql:"-" json:"user_error,omitempty"`
-	Extra       map[string]interface{} `sql:"-" json:"extra_bond,omitempty"`
+	Extra       map[string]interface{} `sql:"-" json:"extra_station,omitempty"`
 }
 
 // Pattern returns the search pattern to be used inside the gorm's where
-func (p Bond) Pattern() string {
+func (p Station) Pattern() string {
 	return `(companies.name LIKE '%[1]v%%' OR
 		companies.id = '%[1]v' OR
 		companies.plan LIKE '%[1]v' OR
@@ -30,7 +30,7 @@ func (p Bond) Pattern() string {
 }
 
 // Columns return list of total columns according to request, useful for inner joins
-func (p Bond) Columns(variate string) (string, error) {
+func (p Station) Columns(variate string) (string, error) {
 	full := []string{"companies.id", "companies.name", "companies.legal_name",
 		"companies.key", "companies.server_address", "companies.expiration", "companies.plan",
 		"companies.detail", "companies.phone", "companies.email", "companies.website",
@@ -40,7 +40,7 @@ func (p Bond) Columns(variate string) (string, error) {
 }
 
 // Validate check the type of
-func (p *Bond) Validate(act action.Action) error {
+func (p *Station) Validate(act action.Action) error {
 	fieldError := core.NewFieldError(term.Error_in_companys_form)
 
 	switch act {

@@ -239,8 +239,8 @@ func (p *NodeAPI) Activate(c *gin.Context) {
 		return
 	}
 
-	var bond model.Bond
-	if bond, err = p.Service.Activate(node); err != nil {
+	var station model.Station
+	if station, err = p.Service.Activate(node); err != nil {
 		resp.Error(err).JSON()
 		return
 	}
@@ -249,5 +249,5 @@ func (p *NodeAPI) Activate(c *gin.Context) {
 
 	resp.Status(http.StatusOK).
 		MessageT(term.V_created_successfully, thisNode).
-		JSON(bond)
+		JSON(station)
 }

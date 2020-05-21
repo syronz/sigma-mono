@@ -167,22 +167,22 @@ func (p *LicenseServ) Update(license model.License,
 		return
 	}
 
-	bondServ := ProvideBondService(repo.ProvideBondRepo(p.Engine))
-	var bond model.Bond
-	if bond, err = bondServ.FindByCompanyID(company.ID); err != nil {
+	stationServ := ProvideStationService(repo.ProvideStationRepo(p.Engine))
+	var station model.Station
+	if station, err = stationServ.FindByCompanyID(company.ID); err != nil {
 		p.Engine.DB = originalDB
 		tx.Rollback()
 		err = core.NewErrorWithStatus(term.Error_in_casting, http.StatusInternalServerError)
-		p.Engine.CheckError(err, "error in bond inside the license.serve.go")
+		p.Engine.CheckError(err, "error in station inside the license.serve.go")
 		return
 	}
 
-	bond.Key = companyKeyEncrypted
+	station.Key = companyKeyEncrypted
 
-	if bond, err = bondServ.Save(bond); err != nil {
+	if station, err = stationServ.Save(station); err != nil {
 		p.Engine.DB = originalDB
 		tx.Rollback()
-		p.Engine.CheckError(bond.Error, "error in bond inside the license.serve.go")
+		p.Engine.CheckError(station.Error, "error in station inside the license.serve.go")
 		return
 	}
 
