@@ -25,5 +25,4 @@
 logs/*
 !logs/.gitkeep
 tags
-testinsertion
-cloud
+cmd/testinsertion/testinsertion

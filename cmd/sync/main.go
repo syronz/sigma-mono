@@ -1,9 +1,8 @@
 package main
 
 import (
-	"sigmamono/cmd/cloud/determine"
-	"sigmamono/cmd/cloud/insertdata"
-	"sigmamono/cmd/cloud/server"
+	"sigmamono/cmd/sync/determine"
+	"sigmamono/cmd/sync/server"
 	"sigmamono/internal/initiate"
 	"sigmamono/internal/logparam"
 
@@ -13,19 +12,15 @@ import (
 )
 
 func main() {
-
 	engine := initiate.LoadEnv()
 	logparam.ServerLog(engine)
-	logparam.APILog(engine)
 	initiate.LoadTerms(engine)
 	initiate.ConnectDB(engine, false)
 	defer engine.DB.Close()
-	initiate.ConnectActivityDB(engine)
 	determine.Migrate(engine)
 	initiate.Migrate(engine)
-	insertdata.Insert(engine)
+	// insertdata.Insert(engine)
 
-	engine.Debug("cloud server started!")
+	engine.Debug("sync server started!")
 	server.Start(engine)
-
 }

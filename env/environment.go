@@ -4,6 +4,7 @@ package env
 type Environment struct {
 	NodeApp   `json:"node_app"`
 	Cloud     `json:"cloud"`
+	Sync      `json:"sync"`
 	Setting   `json:"setting"`
 	Database  `json:"database"`
 	Log       `json:"log"`
@@ -29,6 +30,15 @@ type Cloud struct {
 	TimeZone           string `env:"SIGMA_CLOUD_TIME_ZONE" json:"time_zone"`
 	SuperAdminUsername string `env:"SIGMA_CLOUD_SUPER_ADMIN_USERNAME"`
 	SuperAdminPassword string `env:"SIGMA_CLOUD_SUPER_ADMIN_PASSWORD"`
+}
+
+// Sync hold gin and tls configuration
+type Sync struct {
+	Port     string `env:"SIGMA_SYNC_PORT" json:"port"`
+	ADDR     string `env:"SIGMA_SYNC_ADDR" json:"addr"`
+	TLSKey   string `env:"SIGMA_SYNC_TLS_KEY" json:"tls_key"`
+	TLSCert  string `env:"SIGMA_SYNC_TLS_CERT" json:"tls_cert"`
+	TimeZone string `env:"SIGMA_SYNC_TIME_ZONE" json:"time_zone"`
 }
 
 // Setting hold pass-keys and JWT, used for security
