@@ -39,12 +39,12 @@ const (
 	NodeExcel    Event = "node-excel"
 	NodeActivate Event = "node-activate"
 
-	RoleCreate Event = "role-create"
-	RoleUpdate Event = "role-update"
-	RoleDelete Event = "role-delete"
-	RoleList   Event = "role-list"
-	RoleView   Event = "role-view"
-	RoleExcel  Event = "role-excel"
+	SyncSessionCreate Event = "syncSession-create"
+	SyncSessionUpdate Event = "syncSession-update"
+	SyncSessionDelete Event = "syncSession-delete"
+	SyncSessionList   Event = "syncSession-list"
+	SyncSessionView   Event = "syncSession-view"
+	SyncSessionExcel  Event = "syncSession-excel"
 
 	AccountCreate Event = "account-create"
 	AccountUpdate Event = "account-update"
@@ -73,6 +73,13 @@ const (
 	VersionList   Event = "version-list"
 	VersionView   Event = "version-view"
 	VersionExcel  Event = "version-excel"
+
+	RoleCreate Event = "role-create"
+	RoleUpdate Event = "role-update"
+	RoleDelete Event = "role-delete"
+	RoleList   Event = "role-list"
+	RoleView   Event = "role-view"
+	RoleExcel  Event = "role-excel"
 
 	Login Event = "login"
 )

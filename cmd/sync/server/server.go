@@ -6,10 +6,8 @@ import (
 	"net/http"
 	"sigmamono/cmd/sync/determine"
 	"sigmamono/internal/core"
-	"sigmamono/internal/middleware"
 	"sigmamono/internal/response"
 	"sigmamono/internal/term"
-	"sigmamono/router"
 
 	"github.com/gin-contrib/cors"
 
@@ -32,14 +30,12 @@ func Start(engine *core.Engine) *gin.Engine {
 		},
 		//MaxAge: 12 * time.Hour,
 	}))
-	r.Use(middleware.APILogger(engine))
 
 	// No Route "Not Found"
 	notFoundRoute(r, engine)
 
 	rg := r.Group("/api/sync/v1")
 	{
-		router.Route(*rg, engine)
 		determine.Route(*rg, engine)
 	}
 

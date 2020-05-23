@@ -16,9 +16,9 @@ const (
 	NodeWrite = "node:write"
 	NodeExcel = "node:excel"
 
-	RoleRead  = "role:read"
-	RoleWrite = "role:write"
-	RoleExcel = "role:excel"
+	SyncSessionRead  = "syncSession:read"
+	SyncSessionWrite = "syncSession:write"
+	SyncSessionExcel = "syncSession:excel"
 
 	VersionRead  = "version:read"
 	VersionWrite = "version:write"
@@ -48,4 +48,8 @@ const (
 	PhoneRead  = "phone:read"
 	PhoneWrite = "phone:write"
 	PhoneExcel = "phone:excel"
+
+	RoleRead  = "role:read"
+	RoleWrite = "role:write"
+	RoleExcel = "role:excel"
 )

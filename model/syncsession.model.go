@@ -1,6 +1,9 @@
 package model
 
 import (
+	"sigmamono/internal/core"
+	"sigmamono/internal/enum/action"
+	"sigmamono/internal/term"
 	"sigmamono/internal/types"
 	"time"
 )
@@ -21,6 +24,10 @@ type SyncSession struct {
 	NodeToServerRows uint        `json:"node_to_server_rows,omitempty"`
 	ServerToNodeRows uint        `json:"server_to_node_rows,omitempty"`
 	Status           string      `json:"status,omitempty"`
+	Cost             float64     `json:"cost,omitempty"`
+	CurrentTime      *time.Time  `sql:"-" json:"current_time,omitempty"`
+	LastSyncDate     *time.Time  `sql:"-" json:"last_sync_date,omitempty"`
+	Delay            uint        `sql:"-" json:"delay"`
 	Error            error       `sql:"-" json:"syncsession_error,omitempty"`
 }
 
@@ -49,7 +56,24 @@ func (p SyncSession) Columns(variate string) (string, error) {
 		"sync_sessions.node_to_server_rows",
 		"sync_sessions.server_to_node_rows",
 		"sync_sessions.status",
+		"sync_sessions.cost",
 	}
 
 	return checkColumns(full, variate)
+}
+
+// Validate check the type of fields
+func (p *SyncSession) Validate(act action.Action) error {
+	fieldError := core.NewFieldError(term.Error_in_role_form)
+
+	switch act {
+	case action.Save:
+
+	}
+
+	if fieldError.HasError() {
+		return fieldError
+	}
+	return nil
+
 }

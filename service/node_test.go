@@ -62,8 +62,9 @@ func TestNodeCreate(t *testing.T) {
 		},
 	}
 
+	regularParam := getRegularParam("nodes.id asc")
 	for _, v := range samples {
-		_, err := nodeServ.Save(v.in)
+		_, err := nodeServ.Save(v.in, regularParam)
 		if (v.err == nil && err != nil) || (v.err != nil && err == nil) {
 			t.Errorf("\nERROR FOR :::%+v::: \nRETURNS :::%+v:::, \nIT SHOULD BE :::%+v:::", v.in, err, v.err)
 		}
@@ -122,8 +123,9 @@ func TestNodeUpdate(t *testing.T) {
 		},
 	}
 
+	regularParam := getRegularParam("nodes.id asc")
 	for _, v := range samples {
-		_, err := nodeServ.Save(v.in)
+		_, err := nodeServ.Save(v.in, regularParam)
 		if (v.err == nil && err != nil) || (v.err != nil && err == nil) {
 			t.Errorf("ERROR FOR ::::%+v::: \nRETURNS :::%+v:::, \nIT SHOULD BE :::%+v:::", v.in, err, v.err)
 		}
@@ -147,8 +149,9 @@ func TestNodeDelete(t *testing.T) {
 		},
 	}
 
+	regularParam := getRegularParam("nodes.id asc")
 	for _, v := range samples {
-		_, err := nodeServ.Delete(v.id)
+		_, err := nodeServ.Delete(v.id, regularParam)
 		if (v.err == nil && err != nil) || (v.err != nil && err == nil) {
 			t.Errorf("ERROR FOR ::::%+v::: \nRETURNS :::%+v:::, \nIT SHOULD BE :::%+v:::", v.id, err, v.err)
 		}

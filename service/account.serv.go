@@ -39,9 +39,8 @@ func (p *AccountServ) List(params param.Param) (data map[string]interface{}, err
 
 	data = make(map[string]interface{})
 
-	data["list"], err = p.Repo.List(params)
-	p.Engine.CheckError(err, "accounts list")
-	if err != nil {
+	if data["list"], err = p.Repo.List(params); err != nil {
+		p.Engine.CheckError(err, "accounts list")
 		return
 	}
 

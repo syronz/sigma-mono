@@ -9,7 +9,9 @@ import (
 
 // Route trigger router and api methods
 func Route(rg gin.RouterGroup, engine *core.Engine) {
+	syncSessionAPI := initSyncSessionAPI(engine)
 
 	rg.Use(middleware.AuthGuard(engine))
+	rg.POST("initiate", syncSessionAPI.Initiate)
 
 }

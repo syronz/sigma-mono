@@ -4,3 +4,19 @@
 //+build !wireinject
 
 package determine
+
+import (
+	"sigmamono/api"
+	"sigmamono/internal/core"
+	"sigmamono/repo"
+	"sigmamono/service"
+)
+
+// Injectors from wire.go:
+
+func initSyncSessionAPI(e *core.Engine) api.SyncSessionAPI {
+	syncSessionRepo := repo.ProvideSyncSessionRepo(e)
+	syncSessionServ := service.ProvideSyncSessionService(syncSessionRepo)
+	syncSessionAPI := api.ProvideSyncSessionAPI(syncSessionServ)
+	return syncSessionAPI
+}

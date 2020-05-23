@@ -1,0 +1,13 @@
+{
+  "method":"post",
+	"url":"_URL_/initiate",
+	"authorization":"Bearer _TOKEN_",
+	"payload": {
+		"company_id": 1001,
+		"node_code": "103",
+		"machine_id": "this_is_machine_id",
+    "initiate_at": "2020-11-15T15:23:00.000Z", 
+    "node_to_server_size": 320123,
+    "node_to_server_rows": 600
+	}
+}
