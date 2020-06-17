@@ -26,3 +26,5 @@ logs/*
 !logs/.gitkeep
 tags
 cmd/testinsertion/testinsertion
+cmd/cloud/cloud
+dockers/cloud/cloud

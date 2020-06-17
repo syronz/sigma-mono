@@ -2,7 +2,6 @@ package main
 
 import (
 	"flag"
-	"fmt"
 	"sigmamono/cmd/cloud/determine"
 	"sigmamono/cmd/cloud/insertdata"
 	"sigmamono/cmd/cloud/server"
