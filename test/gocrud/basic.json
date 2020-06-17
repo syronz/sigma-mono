@@ -8,7 +8,7 @@
 			},
 			"diakoActivation": {
 				"_URL_":"http://127.0.0.1:7173/api/cloud/v1",
-        "_TOKEN_":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImRpYWtvIiwiaWQiOjEwMDMxMDIwMDAwMDAwMDEsImxhbmd1YWdlIjoia3UiLCJjb21wYW55X2lkIjoxMDAzLCJub2RlX2NvZGUiOjEwMiwiZXhwIjoxNTk0NDU4MDUxfQ.-wXG7eEPOpcaFqLkOWIcCkT3jDdlfvkeMXe8aMqFbp0"
+        "_TOKEN_":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImRpYWtvIiwiaWQiOjEwMTYxMDIwMDAwMDAwMDEsImxhbmd1YWdlIjoia3UiLCJjb21wYW55X2lkIjoxMDE2LCJub2RlX2NvZGUiOjEwMiwiZXhwIjoxNTk3MjExNTk0fQ.j91_omoCyGIZrR0JpEYg5N9aoaNc22lKZiir1ZxI2I8"
 			},
 			"nodeapp": {
 				"_URL_":"http://127.0.0.1:8183/api/nodeapp/v1",

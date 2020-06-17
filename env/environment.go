@@ -28,8 +28,8 @@ type Cloud struct {
 	TLSKey             string `env:"SIGMA_CLOUD_TLS_KEY" json:"tls_key"`
 	TLSCert            string `env:"SIGMA_CLOUD_TLS_CERT" json:"tls_cert"`
 	TimeZone           string `env:"SIGMA_CLOUD_TIME_ZONE" json:"time_zone"`
-	SuperAdminUsername string `env:"SIGMA_CLOUD_SUPER_ADMIN_USERNAME"`
-	SuperAdminPassword string `env:"SIGMA_CLOUD_SUPER_ADMIN_PASSWORD"`
+	SuperAdminUsername string `env:"SIGMA_CLOUD_SUPER_ADMIN_USERNAME" json:"super_admin_username"`
+	SuperAdminPassword string `env:"SIGMA_CLOUD_SUPER_ADMIN_PASSWORD" json:"super_admin_password"`
 }
 
 // Sync hold gin and tls configuration
@@ -52,7 +52,7 @@ type Setting struct {
 	DefaultLanguage    string `env:"SIGMA_DEFAULT_LANGUAGE" json:"default_language"`
 	TranslateInBackend bool   `env:"SIGMA_TRANSLATE_IN_BACKEND" json:"translate_in_backend"`
 	ExcelMaxRows       uint64 `env:"SIGMA_EXCEL_MAX_ROWS" json:"excel_max_rows"`
-	TermsPath          string `env:"SIGMA_TERMS_PATH" json:"sigma_terms_path"`
+	TermsPath          string `env:"SIGMA_TERMS_PATH" json:"terms_path"`
 }
 
 // Database hold DB connections, in case we just have one database use same DSN for both

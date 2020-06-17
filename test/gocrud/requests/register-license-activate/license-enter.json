@@ -1,0 +1,8 @@
+{
+  "method":"put",
+  "url":"_URL_/licenses",
+  "authorization":"Bearer _TOKEN_",
+  "payload": {
+    "key":"30657aaf7df5c28071b0db4d"
+  }
+}

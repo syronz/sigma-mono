@@ -1,0 +1,27 @@
+{
+  "method":"post",
+  "url":"_URL_/register?lang=ku",
+  "payload": {
+    "company": {
+      "type":"multi branch with centeral finance",
+      "name": "HQ shop",
+      "legal_name": "HQ basics",
+      "detail":"this is sample",
+      "phone": "07505149171"
+    },
+    "node": {
+      "type": "laptop",
+      "name": "node one",
+      "phone": "07505149171"
+    },
+    "user": {
+      "name": "user",
+      "language":"ku",
+      "username": "diako",
+      "password": "123456789",
+      "account": {
+        "name":"Diako Amir"
+      }
+    }
+  }
+}

@@ -3,7 +3,7 @@
 	"url":"_URL_/login",
 	"authorization":"Bearer _TOKEN_",
 	"payload": {
-		"username": "user",
-		"password": "88888888"
+		"username": "diako",
+		"password": "123456789"
 	}
 }
