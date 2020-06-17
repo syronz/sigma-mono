@@ -1,6 +1,6 @@
 {
-	"cloud": {
-		"port": "7173",
+	"node_app": {
+		"port": "8183",
 		"addr": "localhost",
     "host_url": "http://localhost:7173/api/cloud/v1",
     "super_admin_username":"super",
