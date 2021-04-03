@@ -1,5 +1,5 @@
 {
-	"cloud": {
+	"node_app": {
 		"port": "8183",
 		"addr": "localhost",
     "host_url": "http://localhost:7173/api/cloud/v1",

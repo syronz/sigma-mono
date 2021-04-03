@@ -28,3 +28,5 @@ tags
 cmd/testinsertion/testinsertion
 cmd/cloud/cloud
 dockers/cloud/cloud
+cmd/nodeapp/nodeapp
+dockers/nodeapp/nodeapp

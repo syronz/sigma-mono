@@ -2,6 +2,7 @@ package main
 
 import (
 	"flag"
+	"fmt"
 	"sigmamono/cmd/nodeapp/determine"
 	"sigmamono/cmd/nodeapp/insertdata"
 	"sigmamono/cmd/nodeapp/server"
